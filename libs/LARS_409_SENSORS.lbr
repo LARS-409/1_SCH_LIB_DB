@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -399,21 +399,21 @@
 <circle x="-2.1" y="1.6" radius="0.14141875" width="0.1524" layer="21"/>
 </package>
 <package name="ALS-PDIC">
-<smd name="A1" x="-0.55" y="1.25" dx="0.7" dy="0.9" layer="1"/>
-<smd name="VDD" x="0.55" y="1.25" dx="0.7" dy="0.9" layer="1"/>
-<circle x="1.5" y="2.2" radius="0.1778" width="0.1524" layer="21"/>
-<wire x1="1.2" y1="2" x2="1.2" y2="-2.2" width="0.1524" layer="39"/>
-<wire x1="1.2" y1="-2.2" x2="-1.2" y2="-2.2" width="0.1524" layer="39"/>
-<text x="-1.6" y="2.4" size="0.6096" layer="25">&gt;NAME</text>
-<smd name="GND1" x="-0.55" y="-1.25" dx="0.7" dy="0.9" layer="1"/>
-<smd name="GND2" x="0.55" y="-1.25" dx="0.7" dy="0.9" layer="1"/>
-<wire x1="-0.75" y1="1.7" x2="0.75" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="0.75" y1="1.7" x2="0.75" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="0.75" y1="-1.7" x2="-0.75" y2="-1.7" width="0.1524" layer="21"/>
-<wire x1="-0.75" y1="-1.7" x2="-0.75" y2="1.7" width="0.1524" layer="21"/>
-<wire x1="1" y1="-2" x2="-1" y2="-2" width="0.1524" layer="21"/>
-<wire x1="-1.2" y1="-2.2" x2="-1.2" y2="2" width="0.1524" layer="39"/>
-<wire x1="-1.2" y1="2" x2="1.2" y2="2" width="0.1524" layer="39"/>
+<smd name="GND1" x="-1.25" y="-0.55" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="GND" x="-1.25" y="0.55" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<circle x="1.8" y="1.5" radius="0.1778" width="0.1524" layer="21"/>
+<wire x1="-2.2" y1="1.2" x2="1.9" y2="1.2" width="0.0762" layer="39"/>
+<wire x1="1.9" y1="1.2" x2="1.9" y2="-1.2" width="0.0762" layer="39"/>
+<text x="-2" y="1.7" size="0.6096" layer="25">&gt;NAME</text>
+<smd name="A1" x="1.25" y="-0.55" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<smd name="VDD" x="1.25" y="0.55" dx="0.6" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-1.7" y1="-0.75" x2="-1.7" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="-1.7" y1="0.75" x2="1.7" y2="0.75" width="0.1524" layer="21"/>
+<wire x1="1.7" y1="0.75" x2="1.7" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="1.7" y1="-0.75" x2="-1.7" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.1524" layer="21"/>
+<wire x1="1.9" y1="-1.2" x2="-2.2" y2="-1.2" width="0.0762" layer="39"/>
+<wire x1="-2.2" y1="-1.2" x2="-2.2" y2="1.2" width="0.0762" layer="39"/>
 </package>
 <package name="KP-2012P3C">
 <smd name="2" x="0" y="-1.1" dx="1.1" dy="1.25" layer="1"/>
@@ -581,21 +581,19 @@
 <text x="0.762" y="-3.81" size="1.778" layer="97" rot="R90">AHT20</text>
 </symbol>
 <symbol name="ALS_PDIC15-21B/TR8">
-<pin name="A1" x="-5.08" y="10.16" visible="off" length="short"/>
-<pin name="GND" x="0" y="0" visible="off" length="short" rot="R90"/>
-<pin name="VDD" x="0" y="15.24" visible="off" length="short" rot="R270"/>
-<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="12.7" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="12.7" width="0.1524" layer="94"/>
-<text x="2.54" y="10.16" size="1.4224" layer="95">&gt;NAME</text>
-<text x="2.54" y="5.08" size="1.4224" layer="96">&gt;VALUE</text>
-<text x="0.508" y="12.954" size="1.4224" layer="97">VDD</text>
-<text x="-6.858" y="11.176" size="1.4224" layer="97">A1</text>
-<text x="0.254" y="1.016" size="1.4224" layer="97">GND</text>
-<text x="0.762" y="5.334" size="1.778" layer="97" rot="R90">ALS</text>
-<pin name="GND1" x="-5.08" y="5.08" visible="off" length="short"/>
-<text x="-7.366" y="6.096" size="1.4224" layer="97">GND</text>
+<pin name="A1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
+<pin name="VDD" x="0" y="7.62" visible="off" length="short" rot="R270"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<text x="2.54" y="2.54" size="1.4224" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.4224" layer="96">&gt;VALUE</text>
+<text x="0.508" y="5.334" size="1.4224" layer="97">VDD</text>
+<text x="-6.858" y="1.016" size="1.4224" layer="97">A1</text>
+<text x="0.254" y="-6.604" size="1.4224" layer="97">GND</text>
+<text x="0.762" y="-2.286" size="1.778" layer="97" rot="R90">ALS</text>
 </symbol>
 <symbol name="KP-2012P3C">
 <text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
@@ -818,7 +816,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </device>
 </devices>
 </deviceset>
-<deviceset name="ALS-PDIC" uservalue="yes">
+<deviceset name="ALS-PDIC15-21B/TR8" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="ALS_PDIC15-21B/TR8" x="0" y="-7.62"/>
 </gates>
@@ -826,8 +824,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <device name="" package="ALS-PDIC">
 <connects>
 <connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="GND" pad="GND1"/>
-<connect gate="G$1" pin="GND1" pad="GND2"/>
+<connect gate="G$1" pin="GND" pad="GND GND1"/>
 <connect gate="G$1" pin="VDD" pad="VDD"/>
 </connects>
 <technologies>
@@ -836,7 +833,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </device>
 </devices>
 </deviceset>
-<deviceset name="KP-2012P3C" prefix="VT?" uservalue="yes">
+<deviceset name="KP-2012P3C" prefix="VT" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="KP-2012P3C" x="0" y="0"/>
 </gates>

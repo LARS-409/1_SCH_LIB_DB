@@ -1816,7 +1816,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-2SC6" prefix="D">
+<deviceset name="USBLC6-2SC6" prefix="D" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="USBLC6-2SC6" x="0" y="0"/>
 </gates>
@@ -2041,7 +2041,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TCRT5000" prefix="U">
+<deviceset name="TCRT5000" prefix="U" uservalue="yes">
 <description>950 nm 60 mA Through Hole Reflective Optical Sensor with Transistor Output &lt;a href="https://pricing.snapeda.com/parts/TCRT5000/Vishay/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TCRT5000" x="0" y="0"/>
@@ -2060,7 +2060,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CP2102">
+<deviceset name="CP2102" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CP2102" x="0" y="-2.54"/>
 </gates>
@@ -2151,7 +2151,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74LVCG">
+<deviceset name="SN74LVCG" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SN74LVCG" x="-2.54" y="0"/>
 </gates>
@@ -2171,7 +2171,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TB6612FNG,C,8,EL" prefix="U">
+<deviceset name="TB6612FNG,C,8,EL" prefix="U" uservalue="yes">
 <description>Stepping Motor Driver Ic Unipolor Copper Wire 8" &lt;a href="https://pricing.snapeda.com/parts/TB6612FNG%2CC%2C8%2CEL/Toshiba/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="TB6612FNG,C,8,EL" x="0" y="0"/>
@@ -2214,7 +2214,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TL5001QD">
+<deviceset name="TL5001QD" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="TL5001QD" x="0" y="0"/>
 </gates>
