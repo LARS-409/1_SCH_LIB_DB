@@ -4,6 +4,7 @@
 <designblock>
 <description></description>
 <attributes>
+<attribute name="AIRWIRES" value="YES"/>
 <attribute name="BOARDSIZE" value="12.6 x 12 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
@@ -595,7 +596,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CP2102">
+<deviceset name="CP2102" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CP2102" x="0" y="-2.54"/>
 </gates>
@@ -667,21 +668,17 @@
 </class>
 </classes>
 <parts>
-<part name="U$1" library="LARS_409_MC" deviceset="CP2102" device=""/>
 <part name="R60" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="4.7k"/>
 <part name="C26" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1u"/>
 <part name="R61" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="1k"/>
 <part name="D5" library="LARS_409_MC" deviceset="USBLC6-2SC6" device=""/>
+<part name="U1" library="LARS_409_MC" deviceset="CP2102" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="17.78" y="27.94" smashed="yes">
-<attribute name="NAME" x="-0.0568" y="61.5639" size="1.6829" layer="95"/>
-<attribute name="VALUE" x="-0.0288" y="-2.593" size="1.679509375" layer="96"/>
-</instance>
 <instance part="R60" gate="G$1" x="-12.7" y="20.32" smashed="yes" rot="R180">
 <attribute name="NAME" x="-10.16" y="19.304" size="1.27" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="-10.16" y="22.86" size="1.27" layer="96" font="vector" rot="R180"/>
@@ -698,6 +695,10 @@
 <attribute name="NAME" x="-2.5693" y="-33.0493" size="1.78141875" layer="95" rot="R90"/>
 <attribute name="VALUE" x="25.4159" y="-45.7359" size="1.77985" layer="96" rot="R90" align="top-left"/>
 </instance>
+<instance part="U1" gate="G$1" x="17.78" y="27.94" smashed="yes">
+<attribute name="NAME" x="-0.0568" y="61.5639" size="1.6829" layer="95"/>
+<attribute name="VALUE" x="-0.0288" y="-2.593" size="1.679509375" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -711,7 +712,6 @@
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="40.64" y1="2.54" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
 <label x="53.34" y="2.54" size="1.778" layer="95" xref="yes"/>
 <pinref part="C26" gate="G$1" pin="P$1"/>
@@ -722,6 +722,7 @@
 <pinref part="R61" gate="G$1" pin="P$2"/>
 <wire x1="45.72" y1="10.16" x2="45.72" y2="2.54" width="0.1524" layer="91"/>
 <junction x="45.72" y="2.54"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="GND"/>
@@ -732,9 +733,9 @@
 </net>
 <net name="USBD-" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D-"/>
 <wire x1="-5.08" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
 <label x="-7.62" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D-"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="I/O2"/>
@@ -744,9 +745,9 @@
 </net>
 <net name="USBD+" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D+"/>
 <wire x1="-5.08" y1="27.94" x2="-7.62" y2="27.94" width="0.1524" layer="91"/>
 <label x="-7.62" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D+"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="I/O1"/>
@@ -757,30 +758,30 @@
 </net>
 <net name="UART_TX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="RXD"/>
-<wire x1="-5.08" y1="48.26" x2="-7.62" y2="48.26" width="0.1524" layer="91"/>
 <label x="-7.62" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
+<wire x1="-7.62" y1="48.26" x2="-5.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TXD"/>
-<wire x1="-5.08" y1="45.72" x2="-7.62" y2="45.72" width="0.1524" layer="91"/>
 <label x="-7.62" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
+<wire x1="-7.62" y1="45.72" x2="-5.08" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$00000044" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!RST"/>
 <pinref part="R60" gate="G$1" pin="P$1"/>
 <wire x1="-5.08" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="!RST"/>
 </segment>
 </net>
 <net name="N$00000054" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="!SUSPENDB"/>
 <pinref part="R61" gate="G$1" pin="P$1"/>
 <wire x1="40.64" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="!SUSPENDB"/>
 </segment>
 </net>
 <net name="5VUSB" class="0">
@@ -790,16 +791,16 @@
 <label x="10.16" y="-15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VBUS"/>
 <wire x1="40.64" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <label x="53.34" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VREGIN"/>
 <wire x1="50.8" y1="55.88" x2="53.34" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="55.88" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
-<junction x="40.64" y="55.88"/>
 <pinref part="C26" gate="G$1" pin="P$2"/>
 <wire x1="50.8" y1="38.1" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 <junction x="50.8" y="55.88"/>
+<pinref part="U1" gate="G$1" pin="VREGIN"/>
+<pinref part="U1" gate="G$1" pin="VBUS"/>
+<junction x="40.64" y="55.88"/>
 </segment>
 </net>
 </nets>
@@ -1305,10 +1306,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="LARS_409_MC" package="QFN28" value="CP2102" x="-9.24" y="-18.85" smashed="yes">
-<attribute name="NAME" x="-12.7402" y="-15.399890625" size="1.27245" layer="25"/>
-<attribute name="VALUE" x="-12.59426875" y="-23.530709375" size="1.272540625" layer="27"/>
-</element>
 <element name="R60" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="4.7k" x="-10.24" y="-23.793" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.54" y="-22.393" size="0.6" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="-11.54" y="-22.193" size="0.6" layer="27" font="vector" rot="R270"/>
@@ -1325,11 +1322,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-17.18048125" y="-17.26951875" size="0.609896875" layer="25"/>
 <attribute name="VALUE" x="-17.18123125" y="-21.27123125" size="0.61090625" layer="27" align="top-left"/>
 </element>
+<element name="U1" library="LARS_409_MC" package="QFN28" value="" x="-9.21" y="-18.85" smashed="yes">
+<attribute name="NAME" x="-12.7102" y="-15.399890625" size="1.27245" layer="25"/>
+<attribute name="VALUE" x="-12.56426875" y="-23.530709375" size="1.272540625" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="U$1" pad="3"/>
-<contactref element="U$1" pad="29"/>
 <contactref element="C26" pad="P$1"/>
 <contactref element="R61" pad="P$2"/>
 <contactref element="D5" pad="2"/>
@@ -1338,15 +1337,12 @@ design rules under a new name.</description>
 <wire x1="-17.43" y1="-21.22" x2="-17.43" y2="-19.62" width="0.254" layer="1"/>
 <wire x1="-17.08" y1="-19.27" x2="-16.355" y2="-19.27" width="0.254" layer="1"/>
 <wire x1="-17.43" y1="-19.62" x2="-17.08" y2="-19.27" width="0.254" layer="1"/>
-<wire x1="-11.64" y1="-18.35" x2="-9.74" y2="-18.35" width="0.254" layer="1"/>
-<wire x1="-9.74" y1="-18.35" x2="-9.24" y2="-18.85" width="0.254" layer="1"/>
-<via x="-12.575" y="-17.84825" extent="1-16" drill="0.3"/>
-<wire x1="-12.477" y1="-18.08298125" x2="-12.477" y2="-17.94625" width="0.254" layer="1"/>
-<wire x1="-12.477" y1="-17.94625" x2="-12.575" y2="-17.84825" width="0.254" layer="1"/>
-<wire x1="-11.64" y1="-18.35" x2="-12.20998125" y2="-18.35" width="0.254" layer="1"/>
-<wire x1="-12.20998125" y1="-18.35" x2="-12.477" y2="-18.08298125" width="0.254" layer="1"/>
-<wire x1="-12.575" y1="-17.84825" x2="-14.04675" y2="-19.32" width="0.254" layer="16"/>
-<wire x1="-14.04675" y1="-19.32" x2="-15.16" y2="-19.32" width="0.254" layer="16"/>
+<via x="-12.555" y="-17.60825" extent="1-16" drill="0.3"/>
+<wire x1="-12.555" y1="-17.60825" x2="-12.555" y2="-17.98498125" width="0.254" layer="1"/>
+<wire x1="-12.18998125" y1="-18.35" x2="-12.555" y2="-17.98498125" width="0.254" layer="1"/>
+<wire x1="-12.555" y1="-17.60825" x2="-13.425" y2="-17.60825" width="0.254" layer="16"/>
+<wire x1="-13.425" y1="-17.60825" x2="-15.13675" y2="-19.32" width="0.254" layer="16"/>
+<wire x1="-15.13675" y1="-19.32" x2="-15.16" y2="-19.32" width="0.254" layer="16"/>
 <via x="-15.16" y="-19.32" extent="1-16" drill="0.3"/>
 <wire x1="-15.16" y1="-19.32" x2="-16.305" y2="-19.32" width="0.254" layer="1"/>
 <wire x1="-16.305" y1="-19.32" x2="-16.355" y2="-19.27" width="0.254" layer="1"/>
@@ -1355,69 +1351,79 @@ design rules under a new name.</description>
 <via x="-6.33" y="-21.91" extent="1-16" drill="0.3"/>
 <wire x1="-6.33" y1="-21.91" x2="-9.24" y2="-19" width="0.254" layer="16"/>
 <wire x1="-9.24" y1="-19" x2="-9.24" y2="-18.85" width="0.254" layer="16"/>
-<via x="-9.24" y="-18.85" extent="1-16" drill="0.3"/>
+<contactref element="U1" pad="29"/>
+<contactref element="U1" pad="3"/>
+<wire x1="-11.61" y1="-18.35" x2="-12.18998125" y2="-18.35" width="0.254" layer="1"/>
+<wire x1="-11.61" y1="-18.35" x2="-11.5274" y2="-18.4326" width="0.1524" layer="1"/>
+<wire x1="-11.5274" y1="-18.4326" x2="-9.21" y2="-18.4326" width="0.1524" layer="1"/>
+<wire x1="-9.21" y1="-18.85" x2="-9.21" y2="-18.4326" width="0.1524" layer="1"/>
+<wire x1="-9.21" y1="-18.85" x2="-9.24" y2="-18.85" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD">
-<contactref element="U$1" pad="6"/>
+<contactref element="U1" pad="6"/>
 </signal>
 <signal name="3.3V">
 <contactref element="R60" pad="P$2"/>
 </signal>
 <signal name="USBD-">
-<contactref element="U$1" pad="5"/>
 <contactref element="D5" pad="3"/>
 <contactref element="D5" pad="4"/>
 <wire x1="-16.355" y1="-20.22" x2="-14.005" y2="-20.22" width="0.254" layer="1"/>
-<via x="-12.53528125" y="-19.407" extent="1-16" drill="0.3"/>
-<wire x1="-11.64" y1="-19.35" x2="-11.673" y2="-19.383" width="0.254" layer="1"/>
-<wire x1="-11.673" y1="-19.383" x2="-12.24298125" y2="-19.383" width="0.254" layer="1"/>
-<wire x1="-12.24298125" y1="-19.383" x2="-12.26698125" y2="-19.407" width="0.254" layer="1"/>
-<wire x1="-12.26698125" y1="-19.407" x2="-12.53528125" y2="-19.407" width="0.254" layer="1"/>
-<wire x1="-12.53528125" y1="-19.407" x2="-13.192" y2="-19.407" width="0.254" layer="16"/>
-<wire x1="-13.192" y1="-19.407" x2="-14.005" y2="-20.22" width="0.254" layer="16"/>
+<via x="-12.42528125" y="-19.367" extent="1-16" drill="0.3"/>
+<wire x1="-12.42528125" y1="-19.367" x2="-12.38128125" y2="-19.323" width="0.254" layer="1"/>
+<wire x1="-12.42528125" y1="-19.367" x2="-13.152" y2="-19.367" width="0.254" layer="16"/>
+<wire x1="-13.152" y1="-19.367" x2="-14.005" y2="-20.22" width="0.254" layer="16"/>
 <via x="-14.005" y="-20.22" extent="1-16" drill="0.3"/>
+<contactref element="U1" pad="5"/>
+<wire x1="-11.61" y1="-19.35" x2="-11.637" y2="-19.323" width="0.2032" layer="1"/>
+<wire x1="-11.637" y1="-19.323" x2="-12.38128125" y2="-19.323" width="0.2032" layer="1"/>
 </signal>
 <signal name="USBD+">
-<contactref element="U$1" pad="4"/>
 <contactref element="D5" pad="1"/>
 <contactref element="D5" pad="6"/>
 <wire x1="-16.355" y1="-18.32" x2="-14.005" y2="-18.32" width="0.254" layer="1"/>
-<wire x1="-14.005" y1="-18.32" x2="-12.92" y2="-18.32" width="0.254" layer="1"/>
-<wire x1="-12.39" y1="-18.85" x2="-11.64" y2="-18.85" width="0.254" layer="1"/>
-<wire x1="-12.92" y1="-18.32" x2="-12.39" y2="-18.85" width="0.254" layer="1"/>
-</signal>
-<signal name="UART_TX">
-<contactref element="U$1" pad="25"/>
-</signal>
-<signal name="UART_RX">
-<contactref element="U$1" pad="26"/>
+<wire x1="-14.005" y1="-18.32" x2="-12.84" y2="-18.32" width="0.2032" layer="1"/>
+<wire x1="-12.3192" y1="-18.8408" x2="-12.84" y2="-18.32" width="0.2032" layer="1"/>
+<contactref element="U1" pad="4"/>
+<wire x1="-11.61" y1="-18.85" x2="-11.6192" y2="-18.8408" width="0.254" layer="1"/>
+<wire x1="-11.6192" y1="-18.8408" x2="-12.3192" y2="-18.8408" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$00000044">
-<contactref element="U$1" pad="9"/>
 <contactref element="R60" pad="P$1"/>
-<wire x1="-10.24" y1="-22.966" x2="-10.24" y2="-21.25" width="0.254" layer="1"/>
+<contactref element="U1" pad="9"/>
+<wire x1="-10.21" y1="-21.25" x2="-10.21" y2="-22.936" width="0.254" layer="1"/>
+<wire x1="-10.21" y1="-22.936" x2="-10.24" y2="-22.966" width="0.254" layer="1"/>
 </signal>
 <signal name="N$00000054">
-<contactref element="U$1" pad="11"/>
 <contactref element="R61" pad="P$1"/>
-<wire x1="-8.644" y1="-22.63" x2="-9.24" y2="-22.034" width="0.254" layer="1"/>
-<wire x1="-9.24" y1="-22.034" x2="-9.24" y2="-21.25" width="0.254" layer="1"/>
+<wire x1="-8.644" y1="-22.63" x2="-8.854" y2="-22.63" width="0.254" layer="1"/>
+<wire x1="-8.854" y1="-22.63" x2="-9.21" y2="-22.274" width="0.254" layer="1"/>
+<contactref element="U1" pad="11"/>
+<wire x1="-9.21" y1="-21.25" x2="-9.21" y2="-22.274" width="0.254" layer="1"/>
 </signal>
 <signal name="5VUSB">
 <contactref element="D5" pad="5"/>
-<contactref element="U$1" pad="8"/>
-<contactref element="U$1" pad="7"/>
 <contactref element="C26" pad="P$2"/>
-<wire x1="-14.005" y1="-19.27" x2="-13.46" y2="-19.27" width="0.254" layer="1"/>
-<wire x1="-13.46" y1="-19.27" x2="-12.38" y2="-20.35" width="0.254" layer="1"/>
-<wire x1="-12.38" y1="-20.35" x2="-11.64" y2="-20.35" width="0.254" layer="1"/>
-<wire x1="-12.643" y1="-20.64115625" x2="-12.643" y2="-20.613" width="0.254" layer="1"/>
-<wire x1="-12.643" y1="-20.613" x2="-12.38" y2="-20.35" width="0.254" layer="1"/>
+<wire x1="-14.005" y1="-19.27" x2="-13.45" y2="-19.27" width="0.254" layer="1"/>
 <wire x1="-13.89" y1="-21.78" x2="-13.78184375" y2="-21.78" width="0.254" layer="1"/>
-<wire x1="-13.78184375" y1="-21.78" x2="-12.643" y2="-20.64115625" width="0.254" layer="1"/>
-<wire x1="-11.64" y1="-20.35" x2="-10.92" y2="-20.35" width="0.254" layer="1"/>
-<wire x1="-10.74" y1="-20.53" x2="-10.74" y2="-21.25" width="0.254" layer="1"/>
-<wire x1="-10.92" y1="-20.35" x2="-10.74" y2="-20.53" width="0.254" layer="1"/>
+<contactref element="U1" pad="7"/>
+<contactref element="U1" pad="8"/>
+<wire x1="-11.61" y1="-20.35" x2="-12.40368125" y2="-20.35" width="0.254" layer="1"/>
+<wire x1="-12.40368125" y1="-20.35" x2="-12.52368125" y2="-20.35" width="0.254" layer="1"/>
+<wire x1="-13.48368125" y1="-19.27" x2="-14.005" y2="-19.27" width="0.1524" layer="1"/>
+<wire x1="-12.40368125" y1="-20.35" x2="-13.48368125" y2="-19.27" width="0.254" layer="1"/>
+<wire x1="-12.52368125" y1="-20.88368125" x2="-13.42" y2="-21.78" width="0.254" layer="1"/>
+<wire x1="-13.89" y1="-21.78" x2="-13.42" y2="-21.78" width="0.1524" layer="1"/>
+<wire x1="-12.52368125" y1="-20.88368125" x2="-12.52368125" y2="-20.35" width="0.254" layer="1"/>
+<wire x1="-11.61" y1="-20.35" x2="-11.61" y2="-20.98" width="0.1524" layer="1"/>
+<wire x1="-11.61" y1="-20.98" x2="-11.34" y2="-21.25" width="0.1524" layer="1"/>
+<wire x1="-11.34" y1="-21.25" x2="-10.71" y2="-21.25" width="0.1524" layer="1"/>
+</signal>
+<signal name="UART_TX">
+<contactref element="U1" pad="25"/>
+</signal>
+<signal name="UART_RX">
+<contactref element="U1" pad="26"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
