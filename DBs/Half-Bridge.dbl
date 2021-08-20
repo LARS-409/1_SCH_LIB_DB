@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.1">
+<eagle version="9.4.2">
 <designblock>
 <description></description>
 <attributes>
-<attribute name="BOARDSIZE" value="23.7 x 27 mm"/>
+<attribute name="AIRWIRES" value="YES"/>
+<attribute name="BOARDSIZE" value="20.3 x 26.1 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -120,13 +121,37 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="160" name="O_Dim" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -265,77 +290,6 @@
 </connects>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="IR2104S2">
-<packages>
-<package name="IR2104S">
-<description>Half Bridge MosfetIGBT driver (SOIC)</description>
-<wire x1="4.445" y1="-0.635" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.635" x2="0.635" y2="4.445" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-0.635" x2="4.445" y2="4.445" width="0.127" layer="21"/>
-<wire x1="4.445" y1="4.445" x2="3.175" y2="4.445" width="0.127" layer="21"/>
-<wire x1="0.635" y1="4.445" x2="1.905" y2="4.445" width="0.127" layer="21"/>
-<wire x1="1.905" y1="4.445" x2="3.175" y2="4.445" width="0.127" layer="21" curve="180"/>
-<smd name="1" x="0" y="3.81" dx="1.27" dy="0.635" layer="1"/>
-<smd name="2" x="0" y="2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="3" x="0" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="4" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="5" x="5.08" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="6" x="5.08" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="7" x="5.08" y="2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="8" x="5.08" y="3.81" dx="1.27" dy="0.635" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="IR2104-S">
-<wire x1="15.24" y1="20.32" x2="15.24" y2="0" width="0.254" layer="94"/>
-<wire x1="15.24" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="20.32" width="0.254" layer="94"/>
-<wire x1="15.24" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94"/>
-<wire x1="0" y1="20.32" x2="6.35" y2="20.32" width="0.254" layer="94"/>
-<wire x1="6.35" y1="20.32" x2="8.89" y2="20.32" width="0.254" layer="94" curve="180"/>
-<pin name="VCC" x="-5.08" y="17.78" length="middle" direction="pwr"/>
-<pin name="IN" x="-5.08" y="12.7" length="middle"/>
-<pin name="SD" x="-5.08" y="7.62" length="middle"/>
-<pin name="COM" x="-5.08" y="2.54" length="middle"/>
-<pin name="LO" x="20.32" y="2.54" length="middle" rot="R180"/>
-<pin name="VS" x="20.32" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="HO" x="20.32" y="12.7" length="middle" rot="R180"/>
-<pin name="VB" x="20.32" y="17.78" length="middle" direction="pwr" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IR2104S">
-<description>Half Bridge Mosfet - IGBT driver SOIC</description>
-<gates>
-<gate name="G$1" symbol="IR2104-S" x="-7.62" y="-7.62"/>
-</gates>
-<devices>
-<device name="" package="IR2104S">
-<connects>
-<connect gate="G$1" pin="COM" pad="4"/>
-<connect gate="G$1" pin="HO" pad="7"/>
-<connect gate="G$1" pin="IN" pad="2"/>
-<connect gate="G$1" pin="LO" pad="5"/>
-<connect gate="G$1" pin="SD" pad="3"/>
-<connect gate="G$1" pin="VB" pad="8"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-<connect gate="G$1" pin="VS" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Half-Bridge Gate Driver IC Non-Inverting 8-SOIC "/>
-<attribute name="MF" value="Infineon Technologies"/>
-<attribute name="MP" value="IR2104S"/>
-<attribute name="PACKAGE" value="SO-8 Infineon"/>
-<attribute name="PRICE" value="None"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -1740,6 +1694,78 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="LARS_409_MC">
+<packages>
+<package name="SOIC-8">
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.01890625" y1="-1.75" x2="-2.5" y2="-1.26890625" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.26890625" x2="-2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.4" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2" x2="-1.15" y2="2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="2" x2="0.1" y2="2" width="0.127" layer="21"/>
+<wire x1="1.15" y1="2" x2="1.4" y2="2" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-2" x2="1.4" y2="-2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2" x2="0.1" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-2" x2="-1.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<circle x="-2.921" y="-2.032" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-1.905" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<text x="-3.175" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
+<text x="0.635" y="-1.905" size="0.635" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="IR2104">
+<pin name="VCC" x="-10.16" y="7.62" length="short"/>
+<pin name="IN" x="-10.16" y="2.54" length="short"/>
+<pin name="SD" x="-10.16" y="-2.54" length="short"/>
+<pin name="COM" x="-10.16" y="-7.62" length="short"/>
+<pin name="LO" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="VS" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="HO" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="VB" x="12.7" y="7.62" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
+<text x="-2.54" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IR2104" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="IR2104" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="COM" pad="4"/>
+<connect gate="G$1" pin="HO" pad="7"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="LO" pad="5"/>
+<connect gate="G$1" pin="SD" pad="3"/>
+<connect gate="G$1" pin="VB" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1750,7 +1776,6 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="IR2104S2" deviceset="IR2104S" device=""/>
 <part name="VT2" library="IRFH8321TRPBF" deviceset="IRFH8321TRPBF1" device=""/>
 <part name="VT1" library="IRFH8321TRPBF" deviceset="IRFH8321TRPBF1" device=""/>
 <part name="C2" library="cap-pan40" deviceset="C-PR" device="-SMD-TE-D" value="470uF"/>
@@ -1759,25 +1784,44 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <part name="R1" library="LARS-RC" deviceset="R" device="0805" value="10"/>
 <part name="R2" library="LARS-RC" deviceset="R" device="0805" value="1k"/>
 <part name="C3" library="LARS-RC" deviceset="C" device="0805" value="10uF"/>
+<part name="U1" library="LARS_409_MC" deviceset="IR2104" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="-7.62" y="-10.16"/>
 <instance part="VT2" gate="G$1" x="43.18" y="-10.16" smashed="yes">
 <attribute name="NAME" x="36.83" y="-13.97" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="VT1" gate="G$1" x="43.18" y="5.08" smashed="yes">
 <attribute name="NAME" x="36.83" y="1.27" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="C2" gate="G$1" x="48.26" y="-2.54" rot="R90"/>
-<instance part="U$2" gate="G$1" x="0" y="17.78"/>
-<instance part="C1" gate="G$1" x="22.86" y="2.54" rot="R90"/>
-<instance part="R1" gate="G$1" x="25.4" y="-7.62"/>
-<instance part="R2" gate="G$1" x="30.48" y="2.54"/>
-<instance part="C3" gate="G$1" x="53.34" y="-2.54" rot="R90"/>
+<instance part="C2" gate="G$1" x="48.26" y="-2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="47.7774" y="1.143" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="52.2224" y="-6.7945" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$2" gate="G$1" x="0" y="17.78" smashed="yes"/>
+<instance part="C1" gate="G$1" x="22.86" y="2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.336" y="0" size="0.6" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="25.4" y="0" size="0.6" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="R1" gate="G$1" x="25.4" y="-7.62" smashed="yes">
+<attribute name="NAME" x="24.13" y="-6.604" size="0.6" layer="95" font="vector"/>
+<attribute name="VALUE" x="23.876" y="-9.398" size="0.6" layer="96" font="vector"/>
+</instance>
+<instance part="R2" gate="G$1" x="30.48" y="2.54" smashed="yes">
+<attribute name="NAME" x="29.21" y="3.556" size="0.6" layer="95" font="vector"/>
+<attribute name="VALUE" x="28.956" y="0.762" size="0.6" layer="96" font="vector"/>
+</instance>
+<instance part="C3" gate="G$1" x="53.34" y="-2.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.816" y="-5.08" size="0.6" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="55.88" y="-5.08" size="0.6" layer="96" font="vector" rot="R90"/>
+</instance>
+<instance part="U1" gate="G$1" x="-2.54" y="0" smashed="yes">
+<attribute name="NAME" x="-5.08" y="12.7" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-5.08" y="-12.7" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1786,7 +1830,7 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <segment>
 <wire x1="-12.7" y1="-7.62" x2="-15.24" y2="-7.62" width="0.1524" layer="91"/>
 <label x="-15.24" y="-7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="COM"/>
+<pinref part="U1" gate="G$1" pin="COM"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="-"/>
@@ -1820,7 +1864,7 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 </net>
 <net name="PHASE" class="0">
 <segment>
-<wire x1="12.7" y1="-2.54" x2="22.86" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-2.54" x2="22.86" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="-2.54" x2="22.86" y2="0" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="0" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-2.54" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
@@ -1829,17 +1873,17 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <junction x="43.18" y="-2.54"/>
 <wire x1="43.18" y1="-2.54" x2="58.42" y2="-2.54" width="0.1524" layer="91"/>
 <label x="58.42" y="-2.54" size="1.778" layer="95" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="VS"/>
 <pinref part="VT1" gate="G$1" pin="S"/>
 <pinref part="VT2" gate="G$1" pin="D"/>
 <pinref part="C1" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="VS"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="12.7" y1="-7.62" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="LO"/>
+<wire x1="10.16" y1="-7.62" x2="20.32" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="LO"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -1853,9 +1897,9 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="12.7" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="HO"/>
+<wire x1="10.16" y1="2.54" x2="25.4" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="HO"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1870,36 +1914,36 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <label x="-17.78" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 <wire x1="-12.7" y1="7.62" x2="-12.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="17.78" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<junction x="-12.7" y="7.62"/>
 <wire x1="-17.78" y1="7.62" x2="-12.7" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="IN"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<junction x="-12.7" y="7.62"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<wire x1="12.7" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="7.62" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="17.78" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VB"/>
 <pinref part="U$2" gate="G$1" pin="OUT"/>
 <pinref part="C1" gate="G$1" pin="P$2"/>
 <wire x1="22.86" y1="5.08" x2="22.86" y2="7.62" width="0.1524" layer="91"/>
 <junction x="22.86" y="7.62"/>
+<pinref part="U1" gate="G$1" pin="VB"/>
 </segment>
 </net>
 <net name="IN" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IN"/>
 <wire x1="-12.7" y1="2.54" x2="-22.86" y2="2.54" width="0.1524" layer="91"/>
 <label x="-22.86" y="2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="IN"/>
 </segment>
 </net>
 <net name="SD" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SD"/>
 <wire x1="-12.7" y1="-2.54" x2="-22.86" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-22.86" y="-2.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="SD"/>
 </segment>
 </net>
 </nets>
@@ -1973,8 +2017,8 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -2019,13 +2063,37 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
 <layer number="133" name="bottom_silk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="no"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="no"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="no"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="no"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="no"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="no"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="no"/>
 <layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="no"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="no"/>
+<layer number="148" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="no"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="no"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="14" fill="1" visible="no" active="no"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="160" name="O_Dim" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="no"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -2074,27 +2142,6 @@ EIA Code 3216, Size A, 3.2 mm x 1.6 mm, grid 0.0125 inch</description>
 <plain>
 </plain>
 <libraries>
-<library name="IR2104S2">
-<packages>
-<package name="IR2104S">
-<description>Half Bridge MosfetIGBT driver (SOIC)</description>
-<wire x1="4.445" y1="-0.635" x2="0.635" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-0.635" x2="0.635" y2="4.445" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-0.635" x2="4.445" y2="4.445" width="0.127" layer="21"/>
-<wire x1="4.445" y1="4.445" x2="3.175" y2="4.445" width="0.127" layer="21"/>
-<wire x1="0.635" y1="4.445" x2="1.905" y2="4.445" width="0.127" layer="21"/>
-<wire x1="1.905" y1="4.445" x2="3.175" y2="4.445" width="0.127" layer="21" curve="180"/>
-<smd name="1" x="0" y="3.81" dx="1.27" dy="0.635" layer="1"/>
-<smd name="2" x="0" y="2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="3" x="0" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="4" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="5" x="5.08" y="0" dx="1.27" dy="0.635" layer="1"/>
-<smd name="6" x="5.08" y="1.27" dx="1.27" dy="0.635" layer="1"/>
-<smd name="7" x="5.08" y="2.54" dx="1.27" dy="0.635" layer="1"/>
-<smd name="8" x="5.08" y="3.81" dx="1.27" dy="0.635" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="IRFH8321TRPBF">
 <packages>
 <package name="TRANS_FDMS0300S">
@@ -2243,6 +2290,36 @@ EIA Code 7343, Size D, 7.3 mm x 4.3 mm, grid 0.0125 inch</description>
 </package>
 </packages>
 </library>
+<library name="LARS_409_MC">
+<packages>
+<package name="SOIC-8">
+<wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2.01890625" y1="-1.75" x2="-2.5" y2="-1.26890625" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.26890625" x2="-2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2" x2="-2.4" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2" x2="-1.15" y2="2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="2" x2="0.1" y2="2" width="0.127" layer="21"/>
+<wire x1="1.15" y1="2" x2="1.4" y2="2" width="0.127" layer="21"/>
+<wire x1="1.15" y1="-2" x2="1.4" y2="-2" width="0.127" layer="21"/>
+<wire x1="-0.1" y1="-2" x2="0.1" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-2" x2="-1.15" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="2" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.4" y1="-2" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<circle x="-2.921" y="-2.032" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-1.905" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.7" dx="1.4" dy="0.6" layer="1" rot="R90"/>
+<text x="-3.175" y="-1.905" size="0.889" layer="25" ratio="11" rot="R90">&gt;NAME</text>
+<text x="0.635" y="-1.905" size="0.635" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2328,10 +2405,14 @@ design rules under a new name.</description>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
-<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2432,26 +2513,42 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="IR2104S2" package="IR2104S" value="IR2104S" x="-6.1" y="-46.7" rot="R90">
-<attribute name="PACKAGE" value="SO-8 Infineon" x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="IR2104S" x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="AVAILABILITY" value="Unavailable" x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value=" Half-Bridge Gate Driver IC Non-Inverting 8-SOIC " x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="Infineon Technologies" x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="-34.1" y="-46.7" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="VT2" library="IRFH8321TRPBF" package="TRANS_FDMS0300S" value="IRFH8321TRPBF1" x="-7" y="-34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-9.9027" y="-37.60335" size="1.27118125" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-2.022709375" y="-37.60528125" size="1.271859375" layer="27" rot="R90"/>
 </element>
-<element name="VT2" library="IRFH8321TRPBF" package="TRANS_FDMS0300S" value="IRFH8321TRPBF1" x="-7" y="-34" rot="R90"/>
-<element name="VT1" library="IRFH8321TRPBF" package="TRANS_FDMS0300S" value="IRFH8321TRPBF1" x="-12.6" y="-34" rot="R90"/>
-<element name="C2" library="cap-pan40" package="TE-D-7343" value="470uF" x="-17.8" y="-35.3" rot="R90"/>
-<element name="U$2" library="SMA-SS34" package="SMA-SS34" value="SMA-SS34" x="-12.3" y="-44.4" rot="R90"/>
-<element name="C1" library="LARS-RC" package="0805" value="1uF" x="-14.7" y="-41.8" rot="R270"/>
-<element name="R1" library="LARS-RC" package="0805" value="10" x="-5.2" y="-39.2" rot="R90"/>
-<element name="R2" library="LARS-RC" package="0805" value="1k" x="-10.7" y="-39.2" rot="R90"/>
-<element name="C3" library="LARS-RC" package="0805" value="10uF" x="-17.7" y="-41.2" rot="R180"/>
+<element name="VT1" library="IRFH8321TRPBF" package="TRANS_FDMS0300S" value="IRFH8321TRPBF1" x="-12.6" y="-34" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.5027" y="-37.60335" size="1.27118125" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-7.622709375" y="-37.60528125" size="1.271859375" layer="27" rot="R90"/>
+</element>
+<element name="C2" library="cap-pan40" package="TE-D-7343" value="470uF" x="-17.8" y="-35.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="-20.34" y="-38.7925" size="1.016" layer="21" ratio="12" rot="R90"/>
+<attribute name="VALUE" x="-14.3075" y="-38.7925" size="1.016" layer="21" ratio="12" rot="R90"/>
+</element>
+<element name="U$2" library="SMA-SS34" package="SMA-SS34" value="SMA-SS34" x="-12.3" y="-44.4" smashed="yes" rot="R90"/>
+<element name="C1" library="LARS-RC" package="0805" value="1uF" x="-14.7" y="-41.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="-13.59" y="-40.33" size="0.6" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="-16.36" y="-40.24" size="0.6" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R1" library="LARS-RC" package="0805" value="10" x="-5.2" y="-39.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-6.31" y="-40.67" size="0.6" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-3.54" y="-40.76" size="0.6" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R2" library="LARS-RC" package="0805" value="1k" x="-10.7" y="-39.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="-11.81" y="-40.67" size="0.6" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-9.04" y="-40.76" size="0.6" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C3" library="LARS-RC" package="0805" value="10uF" x="-17.7" y="-41.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="-16.23" y="-42.31" size="0.6" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-16.14" y="-39.54" size="0.6" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="U1" library="LARS_409_MC" package="SOIC-8" value="" x="-7.6" y="-44.5" smashed="yes">
+<attribute name="NAME" x="-10.775" y="-46.405" size="0.889" layer="25" ratio="11" rot="R90"/>
+<attribute name="VALUE" x="-6.965" y="-46.405" size="0.635" layer="27" ratio="10" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="U$1" pad="4"/>
 <contactref element="C2" pad="-"/>
 <contactref element="VT2" pad="1"/>
 <contactref element="VT2" pad="2"/>
@@ -2462,8 +2559,7 @@ design rules under a new name.</description>
 <wire x1="-16.95" y1="-41.225" x2="-16.95" y2="-42.75" width="1" layer="1"/>
 <wire x1="-16.95" y1="-42.75" x2="-15.75" y2="-43.95" width="1" layer="1"/>
 <wire x1="-15.75" y1="-43.95" x2="-6.38" y2="-43.93" width="1" layer="1"/>
-<wire x1="-6.38" y1="-43.93" x2="-6.1" y2="-44.41" width="1" layer="1"/>
-<wire x1="-6.1" y1="-44.41" x2="-6.1" y2="-46.7" width="1" layer="1"/>
+<wire x1="-6.1" y1="-44.41" x2="-6.38" y2="-43.93" width="1" layer="1"/>
 <wire x1="-6.38" y1="-43.93" x2="-6.37" y2="-43.6" width="1" layer="1"/>
 <wire x1="-6.37" y1="-43.6" x2="-6.1" y2="-43.33" width="1" layer="1"/>
 <via x="-6.1" y="-43.33" extent="1-16" drill="0.6"/>
@@ -2495,6 +2591,24 @@ design rules under a new name.</description>
 <vertex x="-4" y="-40.9"/>
 <vertex x="-9.25" y="-40.9"/>
 </polygon>
+<contactref element="U1" pad="4"/>
+<wire x1="-5.695" y1="-47.2" x2="-5.695" y2="-44.815" width="0.6096" layer="1"/>
+<wire x1="-5.695" y1="-44.815" x2="-6.1" y2="-44.41" width="1.016" layer="1"/>
+<wire x1="-7.57" y1="-38.68" x2="-8.5" y2="-38.5" width="0" layer="19" extent="16-16"/>
+<wire x1="-7.5" y1="-38.5" x2="-7.57" y2="-38.68" width="0" layer="19" extent="16-16"/>
+<wire x1="-6.5" y1="-38.5" x2="-6.36" y2="-38.86" width="0" layer="19" extent="16-16"/>
+<wire x1="-6.5" y1="-39.5" x2="-6.1" y2="-39.12" width="0" layer="19" extent="16-16"/>
+<wire x1="-7.5" y1="-39.5" x2="-7.39" y2="-38.86" width="0" layer="19" extent="16-16"/>
+<wire x1="-8.5" y1="-39.5" x2="-8.5" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.5" y1="-37.5" x2="-8.5" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.905" y1="-36.67" x2="-8.5" y2="-37.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.5" y1="-36.5" x2="-8.905" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.635" y1="-36.67" x2="-8.5" y2="-36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.5" y1="-36.5" x2="-7.635" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.5" y1="-37.5" x2="-7.635" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.5" y1="-36.5" x2="-7.5" y2="-36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.365" y1="-36.67" x2="-6.5" y2="-36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.5" y1="-37.5" x2="-6.365" y2="-36.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="C2" pad="+"/>
@@ -2552,7 +2666,6 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="PHASE">
-<contactref element="U$1" pad="6"/>
 <contactref element="VT1" pad="1"/>
 <contactref element="VT1" pad="2"/>
 <contactref element="VT1" pad="3"/>
@@ -2573,17 +2686,6 @@ design rules under a new name.</description>
 <wire x1="-7" y1="-31.5" x2="-7" y2="-28.92" width="1.5" layer="1"/>
 <wire x1="-7" y1="-28.92" x2="-7.03" y2="-28.89" width="1.5" layer="1"/>
 <via x="-7.03" y="-28.89" extent="1-16" drill="2"/>
-<wire x1="-7.37" y1="-41.62" x2="-7.37" y2="-40.67" width="0.7" layer="1"/>
-<wire x1="-7.37" y1="-40.67" x2="-7.38" y2="-40.66" width="0.7" layer="1"/>
-<via x="-7.38" y="-40.66" extent="1-16" drill="0.6"/>
-<wire x1="-7.38" y1="-40.66" x2="-9.37" y2="-40.66" width="1" layer="16"/>
-<wire x1="-9.37" y1="-40.66" x2="-9.61" y2="-40.27" width="1" layer="16"/>
-<wire x1="-9.61" y1="-40.27" x2="-9.609553125" y2="-39.998996875" width="1" layer="16"/>
-<wire x1="-9.609553125" y1="-39.998996875" x2="-9.6" y2="-34.19" width="1" layer="16"/>
-<wire x1="-9.6" y1="-34.19" x2="-9.59" y2="-33.73" width="1" layer="16"/>
-<wire x1="-9.59" y1="-33.73" x2="-9.05" y2="-33.06" width="1" layer="16"/>
-<wire x1="-9.05" y1="-33.06" x2="-7.28" y2="-33.06" width="1" layer="16"/>
-<wire x1="-7.28" y1="-33.06" x2="-7" y2="-33.34" width="1" layer="16"/>
 <via x="-13.5" y="-37.5" extent="1-16" drill="0.3"/>
 <via x="-14.5" y="-38.5" extent="1-16" drill="0.3"/>
 <via x="-14.5" y="-39.5" extent="1-16" drill="0.3"/>
@@ -2596,7 +2698,6 @@ design rules under a new name.</description>
 <via x="-14.5" y="-37.5" extent="1-16" drill="0.3"/>
 <via x="-13.5" y="-38.5" extent="1-16" drill="0.3"/>
 <via x="-12.5" y="-38.5" extent="1-16" drill="0.3"/>
-<via x="-12.5" y="-39.5" extent="1-16" drill="0.3"/>
 <via x="-13.5" y="-39.5" extent="1-16" drill="0.3"/>
 <via x="-9" y="-31.5" extent="1-16" drill="0.3"/>
 <via x="-8" y="-31.5" extent="1-16" drill="0.3"/>
@@ -2640,16 +2741,58 @@ design rules under a new name.</description>
 <vertex x="-10" y="-40.9"/>
 <vertex x="-15.25" y="-40.9"/>
 </polygon>
-<wire x1="-9.609553125" y1="-39.998996875" x2="-12.001003125" y2="-39.998996875" width="1" layer="16"/>
-<wire x1="-12.001003125" y1="-39.998996875" x2="-12.5" y2="-39.5" width="1" layer="16"/>
+<contactref element="U1" pad="6"/>
+<wire x1="-6.965" y1="-41.8" x2="-7" y2="-41.765" width="0.6096" layer="1"/>
+<wire x1="-7" y1="-40.6" x2="-7" y2="-41.765" width="0.6096" layer="1"/>
+<wire x1="-7" y1="-40.6" x2="-7.2" y2="-40.4" width="0.6096" layer="1"/>
+<via x="-7.2" y="-40.4" extent="1-16" drill="0.35"/>
+<wire x1="-7.2" y1="-40.4" x2="-7.2432" y2="-40.3568" width="0.6096" layer="16"/>
+<wire x1="-9.92885625" y1="-39.5" x2="-10" y2="-39.5" width="0.6096" layer="16"/>
+<wire x1="-10" y1="-39.5" x2="-13.5" y2="-39.5" width="0.6096" layer="16"/>
+<wire x1="-7.2432" y1="-40.3568" x2="-9.07205625" y2="-40.3568" width="0.6096" layer="16"/>
+<wire x1="-9.07205625" y1="-40.3568" x2="-9.92885625" y2="-39.5" width="0.6096" layer="16"/>
+<wire x1="-10" y1="-39.5" x2="-10" y2="-35.5" width="0.6096" layer="16"/>
+<wire x1="-10" y1="-35.5" x2="-9" y2="-34.5" width="0.6096" layer="16"/>
+<wire x1="-14.5" y1="-38.5" x2="-13.5" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.5" y1="-36.5" x2="-13.235" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.5" y1="-36.5" x2="-13.235" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.965" y1="-36.67" x2="-12.5" y2="-36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.5" y1="-37.5" x2="-13.235" y2="-37.235" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.505" y1="-36.67" x2="-13.5" y2="-36.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.5" y1="-36.5" x2="-14.505" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.5" y1="-37.5" x2="-14.505" y2="-36.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.5" y1="-38.5" x2="-13.5" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.5" y1="-39.5" x2="-13.5" y2="-38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-9" y1="-33.5" x2="-9" y2="-34.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="-33.5" x2="-9" y2="-33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="-34.5" x2="-9" y2="-34.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="-32.5" x2="-8" y2="-33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-8" y1="-31.5" x2="-8" y2="-32.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.635" y1="-31.33" x2="-8" y2="-31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="-31.5" x2="-7.635" y2="-31.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="-33.5" x2="-7" y2="-33.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.365" y1="-31.33" x2="-7" y2="-31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-6" y1="-31.5" x2="-6.365" y2="-31.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.905" y1="-31.33" x2="-8" y2="-31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-9" y1="-31.5" x2="-8.905" y2="-31.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-5.095" y1="-31.33" x2="-6" y2="-31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-31.5" x2="-5.095" y2="-31.33" width="0" layer="19" extent="1-1"/>
+<wire x1="-9" y1="-32.5" x2="-9" y2="-33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-6" y1="-33.5" x2="-7" y2="-33.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-6" y1="-34.5" x2="-6" y2="-33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7" y1="-34.5" x2="-8" y2="-34.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-6" y1="-32.5" x2="-7" y2="-32.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-33.5" x2="-6" y2="-33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-34.5" x2="-6" y2="-34.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-5" y1="-32.5" x2="-5" y2="-31.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="U$1" pad="5"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="-6.1" y1="-41.62" x2="-6.1" y2="-40.33" width="0.7" layer="1"/>
 <wire x1="-6.1" y1="-40.33" x2="-5.78" y2="-40.01" width="0.7" layer="1"/>
 <wire x1="-5.78" y1="-40.01" x2="-5.285" y2="-40.01" width="0.7" layer="1"/>
 <wire x1="-5.285" y1="-40.01" x2="-5.225" y2="-39.95" width="0.7" layer="1"/>
+<contactref element="U1" pad="5"/>
+<wire x1="-6.1" y1="-40.33" x2="-5.695" y2="-41.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="VT2" pad="4"/>
@@ -2658,11 +2801,12 @@ design rules under a new name.</description>
 <wire x1="-5.095" y1="-38.32" x2="-5.225" y2="-38.45" width="0.7" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="U$1" pad="7"/>
 <contactref element="R2" pad="P$1"/>
 <wire x1="-10.725" y1="-39.95" x2="-9.1" y2="-39.95" width="0.7" layer="1"/>
-<wire x1="-9.1" y1="-39.95" x2="-8.64" y2="-40.41" width="0.7" layer="1"/>
-<wire x1="-8.64" y1="-40.41" x2="-8.64" y2="-41.62" width="0.7" layer="1"/>
+<wire x1="-8.64" y1="-40.41" x2="-9.1" y2="-39.95" width="0.7" layer="1"/>
+<contactref element="U1" pad="7"/>
+<wire x1="-8.235" y1="-41.8" x2="-8.235" y2="-40.815" width="0.6096" layer="1"/>
+<wire x1="-8.235" y1="-40.815" x2="-8.64" y2="-40.41" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="VT1" pad="4"/>
@@ -2671,34 +2815,41 @@ design rules under a new name.</description>
 <wire x1="-10.695" y1="-38.42" x2="-10.725" y2="-38.45" width="0.7" layer="1"/>
 </signal>
 <signal name="15V">
-<contactref element="U$1" pad="1"/>
 <contactref element="U$2" pad="1"/>
 <wire x1="-10.62" y1="-45.12" x2="-12.17" y2="-46.67" width="1" layer="1"/>
-<wire x1="-10.62" y1="-45.12" x2="-8" y2="-45.12" width="1" layer="1"/>
-<wire x1="-7.43" y1="-45.12" x2="-8" y2="-45.12" width="1" layer="1"/>
+<wire x1="-10.62" y1="-45.12" x2="-7.43" y2="-45.12" width="1" layer="1"/>
 <wire x1="-12.17" y1="-46.67" x2="-12.14" y2="-46.7" width="1" layer="1"/>
-<wire x1="-12.14" y1="-46.7" x2="-9.91" y2="-46.7" width="1" layer="1"/>
-<wire x1="-8" y1="-45.12" x2="-7.43" y2="-45.12" width="1" layer="1"/>
 <via x="-7.43" y="-45.12" extent="1-16" drill="0.6"/>
 <wire x1="-7.43" y1="-45.12" x2="-4.42" y2="-45.12" width="1" layer="16"/>
 <wire x1="-4.42" y1="-45.12" x2="-4.4" y2="-45.1" width="1" layer="16"/>
+<contactref element="U1" pad="1"/>
+<wire x1="-9.505" y1="-47.2" x2="-11.64" y2="-47.2" width="0.6096" layer="1"/>
+<wire x1="-11.64" y1="-47.2" x2="-12.17" y2="-46.67" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$16">
-<contactref element="U$1" pad="8"/>
 <contactref element="U$2" pad="2"/>
 <contactref element="C1" pad="P$2"/>
-<wire x1="-9.91" y1="-41.62" x2="-11.72" y2="-41.62" width="0.7" layer="1"/>
 <wire x1="-12.17" y1="-42.07" x2="-11.72" y2="-41.62" width="0.7" layer="1"/>
 <wire x1="-14.675" y1="-42.55" x2="-12.65" y2="-42.55" width="0.7" layer="1"/>
 <wire x1="-12.65" y1="-42.55" x2="-12.17" y2="-42.07" width="0.7" layer="1"/>
+<contactref element="U1" pad="8"/>
+<wire x1="-9.505" y1="-41.8" x2="-9.775" y2="-42.07" width="0.6096" layer="1"/>
+<wire x1="-9.775" y1="-42.07" x2="-12.17" y2="-42.07" width="0.6096" layer="1"/>
 </signal>
 <signal name="IN">
-<contactref element="U$1" pad="2"/>
+<contactref element="U1" pad="2"/>
 </signal>
 <signal name="SD">
-<contactref element="U$1" pad="3"/>
+<contactref element="U1" pad="3"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 </drawings>
