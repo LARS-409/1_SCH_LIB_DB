@@ -5,7 +5,7 @@
 <description></description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="58.9 x 31.6 mm"/>
+<attribute name="BOARDSIZE" value="58.8 x 31.6 mm"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -200,11 +200,38 @@
 <libraries>
 <library name="LARS_409_MK">
 <packages>
-<package name="SOP65P640X120-20N">
-<description>&lt;b&gt;TSSOP20&lt;/b&gt;&lt;br&gt;
-</description>
-<text x="-0.3" y="5.82" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.2" y="4.38" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<package name="SOP65P640X120-20N" urn="urn:adsk.eagle:footprint:30517425/1" locally_modified="yes">
+<description>20-SOP, 0.65 mm pitch, 6.40 mm span, 6.40 X 4.10 X 1.20 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.40 X 4.10 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-2.828" y="3.6899" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.05" y1="3.4999" x2="2.05" y2="3.4999" width="0.12" layer="21"/>
+<wire x1="-2.05" y1="-3.4999" x2="2.05" y2="-3.4999" width="0.12" layer="21"/>
+<wire x1="2.05" y1="-3.2" x2="-2.05" y2="-3.2" width="0.12" layer="51"/>
+<wire x1="-2.05" y1="-3.2" x2="-2.05" y2="3.2" width="0.12" layer="51"/>
+<wire x1="-2.05" y1="3.2" x2="2.05" y2="3.2" width="0.12" layer="51"/>
+<wire x1="2.05" y1="3.2" x2="2.05" y2="-3.2" width="0.12" layer="51"/>
+<smd name="1" x="-2.6554" y="2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="2" x="-2.6554" y="2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="3" x="-2.6554" y="1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="4" x="-2.6554" y="0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="5" x="-2.6554" y="0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="6" x="-2.6554" y="-0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="7" x="-2.6554" y="-0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="8" x="-2.6554" y="-1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="9" x="-2.6554" y="-2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="10" x="-2.6554" y="-2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="11" x="2.6554" y="-2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="12" x="2.6554" y="-2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="13" x="2.6554" y="-1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="14" x="2.6554" y="-0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="15" x="2.6554" y="-0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="16" x="2.6554" y="0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="17" x="2.6554" y="0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="18" x="2.6554" y="1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="19" x="2.6554" y="2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="20" x="2.6554" y="2.925" dx="1.901" dy="0.5218" layer="1"/>
+<text x="0" y="4.5749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.1349" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="-3.925" y1="3.55" x2="3.925" y2="3.55" width="0.05" layer="51"/>
 <wire x1="3.925" y1="3.55" x2="3.925" y2="-3.55" width="0.05" layer="51"/>
 <wire x1="3.925" y1="-3.55" x2="-3.925" y2="-3.55" width="0.05" layer="51"/>
@@ -214,33 +241,18 @@
 <wire x1="2.2" y1="-3.25" x2="-2.2" y2="-3.25" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="-3.25" x2="-2.2" y2="3.25" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="2.6" x2="-1.55" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="3.25" x2="1.85" y2="3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="3.25" x2="1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-3.25" x2="-1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-3.25" x2="-1.85" y2="3.25" width="0.2" layer="21"/>
 <wire x1="-3.675" y1="3.5" x2="-2.2" y2="3.5" width="0.2" layer="21"/>
-<smd name="1" x="-2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="2" x="-2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="3" x="-2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="4" x="-2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="5" x="-2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="6" x="-2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="7" x="-2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="8" x="-2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="9" x="-2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="10" x="-2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="11" x="2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="12" x="2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="13" x="2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="14" x="2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="15" x="2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="16" x="2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="17" x="2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="18" x="2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="19" x="2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="20" x="2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOP65P640X120-20N" urn="urn:adsk.eagle:package:30517357/1" type="model">
+<description>20-SOP, 0.65 mm pitch, 6.40 mm span, 6.40 X 4.10 X 1.20 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.40 X 4.10 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-20N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="STM32F042F6P6">
 <wire x1="5.08" y1="2.54" x2="40.64" y2="2.54" width="0.254" layer="94"/>
@@ -300,6 +312,9 @@
 <connect gate="G$1" pin="VDDA" pad="5"/>
 <connect gate="G$1" pin="VSS" pad="15"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30517357/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -310,7 +325,7 @@
 </library>
 <library name="LARS_409_R,C,L">
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1" locally_modified="yes">
+<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
@@ -324,21 +339,7 @@
 <text x="-1.4" y="0.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.6" y="-1.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="2512" urn="urn:adsk.eagle:footprint:24653007/1">
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
-<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
-<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
-<text x="-2.54" y="2.159" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-3.302" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-</package>
-<package name="0805" urn="urn:adsk.eagle:footprint:24653005/1" locally_modified="yes">
+<package name="0805" urn="urn:adsk.eagle:footprint:30551153/1">
 <wire x1="-1" y1="0.75" x2="1" y2="0.75" width="0.145" layer="21"/>
 <wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.145" layer="21"/>
 <wire x1="-1.775" y1="0.9375" x2="1.775" y2="0.9375" width="0.05" layer="39"/>
@@ -352,7 +353,7 @@
 <text x="-1.47" y="1.11" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.66" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="1206" urn="urn:adsk.eagle:footprint:24653008/1" locally_modified="yes">
+<package name="1206" urn="urn:adsk.eagle:footprint:30551156/1">
 <wire x1="-1.6" y1="0.85" x2="1.6" y2="0.85" width="0.145" layer="21"/>
 <wire x1="1.6" y1="-0.85" x2="-1.6" y2="-0.85" width="0.145" layer="21"/>
 <wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.05" layer="39"/>
@@ -366,26 +367,40 @@
 <text x="-1.35" y="1.4" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.92" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="2512" urn="urn:adsk.eagle:footprint:30551155/1">
+<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
+<wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="1.983" x2="3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="3.973" y1="-1.983" x2="-3.973" y2="-1.983" width="0.0508" layer="39"/>
+<wire x1="-3.973" y1="-1.983" x2="-3.973" y2="1.983" width="0.0508" layer="39"/>
+<smd name="1" x="-2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<smd name="2" x="2.8" y="0" dx="1.8" dy="3.2" layer="1"/>
+<text x="-2.54" y="2.159" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
+<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
+</package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:24653020/2" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
 </package3d>
-<package3d name="2512" urn="urn:adsk.eagle:package:24653013/2" type="model">
-<packageinstances>
-<packageinstance name="2512"/>
-</packageinstances>
-</package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:24653017/2" type="model">
+<package3d name="0805" urn="urn:adsk.eagle:package:30551163/2" type="model">
 <packageinstances>
 <packageinstance name="0805"/>
 </packageinstances>
 </package3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:24653015/2" type="model">
+<package3d name="1206" urn="urn:adsk.eagle:package:30551164/2" type="model">
 <packageinstances>
 <packageinstance name="1206"/>
+</packageinstances>
+</package3d>
+<package3d name="2512" urn="urn:adsk.eagle:package:30551162/2" type="model">
+<packageinstances>
+<packageinstance name="2512"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -414,7 +429,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" urn="urn:adsk.eagle:component:24653071/3" prefix="R" uservalue="yes">
+<deviceset name="R" urn="urn:adsk.eagle:component:24653071/3" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -425,7 +440,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -437,7 +452,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -449,7 +464,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -461,7 +476,7 @@
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653013/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551162/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -469,7 +484,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:24653069/3" prefix="C" uservalue="yes">
+<deviceset name="C" urn="urn:adsk.eagle:component:24653069/3" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="С" x="0" y="0"/>
 </gates>
@@ -480,7 +495,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -492,7 +507,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -504,7 +519,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -516,8 +531,9 @@
 </library>
 <library name="LARS_409_DIODE">
 <packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:43155/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
@@ -528,103 +544,61 @@
 <wire x1="1.7" y1="1.86" x2="1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="1.7" y1="-1.86" x2="-1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="-1.7" y1="-1.86" x2="-1.7" y2="1.86" width="0.05" layer="39"/>
+<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 </package>
-<package name="MINIMELF" urn="urn:adsk.eagle:footprint:43207/1">
-<description>&lt;b&gt;Mini Melf Diode&lt;/b&gt;</description>
-<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
-<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+<package name="SOD123" urn="urn:adsk.eagle:footprint:30499689/1" locally_modified="yes">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<smd name="A" x="-1.68" y="0" dx="1.3" dy="0.8" layer="1"/>
+<smd name="C" x="1.56" y="0" dx="1.3" dy="0.8" layer="1"/>
+<wire x1="-1.44" y1="-0.84" x2="-1.44" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="-1.44" y1="0.86" x2="1.36" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="0.86" x2="1.36" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="-0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="-0.84" x2="0.6" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="-0.84" x2="-1.44" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.6" y2="0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<circle x="1.68" y="0.72" radius="0.12" width="0.0762" layer="21"/>
+<text x="-1.56" y="1.08" size="0.6" layer="25">&gt;NAME</text>
+<text x="-1.56" y="-1.56" size="0.6" layer="25">&gt;VALUE</text>
+<wire x1="-2.413" y1="1.016" x2="2.286" y2="1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="-1.016" x2="-2.413" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.413" y2="1.016" width="0.0762" layer="39"/>
 </package>
-<package name="SMC">
-<wire x1="-3.4275" y1="1.95" x2="-3.4275" y2="3.11" width="0.127" layer="21"/>
-<wire x1="-3.4275" y1="3.11" x2="3.4275" y2="3.11" width="0.127" layer="21"/>
-<wire x1="3.4275" y1="3.11" x2="3.4275" y2="1.95" width="0.127" layer="21"/>
-<wire x1="-3.4275" y1="-1.95" x2="-3.4275" y2="-3.11" width="0.127" layer="21"/>
-<wire x1="-3.4275" y1="-3.11" x2="3.4275" y2="-3.11" width="0.127" layer="21"/>
-<wire x1="3.4275" y1="-3.11" x2="3.4275" y2="-1.95" width="0.127" layer="21"/>
-<circle x="-4.05" y="2.125" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-4.775" y1="-3.31" x2="4.775" y2="-3.31" width="0.05" layer="39"/>
-<wire x1="4.775" y1="-3.31" x2="4.775" y2="3.31" width="0.05" layer="39"/>
-<wire x1="4.775" y1="3.31" x2="-4.775" y2="3.31" width="0.05" layer="39"/>
-<wire x1="-4.775" y1="3.31" x2="-4.775" y2="-3.31" width="0.05" layer="39"/>
-<text x="-5.744209375" y="5.41601875" size="2.084359375" layer="25">&gt;NAME</text>
-<text x="-5.68981875" y="-7.478240625" size="2.064509375" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
-<smd name="2" x="3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:30499557/2">
+<description>SOD, 2.65 mm span, 1.70 X 1.30 X 1.00 mm body
+&lt;p&gt;SOD package with 2.65 mm span with body size 1.70 X 1.30 X 1.00 mm&lt;/p&gt;</description>
+<wire x1="-1.22" y1="0.635" x2="-0.4" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-1.22" y1="-0.635" x2="-0.4" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-2.783" y1="0.983" x2="1.163" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.163" y1="0.983" x2="1.163" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.163" y1="-0.983" x2="-2.783" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.783" y1="-0.983" x2="-2.783" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.476" y1="1.016" x2="1.476" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.73" y1="0.9" x2="1.12" y2="0.9" width="0.1524" layer="21"/>
+<wire x1="1.12" y1="-0.9" x2="-2.73" y2="-0.9" width="0.1524" layer="21"/>
+<smd name="1" x="-1.8625" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="0.2425" y="0" dx="1.5" dy="1" layer="1"/>
+<text x="-1.445" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.445" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4036" y1="-0.6985" x2="0.2464" y2="0.7015" layer="51"/>
+<rectangle x1="-1.8768" y1="-0.6985" x2="-1.2268" y2="0.7015" layer="51"/>
 </package>
-<package name="DIP">
-<wire x1="-5.587" y1="0" x2="-4.317" y2="0" width="0.15" layer="21"/>
-<wire x1="4.317" y1="0" x2="5.587" y2="0" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="-4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="4.317" y2="-1.745" width="0.15" layer="21"/>
-<wire x1="4.317" y1="-1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-3.047" y1="-1.745" x2="-3.047" y2="1.745" width="0.15" layer="21"/>
-<text x="-8.787" y="1.745" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-6.887" y="0" drill="1.3" diameter="2.4"/>
-<pad name="2" x="6.887" y="0" drill="1.3" diameter="2.4"/>
-</package>
-<package name="SMA" urn="urn:adsk.eagle:footprint:43244/1" locally_modified="yes">
-<description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
-Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
-<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
-<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
-<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
-<rectangle x1="0.659" y1="-1.75" x2="1.409" y2="1.75" layer="51"/>
-<wire x1="-2.15" y1="1.4" x2="2.2" y2="1.4" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="1.4" width="0.127" layer="51"/>
-<smd name="A" x="-2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
-<smd name="C" x="2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
-<wire x1="0.55" y1="1.4" x2="0.55" y2="-1.35" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="0.4" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="1.4" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.4" x2="2.2" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="2.2" y1="-1.4" x2="2.2" y2="-1.3" width="0.127" layer="21"/>
-<circle x="2.7" y="1.4" radius="0.14141875" width="0.127" layer="21"/>
-<wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
-<wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
-</package>
-<package name="SOD-123">
-<wire x1="0.05" y1="0.635" x2="0.87" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.05" y1="-0.635" x2="0.87" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.513" y1="0.983" x2="2.433" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="0.983" x2="2.433" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="-0.983" x2="-1.513" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.513" y1="-0.983" x2="-1.513" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.5925" y="0" dx="1.5" dy="1" layer="1"/>
-<smd name="2" x="1.5125" y="0" dx="1.5" dy="1" layer="1"/>
-<text x="-0.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.8664" y1="-0.6985" x2="1.5164" y2="0.7015" layer="51"/>
-<rectangle x1="-0.6068" y1="-0.6985" x2="0.0432" y2="0.7015" layer="51"/>
-<rectangle x1="2.2601" y1="-2.5001" x2="2.6599" y2="-1.4999" layer="35"/>
-<wire x1="2.746" y1="1.016" x2="2.746" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-1.46" y1="0.9" x2="2.39" y2="0.9" width="0.1524" layer="21"/>
-<wire x1="2.39" y1="-0.9" x2="-1.46" y2="-0.9" width="0.1524" layer="21"/>
-</package>
-<package name="SMB">
+<package name="SMB" urn="urn:adsk.eagle:footprint:30499907/1" locally_modified="yes">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
 <smd name="C" x="-2.32" y="0" dx="2.2" dy="1.3" layer="1" rot="R90"/>
 <wire x1="-2.48" y1="1.8" x2="-1.3" y2="1.8" width="0.254" layer="21"/>
 <wire x1="-1.3" y1="1.8" x2="-1.2" y2="1.8" width="0.254" layer="21"/>
@@ -652,7 +626,143 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.254" layer="21"/>
 <wire x1="0" y1="-1" x2="-1" y2="0" width="0.254" layer="21"/>
 </package>
+<package name="SMA" urn="urn:adsk.eagle:footprint:30499934/1" locally_modified="yes">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
+<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
+<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
+<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
+<rectangle x1="0.659" y1="-1.75" x2="1.409" y2="1.75" layer="51"/>
+<wire x1="-2.15" y1="1.4" x2="2.2" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="1.4" width="0.127" layer="51"/>
+<smd name="A" x="-2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
+<smd name="C" x="2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
+<wire x1="0.55" y1="1.4" x2="0.55" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.4" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.4" x2="2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.4" x2="2.2" y2="-1.3" width="0.127" layer="21"/>
+<circle x="2.7" y="1.4" radius="0.14141875" width="0.127" layer="21"/>
+<wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
+</package>
+<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/1" locally_modified="yes">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+</package>
+<package name="SMC" urn="urn:adsk.eagle:footprint:30499818/1" locally_modified="yes">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
+<wire x1="-3.4275" y1="1.95" x2="-3.4275" y2="3.11" width="0.127" layer="21"/>
+<wire x1="-3.4275" y1="3.11" x2="3.4275" y2="3.11" width="0.127" layer="21"/>
+<wire x1="3.4275" y1="3.11" x2="3.4275" y2="1.95" width="0.127" layer="21"/>
+<wire x1="-3.4275" y1="-1.95" x2="-3.4275" y2="-3.11" width="0.127" layer="21"/>
+<wire x1="-3.4275" y1="-3.11" x2="3.4275" y2="-3.11" width="0.127" layer="21"/>
+<wire x1="3.4275" y1="-3.11" x2="3.4275" y2="-1.95" width="0.127" layer="21"/>
+<circle x="-4.05" y="2.125" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-4.775" y1="-3.31" x2="4.775" y2="-3.31" width="0.05" layer="39"/>
+<wire x1="4.775" y1="-3.31" x2="4.775" y2="3.31" width="0.05" layer="39"/>
+<wire x1="4.775" y1="3.31" x2="-4.775" y2="3.31" width="0.05" layer="39"/>
+<wire x1="-4.775" y1="3.31" x2="-4.775" y2="-3.31" width="0.05" layer="39"/>
+<text x="-5.744209375" y="5.41601875" size="2.084359375" layer="25">&gt;NAME</text>
+<text x="-5.68981875" y="-7.478240625" size="2.064509375" layer="27">&gt;VALUE</text>
+<smd name="1" x="-3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
+<smd name="2" x="3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
+</package>
+<package name="DIP" urn="urn:adsk.eagle:footprint:30500605/1" locally_modified="yes">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<wire x1="-4.3" y1="1.75" x2="-4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="-1.75" x2="4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="1.75" x2="-4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="-3.225" y1="1.75" x2="-3.225" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="0" x2="-6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="0" x2="6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="-4.3" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="-1.75" x2="-4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="1.75" x2="4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="4.3" y1="1.75" x2="4.3" y2="-1.75" width="0.12" layer="51"/>
+<pad name="1" x="-7.6" y="0" drill="1.2" diameter="1.8"/>
+<pad name="2" x="7.6" y="0" drill="1.2" diameter="1.8"/>
+<text x="0" y="2.385" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.385" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD3716X100N" urn="urn:adsk.eagle:package:30499564/1" type="model">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD123"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD2613X100N" urn="urn:adsk.eagle:package:30499546/3" type="model">
+<description>SOD, 2.65 mm span, 1.70 X 1.30 X 1.00 mm body
+&lt;p&gt;SOD package with 2.65 mm span with body size 1.70 X 1.30 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD-323"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM4336X244N" urn="urn:adsk.eagle:package:30499825/1" type="model">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMB"/>
+</packageinstances>
+</package3d>
+<package3d name="RESM4327X244N" urn="urn:adsk.eagle:package:30499930/1" type="model">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMA"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3516N" urn="urn:adsk.eagle:package:30500463/1" type="model">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MINIMELF"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM6859X260N" urn="urn:adsk.eagle:package:30499721/1" type="model">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMC"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1520W100L860D350B" urn="urn:adsk.eagle:package:30500568/1" type="model">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ZENER-DIODE">
 <wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -723,15 +833,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MINIMELF" package="MINIMELF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -741,15 +845,57 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499721/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMB" package="SMB">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499825/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA" package="SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499930/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINIMELF" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="DIP" package="DIP">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500568/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -761,38 +907,38 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MINIMELF" package="MINIMELF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="SOT23" package="SOT23">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMA" package="SMA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SOD-123" package="SOD-123">
+<device name="SOD-323" package="SOD-323">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499546/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499564/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -802,6 +948,33 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499825/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA" package="SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499930/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINIMELF" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -819,6 +992,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="I/O" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -829,20 +1005,45 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </library>
 <library name="LARS_409_SWITCH">
 <packages>
-<package name="DTS-6">
+<package name="DTS-6" urn="urn:adsk.eagle:footprint:30539629/1">
 <wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="2" x="3.1" y="2.185" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="4" x="3.1" y="-2.195" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
+<text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
+</package>
+<package name="DTS-6_OLD" urn="urn:adsk.eagle:footprint:30539625/1">
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
 <pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.8796" shape="long"/>
 <pad name="2" x="3.25" y="2.26" drill="1.016" diameter="1.8796" shape="long"/>
 <pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
 <pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="DTS-6" urn="urn:adsk.eagle:package:30539638/2" type="model">
+<packageinstances>
+<packageinstance name="DTS-6"/>
+</packageinstances>
+</package3d>
+<package3d name="DTS-6_OLD" urn="urn:adsk.eagle:package:30539634/2" type="model">
+<packageinstances>
+<packageinstance name="DTS-6_OLD"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="CLOCK_BUTTON">
 <wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
@@ -879,6 +1080,23 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539638/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DTS-6_OLD" package="DTS-6_OLD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539634/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -889,27 +1107,31 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </library>
 <library name="LARS_409_CLOCKS">
 <packages>
-<package name="CRYSTAL-SMD-3.2X2.5MM">
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="1.377" x2="0.4" y2="1.377" width="0.2032" layer="21"/>
-<wire x1="-1.727" y1="-0.15" x2="-1.727" y2="0.15" width="0.2032" layer="21"/>
-<wire x1="1.727" y1="0.15" x2="1.727" y2="-0.15" width="0.2032" layer="21"/>
-<wire x1="0.4" y1="-1.377" x2="-0.4" y2="-1.377" width="0.2032" layer="21"/>
-<rectangle x1="-1.6" y1="0.35" x2="-0.6" y2="1.15" layer="51"/>
-<rectangle x1="0.6" y1="-1.15" x2="1.6" y2="-0.35" layer="51" rot="R180"/>
-<rectangle x1="-1.6" y1="-1.15" x2="-0.6" y2="-0.35" layer="51"/>
-<rectangle x1="0.6" y1="0.35" x2="1.6" y2="1.15" layer="51" rot="R180"/>
-<smd name="1" x="-1.175" y="-0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<smd name="2" x="1.175" y="-0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="3" x="1.175" y="0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="4" x="-1.175" y="0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<package name="CRYSTAL-SMD-3.2X2.5MM" urn="urn:adsk.eagle:footprint:30497033/1" locally_modified="yes">
+<description>DFN4, 3.20 X 2.50 X 0.80 mm body
+&lt;p&gt;DFN4 package with body size 3.20 X 2.50 X 0.80 mm&lt;/p&gt;</description>
+<wire x1="-1.584" y1="-1.218" x2="-1.584" y2="1.282" width="0.127" layer="51"/>
+<wire x1="-1.584" y1="1.282" x2="1.616" y2="1.282" width="0.127" layer="51"/>
+<wire x1="1.616" y1="1.282" x2="1.616" y2="-1.218" width="0.127" layer="51"/>
+<wire x1="1.616" y1="-1.218" x2="-1.584" y2="-1.218" width="0.127" layer="51"/>
+<wire x1="-0.384" y1="1.409" x2="0.416" y2="1.409" width="0.2032" layer="21"/>
+<wire x1="-1.711" y1="-0.118" x2="-1.711" y2="0.182" width="0.2032" layer="21"/>
+<wire x1="1.743" y1="0.182" x2="1.743" y2="-0.118" width="0.2032" layer="21"/>
+<wire x1="0.416" y1="-1.345" x2="-0.384" y2="-1.345" width="0.2032" layer="21"/>
+<rectangle x1="-1.584" y1="0.382" x2="-0.584" y2="1.182" layer="51"/>
+<rectangle x1="0.616" y1="-1.118" x2="1.616" y2="-0.318" layer="51" rot="R180"/>
+<rectangle x1="-1.584" y1="-1.118" x2="-0.584" y2="-0.318" layer="51"/>
+<rectangle x1="0.616" y1="0.382" x2="1.616" y2="1.182" layer="51" rot="R180"/>
+<smd name="1" x="-1.159" y="-0.843" dx="1.2" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="1.191" y="-0.843" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3" x="1.191" y="0.907" dx="1.2" dy="1.1" layer="1"/>
+<smd name="4" x="-1.159" y="0.907" dx="1.2" dy="1.1" layer="1" rot="R180"/>
+<text x="0.016" y="1.556" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0.016" y="-1.492" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="CRYSTAL-SMD-3,2*1.5*0.8MM">
+<package name="CRYSTAL-SMD-3.2X1.5X90MM" urn="urn:adsk.eagle:footprint:30498467/1" locally_modified="yes">
+<description>DFN2, 3.20 X 1.50 X 0.90 mm body
+&lt;p&gt;DFN2 package with body size 3.20 X 1.50 X 0.90 mm&lt;/p&gt;</description>
 <smd name="P$1" x="-1.25" y="0" dx="1" dy="1.8" layer="1"/>
 <smd name="P$2" x="1.25" y="0" dx="1" dy="1.8" layer="1"/>
 <wire x1="-2.05" y1="-1.2" x2="2.05" y2="-1.2" width="0.1524" layer="21"/>
@@ -918,6 +1140,22 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="-2.05" y1="1.2" x2="-2.05" y2="-1.2" width="0.1524" layer="21"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DIODFN320X250X80-4N" urn="urn:adsk.eagle:package:30496990/2" type="model">
+<description>DFN4, 3.20 X 2.50 X 0.80 mm body
+&lt;p&gt;DFN4 package with body size 3.20 X 2.50 X 0.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CRYSTAL-SMD-3.2X2.5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="DIODFN320X150X90-2N" urn="urn:adsk.eagle:package:30498451/1" type="model">
+<description>DFN2, 3.20 X 1.50 X 0.90 mm body
+&lt;p&gt;DFN2 package with body size 3.20 X 1.50 X 0.90 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CRYSTAL-SMD-3.2X1.5X90MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="CRYSTAL">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -947,15 +1185,21 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30496990/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2FOOT" package="CRYSTAL-SMD-3,2*1.5*0.8MM">
+<device name="2FOOT" package="CRYSTAL-SMD-3.2X1.5X90MM">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30498451/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -974,25 +1218,25 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="LARS_409_MK" deviceset="STM32F042F6P6" device=""/>
-<part name="R5" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10k"/>
-<part name="VD10" library="LARS_409_DIODE" deviceset="DIODE" device="SOD-123" value="1N5819"/>
-<part name="VD11" library="LARS_409_DIODE" deviceset="DIODE" device="SOD-123" value="1N5819"/>
-<part name="BTN1" library="LARS_409_SWITCH" deviceset="DTS-6" device="DTS-6"/>
-<part name="VD12" library="LARS_409_DIODE" deviceset="ZENER-DIODES" device="MINIMELF" value="3.3V"/>
-<part name="VD1" library="LARS_409_DIODE" deviceset="NUP" device="NUP"/>
-<part name="R4" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10k"/>
-<part name="C20" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1u"/>
-<part name="BTN2" library="LARS_409_SWITCH" deviceset="DTS-6" device="DTS-6"/>
-<part name="Z1" library="LARS_409_CLOCKS" deviceset="CRYSTAL" device="4FOOT"/>
-<part name="C1" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="8.2pF"/>
-<part name="C2" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="8.2pF"/>
-<part name="VD2" library="LARS_409_DIODE" deviceset="NUP" device="NUP"/>
-<part name="VD3" library="LARS_409_DIODE" deviceset="NUP" device="NUP"/>
-<part name="C3" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="1uF"/>
-<part name="C4" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10nF"/>
-<part name="C5" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1uF"/>
-<part name="C6" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="4.7uF"/>
+<part name="U1" library="LARS_409_MK" deviceset="STM32F042F6P6" device="" package3d_urn="urn:adsk.eagle:package:30517357/1"/>
+<part name="R5" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10k"/>
+<part name="VD10" library="LARS_409_DIODE" deviceset="DIODE" device="SOD-123" package3d_urn="urn:adsk.eagle:package:30499564/1" value="1N5819"/>
+<part name="VD11" library="LARS_409_DIODE" deviceset="DIODE" device="SOD-123" package3d_urn="urn:adsk.eagle:package:30499564/1" value="1N5819"/>
+<part name="BTN1" library="LARS_409_SWITCH" deviceset="DTS-6" device="DTS-6" package3d_urn="urn:adsk.eagle:package:30539638/2"/>
+<part name="VD12" library="LARS_409_DIODE" deviceset="ZENER-DIODES" device="MINIMELF" package3d_urn="urn:adsk.eagle:package:30500463/1" value="3.3V"/>
+<part name="VD1" library="LARS_409_DIODE" deviceset="NUP" device="NUP" package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+<part name="R4" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10k"/>
+<part name="C20" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1u"/>
+<part name="BTN2" library="LARS_409_SWITCH" deviceset="DTS-6" device="DTS-6" package3d_urn="urn:adsk.eagle:package:30539638/2"/>
+<part name="Z1" library="LARS_409_CLOCKS" deviceset="CRYSTAL" device="4FOOT" package3d_urn="urn:adsk.eagle:package:30496990/2"/>
+<part name="C1" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="8.2pF"/>
+<part name="C2" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="8.2pF"/>
+<part name="VD2" library="LARS_409_DIODE" deviceset="NUP" device="NUP" package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+<part name="VD3" library="LARS_409_DIODE" deviceset="NUP" device="NUP" package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+<part name="C3" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="1uF"/>
+<part name="C4" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10nF"/>
+<part name="C5" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF"/>
+<part name="C6" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="4.7uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1587,11 +1831,38 @@ BOOT0</text>
 <libraries>
 <library name="LARS_409_MK">
 <packages>
-<package name="SOP65P640X120-20N">
-<description>&lt;b&gt;TSSOP20&lt;/b&gt;&lt;br&gt;
-</description>
-<text x="-0.3" y="5.82" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.2" y="4.38" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<package name="SOP65P640X120-20N" urn="urn:adsk.eagle:footprint:30517425/1" locally_modified="yes">
+<description>20-SOP, 0.65 mm pitch, 6.40 mm span, 6.40 X 4.10 X 1.20 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.40 X 4.10 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-2.828" y="3.6899" radius="0.25" width="0" layer="21"/>
+<wire x1="-2.05" y1="3.4999" x2="2.05" y2="3.4999" width="0.12" layer="21"/>
+<wire x1="-2.05" y1="-3.4999" x2="2.05" y2="-3.4999" width="0.12" layer="21"/>
+<wire x1="2.05" y1="-3.2" x2="-2.05" y2="-3.2" width="0.12" layer="51"/>
+<wire x1="-2.05" y1="-3.2" x2="-2.05" y2="3.2" width="0.12" layer="51"/>
+<wire x1="-2.05" y1="3.2" x2="2.05" y2="3.2" width="0.12" layer="51"/>
+<wire x1="2.05" y1="3.2" x2="2.05" y2="-3.2" width="0.12" layer="51"/>
+<smd name="1" x="-2.6554" y="2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="2" x="-2.6554" y="2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="3" x="-2.6554" y="1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="4" x="-2.6554" y="0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="5" x="-2.6554" y="0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="6" x="-2.6554" y="-0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="7" x="-2.6554" y="-0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="8" x="-2.6554" y="-1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="9" x="-2.6554" y="-2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="10" x="-2.6554" y="-2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="11" x="2.6554" y="-2.925" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="12" x="2.6554" y="-2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="13" x="2.6554" y="-1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="14" x="2.6554" y="-0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="15" x="2.6554" y="-0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="16" x="2.6554" y="0.325" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="17" x="2.6554" y="0.975" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="18" x="2.6554" y="1.625" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="19" x="2.6554" y="2.275" dx="1.901" dy="0.5218" layer="1"/>
+<smd name="20" x="2.6554" y="2.925" dx="1.901" dy="0.5218" layer="1"/>
+<text x="0" y="4.5749" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-4.1349" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="-3.925" y1="3.55" x2="3.925" y2="3.55" width="0.05" layer="51"/>
 <wire x1="3.925" y1="3.55" x2="3.925" y2="-3.55" width="0.05" layer="51"/>
 <wire x1="3.925" y1="-3.55" x2="-3.925" y2="-3.55" width="0.05" layer="51"/>
@@ -1601,37 +1872,22 @@ BOOT0</text>
 <wire x1="2.2" y1="-3.25" x2="-2.2" y2="-3.25" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="-3.25" x2="-2.2" y2="3.25" width="0.1" layer="51"/>
 <wire x1="-2.2" y1="2.6" x2="-1.55" y2="3.25" width="0.1" layer="51"/>
-<wire x1="-1.85" y1="3.25" x2="1.85" y2="3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="3.25" x2="1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="1.85" y1="-3.25" x2="-1.85" y2="-3.25" width="0.2" layer="21"/>
-<wire x1="-1.85" y1="-3.25" x2="-1.85" y2="3.25" width="0.2" layer="21"/>
 <wire x1="-3.675" y1="3.5" x2="-2.2" y2="3.5" width="0.2" layer="21"/>
-<smd name="1" x="-2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="2" x="-2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="3" x="-2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="4" x="-2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="5" x="-2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="6" x="-2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="7" x="-2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="8" x="-2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="9" x="-2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="10" x="-2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="11" x="2.938" y="-2.925" dx="1.475" dy="0.45" layer="1"/>
-<smd name="12" x="2.938" y="-2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="13" x="2.938" y="-1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="14" x="2.938" y="-0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="15" x="2.938" y="-0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="16" x="2.938" y="0.325" dx="1.475" dy="0.45" layer="1"/>
-<smd name="17" x="2.938" y="0.975" dx="1.475" dy="0.45" layer="1"/>
-<smd name="18" x="2.938" y="1.625" dx="1.475" dy="0.45" layer="1"/>
-<smd name="19" x="2.938" y="2.275" dx="1.475" dy="0.45" layer="1"/>
-<smd name="20" x="2.938" y="2.925" dx="1.475" dy="0.45" layer="1"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOP65P640X120-20N" urn="urn:adsk.eagle:package:30517357/1" type="model">
+<description>20-SOP, 0.65 mm pitch, 6.40 mm span, 6.40 X 4.10 X 1.20 mm body
+&lt;p&gt;20-pin SOP package with 0.65 mm pitch, 6.40 mm span with body size 6.40 X 4.10 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOP65P640X120-20N"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="LARS_409_R,C,L">
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1" locally_modified="yes">
+<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
@@ -1647,7 +1903,7 @@ BOOT0</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:24653020/2" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
@@ -1656,26 +1912,32 @@ BOOT0</text>
 </library>
 <library name="LARS_409_DIODE">
 <packages>
-<package name="SOD-123">
-<wire x1="0.05" y1="0.635" x2="0.87" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.05" y1="-0.635" x2="0.87" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.513" y1="0.983" x2="2.433" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="0.983" x2="2.433" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="-0.983" x2="-1.513" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.513" y1="-0.983" x2="-1.513" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.5925" y="0" dx="1.5" dy="1" layer="1"/>
-<smd name="2" x="1.5125" y="0" dx="1.5" dy="1" layer="1"/>
-<text x="-0.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.8664" y1="-0.6985" x2="1.5164" y2="0.7015" layer="51"/>
-<rectangle x1="-0.6068" y1="-0.6985" x2="0.0432" y2="0.7015" layer="51"/>
-<rectangle x1="2.2601" y1="-2.5001" x2="2.6599" y2="-1.4999" layer="35"/>
-<wire x1="2.746" y1="1.016" x2="2.746" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-1.46" y1="0.9" x2="2.39" y2="0.9" width="0.1524" layer="21"/>
-<wire x1="2.39" y1="-0.9" x2="-1.46" y2="-0.9" width="0.1524" layer="21"/>
+<package name="SOD123" urn="urn:adsk.eagle:footprint:30499689/1" locally_modified="yes">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<smd name="A" x="-1.68" y="0" dx="1.3" dy="0.8" layer="1"/>
+<smd name="C" x="1.56" y="0" dx="1.3" dy="0.8" layer="1"/>
+<wire x1="-1.44" y1="-0.84" x2="-1.44" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="-1.44" y1="0.86" x2="1.36" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="0.86" x2="1.36" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="-0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="-0.84" x2="0.6" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="-0.84" x2="-1.44" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.6" y2="0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<circle x="1.68" y="0.72" radius="0.12" width="0.0762" layer="21"/>
+<text x="-1.56" y="1.08" size="0.6" layer="25">&gt;NAME</text>
+<text x="-1.56" y="-1.56" size="0.6" layer="25">&gt;VALUE</text>
+<wire x1="-2.413" y1="1.016" x2="2.286" y2="1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="-1.016" x2="-2.413" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.413" y2="1.016" width="0.0762" layer="39"/>
 </package>
-<package name="MINIMELF" urn="urn:adsk.eagle:footprint:43207/1">
-<description>&lt;b&gt;Mini Melf Diode&lt;/b&gt;</description>
+<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/1" locally_modified="yes">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
 <wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
 <wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
 <wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
@@ -1689,8 +1951,9 @@ BOOT0</text>
 <rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
 <rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
 </package>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:43155/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
@@ -1701,58 +1964,99 @@ BOOT0</text>
 <wire x1="1.7" y1="1.86" x2="1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="1.7" y1="-1.86" x2="-1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="-1.7" y1="-1.86" x2="-1.7" y2="1.86" width="0.05" layer="39"/>
+<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOD3716X100N" urn="urn:adsk.eagle:package:30499564/1" type="model">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD123"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3516N" urn="urn:adsk.eagle:package:30500463/1" type="model">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MINIMELF"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="LARS_409_SWITCH">
 <packages>
-<package name="DTS-6">
+<package name="DTS-6" urn="urn:adsk.eagle:footprint:30539629/1">
 <wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="2" x="3.25" y="2.26" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
 <wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="2" x="3.1" y="2.185" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
+<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.6764" shape="offset"/>
+<pad name="4" x="3.1" y="-2.195" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
 <text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="DTS-6" urn="urn:adsk.eagle:package:30539638/2" type="model">
+<packageinstances>
+<packageinstance name="DTS-6"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="LARS_409_CLOCKS">
 <packages>
-<package name="CRYSTAL-SMD-3.2X2.5MM">
-<wire x1="-1.6" y1="-1.25" x2="-1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.25" x2="1.6" y2="1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.25" x2="1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.25" x2="-1.6" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-0.4" y1="1.377" x2="0.4" y2="1.377" width="0.2032" layer="21"/>
-<wire x1="-1.727" y1="-0.15" x2="-1.727" y2="0.15" width="0.2032" layer="21"/>
-<wire x1="1.727" y1="0.15" x2="1.727" y2="-0.15" width="0.2032" layer="21"/>
-<wire x1="0.4" y1="-1.377" x2="-0.4" y2="-1.377" width="0.2032" layer="21"/>
-<rectangle x1="-1.6" y1="0.35" x2="-0.6" y2="1.15" layer="51"/>
-<rectangle x1="0.6" y1="-1.15" x2="1.6" y2="-0.35" layer="51" rot="R180"/>
-<rectangle x1="-1.6" y1="-1.15" x2="-0.6" y2="-0.35" layer="51"/>
-<rectangle x1="0.6" y1="0.35" x2="1.6" y2="1.15" layer="51" rot="R180"/>
-<smd name="1" x="-1.175" y="-0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<smd name="2" x="1.175" y="-0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="3" x="1.175" y="0.875" dx="1.2" dy="1.1" layer="1"/>
-<smd name="4" x="-1.175" y="0.875" dx="1.2" dy="1.1" layer="1" rot="R180"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<package name="CRYSTAL-SMD-3.2X2.5MM" urn="urn:adsk.eagle:footprint:30497033/1" locally_modified="yes">
+<description>DFN4, 3.20 X 2.50 X 0.80 mm body
+&lt;p&gt;DFN4 package with body size 3.20 X 2.50 X 0.80 mm&lt;/p&gt;</description>
+<wire x1="-1.584" y1="-1.218" x2="-1.584" y2="1.282" width="0.127" layer="51"/>
+<wire x1="-1.584" y1="1.282" x2="1.616" y2="1.282" width="0.127" layer="51"/>
+<wire x1="1.616" y1="1.282" x2="1.616" y2="-1.218" width="0.127" layer="51"/>
+<wire x1="1.616" y1="-1.218" x2="-1.584" y2="-1.218" width="0.127" layer="51"/>
+<wire x1="-0.384" y1="1.409" x2="0.416" y2="1.409" width="0.2032" layer="21"/>
+<wire x1="-1.711" y1="-0.118" x2="-1.711" y2="0.182" width="0.2032" layer="21"/>
+<wire x1="1.743" y1="0.182" x2="1.743" y2="-0.118" width="0.2032" layer="21"/>
+<wire x1="0.416" y1="-1.345" x2="-0.384" y2="-1.345" width="0.2032" layer="21"/>
+<rectangle x1="-1.584" y1="0.382" x2="-0.584" y2="1.182" layer="51"/>
+<rectangle x1="0.616" y1="-1.118" x2="1.616" y2="-0.318" layer="51" rot="R180"/>
+<rectangle x1="-1.584" y1="-1.118" x2="-0.584" y2="-0.318" layer="51"/>
+<rectangle x1="0.616" y1="0.382" x2="1.616" y2="1.182" layer="51" rot="R180"/>
+<smd name="1" x="-1.159" y="-0.843" dx="1.2" dy="1.1" layer="1" rot="R180"/>
+<smd name="2" x="1.191" y="-0.843" dx="1.2" dy="1.1" layer="1"/>
+<smd name="3" x="1.191" y="0.907" dx="1.2" dy="1.1" layer="1"/>
+<smd name="4" x="-1.159" y="0.907" dx="1.2" dy="1.1" layer="1" rot="R180"/>
+<text x="0.016" y="1.556" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0.016" y="-1.492" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="DIODFN320X250X80-4N" urn="urn:adsk.eagle:package:30496990/2" type="model">
+<description>DFN4, 3.20 X 2.50 X 0.80 mm body
+&lt;p&gt;DFN4 package with body size 3.20 X 2.50 X 0.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="CRYSTAL-SMD-3.2X2.5MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1947,86 +2251,86 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U1" library="LARS_409_MK" package="SOP65P640X120-20N" value="STM32F042F6P6" x="46.22" y="9.11" smashed="yes">
+<element name="U1" library="LARS_409_MK" package="SOP65P640X120-20N" package3d_urn="urn:adsk.eagle:package:30517357/1" value="STM32F042F6P6" x="46.22" y="9.11" locked="yes" smashed="yes">
 <attribute name="NAME" x="45.92" y="14.93" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="46.02" y="13.49" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R5" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10k" x="41.61" y="13.383" smashed="yes" rot="R90">
+<element name="R5" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10k" x="41.61" y="13.383" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.91" y="11.983" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="42.91" y="11.783" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="VD10" library="LARS_409_DIODE" package="SOD-123" value="1N5819" x="5.8" y="26.95" smashed="yes" rot="R180">
+<element name="VD10" library="LARS_409_DIODE" package="SOD123" package3d_urn="urn:adsk.eagle:package:30499564/1" value="1N5819" x="5.8" y="26.95" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.975" y="25.68" size="1.27" layer="25" rot="R180"/>
 <attribute name="VALUE" x="5.975" y="29.49" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="VD11" library="LARS_409_DIODE" package="SOD-123" value="1N5819" x="11.92" y="26.38" smashed="yes" rot="R90">
+<element name="VD11" library="LARS_409_DIODE" package="SOD123" package3d_urn="urn:adsk.eagle:package:30499564/1" value="1N5819" x="11.92" y="26.38" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.65" y="26.205" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="14.46" y="26.205" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="BTN1" library="LARS_409_SWITCH" package="DTS-6" value="DTS-6DTS-6" x="12" y="27" smashed="yes">
+<element name="BTN1" library="LARS_409_SWITCH" package="DTS-6" package3d_urn="urn:adsk.eagle:package:30539638/2" value="DTS-6DTS-6" x="12" y="27" locked="yes" smashed="yes">
 <attribute name="NAME" x="7.936" y="30.81" size="1.778" layer="25"/>
 <attribute name="VALUE" x="6.093" y="27.63" size="1.778" layer="25" rot="R270"/>
 </element>
-<element name="VD12" library="LARS_409_DIODE" package="MINIMELF" value="3.3V" x="4.15" y="23.25" smashed="yes" rot="R270">
+<element name="VD12" library="LARS_409_DIODE" package="MINIMELF" package3d_urn="urn:adsk.eagle:package:30500463/1" value="3.3V" x="4.15" y="23.25" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.293" y="24.901" size="1.27" layer="25" rot="R270"/>
 <attribute name="VALUE" x="1.737" y="24.901" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="VD1" library="LARS_409_DIODE" package="SOT23" value="NUPNUP" x="19.4" y="28.44" smashed="yes" rot="R90">
+<element name="VD1" library="LARS_409_DIODE" package="SOT23" package3d_urn="urn:adsk.eagle:package:30499443/3" value="NUPNUP" x="19.4" y="28.44" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.4" y="26.44" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="21.4" y="30.44" size="0.8128" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="R4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10k" x="36.62" y="7.207" smashed="yes" rot="R270">
+<element name="R4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10k" x="36.62" y="7.207" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="37.32" y="8.607" size="0.6" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="35.32" y="8.807" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C20" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1u" x="35.32" y="7.213" smashed="yes" rot="R90">
+<element name="C20" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1u" x="35.32" y="7.213" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.62" y="5.813" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="36.62" y="5.613" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="BTN2" library="LARS_409_SWITCH" package="DTS-6" value="DTS-6DTS-6" x="12" y="12" smashed="yes">
+<element name="BTN2" library="LARS_409_SWITCH" package="DTS-6" package3d_urn="urn:adsk.eagle:package:30539638/2" value="DTS-6DTS-6" x="12" y="12" locked="yes" smashed="yes">
 <attribute name="NAME" x="7.936" y="15.81" size="1.778" layer="25"/>
 <attribute name="VALUE" x="8.19" y="6.793" size="1.778" layer="25"/>
 </element>
-<element name="Z1" library="LARS_409_CLOCKS" package="CRYSTAL-SMD-3.2X2.5MM" value="CRYSTAL4FOOT" x="38.12" y="10.47" smashed="yes">
+<element name="Z1" library="LARS_409_CLOCKS" package="CRYSTAL-SMD-3.2X2.5MM" package3d_urn="urn:adsk.eagle:package:30496990/2" value="CRYSTAL4FOOT" x="38.12" y="10.47" locked="yes" smashed="yes">
 <attribute name="NAME" x="38.12" y="11.994" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="37.12" y="8.946" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C1" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="8.2pF" x="35.67" y="10.817" smashed="yes" rot="R270">
+<element name="C1" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="8.2pF" x="35.67" y="10.817" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.37" y="12.217" size="0.6" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="34.37" y="12.417" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C2" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="8.2pF" x="38.123" y="12.6" smashed="yes">
+<element name="C2" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="8.2pF" x="38.123" y="12.6" locked="yes" smashed="yes">
 <attribute name="NAME" x="36.723" y="13.3" size="0.6" layer="25" font="vector"/>
 <attribute name="VALUE" x="36.523" y="11.3" size="0.6" layer="27" font="vector"/>
 </element>
-<element name="VD2" library="LARS_409_DIODE" package="SOT23" value="NUPNUP" x="51.87" y="13.53" smashed="yes" rot="R180">
+<element name="VD2" library="LARS_409_DIODE" package="SOT23" package3d_urn="urn:adsk.eagle:package:30499443/3" value="NUPNUP" x="51.87" y="13.53" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="53.87" y="15.53" size="0.8128" layer="25" rot="R270"/>
 <attribute name="VALUE" x="49.87" y="15.53" size="0.8128" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="VD3" library="LARS_409_DIODE" package="SOT23" value="NUPNUP" x="55.5" y="11.4" smashed="yes" rot="R90">
+<element name="VD3" library="LARS_409_DIODE" package="SOT23" package3d_urn="urn:adsk.eagle:package:30499443/3" value="NUPNUP" x="55.5" y="11.4" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="57.5" y="9.4" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="57.5" y="13.4" size="0.8128" layer="27" rot="R180" align="top-left"/>
 </element>
-<element name="C3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="1uF" x="39.09" y="6.12" smashed="yes" rot="R90">
+<element name="C3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="1uF" x="39.09" y="6.12" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.39" y="4.72" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="40.39" y="4.52" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="10nF" x="40.443" y="6.121" smashed="yes" rot="R90">
+<element name="C4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="10nF" x="40.443" y="6.121" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="39.743" y="4.721" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="41.743" y="4.521" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C5" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1uF" x="52.94" y="8.61" smashed="yes" rot="R90">
+<element name="C5" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF" x="52.94" y="8.61" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.24" y="7.21" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="54.24" y="7.01" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C6" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="4.7uF" x="51.68" y="8.61" smashed="yes" rot="R90">
+<element name="C6" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="4.7uF" x="51.68" y="8.61" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.98" y="7.21" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="52.98" y="7.01" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="VD12" pad="A"/>
+<contactref element="VD12" pad="C"/>
 <contactref element="C20" pad="P$1"/>
 <contactref element="R5" pad="P$2"/>
 <contactref element="VD1" pad="1"/>
@@ -2067,10 +2371,9 @@ design rules under a new name.</description>
 <wire x1="40.8273" y1="4.87449375" x2="41.42179375" y2="4.28" width="0.4064" layer="1"/>
 <wire x1="44.39" y1="4.28" x2="46.11" y2="6" width="0.4064" layer="1"/>
 <wire x1="46.11" y1="6" x2="46.11" y2="7.44" width="0.4064" layer="1"/>
-<wire x1="47.455" y1="8.785" x2="49.158" y2="8.785" width="0.4064" layer="1"/>
+<wire x1="47.455" y1="8.785" x2="50.825" y2="8.785" width="0.4064" layer="1"/>
 <wire x1="41.42179375" y1="4.28" x2="44.39" y2="4.28" width="0.4064" layer="1"/>
 <wire x1="46.11" y1="7.44" x2="47.455" y2="8.785" width="0.4064" layer="1"/>
-<wire x1="49.158" y1="8.785" x2="50.825" y2="8.785" width="0.4064" layer="1"/>
 <wire x1="51.68" y1="7.783" x2="51.68" y2="7.93" width="0.4064" layer="1"/>
 <wire x1="51.68" y1="7.93" x2="50.825" y2="8.785" width="0.4064" layer="1"/>
 <wire x1="51.68" y1="7.783" x2="52.94" y2="7.783" width="0.4064" layer="1"/>
@@ -2084,21 +2387,28 @@ design rules under a new name.</description>
 <wire x1="57.79" y1="11.76" x2="57.79" y2="13.65" width="0.4064" layer="1"/>
 <wire x1="34.775" y1="11.225" x2="33.72" y2="12.28" width="0.4064" layer="1"/>
 <wire x1="33.72" y1="12.28" x2="33" y2="12.28" width="0.4064" layer="1"/>
-<wire x1="4.15" y1="21.55" x2="17.25" y2="21.55" width="0.4064" layer="1"/>
-<wire x1="17.25" y1="21.55" x2="20.48" y2="24.78" width="0.4064" layer="1"/>
+<wire x1="17.25" y1="21.55" x2="17.35" y2="21.65" width="0.4064" layer="1"/>
+<wire x1="17.35" y1="21.65" x2="20.48" y2="24.78" width="0.4064" layer="1"/>
 <wire x1="20.48" y1="24.78" x2="20.48" y2="27.39" width="0.4064" layer="1"/>
 <wire x1="20.48" y1="27.39" x2="20.38" y2="27.49" width="0.4064" layer="1"/>
 <wire x1="15.37" y1="14.14" x2="15.25" y2="14.26" width="0.4064" layer="1"/>
 <wire x1="15.25" y1="14.26" x2="8.76" y2="14.26" width="0.4064" layer="1"/>
 <wire x1="8.76" y1="14.26" x2="8.75" y2="14.25" width="0.4064" layer="1"/>
-<wire x1="31.01" y1="14.27" x2="23.44" y2="14.27" width="0.4064" layer="1"/>
+<wire x1="23.44" y1="14.27" x2="31.01" y2="14.27" width="0.4064" layer="1"/>
 <wire x1="33" y1="12.28" x2="31.01" y2="14.27" width="0.4064" layer="1"/>
-<wire x1="15.37" y1="14.14" x2="23.44" y2="14.27" width="0" layer="19" extent="1-1"/>
-<wire x1="17.25" y1="21.55" x2="15.25" y2="14.26" width="0" layer="19" extent="1-1"/>
+<wire x1="17.35" y1="21.65" x2="7.45" y2="21.65" width="0.254" layer="1"/>
+<wire x1="7.45" y1="21.65" x2="7.05" y2="22.05" width="0.254" layer="1"/>
+<wire x1="7.05" y1="22.05" x2="4.15" y2="24.95" width="0.254" layer="1"/>
+<wire x1="8.75" y1="14.25" x2="8.75" y2="20.35" width="0.4064" layer="1"/>
+<wire x1="8.75" y1="20.35" x2="7.05" y2="22.05" width="0.4064" layer="1"/>
+<wire x1="15.1" y1="14.185" x2="23.355" y2="14.185" width="0.4064" layer="1"/>
+<wire x1="23.355" y1="14.185" x2="23.44" y2="14.27" width="0.4064" layer="1"/>
+<wire x1="47.455" y1="8.785" x2="48.8754" y2="8.785" width="0" layer="19" extent="1-1"/>
+<wire x1="15.25" y1="14.26" x2="15.1" y2="14.185" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="VD10" pad="2"/>
-<contactref element="VD12" pad="C"/>
+<contactref element="VD10" pad="C"/>
+<contactref element="VD12" pad="A"/>
 <contactref element="R4" pad="P$2"/>
 <contactref element="VD1" pad="2"/>
 <contactref element="U1" pad="5"/>
@@ -2113,12 +2423,11 @@ design rules under a new name.</description>
 <wire x1="40.442" y1="6.947" x2="40.443" y2="6.948" width="0.4064" layer="1"/>
 <wire x1="40.443" y1="6.948" x2="40.443" y2="7.593" width="0.4064" layer="1"/>
 <wire x1="41.292" y1="8.442" x2="41.292" y2="9.072" width="0.4064" layer="1"/>
-<wire x1="41.655" y1="9.435" x2="43.282" y2="9.435" width="0.4064" layer="1"/>
+<wire x1="41.655" y1="9.435" x2="44.535" y2="9.435" width="0.4064" layer="1"/>
 <wire x1="40.443" y1="7.593" x2="41.292" y2="8.442" width="0.4064" layer="1"/>
 <wire x1="41.292" y1="9.072" x2="41.655" y2="9.435" width="0.4064" layer="1"/>
 <wire x1="36.62" y1="6.38" x2="37.187" y2="6.947" width="0.4064" layer="1"/>
 <wire x1="37.187" y1="6.947" x2="39.09" y2="6.947" width="0.4064" layer="1"/>
-<wire x1="43.282" y1="9.435" x2="44.535" y2="9.435" width="0.4064" layer="1"/>
 <wire x1="44.535" y1="9.435" x2="44.91" y2="9.81" width="0.4064" layer="1"/>
 <wire x1="44.91" y1="9.81" x2="44.91" y2="12.55" width="0.4064" layer="1"/>
 <wire x1="44.91" y1="12.55" x2="45.41" y2="13.05" width="0.4064" layer="1"/>
@@ -2141,19 +2450,28 @@ design rules under a new name.</description>
 <wire x1="54.19" y1="12.62" x2="55.92" y2="12.62" width="0.4064" layer="1"/>
 <wire x1="47.1" y1="14.63" x2="47.1" y2="16.18" width="0.4064" layer="1"/>
 <wire x1="47.1" y1="16.18" x2="45.22" y2="18.06" width="0.4064" layer="1"/>
-<wire x1="45.22" y1="18.06" x2="35.42" y2="18.06" width="0.4064" layer="1"/>
-<wire x1="4.15" y1="24.95" x2="4.15" y2="26.8125" width="0.4064" layer="1"/>
 <wire x1="4.15" y1="26.8125" x2="4.2875" y2="26.95" width="0.4064" layer="1"/>
 <wire x1="4.2875" y1="26.95" x2="4.2875" y2="30.4575" width="0.4064" layer="1"/>
 <wire x1="4.2875" y1="30.4575" x2="4.98" y2="31.15" width="0.4064" layer="1"/>
 <wire x1="4.98" y1="31.15" x2="18.62" y2="31.15" width="0.4064" layer="1"/>
 <wire x1="18.62" y1="31.15" x2="20.38" y2="29.39" width="0.4064" layer="1"/>
-<wire x1="20.38" y1="29.39" x2="24.09" y2="29.39" width="0.4064" layer="1"/>
-<wire x1="24.09" y1="29.39" x2="35.42" y2="18.06" width="0" layer="19" extent="1-1"/>
+<wire x1="20.38" y1="29.39" x2="24" y2="29.39" width="0.4064" layer="1"/>
+<wire x1="24" y1="29.39" x2="24.09" y2="29.39" width="0.4064" layer="1"/>
+<wire x1="3.1447875" y1="25.904" x2="2.996" y2="25.7552125" width="0.254" layer="1"/>
+<wire x1="2.996" y1="25.7552125" x2="2.996" y2="24.1447875" width="0.254" layer="1"/>
+<wire x1="3.194" y1="25.904" x2="3.1447875" y2="25.904" width="0.254" layer="1"/>
+<wire x1="4.15" y1="22.9907875" x2="4.15" y2="21.55" width="0.254" layer="1"/>
+<wire x1="2.996" y1="24.1447875" x2="4.15" y2="22.9907875" width="0.254" layer="1"/>
+<wire x1="4.24" y1="26.95" x2="3.194" y2="25.904" width="0.254" layer="1"/>
+<wire x1="35.33" y1="18.06" x2="24" y2="29.39" width="0.4064" layer="1"/>
+<wire x1="45.22" y1="18.06" x2="35.33" y2="18.06" width="0.4064" layer="1"/>
+<wire x1="49.158" y1="9.435" x2="48.8754" y2="9.435" width="0" layer="19" extent="1-1"/>
+<wire x1="4.24" y1="26.95" x2="4.2875" y2="26.95" width="0" layer="19" extent="1-1"/>
+<wire x1="43.5646" y1="9.435" x2="44.535" y2="9.435" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V_S">
-<contactref element="VD10" pad="1"/>
-<contactref element="VD11" pad="1"/>
+<contactref element="VD10" pad="A"/>
+<contactref element="VD11" pad="A"/>
 <contactref element="BTN1" pad="3"/>
 <contactref element="BTN1" pad="4"/>
 <wire x1="8.75" y1="24.75" x2="9.7875" y2="25.7875" width="0.4064" layer="1"/>
@@ -2182,15 +2500,16 @@ design rules under a new name.</description>
 <wire x1="35.32" y1="8.04" x2="34.63" y2="8.73" width="0.4064" layer="1"/>
 <wire x1="34.63" y1="8.73" x2="34.63" y2="9.08" width="0.4064" layer="1"/>
 <via x="34.63" y="9.08" extent="1-16" drill="0.35"/>
-<wire x1="15.98" y1="10.48" x2="15.25" y2="9.75" width="0.4064" layer="16"/>
 <wire x1="15.25" y1="9.75" x2="8.75" y2="9.75" width="0.4064" layer="16"/>
-<wire x1="33.21" y1="10.5" x2="26.35" y2="10.5" width="0.4064" layer="16"/>
 <wire x1="34.63" y1="9.08" x2="33.21" y2="10.5" width="0.4064" layer="16"/>
-<wire x1="15.98" y1="10.48" x2="26.35" y2="10.5" width="0" layer="19" extent="16-16"/>
+<wire x1="33.21" y1="10.5" x2="16" y2="10.5" width="0.4064" layer="16"/>
+<wire x1="16" y1="10.5" x2="15.25" y2="9.75" width="0.4064" layer="16"/>
+<wire x1="43.282" y1="10.085" x2="43.5646" y2="10.085" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1" y1="9.805" x2="15.25" y2="9.75" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="BOOT0">
 <contactref element="R5" pad="P$1"/>
-<contactref element="VD11" pad="2"/>
+<contactref element="VD11" pad="C"/>
 <contactref element="BTN1" pad="1"/>
 <contactref element="BTN1" pad="2"/>
 <contactref element="U1" pad="1"/>
@@ -2202,18 +2521,22 @@ design rules under a new name.</description>
 <wire x1="43.28" y1="13.67" x2="43.28" y2="15.51" width="0.4064" layer="1"/>
 <wire x1="42.38" y1="16.41" x2="43.28" y2="15.51" width="0.4064" layer="1"/>
 <wire x1="8.75" y1="29.25" x2="10.1075" y2="27.8925" width="0.4064" layer="1"/>
-<wire x1="10.1075" y1="27.8925" x2="11.92" y2="27.8925" width="0.4064" layer="1"/>
-<wire x1="11.92" y1="27.8925" x2="13.8825" y2="27.8925" width="0.4064" layer="1"/>
+<wire x1="10.1075" y1="27.8925" x2="13.8825" y2="27.8925" width="0.4064" layer="1"/>
 <wire x1="13.8825" y1="27.8925" x2="15.25" y2="29.26" width="0.4064" layer="1"/>
 <wire x1="15.25" y1="29.26" x2="16.07" y2="28.44" width="0.4064" layer="1"/>
 <wire x1="16.07" y1="28.44" x2="18.42" y2="28.44" width="0.4064" layer="1"/>
 <wire x1="18.42" y1="28.44" x2="23.34" y2="28.44" width="0.4064" layer="1"/>
 <wire x1="23.9" y1="27.88" x2="23.34" y2="28.44" width="0.4064" layer="1"/>
-<wire x1="42.38" y1="16.41" x2="30.81" y2="16.41" width="0.4064" layer="1"/>
+<wire x1="42.38" y1="16.41" x2="31" y2="16.41" width="0.4064" layer="1"/>
 <wire x1="23.9" y1="23.32" x2="23.9" y2="27.88" width="0.4064" layer="1"/>
 <wire x1="15.25" y1="29.26" x2="14.11" y2="30.4" width="0.4064" layer="16"/>
 <wire x1="14.11" y1="30.4" x2="14.11" y2="33.96" width="0.4064" layer="16"/>
-<wire x1="23.9" y1="23.32" x2="30.81" y2="16.41" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="16.41" x2="30.81" y2="16.41" width="0.4064" layer="1"/>
+<wire x1="30.81" y1="16.41" x2="23.9" y2="23.32" width="0.4064" layer="1"/>
+<wire x1="43.282" y1="12.035" x2="43.5646" y2="12.035" width="0" layer="19" extent="1-1"/>
+<wire x1="15.25" y1="29.26" x2="15.25" y2="29.26" width="0" layer="19" extent="1-16"/>
+<wire x1="15.1" y1="29.185" x2="15.25" y2="29.26" width="0" layer="19" extent="1-1"/>
+<wire x1="11.92" y1="27.94" x2="10.1075" y2="27.8925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="Z1" pad="1"/>

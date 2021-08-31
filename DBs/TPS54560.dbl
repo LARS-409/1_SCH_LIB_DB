@@ -200,44 +200,9 @@
 <libraries>
 <library name="LARS_409_DIODE">
 <packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:43155/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
-<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
-<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
-<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="51"/>
-<wire x1="-1.509" y1="0.65" x2="-1.509" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="1.509" y1="0.65" x2="1.509" y2="-0.65" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="1.86" x2="1.7" y2="1.86" width="0.05" layer="39"/>
-<wire x1="1.7" y1="1.86" x2="1.7" y2="-1.86" width="0.05" layer="39"/>
-<wire x1="1.7" y1="-1.86" x2="-1.7" y2="-1.86" width="0.05" layer="39"/>
-<wire x1="-1.7" y1="-1.86" x2="-1.7" y2="1.86" width="0.05" layer="39"/>
-<text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
-<text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
-<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
-<smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
-<smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
-<smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
-</package>
-<package name="MINIMELF" urn="urn:adsk.eagle:footprint:43207/1">
-<description>&lt;b&gt;Mini Melf Diode&lt;/b&gt;</description>
-<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
-<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
-</package>
-<package name="SMC">
+<package name="SMC" urn="urn:adsk.eagle:footprint:30499818/1" locally_modified="yes">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
 <wire x1="-3.4275" y1="1.95" x2="-3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="-3.4275" y1="3.11" x2="3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="3.4275" y1="3.11" x2="3.4275" y2="1.95" width="0.127" layer="21"/>
@@ -254,21 +219,62 @@
 <smd name="1" x="-3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
 <smd name="2" x="3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
 </package>
-<package name="DIP">
-<wire x1="-5.587" y1="0" x2="-4.317" y2="0" width="0.15" layer="21"/>
-<wire x1="4.317" y1="0" x2="5.587" y2="0" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="-4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="4.317" y2="-1.745" width="0.15" layer="21"/>
-<wire x1="4.317" y1="-1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-3.047" y1="-1.745" x2="-3.047" y2="1.745" width="0.15" layer="21"/>
-<text x="-8.787" y="1.745" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-6.887" y="0" drill="1.3" diameter="2.4"/>
-<pad name="2" x="6.887" y="0" drill="1.3" diameter="2.4"/>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.45" y1="-0.65" x2="-1.45" y2="0.65" width="0.127" layer="51"/>
+<wire x1="-1.509" y1="0.65" x2="-1.509" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="1.509" y1="0.65" x2="1.509" y2="-0.65" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="1.86" x2="1.7" y2="1.86" width="0.05" layer="39"/>
+<wire x1="1.7" y1="1.86" x2="1.7" y2="-1.86" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-1.86" x2="-1.7" y2="-1.86" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="-1.86" x2="-1.7" y2="1.86" width="0.05" layer="39"/>
+<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
+<text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
+<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
+<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
+<smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
+<smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 </package>
-<package name="SMA" urn="urn:adsk.eagle:footprint:43244/1" locally_modified="yes">
-<description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
-Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
+<package name="SMB" urn="urn:adsk.eagle:footprint:30499907/1" locally_modified="yes">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
+<smd name="C" x="-2.32" y="0" dx="2.2" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-2.48" y1="1.8" x2="-1.3" y2="1.8" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="1.8" x2="-1.2" y2="1.8" width="0.254" layer="21"/>
+<wire x1="-1.1" y1="1.8" x2="-1" y2="1.8" width="0.254" layer="21"/>
+<wire x1="-1" y1="1.8" x2="2.38" y2="1.8" width="0.254" layer="21"/>
+<wire x1="-2.48" y1="-1.8" x2="-1.3" y2="-1.8" width="0.254" layer="21"/>
+<smd name="A" x="2.32" y="0" dx="2.2" dy="1.3" layer="1" rot="R90"/>
+<wire x1="-1.2" y1="-1.8" x2="-1.1" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-1" y1="-1.8" x2="2.38" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="-1.8" x2="-2.5" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-2.5" y1="1.8" x2="-2.5" y2="1.5" width="0.254" layer="21"/>
+<wire x1="2.38" y1="1.78" x2="2.38" y2="1.48" width="0.254" layer="21"/>
+<wire x1="2.4" y1="-1.8" x2="2.4" y2="-1.5" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="1.8" x2="-1.3" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="-1.8" x2="-1.2" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-1.8" x2="-1.2" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="1.8" x2="-1.1" y2="1.8" width="0.254" layer="21"/>
+<wire x1="-1.1" y1="1.8" x2="-1.1" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.1" y1="0" x2="-1.1" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-1.1" y1="-1.8" x2="-1" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="-1" y1="-1.8" x2="-1" y2="0" width="0.254" layer="21"/>
+<wire x1="-1" y1="0" x2="-1" y2="1.8" width="0.254" layer="21"/>
+<wire x1="0" y1="1" x2="-1" y2="0" width="0.254" layer="21"/>
+<wire x1="-1" y1="0" x2="-1.1" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.254" layer="21"/>
+<wire x1="0" y1="-1" x2="-1" y2="0" width="0.254" layer="21"/>
+</package>
+<package name="SMA" urn="urn:adsk.eagle:footprint:30499934/1" locally_modified="yes">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
 <wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
 <wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
 <rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
@@ -290,7 +296,86 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
 <wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
 </package>
+<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/1" locally_modified="yes">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+</package>
+<package name="DIP" urn="urn:adsk.eagle:footprint:30500605/1" locally_modified="yes">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<wire x1="-4.3" y1="1.75" x2="-4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="-1.75" x2="4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="1.75" x2="-4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="-3.225" y1="1.75" x2="-3.225" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="0" x2="-6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="0" x2="6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="-4.3" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="-1.75" x2="-4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="1.75" x2="4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="4.3" y1="1.75" x2="4.3" y2="-1.75" width="0.12" layer="51"/>
+<pad name="1" x="-7.6" y="0" drill="1.2" diameter="1.8"/>
+<pad name="2" x="7.6" y="0" drill="1.2" diameter="1.8"/>
+<text x="0" y="2.385" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.385" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="DIOM6859X260N" urn="urn:adsk.eagle:package:30499721/1" type="model">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMC"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM4336X244N" urn="urn:adsk.eagle:package:30499825/1" type="model">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMB"/>
+</packageinstances>
+</package3d>
+<package3d name="RESM4327X244N" urn="urn:adsk.eagle:package:30499930/1" type="model">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMA"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3516N" urn="urn:adsk.eagle:package:30500463/1" type="model">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MINIMELF"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1520W100L860D350B" urn="urn:adsk.eagle:package:30500568/1" type="model">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="ZENER-DIODE">
 <wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -316,15 +401,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MINIMELF" package="MINIMELF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -334,24 +413,57 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499721/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DIP" package="DIP">
+<device name="SMB" package="SMB">
 <connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499825/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="SMA" package="SMA">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499930/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINIMELF" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DIP" package="DIP">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500568/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -362,7 +474,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </library>
 <library name="LARS_409_R,C,L">
 <packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1" locally_modified="yes">
+<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
@@ -376,7 +488,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <text x="-1.4" y="0.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.6" y="-1.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="1206" urn="urn:adsk.eagle:footprint:24653008/1" locally_modified="yes">
+<package name="1206" urn="urn:adsk.eagle:footprint:30551156/1">
 <wire x1="-1.6" y1="0.85" x2="1.6" y2="0.85" width="0.145" layer="21"/>
 <wire x1="1.6" y1="-0.85" x2="-1.6" y2="-0.85" width="0.145" layer="21"/>
 <wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.05" layer="39"/>
@@ -390,7 +502,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <text x="-1.35" y="1.4" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.92" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="0805" urn="urn:adsk.eagle:footprint:24653005/1" locally_modified="yes">
+<package name="0805" urn="urn:adsk.eagle:footprint:30551153/1">
 <wire x1="-1" y1="0.75" x2="1" y2="0.75" width="0.145" layer="21"/>
 <wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.145" layer="21"/>
 <wire x1="-1.775" y1="0.9375" x2="1.775" y2="0.9375" width="0.05" layer="39"/>
@@ -404,7 +516,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <text x="-1.47" y="1.11" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.66" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="2512" urn="urn:adsk.eagle:footprint:24653007/1">
+<package name="2512" urn="urn:adsk.eagle:footprint:30551155/1">
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
 <wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
 <wire x1="-3.973" y1="1.983" x2="3.973" y2="1.983" width="0.0508" layer="39"/>
@@ -420,22 +532,22 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:24653020/2" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
 </package3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:24653015/2" type="model">
+<package3d name="1206" urn="urn:adsk.eagle:package:30551164/2" type="model">
 <packageinstances>
 <packageinstance name="1206"/>
 </packageinstances>
 </package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:24653017/2" type="model">
+<package3d name="0805" urn="urn:adsk.eagle:package:30551163/2" type="model">
 <packageinstances>
 <packageinstance name="0805"/>
 </packageinstances>
 </package3d>
-<package3d name="2512" urn="urn:adsk.eagle:package:24653013/2" type="model">
+<package3d name="2512" urn="urn:adsk.eagle:package:30551162/2" type="model">
 <packageinstances>
 <packageinstance name="2512"/>
 </packageinstances>
@@ -466,7 +578,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" urn="urn:adsk.eagle:component:24653071/3" prefix="R" uservalue="yes">
+<deviceset name="R" urn="urn:adsk.eagle:component:24653071/3" locally_modified="yes" prefix="R" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -477,7 +589,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -489,7 +601,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -501,7 +613,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -513,7 +625,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653013/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551162/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -521,7 +633,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:24653069/3" prefix="C" uservalue="yes">
+<deviceset name="C" urn="urn:adsk.eagle:component:24653069/3" locally_modified="yes" prefix="C" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="С" x="0" y="0"/>
 </gates>
@@ -532,7 +644,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653020/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -544,7 +656,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653017/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -556,7 +668,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24653015/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -568,7 +680,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </library>
 <library name="LARS_409_DC-DC">
 <packages>
-<package name="HSOIC(8)">
+<package name="HSOIC(8)" urn="urn:adsk.eagle:footprint:30501059/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 3.00 X 2.30 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 3.00 X 2.30 mm&lt;/p&gt;</description>
 <circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="21"/>
 <circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
@@ -580,18 +694,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="4.225" y1="2.7" x2="4.225" y2="-2.7" width="0.05" layer="39"/>
 <text x="-3.25" y="-3" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-3.25" y="3" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.2" y1="-1.55" x2="1.2" y2="1.55" layer="29"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
 <wire x1="-1.95" y1="-2.475" x2="1.95" y2="-2.475" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<rectangle x1="-4.045" y1="1.585" x2="-1.705" y2="2.225" layer="29"/>
-<rectangle x1="-4.045" y1="0.315" x2="-1.705" y2="0.955" layer="29"/>
-<rectangle x1="-4.045" y1="-0.955" x2="-1.705" y2="-0.315" layer="29"/>
-<rectangle x1="-4.045" y1="-2.225" x2="-1.705" y2="-1.585" layer="29"/>
-<rectangle x1="1.705" y1="1.585" x2="4.045" y2="2.225" layer="29"/>
-<rectangle x1="1.705" y1="0.315" x2="4.045" y2="0.955" layer="29"/>
-<rectangle x1="1.705" y1="-0.955" x2="4.045" y2="-0.315" layer="29"/>
-<rectangle x1="1.705" y1="-2.225" x2="4.045" y2="-1.585" layer="29"/>
 <smd name="1" x="-2.875" y="1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-2.875" y="0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="3" x="-2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
@@ -603,6 +708,15 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <smd name="9" x="0" y="0" dx="2.4" dy="3.1" layer="1" stop="no" cream="no"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P600X170-9T230X300N" urn="urn:adsk.eagle:package:30501043/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 3.00 X 2.30 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 3.00 X 2.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HSOIC(8)"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="TPS54560B">
 <wire x1="-10.16" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
@@ -640,6 +754,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="THERMAL_PAD" pad="9"/>
 <connect gate="G$1" pin="VIN" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30501043/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -650,47 +767,24 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </library>
 <library name="LARS_409_INDUCTOR">
 <packages>
-<package name="DR125" urn="urn:adsk.eagle:footprint:15035/1" locally_modified="yes">
-<description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
-Source: coiltronics_dr_series.pdf</description>
-<wire x1="-6.5" y1="6.5" x2="6.525" y2="6.5" width="0.2032" layer="21"/>
-<wire x1="6.525" y1="-6.5" x2="-6.5" y2="-6.5" width="0.2032" layer="21"/>
-<wire x1="-4.4254" y1="3.883" x2="-3.7006" y2="4.6431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="-3.783" y1="-4.5254" x2="-4.5431" y2="-3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="4.4746" y1="-3.8592" x2="3.7498" y2="-4.6193" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="3.783" y1="4.5254" x2="4.5431" y2="3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
-<wire x1="0" y1="5.9" x2="4.8" y2="3.475" width="0.2032" layer="21" curve="-56.209779"/>
-<wire x1="0" y1="5.9" x2="-4.65" y2="3.525" width="0.2032" layer="21" curve="56.95663"/>
-<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
-<smd name="1" x="-4.975" y="0" dx="3.85" dy="6.35" layer="1"/>
-<smd name="2" x="4.975" y="0" dx="3.85" dy="6.35" layer="1"/>
-<text x="-2.5" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="6.5" x2="-6.5" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="-6.5" y1="-6.527" x2="-6.5" y2="6.473" width="0.2032" layer="51"/>
-<wire x1="6.581" y1="-6.527" x2="6.581" y2="6.473" width="0.2032" layer="51"/>
-<wire x1="6.581" y1="6.5" x2="6.581" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="6.581" y1="-6.5" x2="6.581" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="0.127" y1="-5.9" x2="4.777" y2="-3.525" width="0.2032" layer="21" curve="56.95663"/>
-<wire x1="0" y1="-5.9" x2="-4.8" y2="-3.475" width="0.2032" layer="21" curve="-56.209779"/>
-</package>
-<package name="L5040S">
-<smd name="1" x="0" y="1.5" dx="4.7" dy="2.1" layer="1"/>
-<smd name="2" x="0" y="-1.5" dx="4.7" dy="2.1" layer="1"/>
-<wire x1="3" y1="-2.285975" x2="3" y2="-2" width="0.127" layer="21"/>
-<text x="-1.905" y="3.421" size="1" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="4.5" size="1" layer="27" ratio="11">&gt;VALUE</text>
-<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39"/>
-<wire x1="3" y1="2" x2="3" y2="2.246753125" width="0.127" layer="21"/>
-<wire x1="3" y1="2" x2="3" y2="3" width="0.1524" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
+<package name="L5040S" urn="urn:adsk.eagle:footprint:30515531/2">
+<description>DFN2, 5.00 X 5.00 X 4.00 mm body
+&lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="4.7" dy="2.1" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="4.7" dy="2.1" layer="1" rot="R90"/>
+<wire x1="2.285975" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
+<wire x1="-2" y1="3" x2="-2.246753125" y2="3" width="0.127" layer="21"/>
+<wire x1="-2" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1524" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="-2" width="0.1524" layer="21"/>
-<wire x1="3" y1="-2" x2="3" y2="2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1524" layer="21"/>
+<wire x1="3" y1="3" x2="2" y2="3" width="0.1524" layer="21"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.1524" layer="21"/>
+<text x="1.905" y="5.469" size="1" layer="25" ratio="11" rot="R180">&gt;NAME</text>
+<text x="1.905" y="4.39" size="1" layer="27" ratio="11" rot="R180">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39" rot="R90"/>
 </package>
-<package name="CUSTOM">
+<package name="CUSTOM" urn="urn:adsk.eagle:footprint:30548068/1">
 <pad name="P$1" x="0" y="0" drill="1.3" diameter="2.54"/>
 <pad name="P$2" x="0" y="9.5" drill="1.3" diameter="2.54"/>
 <circle x="0.5" y="-3.75" radius="5" width="0.4" layer="51"/>
@@ -700,7 +794,53 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="0.5" y1="-8.75" x2="1.8" y2="1.1" width="0.4" layer="21" curve="164.99508"/>
 <wire x1="0.5" y1="-8.75" x2="-1.6" y2="0.8" width="0.4" layer="21" curve="-155.224859"/>
 </package>
+<package name="DR125" urn="urn:adsk.eagle:footprint:30515451/2">
+<description>DFN2, 12.50 X 12.50 X 4.35 mm body
+&lt;p&gt;DFN2 package with body size 12.50 X 12.50 X 4.35 mm&lt;/p&gt;</description>
+<wire x1="-6.5" y1="6.5" x2="6.525" y2="6.5" width="0.2032" layer="21"/>
+<wire x1="6.525" y1="-6.5" x2="-6.5" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-4.4254" y1="3.883" x2="-3.7006" y2="4.6431" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="-3.783" y1="-4.5254" x2="-4.5431" y2="-3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="4.4746" y1="-3.8592" x2="3.7498" y2="-4.6193" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="3.783" y1="4.5254" x2="4.5431" y2="3.8006" width="1.016" layer="21" curve="-202.065586" cap="flat"/>
+<wire x1="0" y1="5.9" x2="4.8" y2="3.475" width="0.2032" layer="21" curve="-56.209779"/>
+<wire x1="0" y1="5.9" x2="-4.65" y2="3.525" width="0.2032" layer="21" curve="56.95663"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="6.5" x2="-6.5" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="-6.5" y1="-6.527" x2="-6.5" y2="6.473" width="0.2032" layer="51"/>
+<wire x1="6.581" y1="-6.527" x2="6.581" y2="6.473" width="0.2032" layer="51"/>
+<wire x1="6.581" y1="6.5" x2="6.581" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="6.581" y1="-6.5" x2="6.581" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="0.127" y1="-5.9" x2="4.777" y2="-3.525" width="0.2032" layer="21" curve="56.95663"/>
+<wire x1="0" y1="-5.9" x2="-4.8" y2="-3.475" width="0.2032" layer="21" curve="-56.209779"/>
+<circle x="0" y="0" radius="5.9" width="0.2032" layer="51"/>
+<smd name="1" x="-4.975" y="0" dx="3.85" dy="6.35" layer="1"/>
+<smd name="2" x="4.975" y="0" dx="3.85" dy="6.35" layer="1"/>
+<text x="-2.5" y="6.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3" y="-8.31" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="INDDFN500X500X400-2N" urn="urn:adsk.eagle:package:30515500/4" type="model">
+<description>DFN2, 5.00 X 5.00 X 4.00 mm body
+&lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="L5040S"/>
+</packageinstances>
+</package3d>
+<package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/2" type="model">
+<packageinstances>
+<packageinstance name="CUSTOM"/>
+</packageinstances>
+</package3d>
+<package3d name="INDDFN1250X1250X435-2N" urn="urn:adsk.eagle:package:30515439/3" type="model">
+<description>DFN2, 12.50 X 12.50 X 4.35 mm body
+&lt;p&gt;DFN2 package with body size 12.50 X 12.50 X 4.35 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DR125"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="INDUCTOR">
 <pin name="2" x="5.08" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
@@ -723,11 +863,26 @@ Source: coiltronics_dr_series.pdf</description>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
+<device name="CUSTOM" package="CUSTOM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30548070/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 <device name="DR125" package="DR125">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30515439/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -737,15 +892,9 @@ Source: coiltronics_dr_series.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CUSTOM" package="CUSTOM">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30515500/4"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -764,19 +913,19 @@ Source: coiltronics_dr_series.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="LARS_409_DC-DC" deviceset="TPS54560" device=""/>
-<part name="C1" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="10uF"/>
-<part name="R3" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="120k"/>
-<part name="C3" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1uF"/>
-<part name="L1" library="LARS_409_INDUCTOR" deviceset="INDUCTOR" device="L5040S" value="10(22)uH"/>
-<part name="ZD4" library="LARS_409_DIODE" deviceset="ZENER-DIODES" device="SMC" value="SS36"/>
-<part name="R4" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="22.1k"/>
-<part name="R7" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="1.5k"/>
-<part name="R8" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="30k"/>
-<part name="C6" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="6.46nF"/>
-<part name="C7" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="23.36pF"/>
-<part name="C8" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="22uF"/>
-<part name="C9" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="22uF"/>
+<part name="U$1" library="LARS_409_DC-DC" deviceset="TPS54560" device="" package3d_urn="urn:adsk.eagle:package:30501043/1"/>
+<part name="C1" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="10uF"/>
+<part name="R3" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="120k"/>
+<part name="C3" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF"/>
+<part name="L1" library="LARS_409_INDUCTOR" deviceset="INDUCTOR" device="L5040S" package3d_urn="urn:adsk.eagle:package:30515500/4" value="10(22)uH"/>
+<part name="ZD4" library="LARS_409_DIODE" deviceset="ZENER-DIODES" device="SMC" package3d_urn="urn:adsk.eagle:package:30499721/1" value="SS36"/>
+<part name="R4" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="22.1k"/>
+<part name="R7" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="1.5k"/>
+<part name="R8" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="30k"/>
+<part name="C6" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="6.46nF"/>
+<part name="C7" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="23.36pF"/>
+<part name="C8" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="22uF"/>
+<part name="C9" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="22uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1176,7 +1325,9 @@ Source: coiltronics_dr_series.pdf</description>
 <libraries>
 <library name="LARS_409_DC-DC">
 <packages>
-<package name="HSOIC(8)">
+<package name="HSOIC(8)" urn="urn:adsk.eagle:footprint:30501059/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 3.00 X 2.30 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 3.00 X 2.30 mm&lt;/p&gt;</description>
 <circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="21"/>
 <circle x="-4.47" y="2.205" radius="0.1" width="0.2" layer="51"/>
 <wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="51"/>
@@ -1188,18 +1339,9 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="4.225" y1="2.7" x2="4.225" y2="-2.7" width="0.05" layer="39"/>
 <text x="-3.25" y="-3" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-3.25" y="3" size="1.27" layer="25">&gt;NAME</text>
-<rectangle x1="-1.2" y1="-1.55" x2="1.2" y2="1.55" layer="29"/>
 <wire x1="-1.95" y1="2.45" x2="1.95" y2="2.45" width="0.127" layer="51"/>
 <wire x1="-1.95" y1="-2.475" x2="1.95" y2="-2.475" width="0.127" layer="21"/>
 <wire x1="-1.95" y1="2.525" x2="1.95" y2="2.525" width="0.127" layer="21"/>
-<rectangle x1="-4.045" y1="1.585" x2="-1.705" y2="2.225" layer="29"/>
-<rectangle x1="-4.045" y1="0.315" x2="-1.705" y2="0.955" layer="29"/>
-<rectangle x1="-4.045" y1="-0.955" x2="-1.705" y2="-0.315" layer="29"/>
-<rectangle x1="-4.045" y1="-2.225" x2="-1.705" y2="-1.585" layer="29"/>
-<rectangle x1="1.705" y1="1.585" x2="4.045" y2="2.225" layer="29"/>
-<rectangle x1="1.705" y1="0.315" x2="4.045" y2="0.955" layer="29"/>
-<rectangle x1="1.705" y1="-0.955" x2="4.045" y2="-0.315" layer="29"/>
-<rectangle x1="1.705" y1="-2.225" x2="4.045" y2="-1.585" layer="29"/>
 <smd name="1" x="-2.875" y="1.905" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-2.875" y="0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
 <smd name="3" x="-2.875" y="-0.635" dx="2.2" dy="0.5" layer="1" stop="no" cream="no"/>
@@ -1211,10 +1353,19 @@ Source: coiltronics_dr_series.pdf</description>
 <smd name="9" x="0" y="0" dx="2.4" dy="3.1" layer="1" stop="no" cream="no"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOIC127P600X170-9T230X300N" urn="urn:adsk.eagle:package:30501043/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 3.90 X 1.70 mm body, 3.00 X 2.30 mm thermal pad
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 3.90 X 1.70 mm and thermal pad size 3.00 X 2.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="HSOIC(8)"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="LARS_409_R,C,L">
 <packages>
-<package name="1206" urn="urn:adsk.eagle:footprint:24653008/1" locally_modified="yes">
+<package name="1206" urn="urn:adsk.eagle:footprint:30551156/1">
 <wire x1="-1.6" y1="0.85" x2="1.6" y2="0.85" width="0.145" layer="21"/>
 <wire x1="1.6" y1="-0.85" x2="-1.6" y2="-0.85" width="0.145" layer="21"/>
 <wire x1="-2.5" y1="-1.2" x2="-2.5" y2="1.2" width="0.05" layer="39"/>
@@ -1228,7 +1379,7 @@ Source: coiltronics_dr_series.pdf</description>
 <text x="-1.35" y="1.4" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.92" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="0603" urn="urn:adsk.eagle:footprint:24653006/1" locally_modified="yes">
+<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
 <smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
 <wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
@@ -1244,12 +1395,12 @@ Source: coiltronics_dr_series.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:24653015/2" type="model">
+<package3d name="1206" urn="urn:adsk.eagle:package:30551164/2" type="model">
 <packageinstances>
 <packageinstance name="1206"/>
 </packageinstances>
 </package3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:24653020/2" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
@@ -1258,26 +1409,39 @@ Source: coiltronics_dr_series.pdf</description>
 </library>
 <library name="LARS_409_INDUCTOR">
 <packages>
-<package name="L5040S">
-<smd name="1" x="0" y="1.5" dx="4.7" dy="2.1" layer="1"/>
-<smd name="2" x="0" y="-1.5" dx="4.7" dy="2.1" layer="1"/>
-<wire x1="3" y1="-2.285975" x2="3" y2="-2" width="0.127" layer="21"/>
-<text x="-1.905" y="3.421" size="1" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="4.5" size="1" layer="27" ratio="11">&gt;VALUE</text>
-<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39"/>
-<wire x1="3" y1="2" x2="3" y2="2.246753125" width="0.127" layer="21"/>
-<wire x1="3" y1="2" x2="3" y2="3" width="0.1524" layer="21"/>
-<wire x1="3" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
+<package name="L5040S" urn="urn:adsk.eagle:footprint:30515531/2">
+<description>DFN2, 5.00 X 5.00 X 4.00 mm body
+&lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
+<smd name="1" x="-1.5" y="0" dx="4.7" dy="2.1" layer="1" rot="R90"/>
+<smd name="2" x="1.5" y="0" dx="4.7" dy="2.1" layer="1" rot="R90"/>
+<wire x1="2.285975" y1="3" x2="2" y2="3" width="0.127" layer="21"/>
+<wire x1="-2" y1="3" x2="-2.246753125" y2="3" width="0.127" layer="21"/>
+<wire x1="-2" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1524" layer="21"/>
 <wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1524" layer="21"/>
-<wire x1="3" y1="-3" x2="3" y2="-2" width="0.1524" layer="21"/>
-<wire x1="3" y1="-2" x2="3" y2="2" width="0.1524" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1524" layer="21"/>
+<wire x1="3" y1="3" x2="2" y2="3" width="0.1524" layer="21"/>
+<wire x1="2" y1="3" x2="-2" y2="3" width="0.1524" layer="21"/>
+<text x="1.905" y="5.469" size="1" layer="25" ratio="11" rot="R180">&gt;NAME</text>
+<text x="1.905" y="4.39" size="1" layer="27" ratio="11" rot="R180">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="-2.54" x2="2.54" y2="2.54" layer="39" rot="R90"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="INDDFN500X500X400-2N" urn="urn:adsk.eagle:package:30515500/4" type="model">
+<description>DFN2, 5.00 X 5.00 X 4.00 mm body
+&lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="L5040S"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="LARS_409_DIODE">
 <packages>
-<package name="SMC">
+<package name="SMC" urn="urn:adsk.eagle:footprint:30499818/1" locally_modified="yes">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
 <wire x1="-3.4275" y1="1.95" x2="-3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="-3.4275" y1="3.11" x2="3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="3.4275" y1="3.11" x2="3.4275" y2="1.95" width="0.127" layer="21"/>
@@ -1295,6 +1459,15 @@ Source: coiltronics_dr_series.pdf</description>
 <smd name="2" x="3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DIOM6859X260N" urn="urn:adsk.eagle:package:30499721/1" type="model">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMC"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 </libraries>
 <attributes>
@@ -1489,55 +1662,55 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="LARS_409_DC-DC" package="HSOIC(8)" value="TPS54560" x="8.5" y="7" smashed="yes">
+<element name="U$1" library="LARS_409_DC-DC" package="HSOIC(8)" package3d_urn="urn:adsk.eagle:package:30501043/1" value="TPS54560" x="8.5" y="7" locked="yes" smashed="yes">
 <attribute name="NAME" x="0.55" y="8.5" size="1.27" layer="25"/>
 <attribute name="VALUE" x="5.25" y="4" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="C1" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="10uF" x="3.009" y="6.34" smashed="yes" rot="R90">
+<element name="C1" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="10uF" x="3.009" y="6.34" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="1.509" y="6.19" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="4.929" y="4.78" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="120k" x="6.447" y="3.639" smashed="yes" rot="R180">
+<element name="R3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="120k" x="6.447" y="3.639" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.947" y="2.939" size="0.6" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="8.047" y="4.939" size="0.6" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="0.1uF" x="4.579" y="11.523" smashed="yes" rot="R90">
+<element name="C3" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF" x="4.579" y="11.523" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.479" y="11.023" size="0.6" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="5.879" y="9.923" size="0.6" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="L1" library="LARS_409_INDUCTOR" package="L5040S" value="10(22)uH" x="15.313" y="13.839" smashed="yes" rot="R90">
+<element name="L1" library="LARS_409_INDUCTOR" package="L5040S" package3d_urn="urn:adsk.eagle:package:30515500/4" value="10(22)uH" x="15.313" y="13.839" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.926" y="16.932" size="1" layer="25" ratio="11" rot="R180"/>
 <attribute name="VALUE" x="10.813" y="11.934" size="1" layer="27" ratio="11" rot="R90"/>
 </element>
-<element name="ZD4" library="LARS_409_DIODE" package="SMC" value="SS36" x="8.536" y="14.55" smashed="yes" rot="R270">
+<element name="ZD4" library="LARS_409_DIODE" package="SMC" package3d_urn="urn:adsk.eagle:package:30499721/1" value="SS36" x="8.536" y="14.55" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.025790625" y="17.35201875" size="2.084359375" layer="25"/>
 <attribute name="VALUE" x="1.057759375" y="20.23981875" size="2.064509375" layer="27" rot="R270"/>
 </element>
-<element name="R4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="22.1k" x="14.553" y="5.081" smashed="yes">
+<element name="R4" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="22.1k" x="14.553" y="5.081" locked="yes" smashed="yes">
 <attribute name="NAME" x="14.353" y="3.681" size="0.6" layer="25" font="vector"/>
 <attribute name="VALUE" x="6.603" y="2.003" size="0.6" layer="27" font="vector"/>
 </element>
-<element name="R7" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="1.5k" x="10.003" y="3.641" smashed="yes">
+<element name="R7" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="1.5k" x="10.003" y="3.641" smashed="yes">
 <attribute name="NAME" x="9.603" y="2.341" size="0.6" layer="25" font="vector"/>
 <attribute name="VALUE" x="8.403" y="2.341" size="0.6" layer="27" font="vector"/>
 </element>
-<element name="R8" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="30k" x="14.547" y="6.329" smashed="yes" rot="R180">
+<element name="R8" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="30k" x="14.547" y="6.329" locked="yes" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.947" y="5.629" size="0.6" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.147" y="7.629" size="0.6" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="C6" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="6.46nF" x="15.391" y="8.747" smashed="yes" rot="R270">
+<element name="C6" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="6.46nF" x="15.391" y="8.747" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.191" y="7.947" size="0.6" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="14.091" y="10.347" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C7" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:24653020/2" value="23.36pF" x="13.821" y="8.747" smashed="yes" rot="R270">
+<element name="C7" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="23.36pF" x="13.821" y="8.747" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.521" y="10.247" size="0.6" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="12.521" y="10.347" size="0.6" layer="27" font="vector" rot="R270"/>
 </element>
-<element name="C8" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="22uF" x="18.87" y="9.521" smashed="yes">
+<element name="C8" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="22uF" x="18.87" y="9.521" locked="yes" smashed="yes">
 <attribute name="NAME" x="18.42" y="10.921" size="0.6" layer="25" font="vector"/>
 <attribute name="VALUE" x="17.31" y="7.601" size="0.6" layer="27" font="vector"/>
 </element>
-<element name="C9" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:24653015/2" value="22uF" x="18.87" y="7.061" smashed="yes">
+<element name="C9" library="LARS_409_R,C,L" package="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="22uF" x="18.87" y="7.061" locked="yes" smashed="yes">
 <attribute name="NAME" x="21.22" y="7.061" size="0.6" layer="25" font="vector"/>
 <attribute name="VALUE" x="17.31" y="5.141" size="0.6" layer="27" font="vector"/>
 </element>
