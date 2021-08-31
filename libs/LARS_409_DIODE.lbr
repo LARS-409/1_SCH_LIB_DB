@@ -190,8 +190,9 @@
 </layers>
 <library>
 <packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:43155/1" locally_modified="yes">
-<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
@@ -202,56 +203,61 @@
 <wire x1="1.7" y1="1.86" x2="1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="1.7" y1="-1.86" x2="-1.7" y2="-1.86" width="0.05" layer="39"/>
 <wire x1="-1.7" y1="-1.86" x2="-1.7" y2="1.86" width="0.05" layer="39"/>
+<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
+<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
 <circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
-<wire x1="-1.509" y1="0.65" x2="-0.61" y2="0.65" width="0.127" layer="21"/>
-<wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 </package>
-<package name="MINIMELF" urn="urn:adsk.eagle:footprint:43207/1">
-<description>&lt;b&gt;Mini Melf Diode&lt;/b&gt;</description>
-<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
-<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
-<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
-<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
-<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+<package name="SOD-323" urn="urn:adsk.eagle:footprint:30499557/2">
+<description>SOD, 2.65 mm span, 1.70 X 1.30 X 1.00 mm body
+&lt;p&gt;SOD package with 2.65 mm span with body size 1.70 X 1.30 X 1.00 mm&lt;/p&gt;</description>
+<wire x1="-1.22" y1="0.635" x2="-0.4" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-1.22" y1="-0.635" x2="-0.4" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-2.783" y1="0.983" x2="1.163" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.163" y1="0.983" x2="1.163" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.163" y1="-0.983" x2="-2.783" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.783" y1="-0.983" x2="-2.783" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.476" y1="1.016" x2="1.476" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.73" y1="0.9" x2="1.12" y2="0.9" width="0.1524" layer="21"/>
+<wire x1="1.12" y1="-0.9" x2="-2.73" y2="-0.9" width="0.1524" layer="21"/>
+<smd name="1" x="-1.8625" y="0" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="0.2425" y="0" dx="1.5" dy="1" layer="1"/>
+<text x="-1.445" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.445" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4036" y1="-0.6985" x2="0.2464" y2="0.7015" layer="51"/>
+<rectangle x1="-1.8768" y1="-0.6985" x2="-1.2268" y2="0.7015" layer="51"/>
 </package>
-<package name="SMA" urn="urn:adsk.eagle:footprint:43244/1" locally_modified="yes">
-<description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
-Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
-<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
-<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
-<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
-<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
-<rectangle x1="0.659" y1="-1.75" x2="1.409" y2="1.75" layer="51"/>
-<wire x1="-2.15" y1="1.4" x2="2.2" y2="1.4" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="1.4" width="0.127" layer="51"/>
-<smd name="A" x="-2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
-<smd name="C" x="2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
-<wire x1="0.55" y1="1.4" x2="0.55" y2="-1.35" width="0.127" layer="51"/>
-<wire x1="-2.2" y1="-1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="0.4" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="1.4" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
-<wire x1="2.2" y1="1.4" x2="2.2" y2="1.3" width="0.127" layer="21"/>
-<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
-<wire x1="2.2" y1="-1.4" x2="2.2" y2="-1.3" width="0.127" layer="21"/>
-<circle x="2.7" y="1.4" radius="0.14141875" width="0.127" layer="21"/>
-<wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
-<wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
+<package name="SOD123" urn="urn:adsk.eagle:footprint:30499689/1" locally_modified="yes">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<smd name="A" x="-1.68" y="0" dx="1.3" dy="0.8" layer="1"/>
+<smd name="C" x="1.56" y="0" dx="1.3" dy="0.8" layer="1"/>
+<wire x1="-1.44" y1="-0.84" x2="-1.44" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="-1.44" y1="0.86" x2="1.36" y2="0.86" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="0.86" x2="1.36" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="1.36" y1="-0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="-0.84" x2="0.6" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="-0.84" x2="-1.44" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.72" y1="0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
+<wire x1="0.6" y1="-0.84" x2="0.6" y2="0.84" width="0.0762" layer="21"/>
+<wire x1="0.48" y1="0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
+<circle x="1.68" y="0.72" radius="0.12" width="0.0762" layer="21"/>
+<text x="-1.56" y="1.08" size="0.6" layer="25">&gt;NAME</text>
+<text x="-1.56" y="-1.56" size="0.6" layer="25">&gt;VALUE</text>
+<wire x1="-2.413" y1="1.016" x2="2.286" y2="1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="2.286" y1="-1.016" x2="-2.413" y2="-1.016" width="0.0762" layer="39"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.413" y2="1.016" width="0.0762" layer="39"/>
 </package>
-<package name="SMC">
+<package name="SMC" urn="urn:adsk.eagle:footprint:30499818/1" locally_modified="yes">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
 <wire x1="-3.4275" y1="1.95" x2="-3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="-3.4275" y1="3.11" x2="3.4275" y2="3.11" width="0.127" layer="21"/>
 <wire x1="3.4275" y1="3.11" x2="3.4275" y2="1.95" width="0.127" layer="21"/>
@@ -268,37 +274,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <smd name="1" x="-3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
 <smd name="2" x="3.51" y="0" dx="2.13" dy="3.32" layer="1" roundness="10"/>
 </package>
-<package name="SOD-323">
-<wire x1="0.05" y1="0.635" x2="0.87" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="0.05" y1="-0.635" x2="0.87" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-1.513" y1="0.983" x2="2.433" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="0.983" x2="2.433" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="2.433" y1="-0.983" x2="-1.513" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.513" y1="-0.983" x2="-1.513" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.5925" y="0" dx="1.5" dy="1" layer="1"/>
-<smd name="2" x="1.5125" y="0" dx="1.5" dy="1" layer="1"/>
-<text x="-0.175" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.175" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.8664" y1="-0.6985" x2="1.5164" y2="0.7015" layer="51"/>
-<rectangle x1="-0.6068" y1="-0.6985" x2="0.0432" y2="0.7015" layer="51"/>
-<rectangle x1="2.2601" y1="-2.5001" x2="2.6599" y2="-1.4999" layer="35"/>
-<wire x1="2.746" y1="1.016" x2="2.746" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-1.46" y1="0.9" x2="2.39" y2="0.9" width="0.1524" layer="21"/>
-<wire x1="2.39" y1="-0.9" x2="-1.46" y2="-0.9" width="0.1524" layer="21"/>
-</package>
-<package name="DIP">
-<wire x1="-5.587" y1="0" x2="-4.317" y2="0" width="0.15" layer="21"/>
-<wire x1="4.317" y1="0" x2="5.587" y2="0" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="-4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-4.317" y1="-1.745" x2="4.317" y2="-1.745" width="0.15" layer="21"/>
-<wire x1="4.317" y1="-1.745" x2="4.317" y2="1.745" width="0.15" layer="21"/>
-<wire x1="-3.047" y1="-1.745" x2="-3.047" y2="1.745" width="0.15" layer="21"/>
-<text x="-8.787" y="1.745" size="1" layer="25">&gt;NAME</text>
-<pad name="1" x="-6.887" y="0" drill="1.3" diameter="2.4"/>
-<pad name="2" x="6.887" y="0" drill="1.3" diameter="2.4"/>
-</package>
-<package name="SMB">
+<package name="SMB" urn="urn:adsk.eagle:footprint:30499907/1" locally_modified="yes">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
 <smd name="C" x="-2.32" y="0" dx="2.2" dy="1.3" layer="1" rot="R90"/>
 <wire x1="-2.48" y1="1.8" x2="-1.3" y2="1.8" width="0.254" layer="21"/>
 <wire x1="-1.3" y1="1.8" x2="-1.2" y2="1.8" width="0.254" layer="21"/>
@@ -326,28 +304,124 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="0" y1="1" x2="0" y2="-1" width="0.254" layer="21"/>
 <wire x1="0" y1="-1" x2="-1" y2="0" width="0.254" layer="21"/>
 </package>
-<package name="SOD-123">
-<smd name="A" x="-1.68" y="0" dx="1.3" dy="0.8" layer="1"/>
-<smd name="C" x="1.56" y="0" dx="1.3" dy="0.8" layer="1"/>
-<wire x1="-1.44" y1="-0.84" x2="-1.44" y2="0.86" width="0.0762" layer="21"/>
-<wire x1="-1.44" y1="0.86" x2="1.36" y2="0.86" width="0.0762" layer="21"/>
-<wire x1="1.36" y1="0.86" x2="1.36" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="1.36" y1="-0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="0.72" y1="-0.84" x2="0.6" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="0.6" y1="-0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="0.48" y1="-0.84" x2="-1.44" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="0.72" y1="0.84" x2="0.72" y2="-0.84" width="0.0762" layer="21"/>
-<wire x1="0.6" y1="-0.84" x2="0.6" y2="0.84" width="0.0762" layer="21"/>
-<wire x1="0.48" y1="0.84" x2="0.48" y2="-0.84" width="0.0762" layer="21"/>
-<circle x="1.68" y="0.72" radius="0.12" width="0.0762" layer="21"/>
-<text x="-1.56" y="1.08" size="0.6" layer="25">&gt;NAME</text>
-<text x="-1.56" y="-1.56" size="0.6" layer="25">&gt;VALUE</text>
-<wire x1="-2.413" y1="1.016" x2="2.286" y2="1.016" width="0.0762" layer="39"/>
-<wire x1="2.286" y1="1.016" x2="2.286" y2="-1.016" width="0.0762" layer="39"/>
-<wire x1="2.286" y1="-1.016" x2="-2.413" y2="-1.016" width="0.0762" layer="39"/>
-<wire x1="-2.413" y1="-1.016" x2="-2.413" y2="1.016" width="0.0762" layer="39"/>
+<package name="SMA" urn="urn:adsk.eagle:footprint:30499934/1" locally_modified="yes">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
+<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
+<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
+<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
+<rectangle x1="0.659" y1="-1.75" x2="1.409" y2="1.75" layer="51"/>
+<wire x1="-2.15" y1="1.4" x2="2.2" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.4" x2="2.2" y2="-1.4" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="1.4" width="0.127" layer="51"/>
+<smd name="A" x="-2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
+<smd name="C" x="2.2" y="0" dx="2.8" dy="2.1" layer="1"/>
+<wire x1="0.55" y1="1.4" x2="0.55" y2="-1.35" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="-1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-1.4" x2="2.2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="1.4" x2="-2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.4" x2="2.2" y2="1.3" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.4" x2="-2.2" y2="-1.3" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.4" x2="2.2" y2="-1.3" width="0.127" layer="21"/>
+<circle x="2.7" y="1.4" radius="0.14141875" width="0.127" layer="21"/>
+<wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
+</package>
+<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/1" locally_modified="yes">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
+<wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+</package>
+<package name="DIP" urn="urn:adsk.eagle:footprint:30500605/1" locally_modified="yes">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<wire x1="-4.3" y1="1.75" x2="-4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="-1.75" x2="4.3" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="4.3" y1="1.75" x2="-4.3" y2="1.75" width="0.12" layer="21"/>
+<wire x1="-3.225" y1="1.75" x2="-3.225" y2="-1.75" width="0.12" layer="21"/>
+<wire x1="-4.3" y1="0" x2="-6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="0" x2="6.446" y2="0" width="0.12" layer="21"/>
+<wire x1="4.3" y1="-1.75" x2="-4.3" y2="-1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="-1.75" x2="-4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="-4.3" y1="1.75" x2="4.3" y2="1.75" width="0.12" layer="51"/>
+<wire x1="4.3" y1="1.75" x2="4.3" y2="-1.75" width="0.12" layer="51"/>
+<pad name="1" x="-7.6" y="0" drill="1.2" diameter="1.8"/>
+<pad name="2" x="7.6" y="0" drill="1.2" diameter="1.8"/>
+<text x="0" y="2.385" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.385" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
+<description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
+&lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD2613X100N" urn="urn:adsk.eagle:package:30499546/3" type="model">
+<description>SOD, 2.65 mm span, 1.70 X 1.30 X 1.00 mm body
+&lt;p&gt;SOD package with 2.65 mm span with body size 1.70 X 1.30 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD-323"/>
+</packageinstances>
+</package3d>
+<package3d name="SOD3716X100N" urn="urn:adsk.eagle:package:30499564/1" type="model">
+<description>SOD, 3.75 mm span, 2.65 X 1.60 X 1.00 mm body
+&lt;p&gt;SOD package with 3.75 mm span with body size 2.65 X 1.60 X 1.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOD123"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM6859X260N" urn="urn:adsk.eagle:package:30499721/1" type="model">
+<description>Molded Body, 6.86 X 5.91 X 2.60 mm body
+&lt;p&gt;Molded Body package with body size 6.86 X 5.91 X 2.60 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMC"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOM4336X244N" urn="urn:adsk.eagle:package:30499825/1" type="model">
+<description>Molded Body, 4.38 X 3.62 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.38 X 3.62 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMB"/>
+</packageinstances>
+</package3d>
+<package3d name="RESM4327X244N" urn="urn:adsk.eagle:package:30499930/1" type="model">
+<description>Molded Body, 4.30 X 2.70 X 2.44 mm body
+&lt;p&gt;Molded Body package with body size 4.30 X 2.70 X 2.44 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SMA"/>
+</packageinstances>
+</package3d>
+<package3d name="RESMELF3516N" urn="urn:adsk.eagle:package:30500463/1" type="model">
+<description>MELF, 3.50 mm length, 1.65 mm diameter
+&lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="MINIMELF"/>
+</packageinstances>
+</package3d>
+<package3d name="DIOAD1520W100L860D350B" urn="urn:adsk.eagle:package:30500568/1" type="model">
+<description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
+&lt;p&gt;Axial Diode package with 15.20 mm pitch (lead spacing), 1.00 mm lead diameter, 8.60 mm body length and 3.50 mm body diameter&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="DIP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="DIODE">
 <wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -444,29 +518,14 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="MINIMELF" package="MINIMELF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="SOT23" package="SOT23">
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMA" package="SMA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -476,6 +535,21 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499546/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-123" package="SOD123">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499564/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -485,15 +559,33 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499825/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SOD-123" package="SOD-123">
+<device name="SMA" package="SMA">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499930/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINIMELF" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -510,15 +602,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="MINIMELF" package="MINIMELF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -528,33 +614,57 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="DIP" package="DIP">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="C" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMA" package="SMA">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499721/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="SMB" package="SMB">
 <connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499825/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMA" package="SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499930/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MINIMELF" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DIP" package="DIP">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500568/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -566,12 +676,15 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <gate name="G$1" symbol="BAV23" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="SOT23" package="SOT23">
+<device name="" package="SOT23">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -589,6 +702,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <connect gate="G$1" pin="I/O" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -603,6 +719,11 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

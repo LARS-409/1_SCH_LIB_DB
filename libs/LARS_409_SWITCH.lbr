@@ -154,20 +154,20 @@
 </layers>
 <library>
 <packages>
-<package name="DTS-6">
+<package name="DTS-6" urn="urn:adsk.eagle:footprint:30539629/1">
 <wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
 <pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.6764" shape="offset"/>
 <pad name="2" x="3.1" y="2.185" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
 <pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.6764" shape="offset"/>
 <pad name="4" x="3.1" y="-2.195" drill="1.016" diameter="1.6764" shape="offset" rot="R180"/>
-<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
 <text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
 </package>
-<package name="BUTTON">
+<package name="BUTTON" urn="urn:adsk.eagle:footprint:30539628/1">
 <wire x1="-3" y1="1.75" x2="-3" y2="-1.75" width="0.127" layer="51"/>
 <wire x1="-3" y1="-1.75" x2="3" y2="-1.75" width="0.127" layer="51"/>
 <wire x1="3" y1="-1.75" x2="3" y2="1.75" width="0.127" layer="51"/>
@@ -185,7 +185,42 @@
 <smd name="1" x="-4.6" y="0" dx="1.6" dy="2.18" layer="1" rot="R90"/>
 <smd name="2" x="4.6" y="0" dx="1.6" dy="2.18" layer="1" rot="R90"/>
 </package>
-<package name="SMRS-101-1C2">
+<package name="MRS-101A-2C3" urn="urn:adsk.eagle:footprint:30539626/1">
+<wire x1="0" y1="0" x2="9.4" y2="0" width="0.254" layer="21"/>
+<wire x1="9.4" y1="0" x2="16.4" y2="0" width="0.254" layer="21"/>
+<wire x1="16.4" y1="0" x2="19" y2="0" width="0.254" layer="21"/>
+<wire x1="19" y1="0" x2="19" y2="6.5" width="0.254" layer="21"/>
+<wire x1="19" y1="6.5" x2="19" y2="13" width="0.254" layer="21"/>
+<wire x1="19" y1="13" x2="16.4" y2="13" width="0.254" layer="21"/>
+<wire x1="16.4" y1="13" x2="9.4" y2="13" width="0.254" layer="21"/>
+<wire x1="9.4" y1="13" x2="0" y2="13" width="0.254" layer="21"/>
+<wire x1="0" y1="13" x2="0" y2="6.5" width="0.254" layer="21"/>
+<wire x1="0" y1="6.5" x2="0" y2="0" width="0.254" layer="21"/>
+<wire x1="15.71" y1="3.82" x2="17.01" y2="3.82" width="0.0762" layer="20"/>
+<wire x1="17.01" y1="3.82" x2="17.01" y2="9.32" width="0.0762" layer="20"/>
+<wire x1="17.01" y1="9.32" x2="15.71" y2="9.32" width="0.0762" layer="20"/>
+<wire x1="15.71" y1="9.32" x2="15.71" y2="3.82" width="0.0762" layer="20"/>
+<wire x1="8.75" y1="3.8" x2="10.05" y2="3.8" width="0.0762" layer="20"/>
+<wire x1="10.05" y1="3.8" x2="10.05" y2="9.3" width="0.0762" layer="20"/>
+<wire x1="10.05" y1="9.3" x2="8.75" y2="9.3" width="0.0762" layer="20"/>
+<wire x1="8.75" y1="9.3" x2="8.75" y2="3.8" width="0.0762" layer="20"/>
+<smd name="P$1" x="9.41" y="6.71" dx="7" dy="4" layer="16" rot="R90"/>
+<smd name="P$2" x="16.32" y="6.73" dx="7" dy="4" layer="16" rot="R90"/>
+</package>
+<package name="DTS-6_OLD" urn="urn:adsk.eagle:footprint:30539625/1">
+<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
+<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.8796" shape="long"/>
+<pad name="2" x="3.25" y="2.26" drill="1.016" diameter="1.8796" shape="long"/>
+<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
+<pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
+<text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
+</package>
+<package name="SMRS-101-1C2" urn="urn:adsk.eagle:footprint:30539627/1">
 <wire x1="6.3" y1="2.4" x2="6.3" y2="6.4" width="0.001" layer="20"/>
 <wire x1="6.3" y1="6.4" x2="7.1" y2="6.4" width="0.001" layer="20"/>
 <wire x1="7.1" y1="6.4" x2="7.1" y2="2.4" width="0.001" layer="20"/>
@@ -206,42 +241,34 @@
 <smd name="P$2" x="6.69" y="4.34" dx="5" dy="2.8" layer="16" rot="R90"/>
 <smd name="P$3" x="11.7" y="4.34" dx="5" dy="2.8" layer="16" rot="R90"/>
 </package>
-<package name="MRS-101A-2C3">
-<wire x1="0" y1="0" x2="9.4" y2="0" width="0.254" layer="21"/>
-<wire x1="9.4" y1="0" x2="16.4" y2="0" width="0.254" layer="21"/>
-<wire x1="16.4" y1="0" x2="19" y2="0" width="0.254" layer="21"/>
-<wire x1="19" y1="0" x2="19" y2="6.5" width="0.254" layer="21"/>
-<wire x1="19" y1="6.5" x2="19" y2="13" width="0.254" layer="21"/>
-<wire x1="19" y1="13" x2="16.4" y2="13" width="0.254" layer="21"/>
-<wire x1="16.4" y1="13" x2="9.4" y2="13" width="0.254" layer="21"/>
-<wire x1="9.4" y1="13" x2="0" y2="13" width="0.254" layer="21"/>
-<wire x1="0" y1="13" x2="0" y2="6.5" width="0.254" layer="21"/>
-<wire x1="0" y1="6.5" x2="0" y2="0" width="0.254" layer="21"/>
-<smd name="P$1" x="9.41" y="6.71" dx="7" dy="4" layer="16" rot="R90"/>
-<smd name="P$2" x="16.32" y="6.73" dx="7" dy="4" layer="16" rot="R90"/>
-<wire x1="15.71" y1="3.82" x2="17.01" y2="3.82" width="0.0762" layer="20"/>
-<wire x1="17.01" y1="3.82" x2="17.01" y2="9.32" width="0.0762" layer="20"/>
-<wire x1="17.01" y1="9.32" x2="15.71" y2="9.32" width="0.0762" layer="20"/>
-<wire x1="15.71" y1="9.32" x2="15.71" y2="3.82" width="0.0762" layer="20"/>
-<wire x1="8.75" y1="3.8" x2="10.05" y2="3.8" width="0.0762" layer="20"/>
-<wire x1="10.05" y1="3.8" x2="10.05" y2="9.3" width="0.0762" layer="20"/>
-<wire x1="10.05" y1="9.3" x2="8.75" y2="9.3" width="0.0762" layer="20"/>
-<wire x1="8.75" y1="9.3" x2="8.75" y2="3.8" width="0.0762" layer="20"/>
-</package>
-<package name="DTS-6_OLD">
-<wire x1="3.048" y1="0.998" x2="3.048" y2="-1.016" width="0.2032" layer="21"/>
-<wire x1="-3.048" y1="1.028" x2="-3.048" y2="-1.016" width="0.2032" layer="21"/>
-<circle x="0" y="0" radius="1.778" width="0.2032" layer="21"/>
-<pad name="1" x="-3.25" y="2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="2" x="3.25" y="2.26" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="3" x="-3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<pad name="4" x="3.25" y="-2.25" drill="1.016" diameter="1.8796" shape="long"/>
-<wire x1="-1" y1="3" x2="1" y2="3" width="0.1524" layer="21"/>
-<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1524" layer="21"/>
-<text x="-4.064" y="3.81" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-5.207" size="1.778" layer="25">&gt;VALUE</text>
-</package>
 </packages>
+<packages3d>
+<package3d name="DTS-6" urn="urn:adsk.eagle:package:30539638/2" type="model">
+<packageinstances>
+<packageinstance name="DTS-6"/>
+</packageinstances>
+</package3d>
+<package3d name="MRS-101A-2C3" urn="urn:adsk.eagle:package:30539635/2" type="model">
+<packageinstances>
+<packageinstance name="MRS-101A-2C3"/>
+</packageinstances>
+</package3d>
+<package3d name="BUTTON" urn="urn:adsk.eagle:package:30539637/2" type="model">
+<packageinstances>
+<packageinstance name="BUTTON"/>
+</packageinstances>
+</package3d>
+<package3d name="DTS-6_OLD" urn="urn:adsk.eagle:package:30539634/2" type="model">
+<packageinstances>
+<packageinstance name="DTS-6_OLD"/>
+</packageinstances>
+</package3d>
+<package3d name="SMRS-101-1C2" urn="urn:adsk.eagle:package:30539636/3" type="model">
+<packageinstances>
+<packageinstance name="SMRS-101-1C2"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="CLOCK_BUTTON">
 <wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
@@ -328,6 +355,9 @@
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539638/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -339,6 +369,9 @@
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539634/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -355,6 +388,9 @@
 <connect gate="G$1" pin="3" pad="1"/>
 <connect gate="G$1" pin="4" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539637/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -372,6 +408,9 @@
 <connect gate="G$1" pin="2" pad="P$2"/>
 <connect gate="G$1" pin="3" pad="P$3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539636/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -388,6 +427,9 @@
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539635/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -397,4 +439,16 @@
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
