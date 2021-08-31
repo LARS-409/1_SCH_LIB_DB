@@ -161,7 +161,7 @@
 </layers>
 <library>
 <packages>
-<package name="SRX882_MODULE">
+<package name="SRX882_MODULE" urn="urn:adsk.eagle:footprint:30592193/1">
 <wire x1="0" y1="0" x2="0" y2="10.4" width="0.1524" layer="52"/>
 <wire x1="0" y1="10.4" x2="35" y2="10.4" width="0.1524" layer="51"/>
 <wire x1="35" y1="10.4" x2="35" y2="0" width="0.1524" layer="21"/>
@@ -170,6 +170,11 @@
 <wire x1="12" y1="2.5" x2="12" y2="0.5" width="0" layer="20"/>
 <wire x1="12" y1="0.5" x2="5.5" y2="0.5" width="0" layer="20"/>
 <wire x1="5.5" y1="0.5" x2="5.5" y2="2.5" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="10.4" width="0.1524" layer="21"/>
+<wire x1="5.5" y1="0" x2="21.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="32" y1="0" x2="35" y2="0" width="0.1524" layer="27"/>
+<wire x1="35" y1="0" x2="35" y2="10.4" width="0.1524" layer="27"/>
+<wire x1="35" y1="10.4" x2="3" y2="10.4" width="0.1524" layer="21"/>
 <smd name="1" x="1.5" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
 <smd name="2" x="4.04" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
 <smd name="3" x="22.9" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
@@ -178,11 +183,6 @@
 <smd name="6" x="30.52" y="0.27" dx="1.651" dy="4.572" layer="1" rot="R180"/>
 <smd name="7" x="1.5" y="10.23" dx="1.651" dy="4.572" layer="1"/>
 <text x="13" y="5.46" size="1.778" layer="25">&gt;NAME</text>
-<wire x1="0" y1="0" x2="0" y2="10.4" width="0.1524" layer="21"/>
-<wire x1="5.5" y1="0" x2="21.5" y2="0" width="0.1524" layer="21"/>
-<wire x1="32" y1="0" x2="35" y2="0" width="0.1524" layer="27"/>
-<wire x1="35" y1="0" x2="35" y2="10.4" width="0.1524" layer="27"/>
-<wire x1="35" y1="10.4" x2="3" y2="10.4" width="0.1524" layer="21"/>
 </package>
 <package name="STX882_MODULE" urn="urn:adsk.eagle:footprint:30592192/1">
 <wire x1="0" y1="0" x2="0" y2="15.2" width="0.1524" layer="51"/>
@@ -242,6 +242,11 @@
 <packageinstance name="STX882_MODULE"/>
 </packageinstances>
 </package3d>
+<package3d name="SRX882_MODULE" urn="urn:adsk.eagle:package:30592199/2" type="model">
+<packageinstances>
+<packageinstance name="SRX882_MODULE"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="SRX882">
@@ -296,6 +301,9 @@
 <connect gate="G$1" pin="GND" pad="2 6"/>
 <connect gate="G$1" pin="VCC" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30592199/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
