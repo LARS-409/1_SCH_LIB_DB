@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -445,6 +445,16 @@
 <smd name="SW/6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
 <text x="2.24" y="0" size="0.6" layer="27" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 </package>
+<package name="SUP03L-05">
+<wire x1="9.39" y1="6.85" x2="-9.61" y2="6.85" width="0.1524" layer="21"/>
+<wire x1="-9.61" y1="6.85" x2="-9.61" y2="-0.65" width="0.1524" layer="21"/>
+<wire x1="-9.61" y1="-0.65" x2="9.39" y2="-0.65" width="0.1524" layer="21"/>
+<wire x1="9.39" y1="-0.65" x2="9.39" y2="6.85" width="0.1524" layer="21"/>
+<pad name="7" x="7.51" y="0" drill="0.6" diameter="1.016" shape="square" rot="R180"/>
+<pad name="5" x="2.43" y="0" drill="0.6" diameter="1.016" shape="square" rot="R180"/>
+<pad name="2" x="-5.18" y="0" drill="0.65" diameter="1.016" shape="square" rot="R180"/>
+<pad name="1" x="-7.72" y="0" drill="0.7" diameter="1.016" shape="square" rot="R180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:30500627/1" type="model">
@@ -654,6 +664,18 @@
 <pin name="FB" x="10.16" y="0" length="middle" direction="in" rot="R180"/>
 <pin name="GND" x="-15.24" y="-5.08" length="middle" direction="pas"/>
 <pin name="SW" x="10.16" y="5.08" length="middle" direction="out" rot="R180"/>
+</symbol>
+<symbol name="SPU03L-05">
+<pin name="VIN+" x="-15.24" y="2.54" length="short"/>
+<pin name="VOUT+" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="VIN-" x="-15.24" y="-2.54" length="short"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="-12.7" y2="5.08" width="0.1524" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="VOUT-" x="15.24" y="-2.54" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -907,6 +929,24 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30500875/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPU03L-05" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="SPU03L-05" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SUP03L-05">
+<connects>
+<connect gate="G$1" pin="VIN+" pad="1"/>
+<connect gate="G$1" pin="VIN-" pad="2"/>
+<connect gate="G$1" pin="VOUT+" pad="7"/>
+<connect gate="G$1" pin="VOUT-" pad="5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
