@@ -126,12 +126,12 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="HECUBE12P24LRN" urn="urn:adsk.eagle:package:30591953/2" type="model">
+<package3d name="HECUBE12P24LRN" urn="urn:adsk.eagle:package:30591953/3" type="model">
 <packageinstances>
 <packageinstance name="HECUBE12P24LRN"/>
 </packageinstances>
 </package3d>
-<package3d name="IRM-05-12" urn="urn:adsk.eagle:package:30591951/2" type="model">
+<package3d name="IRM-05-12" urn="urn:adsk.eagle:package:30591951/4" type="model">
 <packageinstances>
 <packageinstance name="IRM-05-12"/>
 </packageinstances>
@@ -172,7 +172,7 @@
 <connect gate="G$1" pin="VO" pad="VO"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30591953/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30591953/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -211,7 +211,7 @@
 <connect gate="G$1" pin="VO" pad="V+"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30591951/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30591951/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
