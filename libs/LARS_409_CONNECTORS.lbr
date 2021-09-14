@@ -2856,6 +2856,22 @@ Source: http://www.molex.com</description>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
 </package>
+<package name="MOLEX-2X2U" urn="urn:adsk.eagle:footprint:30828401/1">
+<text x="-3.27" y="6.015" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-7.015" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.8" y1="-4.8" x2="-4.8" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="4.8" x2="4.8" y2="4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="4.8" x2="4.8" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-4.8" x2="-4.8" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="4.8" y1="-2" x2="4.8" y2="-3" width="0.127" layer="21" curve="-180"/>
+<wire x1="-2" y1="4.8" x2="-2" y2="5.8" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.8" x2="2" y2="5.8" width="0.127" layer="21"/>
+<wire x1="2" y1="5.8" x2="2" y2="4.8" width="0.127" layer="21"/>
+<pad name="1" x="-2.1" y="-2.75" drill="1.8" diameter="3.2"/>
+<pad name="4" x="2.1" y="2.75" drill="1.8" diameter="3.2"/>
+<pad name="3" x="-2.1" y="2.75" drill="1.8" diameter="3.2"/>
+<pad name="2" x="2.1" y="-2.75" drill="1.8" diameter="3.2"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -3267,6 +3283,11 @@ Source: http://www.molex.com</description>
 <package3d name="DEGSON-03P" urn="urn:adsk.eagle:package:30554772/3" type="model">
 <packageinstances>
 <packageinstance name="DEGSON-03P"/>
+</packageinstances>
+</package3d>
+<package3d name="MOLEX-2X2U" urn="urn:adsk.eagle:package:30828413/2" type="model">
+<packageinstances>
+<packageinstance name="MOLEX-2X2U"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3927,6 +3948,20 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501263/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEX-2X2U" package="MOLEX-2X2U">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30828413/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
