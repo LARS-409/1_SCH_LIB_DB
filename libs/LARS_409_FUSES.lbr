@@ -172,7 +172,7 @@
 <packageinstance name="FUSE_NORMAL"/>
 </packageinstances>
 </package3d>
-<package3d name="8A250V" urn="urn:adsk.eagle:package:30548199/3" type="model">
+<package3d name="8A250V" urn="urn:adsk.eagle:package:30548199/4" type="model">
 <packageinstances>
 <packageinstance name="8A250V"/>
 </packageinstances>
@@ -218,7 +218,7 @@
 <connect gate="G$1" pin="OUT" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30548199/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30548199/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

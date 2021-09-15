@@ -426,26 +426,26 @@
 <packageinstance name="TO-220-CUSTOM"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT-23" urn="urn:adsk.eagle:package:30539843/2" type="model">
+<package3d name="SOT-23" urn="urn:adsk.eagle:package:30539843/3" type="model">
 <description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT-23"/>
 </packageinstances>
 </package3d>
-<package3d name="SOT−363" urn="urn:adsk.eagle:package:30539847/2" type="model">
+<package3d name="SOT−363" urn="urn:adsk.eagle:package:30539847/3" type="model">
 <packageinstances>
 <packageinstance name="SOT−363"/>
 </packageinstances>
 </package3d>
-<package3d name="MFP" urn="urn:adsk.eagle:package:30539842/3" type="model">
+<package3d name="MFP" urn="urn:adsk.eagle:package:30539842/4" type="model">
 <description>4-SOIC, 1.27 mm pitch, 8.00 mm span, 2.60 X 4.30 X 2.65 mm body
 &lt;p&gt;4-pin SOIC package with 1.27 mm pitch, 8.00 mm span with body size 2.60 X 4.30 X 2.65 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="MFP"/>
 </packageinstances>
 </package3d>
-<package3d name="PQFN-8" urn="urn:adsk.eagle:package:30539841/2" type="model">
+<package3d name="PQFN-8" urn="urn:adsk.eagle:package:30539841/3" type="model">
 <description>8-SON (DFN), 1.27 mm pitch, 5.10 X 6.61 X 1.10 mm body, 3.91 X 2.00 mm thermal pad
 &lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 5.10 X 6.61 X 1.10 mm and thermal pad size 3.91 X 2.00 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -696,7 +696,7 @@
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -709,7 +709,7 @@
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539841/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539841/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -768,7 +768,7 @@
 <connect gate="G$1" pin="S" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -814,7 +814,7 @@
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -847,7 +847,7 @@
 <connect gate="G$1" pin="E" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -884,7 +884,7 @@
 <connect gate="  " pin="E" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539847/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539847/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -905,7 +905,7 @@
 <connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539842/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539842/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -929,7 +929,7 @@
 <connect gate="G$2" pin="E" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539847/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539847/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

@@ -254,7 +254,7 @@
 <packageinstance name="L5040S"/>
 </packageinstances>
 </package3d>
-<package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/2" type="model">
+<package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/3" type="model">
 <packageinstances>
 <packageinstance name="CUSTOM"/>
 </packageinstances>
@@ -288,7 +288,7 @@
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30548070/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30548070/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

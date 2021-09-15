@@ -205,7 +205,7 @@
 <packageinstance name="EDR101A1200"/>
 </packageinstances>
 </package3d>
-<package3d name="HF115F-5MM" urn="urn:adsk.eagle:package:30592282/2" type="model">
+<package3d name="HF115F-5MM" urn="urn:adsk.eagle:package:30592282/3" type="model">
 <packageinstances>
 <packageinstance name="HF115F-5MM"/>
 </packageinstances>
@@ -215,7 +215,7 @@
 <packageinstance name="HF33F/012-ZS3F"/>
 </packageinstances>
 </package3d>
-<package3d name="BS-901AS" urn="urn:adsk.eagle:package:30592281/2" type="model">
+<package3d name="BS-901AS" urn="urn:adsk.eagle:package:30592281/3" type="model">
 <packageinstances>
 <packageinstance name="BS-901AS"/>
 </packageinstances>
@@ -379,7 +379,7 @@
 <connect gate="G$3" pin="S" pad="S1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30592282/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30592282/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -402,7 +402,7 @@
 <connect gate="G$2" pin="4" pad="4"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30592281/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30592281/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

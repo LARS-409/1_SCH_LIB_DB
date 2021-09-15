@@ -215,7 +215,7 @@
 <packageinstance name="A-VERTICAL"/>
 </packageinstances>
 </package3d>
-<package3d name="B-VERTICAL" urn="urn:adsk.eagle:package:30540079/2" type="model">
+<package3d name="B-VERTICAL" urn="urn:adsk.eagle:package:30540079/3" type="model">
 <packageinstances>
 <packageinstance name="B-VERTICAL"/>
 </packageinstances>
@@ -261,7 +261,7 @@
 <connect gate="G$1" pin="SHIELD" pad="P$5.SH2 P$6.SH1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30540079/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30540079/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

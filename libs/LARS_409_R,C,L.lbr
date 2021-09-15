@@ -180,12 +180,12 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/3" type="model">
 <packageinstances>
 <packageinstance name="0603"/>
 </packageinstances>
 </package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:30551163/2" type="model">
+<package3d name="0805" urn="urn:adsk.eagle:package:30551163/3" type="model">
 <packageinstances>
 <packageinstance name="0805"/>
 </packageinstances>
@@ -275,7 +275,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -287,7 +287,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -318,7 +318,7 @@
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -330,7 +330,7 @@
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -373,7 +373,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -385,7 +385,7 @@
 <connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30551163/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
