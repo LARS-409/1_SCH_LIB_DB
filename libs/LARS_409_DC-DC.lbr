@@ -496,17 +496,17 @@
 <smd name="+O" x="13.625" y="4.46" dx="6" dy="5" layer="1"/>
 <smd name="-O" x="13.625" y="-7" dx="6" dy="5" layer="1"/>
 <polygon width="0.127" layer="39">
-<vertex x="-16.24" y="8.73"/>
-<vertex x="15.76" y="8.73"/>
+<vertex x="-16.24" y="8.222"/>
+<vertex x="15.76" y="8.222"/>
 <vertex x="15.76" y="7.73"/>
-<vertex x="17.625" y="7.73"/>
-<vertex x="17.625" y="-10.27"/>
+<vertex x="17.117" y="7.73"/>
+<vertex x="17.117" y="-10.27"/>
 <vertex x="15.76" y="-10.27"/>
-<vertex x="15.76" y="-11.27"/>
-<vertex x="-16.24" y="-11.27"/>
+<vertex x="15.76" y="-10.762"/>
+<vertex x="-16.24" y="-10.762"/>
 <vertex x="-16.24" y="-10.27"/>
-<vertex x="-18.105" y="-10.27"/>
-<vertex x="-18.105" y="7.73"/>
+<vertex x="-17.597" y="-10.27"/>
+<vertex x="-17.597" y="7.73"/>
 <vertex x="-16.24" y="7.73"/>
 </polygon>
 </package>
