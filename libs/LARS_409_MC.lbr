@@ -742,6 +742,32 @@
 <smd name="24" x="2.445" y="1.7" dx="0.86" dy="0.26" layer="1" roundness="25"/>
 <smd name="33" x="0.01" y="-0.05" dx="3.1" dy="3.1" layer="1" cream="no"/>
 </package>
+<package name="SON50P200X200X80-9T80X180N" urn="urn:adsk.eagle:footprint:30827845/1">
+<description>8-SON (DFN), 0.50 mm pitch, 2.00 X 2.00 X 0.80 mm body, 1.80 X 0.80 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 2.00 X 2.00 X 0.80 mm and thermal pad size 1.80 X 0.80 mm&lt;/p&gt;</description>
+<circle x="-1.504" y="1.3949" radius="0.25" width="0" layer="21"/>
+<wire x1="-1" y1="1.1449" x2="-1" y2="1.214" width="0.12" layer="21"/>
+<wire x1="-1" y1="1.214" x2="1" y2="1.214" width="0.12" layer="21"/>
+<wire x1="1" y1="1.214" x2="1" y2="1.1449" width="0.12" layer="21"/>
+<wire x1="-1" y1="-1.1449" x2="-1" y2="-1.214" width="0.12" layer="21"/>
+<wire x1="-1" y1="-1.214" x2="1" y2="-1.214" width="0.12" layer="21"/>
+<wire x1="1" y1="-1.214" x2="1" y2="-1.1449" width="0.12" layer="21"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.12" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.12" layer="51"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.12" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.12" layer="51"/>
+<smd name="1" x="-1" y="0.75" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="2" x="-1" y="0.25" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="3" x="-1" y="-0.25" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="4" x="-1" y="-0.75" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="5" x="1" y="-0.75" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="6" x="1" y="-0.25" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="7" x="1" y="0.25" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="8" x="1" y="0.75" dx="0.7118" dy="0.2818" layer="1" roundness="100"/>
+<smd name="9" x="0" y="0" dx="0.8" dy="1.8" layer="1" thermals="no"/>
+<text x="0" y="2.2799" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.849" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P600X170-9T230X300N" urn="urn:adsk.eagle:package:30501043/1" type="model">
@@ -850,6 +876,13 @@
 <package3d name="OPTO_TCRT5000" urn="urn:adsk.eagle:package:30547943/4" type="model">
 <packageinstances>
 <packageinstance name="OPTO_TCRT5000"/>
+</packageinstances>
+</package3d>
+<package3d name="SON50P200X200X80-9T80X180N" urn="urn:adsk.eagle:package:30827825/1" type="model">
+<description>8-SON (DFN), 0.50 mm pitch, 2.00 X 2.00 X 0.80 mm body, 1.80 X 0.80 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 0.50 mm pitch with body size 2.00 X 2.00 X 0.80 mm and thermal pad size 1.80 X 0.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SON50P200X200X80-9T80X180N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1936,6 +1969,37 @@
 <pin name="TVSS1" x="17.78" y="-2.54" length="short" direction="pwr" rot="R180"/>
 <pin name="GND" x="17.78" y="-15.24" length="short" direction="pwr" rot="R180"/>
 </symbol>
+<symbol name="TP4056">
+<pin name="VCC" x="-15.24" y="7.62" length="middle"/>
+<pin name="CE" x="-15.24" y="5.08" length="middle"/>
+<pin name="CHRG" x="-15.24" y="0" length="middle"/>
+<pin name="STDBY" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-15.24" length="middle" rot="R90"/>
+<pin name="BAT" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="TEMP" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="PROG" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
+<text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="MAX5395LATA">
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="SCL" x="-15.24" y="5.08" length="middle"/>
+<pin name="SDA" x="-15.24" y="2.54" length="middle"/>
+<pin name="ADDPR0" x="-15.24" y="-2.54" length="middle"/>
+<pin name="VDD" x="-15.24" y="-5.08" length="middle"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="EP" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="L" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="W" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="H" x="15.24" y="5.08" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -2767,6 +2831,57 @@
 <connect gate="G$1" pin="TX2" pad="13"/>
 <connect gate="G$1" pin="VMID" pad="16"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP4056">
+<gates>
+<gate name="G$1" symbol="TP4056" x="-10.16" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="HSOIC8">
+<connects>
+<connect gate="G$1" pin="BAT" pad="5"/>
+<connect gate="G$1" pin="CE" pad="8"/>
+<connect gate="G$1" pin="CHRG" pad="7"/>
+<connect gate="G$1" pin="GND" pad="3 9"/>
+<connect gate="G$1" pin="PROG" pad="2"/>
+<connect gate="G$1" pin="STDBY" pad="6"/>
+<connect gate="G$1" pin="TEMP" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30501043/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX5395LATA">
+<gates>
+<gate name="G$1" symbol="MAX5395LATA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SON50P200X200X80-9T80X180N">
+<connects>
+<connect gate="G$1" pin="ADDPR0" pad="3"/>
+<connect gate="G$1" pin="EP" pad="9"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="H" pad="8"/>
+<connect gate="G$1" pin="L" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="6"/>
+<connect gate="G$1" pin="W" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30827825/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
