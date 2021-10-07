@@ -300,7 +300,7 @@
 <pad name="7" x="2" y="26.34" drill="1.2"/>
 <pad name="8" x="2" y="28.88" drill="1.2"/>
 </package>
-<package name="DFPLAYER">
+<package name="DFPLAYER" urn="urn:adsk.eagle:footprint:31130029/1">
 <pad name="DAC_R" x="-8.89" y="1.27" drill="1" diameter="1.6764"/>
 <pad name="DAC_L" x="-8.89" y="-1.27" drill="1" diameter="1.6764"/>
 <pad name="ADKEY2" x="8.89" y="1.27" drill="1" diameter="1.6764"/>
@@ -322,11 +322,9 @@
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.127" layer="21"/>
-<text x="-9.525" y="-12.065" size="1.27" layer="27">VALUE</text>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="3.81" width="0.127" layer="21"/>
 <wire x1="7.62" y1="3.81" x2="-7.62" y2="3.81" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="3.81" x2="-7.62" y2="-10.16" width="0.127" layer="21"/>
-<text x="-6.985" y="5.08" size="1.27" layer="21" rot="SR0">DFPlayer Mini</text>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="-10.795" width="0.127" layer="21"/>
 <wire x1="7.62" y1="-10.795" x2="5.08" y2="-10.795" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-10.795" x2="3.175" y2="-10.16" width="0.127" layer="21"/>
@@ -335,6 +333,8 @@
 <wire x1="-6.985" y1="-10.16" x2="-6.985" y2="-12.7" width="0.127" layer="21"/>
 <wire x1="-6.985" y1="-12.7" x2="5.08" y2="-12.7" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-12.7" x2="5.08" y2="-10.795" width="0.127" layer="21"/>
+<text x="-9.525" y="-12.065" size="1.27" layer="27">VALUE</text>
+<text x="-6.985" y="5.08" size="1.27" layer="21" rot="SR0">DFPlayer Mini</text>
 </package>
 </packages>
 <packages3d>
@@ -346,6 +346,11 @@
 <package3d name="RC522" urn="urn:adsk.eagle:package:30592156/2" type="model">
 <packageinstances>
 <packageinstance name="RC522"/>
+</packageinstances>
+</package3d>
+<package3d name="DFPLAYER" urn="urn:adsk.eagle:package:31130035/2" type="model">
+<packageinstances>
+<packageinstance name="DFPLAYER"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -557,6 +562,9 @@
 <connect gate="G$1" pin="USB-" pad="USB-"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31130035/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
