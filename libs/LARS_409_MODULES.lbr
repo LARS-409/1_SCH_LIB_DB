@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -300,23 +300,23 @@
 <pad name="7" x="2" y="26.34" drill="1.2"/>
 <pad name="8" x="2" y="28.88" drill="1.2"/>
 </package>
-<package name="DFPLAYER" urn="urn:adsk.eagle:footprint:31130029/1">
-<pad name="DAC_R" x="-8.89" y="1.27" drill="1" diameter="1.6764"/>
-<pad name="DAC_L" x="-8.89" y="-1.27" drill="1" diameter="1.6764"/>
-<pad name="ADKEY2" x="8.89" y="1.27" drill="1" diameter="1.6764"/>
-<pad name="ADKEY1" x="8.89" y="-1.27" drill="1" diameter="1.6764"/>
-<pad name="SPK1" x="-8.89" y="-3.81" drill="1" diameter="1.6764"/>
-<pad name="TX" x="-8.89" y="3.81" drill="1" diameter="1.6764"/>
-<pad name="USB+" x="8.89" y="3.81" drill="1" diameter="1.6764"/>
-<pad name="IO2" x="8.89" y="-3.81" drill="1" diameter="1.6764"/>
-<pad name="RX" x="-8.89" y="6.35" drill="1" diameter="1.6764"/>
-<pad name="USB-" x="8.89" y="6.35" drill="1" diameter="1.6764"/>
-<pad name="GND_1" x="-8.89" y="-6.35" drill="1" diameter="1.6764"/>
-<pad name="GND_2" x="8.89" y="-6.35" drill="1" diameter="1.6764"/>
-<pad name="VCC" x="-8.89" y="8.89" drill="1" diameter="1.6764"/>
-<pad name="BUSY" x="8.89" y="8.89" drill="1" diameter="1.6764"/>
-<pad name="SPK2" x="-8.89" y="-8.89" drill="1" diameter="1.6764"/>
-<pad name="IO1" x="8.89" y="-8.89" drill="1" diameter="1.6764"/>
+<package name="DFPLAYER" urn="urn:adsk.eagle:footprint:31130029/1" locally_modified="yes">
+<pad name="DAC_R" x="-9.017" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="DAC_L" x="-9.017" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="ADKEY2" x="9.017" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="ADKEY1" x="9.017" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="SPK1" x="-9.017" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="TX" x="-9.017" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="USB+" x="9.017" y="3.81" drill="1" diameter="1.6764"/>
+<pad name="IO2" x="9.017" y="-3.81" drill="1" diameter="1.6764"/>
+<pad name="RX" x="-9.017" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="USB-" x="9.017" y="6.35" drill="1" diameter="1.6764"/>
+<pad name="GND_1" x="-9.017" y="-6.35" drill="1" diameter="1.6764"/>
+<pad name="GND_2" x="9.017" y="-6.35" drill="1" diameter="1.6764"/>
+<pad name="VCC" x="-9.017" y="8.89" drill="1" diameter="1.6764"/>
+<pad name="BUSY" x="9.017" y="8.89" drill="1" diameter="1.6764"/>
+<pad name="SPK2" x="-9.017" y="-8.89" drill="1" diameter="1.6764"/>
+<pad name="IO1" x="9.017" y="-8.89" drill="1" diameter="1.6764"/>
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="21"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
