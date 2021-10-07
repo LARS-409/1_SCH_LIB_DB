@@ -3100,6 +3100,33 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="AD9833" prefix="U">
+<gates>
+<gate name="G$1" symbol="AD9833" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MSOP10">
+<connects>
+<connect gate="G$1" pin="AGND" pad="9"/>
+<connect gate="G$1" pin="CAP" pad="3"/>
+<connect gate="G$1" pin="COMP" pad="1"/>
+<connect gate="G$1" pin="DGND" pad="4"/>
+<connect gate="G$1" pin="FSYNC" pad="8"/>
+<connect gate="G$1" pin="MCLK" pad="5"/>
+<connect gate="G$1" pin="SCLK" pad="7"/>
+<connect gate="G$1" pin="SDATA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="10"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3944/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
