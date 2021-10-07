@@ -801,16 +801,16 @@ COMPLIANT TO JEDEC STANDARDS MO-187BA</description>
 <wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.2032" layer="21"/>
-<smd name="1" x="-2" y="1" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
-<smd name="2" x="-2" y="0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
-<smd name="3" x="-2" y="0" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
-<smd name="4" x="-2" y="-0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
-<smd name="5" x="-2" y="-1" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
-<smd name="6" x="2" y="-1" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
-<smd name="7" x="2" y="-0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
-<smd name="8" x="2" y="0" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
-<smd name="9" x="2" y="0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
-<smd name="10" x="2" y="1" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
+<smd name="1" x="-2.2" y="1" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
+<smd name="2" x="-2.2" y="0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
+<smd name="3" x="-2.2" y="0" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
+<smd name="4" x="-2.2" y="-0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
+<smd name="5" x="-2.2" y="-1" dx="0.25" dy="1" layer="1" roundness="1" rot="R270"/>
+<smd name="6" x="2.2" y="-1" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
+<smd name="7" x="2.2" y="-0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
+<smd name="8" x="2.2" y="0" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
+<smd name="9" x="2.2" y="0.5" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
+<smd name="10" x="2.2" y="1" dx="0.25" dy="1" layer="1" roundness="1" rot="R90"/>
 <text x="-2.54" y="3.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.94" y="-3.802" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <circle x="-2.048" y="1.516" radius="0.179603125" width="0.1524" layer="21"/>
