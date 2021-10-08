@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -282,7 +282,7 @@
 <text x="59.97" y="3.97" size="1" layer="21" rot="R90">vcc</text>
 <text x="62.55" y="3.97" size="1" layer="21" rot="R90">gnd</text>
 </package>
-<package name="RC522" urn="urn:adsk.eagle:footprint:30592150/1">
+<package name="RC522" urn="urn:adsk.eagle:footprint:30592150/1" locally_modified="yes">
 <wire x1="0" y1="0" x2="0" y2="39" width="0.127" layer="21"/>
 <wire x1="0" y1="39" x2="60" y2="39" width="0.127" layer="21"/>
 <wire x1="60" y1="39" x2="60" y2="0" width="0.127" layer="21"/>
@@ -299,6 +299,8 @@
 <pad name="6" x="2" y="23.8" drill="1.2"/>
 <pad name="7" x="2" y="26.34" drill="1.2"/>
 <pad name="8" x="2" y="28.88" drill="1.2"/>
+<dimension x1="60" y1="39" x2="60" y2="0" x3="73.66" y3="19.5" textsize="1.27" layer="21"/>
+<dimension x1="0" y1="0" x2="60" y2="0" x3="30" y3="-5" textsize="1.27" layer="21"/>
 </package>
 <package name="DFPLAYER" urn="urn:adsk.eagle:footprint:31130029/1" locally_modified="yes">
 <pad name="DAC_R" x="-9.017" y="1.27" drill="1" diameter="1.6764"/>
