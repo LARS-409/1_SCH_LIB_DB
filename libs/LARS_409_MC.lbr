@@ -2259,9 +2259,9 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <pin name="MCLK" x="-12.7" y="-2.54" length="middle"/>
 <pin name="COMP" x="12.7" y="7.62" length="middle" rot="R180"/>
 <pin name="VOUT" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="FSYNC" x="-5.08" y="-15.24" length="middle" rot="R90"/>
-<pin name="SCLK" x="0" y="-15.24" length="middle" rot="R90"/>
-<pin name="SDATA" x="5.08" y="-15.24" length="middle" rot="R90"/>
+<pin name="FSYNC" x="-5.08" y="-15.24" visible="off" length="middle" rot="R90"/>
+<pin name="SCLK" x="0" y="-15.24" visible="off" length="middle" rot="R90"/>
+<pin name="SDATA" x="5.08" y="-15.24" visible="off" length="middle" rot="R90"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-22.86" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
@@ -2381,7 +2381,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <pin name="LED13" x="17.78" y="-12.7" length="middle" rot="R180"/>
 <pin name="LED14" x="17.78" y="-15.24" length="middle" rot="R180"/>
 <pin name="LED15" x="17.78" y="-17.78" length="middle" rot="R180"/>
-<pin name="OE" x="-17.78" y="-10.16" length="middle"/>
+<pin name="!OE" x="-17.78" y="-10.16" length="middle"/>
 <pin name="LED0" x="-17.78" y="-17.78" length="middle"/>
 <pin name="LED2" x="17.78" y="15.24" length="middle" rot="R180"/>
 <pin name="LED1" x="17.78" y="17.78" length="middle" rot="R180"/>
@@ -3143,7 +3143,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM3405">
+<deviceset name="LM3405" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM3405" x="0" y="0"/>
 </gates>
@@ -3238,7 +3238,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP4056">
+<deviceset name="TP4056" prefix="U">
 <gates>
 <gate name="G$1" symbol="TP4056" x="-10.16" y="-5.08"/>
 </gates>
@@ -3263,7 +3263,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX5395LATA">
+<deviceset name="MAX5395LATA" prefix="U">
 <gates>
 <gate name="G$1" symbol="MAX5395LATA" x="0" y="0"/>
 </gates>
@@ -3289,7 +3289,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC34152">
+<deviceset name="MC34152" prefix="U">
 <gates>
 <gate name="G$1" symbol="MC34152" x="0" y="0"/>
 </gates>
@@ -3385,7 +3385,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MP6538" prefix="MP6538">
+<deviceset name="MP6538" prefix="U">
 <gates>
 <gate name="G$1" symbol="MP6538" x="0" y="0"/>
 </gates>
@@ -3430,7 +3430,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADS1115" prefix="ADS1115">
+<deviceset name="ADS1115" prefix="U">
 <gates>
 <gate name="G$1" symbol="ADS1115" x="0" y="0"/>
 </gates>
@@ -3457,13 +3457,14 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCA9685">
+<deviceset name="PCA9685" prefix="U">
 <gates>
 <gate name="G$1" symbol="PCA9685" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="TSSOP-28">
 <connects>
+<connect gate="G$1" pin="!OE" pad="23"/>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
 <connect gate="G$1" pin="A2" pad="3"/>
@@ -3487,7 +3488,6 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <connect gate="G$1" pin="LED7" pad="13"/>
 <connect gate="G$1" pin="LED8" pad="15"/>
 <connect gate="G$1" pin="LED9" pad="16"/>
-<connect gate="G$1" pin="OE" pad="23"/>
 <connect gate="G$1" pin="SCL" pad="26"/>
 <connect gate="G$1" pin="SDA" pad="27"/>
 <connect gate="G$1" pin="VDD" pad="28"/>
@@ -3502,7 +3502,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC33501" prefix="MC33501">
+<deviceset name="MC33501" prefix="U">
 <gates>
 <gate name="G$1" symbol="MC33501" x="0" y="0"/>
 </gates>
