@@ -1186,7 +1186,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="MC34053">
+<deviceset name="MC34053" prefix="U">
 <gates>
 <gate name="G$1" symbol="MC34063" x="0" y="0"/>
 </gates>
@@ -1211,7 +1211,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2576" prefix="LM2576">
+<deviceset name="LM2576" prefix="U">
 <gates>
 <gate name="G$1" symbol="LM2576" x="0" y="0"/>
 </gates>
