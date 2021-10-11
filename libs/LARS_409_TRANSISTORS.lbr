@@ -445,7 +445,7 @@
 <packageinstance name="MFP"/>
 </packageinstances>
 </package3d>
-<package3d name="PQFN-8" urn="urn:adsk.eagle:package:30539841/3" type="model">
+<package3d name="PQFN-8" urn="urn:adsk.eagle:package:30539841/4" type="model">
 <description>8-SON (DFN), 1.27 mm pitch, 5.10 X 6.61 X 1.10 mm body, 3.91 X 2.00 mm thermal pad
 &lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 5.10 X 6.61 X 1.10 mm and thermal pad size 3.91 X 2.00 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -709,7 +709,7 @@
 <connect gate="G$1" pin="S" pad="1 2 3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30539841/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539841/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
