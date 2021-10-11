@@ -428,11 +428,11 @@
 <wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 <text x="2.413" y="5.08" size="1.778" layer="95" rot="R270">&gt;NAME</text>
 <text x="-4.953" y="5.08" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
 <pin name="A" x="0" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
 </symbol>
 <symbol name="ZENER-DIODE">
 <wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
@@ -510,6 +510,19 @@
 <wire x1="0" y1="-2.54" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
 <text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="DIODE-SCHOTTKY">
+<wire x1="1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.413" y="5.08" size="1.778" layer="95" rot="R270">&gt;NAME</text>
+<text x="-4.953" y="5.08" size="1.778" layer="96" rot="R270">&gt;VALUE</text>
+<pin name="A" x="0" y="-5.08" visible="off" length="middle" direction="pas" rot="R90"/>
+<pin name="C" x="0" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="2.032" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -704,6 +717,25 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30499443/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DIODE-SCHOTTKY" prefix="VD">
+<gates>
+<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500463/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
