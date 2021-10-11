@@ -3457,7 +3457,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCA9685">
+<deviceset name="PCA9685" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="PCA9685" x="0" y="0"/>
 </gates>
