@@ -221,7 +221,7 @@
 <text x="-2.5" y="6.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3" y="-8.31" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="L5040S" urn="urn:adsk.eagle:footprint:30515531/2">
+<package name="0420CDMC" urn="urn:adsk.eagle:footprint:30515531/2" locally_modified="yes">
 <description>DFN2, 5.00 X 5.00 X 4.00 mm body
 &lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
 <smd name="1" x="-1.5" y="0" dx="4.7" dy="2.1" layer="1" rot="R90"/>
@@ -251,7 +251,7 @@
 <description>DFN2, 5.00 X 5.00 X 4.00 mm body
 &lt;p&gt;DFN2 package with body size 5.00 X 5.00 X 4.00 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="L5040S"/>
+<packageinstance name="0420CDMC"/>
 </packageinstances>
 </package3d>
 <package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/3" type="model">
@@ -306,7 +306,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="L5040S" package="L5040S">
+<device name="0420CDMC" package="0420CDMC">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
