@@ -484,7 +484,7 @@
 <wire x1="60" y1="39" x2="0" y2="39" width="0.127" layer="21"/>
 <wire x1="0" y1="39" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
-<package name="AD9833">
+<package name="AD9833" urn="urn:adsk.eagle:footprint:31478919/1">
 <wire x1="0" y1="0" x2="0" y2="18.2" width="0.127" layer="21"/>
 <wire x1="0" y1="18.2" x2="12.2" y2="18.2" width="0.127" layer="21"/>
 <wire x1="12.2" y1="18.2" x2="12.2" y2="0" width="0.127" layer="21"/>
@@ -512,6 +512,11 @@
 <package3d name="DFPLAYER" urn="urn:adsk.eagle:package:31130035/2" type="model">
 <packageinstances>
 <packageinstance name="DFPLAYER"/>
+</packageinstances>
+</package3d>
+<package3d name="AD9833" urn="urn:adsk.eagle:package:31478929/2" type="model">
+<packageinstances>
+<packageinstance name="AD9833"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -831,6 +836,9 @@
 <connect gate="G$1" pin="SDATA" pad="3"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31478929/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
