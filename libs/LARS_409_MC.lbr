@@ -2397,13 +2397,12 @@ RDY</text>
 <text x="-5.08" y="-25.4" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 <symbol name="MC33501">
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.12" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.12" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.12" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.12" layer="94"/>
-<pin name="VCC" x="-10.16" y="5.08" length="middle"/>
-<pin name="NII" x="-10.16" y="-5.08" length="middle"/>
-<pin name="VEE" x="-10.16" y="2.54" length="middle"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.12" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="0" width="0.12" layer="94"/>
+<wire x1="5.08" y1="0" x2="-5.08" y2="-5.08" width="0.12" layer="94"/>
+<pin name="VCC" x="0" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="NII" x="-10.16" y="2.54" length="middle"/>
+<pin name="VEE" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
 <pin name="II" x="-10.16" y="-2.54" length="middle"/>
 <pin name="OUTPUT" x="10.16" y="0" length="middle" rot="R180"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
