@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -554,8 +554,8 @@
 <smd name="4" x="-6.185" y="-1.7" dx="2.7918" dy="0.9991" layer="1"/>
 <smd name="5" x="-6.185" y="-3.4" dx="2.7918" dy="0.9991" layer="1"/>
 <smd name="6" x="3.84" y="0" dx="7.4818" dy="8" layer="1" stop="no" cream="no"/>
-<text x="0" y="6.0549" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-6.0549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="0.1" y="6.4549" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.5549" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <polygon width="0.0762" layer="1">
 <vertex x="7.6" y="-5.2"/>
 <vertex x="7.6" y="5.2"/>

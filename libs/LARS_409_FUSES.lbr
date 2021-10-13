@@ -151,6 +151,20 @@
 <smd name="1" x="-2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
 <smd name="2" x="2.1" y="0" dx="1.5" dy="3.2" layer="1"/>
 </package>
+<package name="1025HC25-RTR" urn="urn:adsk.eagle:footprint:31484649/1" locally_modified="yes">
+<description>Chip, 10.00 X 3.15 X 3.30 mm body
+&lt;p&gt;Chip package with body size 10.00 X 3.15 X 3.30 mm&lt;/p&gt;</description>
+<wire x1="5" y1="1.9741" x2="-5" y2="1.9741" width="0.12" layer="21"/>
+<wire x1="5" y1="-1.9741" x2="-5" y2="-1.9741" width="0.12" layer="21"/>
+<wire x1="5.25" y1="-1.65" x2="-5.25" y2="-1.65" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="-1.65" x2="-5.25" y2="1.65" width="0.12" layer="51"/>
+<wire x1="-5.25" y1="1.65" x2="5.25" y2="1.65" width="0.12" layer="51"/>
+<wire x1="5.25" y1="1.65" x2="5.25" y2="-1.65" width="0.12" layer="51"/>
+<smd name="1" x="-5.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<smd name="2" x="5.25" y="0" dx="3.5" dy="2.5" layer="1"/>
+<text x="0" y="2.6091" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.6091" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="FUSAD1800W63L1100D400B" urn="urn:adsk.eagle:package:30501984/1" type="model">
@@ -180,6 +194,13 @@
 <package3d name="FUSEKOSTYL" urn="urn:adsk.eagle:package:30548198/3" type="model">
 <packageinstances>
 <packageinstance name="FUSEKOSTYL"/>
+</packageinstances>
+</package3d>
+<package3d name="FUSC10031X330N" urn="urn:adsk.eagle:package:31484281/1" type="model">
+<description>Chip, 10.00 X 3.15 X 3.30 mm body
+&lt;p&gt;Chip package with body size 10.00 X 3.15 X 3.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1025HC25-RTR"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -250,7 +271,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="FUSE-SMD">
+<deviceset name="FUSE-SMD" prefix="F">
 <gates>
 <gate name="G$1" symbol="FUSE" x="0" y="0"/>
 </gates>
@@ -262,6 +283,18 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30502006/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1025HC25-RTR" package="1025HC25-RTR">
+<connects>
+<connect gate="G$1" pin="IN" pad="1"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31484281/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>

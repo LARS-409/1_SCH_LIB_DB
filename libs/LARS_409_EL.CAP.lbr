@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -311,6 +311,34 @@
 <rectangle x1="3.175" y1="-0.3175" x2="3.81" y2="0.3175" layer="51"/>
 <rectangle x1="-3.81" y1="-0.3175" x2="-3.175" y2="0.3175" layer="51"/>
 </package>
+<package name="8(10X10)" urn="urn:adsk.eagle:footprint:31498572/1">
+<smd name="P$1" x="0" y="-4" dx="3.5" dy="1.4" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="4" dx="3.5" dy="1.4" layer="1" rot="R90"/>
+<wire x1="-5.15" y1="2.6" x2="-5.15" y2="-5.15" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="-5.15" x2="5.15" y2="-5.15" width="0.1524" layer="21"/>
+<wire x1="5.15" y1="2.6" x2="5.15" y2="-5.15" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.6" x2="-2.6" y2="5.15" width="0.1524" layer="21"/>
+<wire x1="-5.15" y1="2.6" x2="5.15" y2="2.6" width="0.1524" layer="21"/>
+<wire x1="5.15" y1="2.6" x2="2.6" y2="5.15" width="0.1524" layer="21"/>
+<wire x1="-2.6" y1="5.15" x2="2.6" y2="5.15" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.1524" layer="21"/>
+<text x="-2.5" y="6.7" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.6" y="-7.45" size="1.016" layer="27">&gt;VALUE</text>
+</package>
+<package name="8(8.4X8.4)" urn="urn:adsk.eagle:footprint:31498571/1">
+<smd name="P$1" x="3.2" y="0" dx="3.2" dy="1.1" layer="1" rot="R180"/>
+<smd name="-" x="-3.2" y="0" dx="3.2" dy="1.1" layer="1" rot="R180"/>
+<wire x1="-4.2" y1="-4.2" x2="-4.2" y2="4.2" width="0.1524" layer="21"/>
+<wire x1="2" y1="4.2" x2="-4.2" y2="4.2" width="0.1524" layer="21"/>
+<wire x1="-4.2" y1="-4.2" x2="2" y2="-4.2" width="0.1524" layer="21"/>
+<wire x1="2" y1="-4.2" x2="4.2" y2="-2" width="0.1524" layer="21"/>
+<wire x1="2" y1="-4.2" x2="2" y2="4.2" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="2" x2="2" y2="4.2" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-2" x2="4.2" y2="2" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="4" width="0.1524" layer="21"/>
+<text x="-3" y="5" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3" y="-6" size="1.016" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPAE1050X1050N" urn="urn:adsk.eagle:package:30501457/3" type="model">
@@ -353,6 +381,16 @@
 &lt;p&gt;ECAP (Aluminum Electrolytic Capacitor) package with body size 6.30 X 7.80 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CSV-D"/>
+</packageinstances>
+</package3d>
+<package3d name="8(10X10)" urn="urn:adsk.eagle:package:31498576/2" type="model">
+<packageinstances>
+<packageinstance name="8(10X10)"/>
+</packageinstances>
+</package3d>
+<package3d name="8(8.4X8.4)" urn="urn:adsk.eagle:package:31498575/2" type="model">
+<packageinstances>
+<packageinstance name="8(8.4X8.4)"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -475,6 +513,30 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501932/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="10X10" package="8(10X10)">
+<connects>
+<connect gate="G$1" pin="+" pad="P$2"/>
+<connect gate="G$1" pin="-" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31498576/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="8.4X8.4" package="8(8.4X8.4)">
+<connects>
+<connect gate="G$1" pin="+" pad="P$1"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31498575/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
