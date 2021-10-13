@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -251,6 +251,20 @@
 <wire x1="5" y1="6" x2="-5" y2="6" width="0.0762" layer="39"/>
 <wire x1="-6" y1="3" x2="-6" y2="-4" width="0.1524" layer="25"/>
 </package>
+<package name="5022" urn="urn:adsk.eagle:footprint:31499437/1">
+<smd name="P$1" x="-8.15" y="0" dx="2.9" dy="3" layer="1" rot="R90"/>
+<smd name="P$2" x="8.15" y="0" dx="2.9" dy="3" layer="1" rot="R90"/>
+<circle x="0" y="0" radius="7" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.1524" layer="21"/>
+<wire x1="-3.6" y1="6" x2="-9.15" y2="3" width="0.1524" layer="21"/>
+<wire x1="9.15" y1="-3" x2="3.6" y2="-6" width="0.1524" layer="21"/>
+<wire x1="-3.6" y1="-6" x2="-9.15" y2="-3" width="0.1524" layer="21"/>
+<wire x1="9.15" y1="3" x2="3.6" y2="6" width="0.1524" layer="21"/>
+<wire x1="-9.15" y1="-3" x2="-9.15" y2="3" width="0.1524" layer="21"/>
+<wire x1="9.15" y1="-3" x2="9.15" y2="3" width="0.1524" layer="21"/>
+<text x="-3" y="10" size="1.4224" layer="25">&gt;NAME</text>
+<text x="-3" y="8.25" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDDFN1250X1250X435-2N" urn="urn:adsk.eagle:package:30515439/3" type="model">
@@ -270,6 +284,11 @@
 <package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/3" type="model">
 <packageinstances>
 <packageinstance name="CUSTOM"/>
+</packageinstances>
+</package3d>
+<package3d name="5022" urn="urn:adsk.eagle:package:31499440/2" type="model">
+<packageinstances>
+<packageinstance name="5022"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -326,6 +345,18 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30515500/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="5022">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:31499440/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
