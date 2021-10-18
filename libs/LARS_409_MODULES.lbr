@@ -446,14 +446,14 @@
 <text x="-6.985" y="5.08" size="1.27" layer="21" rot="SR0">DFPlayer Mini</text>
 </package>
 <package name="RC522_BOT">
-<wire x1="0" y1="0" x2="0" y2="39" width="0.127" layer="22"/>
-<wire x1="0" y1="39" x2="60" y2="39" width="0.127" layer="22"/>
-<wire x1="60" y1="39" x2="60" y2="0" width="0.127" layer="22"/>
-<wire x1="60" y1="0" x2="0" y2="0" width="0.127" layer="22"/>
-<wire x1="2" y1="38.5" x2="12" y2="38.5" width="0.127" layer="22"/>
-<wire x1="12" y1="38.5" x2="12" y2="32.5" width="0.127" layer="22"/>
-<wire x1="12" y1="32.5" x2="2" y2="32.5" width="0.127" layer="22"/>
-<wire x1="2" y1="32.5" x2="2" y2="38.5" width="0.127" layer="22"/>
+<wire x1="0" y1="0" x2="0" y2="39" width="0.127" layer="36"/>
+<wire x1="0" y1="39" x2="60" y2="39" width="0.127" layer="36"/>
+<wire x1="60" y1="39" x2="60" y2="0" width="0.127" layer="36"/>
+<wire x1="60" y1="0" x2="0" y2="0" width="0.127" layer="36"/>
+<wire x1="2" y1="38.5" x2="12" y2="38.5" width="0.127" layer="36"/>
+<wire x1="12" y1="38.5" x2="12" y2="32.5" width="0.127" layer="36"/>
+<wire x1="12" y1="32.5" x2="2" y2="32.5" width="0.127" layer="36"/>
+<wire x1="2" y1="32.5" x2="2" y2="38.5" width="0.127" layer="36"/>
 <pad name="1" x="2" y="11.1" drill="1.2"/>
 <pad name="2" x="2" y="13.64" drill="1.2"/>
 <pad name="3" x="2" y="16.18" drill="1.2"/>
