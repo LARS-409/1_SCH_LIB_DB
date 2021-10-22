@@ -456,58 +456,58 @@
 <pad name="1" x="-7.72" y="0" drill="0.8" diameter="1.4224" shape="square" rot="R180"/>
 <circle x="-7.68" y="1.29" radius="0.1" width="0.4064" layer="51"/>
 </package>
-<package name="MINI560_OTB" urn="urn:adsk.eagle:footprint:30831583/1">
-<wire x1="-15.24" y1="-10.27" x2="-15.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="7.73" x2="-7.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="7.73" x2="-5.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-5.24" y1="7.73" x2="-3.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-3.24" y1="7.73" x2="-1.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-1.24" y1="7.73" x2="0.76" y2="7.73" width="0.127" layer="21"/>
-<wire x1="0.76" y1="7.73" x2="2.76" y2="7.73" width="0.127" layer="21"/>
-<wire x1="2.76" y1="7.73" x2="14.76" y2="7.73" width="0.127" layer="21"/>
-<wire x1="14.76" y1="7.73" x2="14.76" y2="-10.27" width="0.127" layer="21"/>
-<wire x1="14.76" y1="-10.27" x2="-15.24" y2="-10.27" width="0.127" layer="21"/>
-<wire x1="2.76" y1="7.73" x2="2.76" y2="5.73" width="0.127" layer="21"/>
-<wire x1="2.76" y1="5.73" x2="2.76" y2="3.73" width="0.127" layer="21"/>
-<wire x1="2.76" y1="3.73" x2="2.76" y2="1.73" width="0.127" layer="21"/>
-<wire x1="2.76" y1="1.73" x2="2.76" y2="-0.27" width="0.127" layer="21"/>
-<wire x1="2.76" y1="-0.27" x2="2.76" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="2.76" y1="-2.27" x2="0.76" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="0.76" y1="-2.27" x2="-1.24" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="-1.24" y1="-2.27" x2="-3.24" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="-3.24" y1="-2.27" x2="-5.24" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="-5.24" y1="-2.27" x2="-7.24" y2="-2.27" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="-2.27" x2="-7.24" y2="-0.27" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="-0.27" x2="-7.24" y2="1.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="1.73" x2="-7.24" y2="3.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="3.73" x2="-7.24" y2="5.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="5.73" x2="-7.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="5.73" x2="-5.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="3.73" x2="-3.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="1.73" x2="-1.24" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="-0.27" x2="0.76" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-7.24" y1="-2.27" x2="2.76" y2="7.73" width="0.127" layer="21"/>
-<wire x1="-5.24" y1="-2.27" x2="2.76" y2="5.73" width="0.127" layer="21"/>
-<wire x1="-3.24" y1="-2.27" x2="2.76" y2="3.73" width="0.127" layer="21"/>
-<wire x1="-1.24" y1="-2.27" x2="2.76" y2="1.73" width="0.127" layer="21"/>
-<wire x1="0.76" y1="-2.27" x2="2.76" y2="-0.27" width="0.127" layer="21"/>
-<smd name="-I" x="-14.74" y="-7" dx="6" dy="5" layer="1"/>
-<smd name="+I" x="-14.74" y="4.46" dx="6" dy="5" layer="1"/>
-<smd name="+O" x="14.26" y="4.46" dx="6" dy="5" layer="1"/>
-<smd name="-O" x="14.26" y="-7" dx="6" dy="5" layer="1"/>
+<package name="MINI560_OTB" urn="urn:adsk.eagle:footprint:30831583/1" locally_modified="yes">
+<wire x1="-14.94" y1="-7.97" x2="-14.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-14.94" y1="10.03" x2="-6.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="10.03" x2="-4.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-4.94" y1="10.03" x2="-2.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-2.94" y1="10.03" x2="-0.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-0.94" y1="10.03" x2="1.06" y2="10.03" width="0.127" layer="21"/>
+<wire x1="1.06" y1="10.03" x2="3.06" y2="10.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="10.03" x2="15.06" y2="10.03" width="0.127" layer="21"/>
+<wire x1="15.06" y1="10.03" x2="15.06" y2="-7.97" width="0.127" layer="21"/>
+<wire x1="15.06" y1="-7.97" x2="-14.94" y2="-7.97" width="0.127" layer="21"/>
+<wire x1="3.06" y1="10.03" x2="3.06" y2="8.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="8.03" x2="3.06" y2="6.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="6.03" x2="3.06" y2="4.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="4.03" x2="3.06" y2="2.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="2.03" x2="3.06" y2="0.03" width="0.127" layer="21"/>
+<wire x1="3.06" y1="0.03" x2="1.06" y2="0.03" width="0.127" layer="21"/>
+<wire x1="1.06" y1="0.03" x2="-0.94" y2="0.03" width="0.127" layer="21"/>
+<wire x1="-0.94" y1="0.03" x2="-2.94" y2="0.03" width="0.127" layer="21"/>
+<wire x1="-2.94" y1="0.03" x2="-4.94" y2="0.03" width="0.127" layer="21"/>
+<wire x1="-4.94" y1="0.03" x2="-6.94" y2="0.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="0.03" x2="-6.94" y2="2.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="2.03" x2="-6.94" y2="4.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="4.03" x2="-6.94" y2="6.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="6.03" x2="-6.94" y2="8.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="8.03" x2="-6.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="8.03" x2="-4.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="6.03" x2="-2.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="4.03" x2="-0.94" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="2.03" x2="1.06" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-6.94" y1="0.03" x2="3.06" y2="10.03" width="0.127" layer="21"/>
+<wire x1="-4.94" y1="0.03" x2="3.06" y2="8.03" width="0.127" layer="21"/>
+<wire x1="-2.94" y1="0.03" x2="3.06" y2="6.03" width="0.127" layer="21"/>
+<wire x1="-0.94" y1="0.03" x2="3.06" y2="4.03" width="0.127" layer="21"/>
+<wire x1="1.06" y1="0.03" x2="3.06" y2="2.03" width="0.127" layer="21"/>
+<smd name="-I" x="-14.44" y="-4.7" dx="5" dy="5" layer="1"/>
+<smd name="+I" x="-14.44" y="6.76" dx="5" dy="5" layer="1"/>
+<smd name="+O" x="14.56" y="6.76" dx="5" dy="5" layer="1"/>
+<smd name="-O" x="14.56" y="-4.7" dx="5" dy="5" layer="1"/>
 <polygon width="0.127" layer="39">
-<vertex x="-16.24" y="8.73"/>
-<vertex x="15.76" y="8.73"/>
-<vertex x="15.76" y="7.73"/>
-<vertex x="18.26" y="7.73"/>
-<vertex x="18.26" y="-10.27"/>
-<vertex x="15.76" y="-10.27"/>
-<vertex x="15.76" y="-11.27"/>
-<vertex x="-16.24" y="-11.27"/>
-<vertex x="-16.24" y="-10.27"/>
-<vertex x="-18.74" y="-10.27"/>
-<vertex x="-18.74" y="7.73"/>
-<vertex x="-16.24" y="7.73"/>
+<vertex x="-15.44" y="10.53"/>
+<vertex x="15.56" y="10.53"/>
+<vertex x="15.56" y="10.03"/>
+<vertex x="17.56" y="10.03"/>
+<vertex x="17.56" y="-7.97"/>
+<vertex x="15.56" y="-7.97"/>
+<vertex x="15.56" y="-8.47"/>
+<vertex x="-15.44" y="-8.47"/>
+<vertex x="-15.44" y="-7.97"/>
+<vertex x="-17.44" y="-7.97"/>
+<vertex x="-17.44" y="10.03"/>
+<vertex x="-15.44" y="10.03"/>
 </polygon>
 </package>
 <package name="SOIC127P600X175-8N" urn="urn:adsk.eagle:footprint:31358182/1">
@@ -589,7 +589,7 @@
 <vertex x="5.7" y="-4"/>
 </polygon>
 </package>
-<package name="BORD-DC-DC">
+<package name="BOARD-DC-DC">
 <wire x1="-8.89" y1="-8.89" x2="-8.89" y2="9.11" width="0.127" layer="21"/>
 <wire x1="-8.89" y1="9.11" x2="9.11" y2="9.11" width="0.127" layer="21"/>
 <wire x1="9.11" y1="9.11" x2="9.11" y2="-8.89" width="0.127" layer="21"/>
@@ -598,8 +598,8 @@
 <smd name="-VIN" x="-8.39" y="4.61" dx="5" dy="5" layer="1"/>
 <smd name="-VOUT" x="8.61" y="4.61" dx="5" dy="5" layer="1"/>
 <smd name="+VOUT" x="8.61" y="-4.39" dx="5" dy="5" layer="1"/>
-<pad name="EN" x="-4.89" y="1.11" drill="1"/>
 <rectangle x1="-8.89" y1="-8.89" x2="9.11" y2="9.11" layer="39"/>
+<smd name="P$1" x="-8.7" y="0.5" dx="2.5" dy="1.4" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -881,7 +881,7 @@
 <text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-15.24" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
-<symbol name="BORD-DC-DC">
+<symbol name="BOARD-DC-DC">
 <wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.254" layer="94"/>
 <wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
@@ -1271,18 +1271,18 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BORD-DC-DC">
+<deviceset name="BOARD-DC-DC" prefix="U">
 <gates>
-<gate name="G$1" symbol="BORD-DC-DC" x="0" y="0"/>
+<gate name="G$1" symbol="BOARD-DC-DC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="BORD-DC-DC">
+<device name="" package="BOARD-DC-DC">
 <connects>
 <connect gate="G$1" pin="+VIN" pad="+VIN"/>
 <connect gate="G$1" pin="+VOUT" pad="+VOUT"/>
 <connect gate="G$1" pin="-VIN" pad="-VIN"/>
 <connect gate="G$1" pin="-VOUT" pad="-VOUT"/>
-<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="EN" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
