@@ -339,6 +339,22 @@
 <text x="-3" y="5" size="1.016" layer="25">&gt;NAME</text>
 <text x="-3" y="-6" size="1.016" layer="27">&gt;VALUE</text>
 </package>
+<package name="CSV-EB">
+<wire x1="3.3337" y1="3.3" x2="3.3337" y2="0.9525" width="0.2032" layer="21"/>
+<wire x1="3.3338" y1="-0.9525" x2="3.3338" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="3.3338" y1="-3.3" x2="-2.0637" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-2.0637" y1="-3.3" x2="-3.3338" y2="-2.0637" width="0.2032" layer="21"/>
+<wire x1="-3.3338" y1="-2.0637" x2="-3.3338" y2="-0.9525" width="0.2032" layer="21"/>
+<wire x1="3.3337" y1="3.3" x2="-2.0637" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-2.0637" y1="3.3" x2="-3.3338" y2="2.0638" width="0.2032" layer="21"/>
+<wire x1="-3.3338" y1="2.0638" x2="-3.3338" y2="0.9525" width="0.2032" layer="21"/>
+<circle x="0.06" y="0" radius="3" width="0.1016" layer="51"/>
+<smd name="+" x="-2.5" y="0" dx="2.5" dy="0.8" layer="1"/>
+<smd name="-" x="2.5" y="0" dx="2.5" dy="0.8" layer="1"/>
+<text x="3.81" y="1.524" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="3.81" y="-2.286" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="1.5" y1="-2.6" x2="1.5" y2="2.6" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPAE1050X1050N" urn="urn:adsk.eagle:package:30501457/3" type="model">
@@ -459,6 +475,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501600/3"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CAP6.6X6.6" package="CSV-EB">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
