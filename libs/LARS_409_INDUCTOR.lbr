@@ -265,6 +265,20 @@
 <text x="-3" y="10" size="1.4224" layer="25">&gt;NAME</text>
 <text x="-3" y="8.25" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="INDM108100X400N" urn="urn:adsk.eagle:footprint:32493054/1" locally_modified="yes">
+<description>Molded Body, 10.80 X 10.00 X 4.00 mm body
+&lt;p&gt;Molded Body package with body size 10.80 X 10.00 X 4.00 mm&lt;/p&gt;</description>
+<wire x1="-5.4" y1="5" x2="5.4" y2="5" width="0.12" layer="21"/>
+<wire x1="-5.4" y1="-5" x2="5.4" y2="-5" width="0.12" layer="21"/>
+<wire x1="5.5" y1="-5.1" x2="-5.5" y2="-5.1" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="-5.1" x2="-5.5" y2="5.1" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="5.1" x2="5.5" y2="5.1" width="0.12" layer="51"/>
+<wire x1="5.5" y1="5.1" x2="5.5" y2="-5.1" width="0.12" layer="51"/>
+<smd name="1" x="-4.5644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<smd name="2" x="4.5644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<text x="0" y="5.735" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.735" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDDFN1250X1250X435-2N" urn="urn:adsk.eagle:package:30515439/3" type="model">
@@ -289,6 +303,13 @@
 <package3d name="5022" urn="urn:adsk.eagle:package:31499440/2" type="model">
 <packageinstances>
 <packageinstance name="5022"/>
+</packageinstances>
+</package3d>
+<package3d name="INDM108100X400N" urn="urn:adsk.eagle:package:32492943/1" type="model">
+<description>Molded Body, 10.80 X 10.00 X 4.00 mm body
+&lt;p&gt;Molded Body package with body size 10.80 X 10.00 X 4.00 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="INDM108100X400N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -357,6 +378,18 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31499440/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SLO1040H" package="INDM108100X400N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32492943/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
