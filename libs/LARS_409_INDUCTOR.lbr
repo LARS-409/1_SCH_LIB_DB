@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -265,9 +265,21 @@
 <text x="-3" y="10" size="1.4224" layer="25">&gt;NAME</text>
 <text x="-3" y="8.25" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="INDM108100X400N" urn="urn:adsk.eagle:footprint:32493054/1" locally_modified="yes">
+<package name="INDM108100X400N" urn="urn:adsk.eagle:footprint:32704492/1">
 <description>Molded Body, 10.80 X 10.00 X 4.00 mm body
 &lt;p&gt;Molded Body package with body size 10.80 X 10.00 X 4.00 mm&lt;/p&gt;</description>
+<wire x1="-5.4" y1="5" x2="5.4" y2="5" width="0.12" layer="21"/>
+<wire x1="-5.4" y1="-5" x2="5.4" y2="-5" width="0.12" layer="21"/>
+<wire x1="5.5" y1="-5.1" x2="-5.5" y2="-5.1" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="-5.1" x2="-5.5" y2="5.1" width="0.12" layer="51"/>
+<wire x1="-5.5" y1="5.1" x2="5.5" y2="5.1" width="0.12" layer="51"/>
+<wire x1="5.5" y1="5.1" x2="5.5" y2="-5.1" width="0.12" layer="51"/>
+<smd name="1" x="-4.5644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<smd name="2" x="4.5644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<text x="0" y="5.735" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.735" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="108100X400" urn="urn:adsk.eagle:footprint:32705696/1">
 <wire x1="-5.4" y1="5" x2="5.4" y2="5" width="0.12" layer="21"/>
 <wire x1="-5.4" y1="-5" x2="5.4" y2="-5" width="0.12" layer="21"/>
 <wire x1="5.5" y1="-5.1" x2="-5.5" y2="-5.1" width="0.12" layer="51"/>
@@ -305,11 +317,16 @@
 <packageinstance name="5022"/>
 </packageinstances>
 </package3d>
-<package3d name="INDM108100X400N" urn="urn:adsk.eagle:package:32492943/1" type="model">
+<package3d name="INDM108100X400N" urn="urn:adsk.eagle:package:32704494/3" type="model">
 <description>Molded Body, 10.80 X 10.00 X 4.00 mm body
 &lt;p&gt;Molded Body package with body size 10.80 X 10.00 X 4.00 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="INDM108100X400N"/>
+</packageinstances>
+</package3d>
+<package3d name="108100X400" urn="urn:adsk.eagle:package:32705699/2" type="model">
+<packageinstances>
+<packageinstance name="108100X400"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -383,13 +400,25 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="SLO1040H" package="INDM108100X400N">
+<device name="1080104" package="INDM108100X400N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32492943/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32704494/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="108100X400" package="108100X400">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32705699/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
