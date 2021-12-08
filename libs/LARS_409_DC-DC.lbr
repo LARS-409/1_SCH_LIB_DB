@@ -1418,7 +1418,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="RT8279">
+<deviceset name="RT8279" prefix="U">
 <gates>
 <gate name="G$1" symbol="RT8279" x="0" y="0"/>
 </gates>
