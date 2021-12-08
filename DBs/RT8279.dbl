@@ -4,7 +4,7 @@
 <designblock>
 <description></description>
 <attributes>
-<attribute name="BOARDSIZE" value="23.6 x 19.1 mm"/>
+<attribute name="BOARDSIZE" value="25.9 x 19.1 mm"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -967,7 +967,7 @@
 <part name="C5" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="4.7uF 50V"/>
 <part name="C6" library="LARS_409_R,C,L" deviceset="C" device="1206" package3d_urn="urn:adsk.eagle:package:30551164/2" value="22uF"/>
 <part name="U1" library="LARS_409_DC-DC" deviceset="RT8279" device="" package3d_urn="urn:adsk.eagle:package:32794783/1"/>
-<part name="L1" library="LARS_409_INDUCTOR" deviceset="INDUCTOR" device="1080104" package3d_urn="urn:adsk.eagle:package:32704494/3"/>
+<part name="L1" library="LARS_409_INDUCTOR" deviceset="INDUCTOR" device="1080104" package3d_urn="urn:adsk.eagle:package:32704494/3" value="22uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -1714,7 +1714,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-38.06" y="-37.0051" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="-38.1" y="-36.155" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="L1" library="LARS_409_INDUCTOR" package="INDM108100X400N" package3d_urn="urn:adsk.eagle:package:32704494/3" value="" x="-47.71" y="-25.6" smashed="yes" rot="R270">
+<element name="L1" library="LARS_409_INDUCTOR" package="INDM108100X400N" package3d_urn="urn:adsk.eagle:package:32704494/3" value="22uH" x="-47.71" y="-25.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="-42.245" y="-22.16" size="1.27" layer="25" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-53.445" y="-25.6" size="1.27" layer="27" rot="R270" align="top-center"/>
 </element>
