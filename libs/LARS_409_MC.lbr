@@ -1459,9 +1459,9 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <text x="-7.62" y="10.922" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.827" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="TR" x="-10.16" y="7.62" length="short" direction="in"/>
-<pin name="Q" x="10.16" y="7.62" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="10.16" y="7.62" length="short" direction="out" rot="R180"/>
 <pin name="R" x="-10.16" y="2.54" length="short" direction="in" function="dot"/>
-<pin name="CV" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="CON" x="-10.16" y="-2.54" length="short" direction="in"/>
 <pin name="THR" x="10.16" y="-2.54" length="short" direction="in" rot="R180"/>
 <pin name="DIS" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
 <pin name="V+" x="10.16" y="-7.62" length="short" direction="pwr" rot="R180"/>
@@ -2507,20 +2507,6 @@ RDY</text>
 <pin name="+V" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="-V" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
-<symbol name="NE555">
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-17.78" length="middle" rot="R90"/>
-<pin name="THRES" x="-17.78" y="-5.08" length="middle"/>
-<pin name="TRIG" x="-17.78" y="0" length="middle"/>
-<pin name="DISCH" x="-17.78" y="5.08" length="middle"/>
-<pin name="RESET" x="-2.54" y="17.78" length="middle" rot="R270"/>
-<pin name="VCC" x="2.54" y="17.78" length="middle" rot="R270"/>
-<pin name="OUTPUT" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="CONT" x="17.78" y="-2.54" length="middle" rot="R180"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -2747,10 +2733,10 @@ RDY</text>
 <devices>
 <device name="U" package="SOIC-8">
 <connects>
-<connect gate="G$1" pin="CV" pad="5"/>
+<connect gate="G$1" pin="CON" pad="5"/>
 <connect gate="G$1" pin="DIS" pad="7"/>
 <connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="Q" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
 <connect gate="G$1" pin="R" pad="4"/>
 <connect gate="G$1" pin="THR" pad="6"/>
 <connect gate="G$1" pin="TR" pad="2"/>
@@ -3687,21 +3673,21 @@ RDY</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NE555">
+<deviceset name="NE555" prefix="U">
 <gates>
-<gate name="G$1" symbol="NE555" x="0" y="0"/>
+<gate name="G$1" symbol="TLC555" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="PDIP-8">
 <connects>
-<connect gate="G$1" pin="CONT" pad="5"/>
-<connect gate="G$1" pin="DISCH" pad="7"/>
+<connect gate="G$1" pin="CON" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="7"/>
 <connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="OUTPUT" pad="3"/>
-<connect gate="G$1" pin="RESET" pad="4"/>
-<connect gate="G$1" pin="THRES" pad="6"/>
-<connect gate="G$1" pin="TRIG" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="R" pad="4"/>
+<connect gate="G$1" pin="THR" pad="6"/>
+<connect gate="G$1" pin="TR" pad="2"/>
+<connect gate="G$1" pin="V+" pad="8"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30515827/3"/>
