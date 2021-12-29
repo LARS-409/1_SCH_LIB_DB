@@ -3721,7 +3721,7 @@ RDY</text>
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
+
 <deviceset name="W25Q" prefix="U">
 <gates>
 <gate name="G$1" symbol="WINBOND" x="-2.54" y="0"/>
@@ -3740,26 +3740,6 @@ RDY</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33262146/2"/>
-=======
-<deviceset name="NE555" prefix="U">
-<gates>
-<gate name="G$1" symbol="TLC555" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PDIP-8">
-<connects>
-<connect gate="G$1" pin="CON" pad="5"/>
-<connect gate="G$1" pin="DIS" pad="7"/>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="OUT" pad="3"/>
-<connect gate="G$1" pin="R" pad="4"/>
-<connect gate="G$1" pin="THR" pad="6"/>
-<connect gate="G$1" pin="TR" pad="2"/>
-<connect gate="G$1" pin="V+" pad="8"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30515827/3"/>
->>>>>>> 12dbbcae387718c51704b64f495f8758ee293807
 </package3dinstances>
 <technologies>
 <technology name=""/>
