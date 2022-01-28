@@ -741,15 +741,16 @@
 <wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
-<pin name="GND" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CLK" x="-12.7" y="-2.54" length="middle"/>
-<pin name="MOSI" x="-12.7" y="0" length="middle"/>
-<pin name="MISO" x="-12.7" y="2.54" length="middle"/>
-<pin name="3.3V" x="-12.7" y="5.08" length="middle"/>
-<pin name="NSS" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="RST" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="INT" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="middle"/>
+<pin name="CLK" x="-12.7" y="-2.54" visible="pin" length="middle"/>
+<pin name="MOSI" x="-12.7" y="0" visible="pin" length="middle"/>
+<pin name="MISO" x="-12.7" y="2.54" visible="pin" length="middle"/>
+<pin name="3.3V" x="-12.7" y="5.08" visible="pin" length="middle"/>
+<pin name="NSS" x="12.7" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RST" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="INT" x="12.7" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
