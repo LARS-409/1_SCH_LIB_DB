@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -571,7 +571,7 @@
 <pad name="MISO" x="10.16" y="-6.7" drill="1.1" diameter="1.9"/>
 <text x="-3.81" y="-15.24" size="1.778" layer="25">&gt;NAME</text>
 </package>
-<package name="XBEE-S2C" urn="urn:adsk.eagle:footprint:33794071/1" locally_modified="yes">
+<package name="XBEE-S2C" urn="urn:adsk.eagle:footprint:33794071/2" locally_modified="yes">
 <wire x1="-12.19" y1="-13.805" x2="12.19" y2="-13.805" width="0.1524" layer="21"/>
 <wire x1="-12.19" y1="-13.805" x2="-12.19" y2="7.275" width="0.1524" layer="21"/>
 <wire x1="12.19" y1="-13.805" x2="12.19" y2="7.275" width="0.1524" layer="21"/>
@@ -621,7 +621,7 @@
 <packageinstance name="AD9833"/>
 </packageinstances>
 </package3d>
-<package3d name="XBEE-S2C" urn="urn:adsk.eagle:package:33794084/2" type="model">
+<package3d name="XBEE-S2C" urn="urn:adsk.eagle:package:33794084/4" type="model">
 <packageinstances>
 <packageinstance name="XBEE-S2C"/>
 </packageinstances>
@@ -1045,7 +1045,7 @@
 <connect gate="G$1" pin="[RESERVED]" pad="P$8"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:33794084/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33794084/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
