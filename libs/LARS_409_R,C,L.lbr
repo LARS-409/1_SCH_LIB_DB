@@ -76,7 +76,8 @@
 <layer number="100" name="Mechanical" color="7" fill="1" visible="no" active="yes"/>
 <layer number="101" name="Gehäuse" color="7" fill="1" visible="no" active="yes"/>
 <layer number="102" name="Mittellin" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="Attributes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
@@ -264,7 +265,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="С" urn="urn:adsk.eagle:symbol:24653010/1">
+<symbol name="С" urn="urn:adsk.eagle:symbol:24653010/1" locally_modified="yes">
 <wire x1="-0.508" y1="1.27" x2="-0.508" y2="0" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="0" x2="-0.508" y2="-1.524" width="0.254" layer="94"/>
 <wire x1="0.508" y1="1.27" x2="0.508" y2="0" width="0.254" layer="94"/>
@@ -275,6 +276,7 @@
 <pin name="P$2" x="2.54" y="0" visible="off" length="point"/>
 <text x="-2.54" y="1.524" size="1.27" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-3.302" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<text x="-2.54" y="-5.08" size="1.27" layer="103" font="vector">&gt;VOLTAGE</text>
 </symbol>
 <symbol name="L" urn="urn:adsk.eagle:symbol:24653009/1">
 <pin name="2" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
@@ -330,7 +332,9 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30551165/3"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0805" package="0805">
