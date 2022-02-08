@@ -547,7 +547,7 @@
 <pad name="6" x="1.365" y="4.151" drill="1.2" rot="R180"/>
 <pad name="7" x="1.365" y="1.611" drill="1.2" rot="R180"/>
 </package>
-<package name="USR-ES1W5500">
+<package name="USR-ES1W5500" urn="urn:adsk.eagle:footprint:33944568/1">
 <wire x1="-11.5" y1="-12.5" x2="-11.5" y2="12.5" width="0.1524" layer="21"/>
 <wire x1="-11.5" y1="12.5" x2="11.5" y2="12.5" width="0.1524" layer="21"/>
 <wire x1="11.5" y1="12.5" x2="11.5" y2="-12.5" width="0.1524" layer="21"/>
@@ -624,6 +624,11 @@
 <package3d name="XBEE-S2C" urn="urn:adsk.eagle:package:33794084/4" type="model">
 <packageinstances>
 <packageinstance name="XBEE-S2C"/>
+</packageinstances>
+</package3d>
+<package3d name="USR-ES1W5500" urn="urn:adsk.eagle:package:33944580/2" type="model">
+<packageinstances>
+<packageinstance name="USR-ES1W5500"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1010,6 +1015,9 @@
 <connect gate="G$1" pin="NSS" pad="NSS"/>
 <connect gate="G$1" pin="RST" pad="RST"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33944580/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
