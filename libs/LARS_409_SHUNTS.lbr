@@ -82,6 +82,15 @@
 <wire x1="7" y1="-2" x2="-7" y2="-2" width="0.127" layer="21"/>
 <text x="-2.7" y="0.3" size="1.27" layer="25">SHUNT</text>
 </package>
+<package name="CONSTANTAN_SHUNT_2.5">
+<pad name="P$1" x="-5" y="0" drill="2.5" diameter="3.81"/>
+<pad name="P$2" x="5" y="0" drill="2.5" diameter="3.81"/>
+<wire x1="-7" y1="-2" x2="-7" y2="2" width="0.127" layer="21"/>
+<wire x1="-7" y1="2" x2="7" y2="2" width="0.127" layer="21"/>
+<wire x1="7" y1="2" x2="7" y2="-2" width="0.127" layer="21"/>
+<wire x1="7" y1="-2" x2="-7" y2="-2" width="0.127" layer="21"/>
+<text x="-2.827" y="2.459" size="1.27" layer="25">SHUNT</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CONSTANTAN_SHUNT" urn="urn:adsk.eagle:package:30539490/2" type="model">
@@ -105,7 +114,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONSTANTAN_SHUNT" prefix="RS">
+<deviceset name="CONSTANTAN_SHUNT" prefix="RS" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SHUNT" x="0" y="0"/>
 </gates>
@@ -118,6 +127,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30539490/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CONSTANTAN_SHUNT_2.5" package="CONSTANTAN_SHUNT_2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
