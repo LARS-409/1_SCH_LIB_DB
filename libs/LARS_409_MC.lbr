@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -2555,6 +2555,30 @@ RDY</text>
 <text x="-2.54" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="HX711">
+<pin name="VSUP" x="-10.16" y="17.78" visible="pin" length="short"/>
+<pin name="BASE" x="-10.16" y="12.7" visible="pin" length="short"/>
+<pin name="AVDD" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="VFB" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="AGND" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="VBG" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="INNA" x="-10.16" y="-12.7" visible="pin" length="short"/>
+<pin name="INNPA" x="-10.16" y="-17.78" visible="pin" length="short"/>
+<pin name="INPB" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="INNB" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PD_SCK" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="DOUT" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="XO" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="XI" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RATE" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="DVDD" x="12.7" y="17.78" visible="pin" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-20.32" x2="10.16" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="10.16" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="20.32" x2="-7.62" y2="-20.32" width="0.1524" layer="94"/>
+<text x="-2.54" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-25.4" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -3721,7 +3745,6 @@ RDY</text>
 </device>
 </devices>
 </deviceset>
-
 <deviceset name="W25Q" prefix="U">
 <gates>
 <gate name="G$1" symbol="WINBOND" x="-2.54" y="0"/>
@@ -3740,6 +3763,39 @@ RDY</text>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33262146/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HX711" prefix="U">
+<gates>
+<gate name="G$1" symbol="HX711" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOIC-16" package="SOIC-16">
+<connects>
+<connect gate="G$1" pin="AGND" pad="5"/>
+<connect gate="G$1" pin="AVDD" pad="3"/>
+<connect gate="G$1" pin="BASE" pad="2"/>
+<connect gate="G$1" pin="DOUT" pad="12"/>
+<connect gate="G$1" pin="DVDD" pad="16"/>
+<connect gate="G$1" pin="INNA" pad="7"/>
+<connect gate="G$1" pin="INNB" pad="9"/>
+<connect gate="G$1" pin="INNPA" pad="8"/>
+<connect gate="G$1" pin="INPB" pad="10"/>
+<connect gate="G$1" pin="PD_SCK" pad="11"/>
+<connect gate="G$1" pin="RATE" pad="15"/>
+<connect gate="G$1" pin="VBG" pad="6"/>
+<connect gate="G$1" pin="VFB" pad="4"/>
+<connect gate="G$1" pin="VSUP" pad="1"/>
+<connect gate="G$1" pin="XI" pad="14"/>
+<connect gate="G$1" pin="XO" pad="13"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30516170/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
