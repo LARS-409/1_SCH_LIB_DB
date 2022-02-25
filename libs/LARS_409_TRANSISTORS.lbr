@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -430,6 +430,34 @@
 <text x="-2.159" y="0" size="1.27" layer="51" ratio="10">3</text>
 <text x="1.143" y="0" size="1.27" layer="51" ratio="10">1</text>
 </package>
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:30516130/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.01890625" x2="-1.26890625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.26890625" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="2" y1="1.4" x2="2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.15" x2="2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.15" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.1" x2="-2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.4" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-2.032" y="2.921" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
+<text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK" urn="urn:adsk.eagle:package:30539844/2" type="model">
@@ -486,6 +514,13 @@
 <packageinstance name="TO92"/>
 </packageinstances>
 </package3d>
+<package3d name="SOIC127P600X150-8N" urn="urn:adsk.eagle:package:30516121/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC-8"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="N-CANNEL">
@@ -527,41 +562,42 @@
 <pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="P-CANNEL">
-<pin name="G" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<wire x1="-1.778" y1="-0.762" x2="-1.778" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="-3.175" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="1.905" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0.508" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.508" x2="2.032" y2="0.254" width="0.1524" layer="94"/>
-<circle x="0" y="2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="1.27" y="0.508"/>
-<vertex x="1.778" y="-0.254"/>
-<vertex x="0.762" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0" y="0"/>
-<vertex x="-1.016" y="0.762"/>
-<vertex x="-1.016" y="-0.762"/>
-</polygon>
-<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="point" direction="pas"/>
+<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<circle x="0" y="-1.905" radius="0.3592" width="0" layer="94"/>
+<circle x="0" y="1.905" radius="0.3592" width="0" layer="94"/>
+<text x="-2.54" y="-10.16" size="1.778" layer="95" rot="MR180">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="95" rot="MR180">&gt;VALUE</text>
+<rectangle x1="-2.54" y1="1.27" x2="-1.778" y2="2.54" layer="94"/>
+<rectangle x1="-2.54" y1="-2.54" x2="-1.778" y2="-1.27" layer="94"/>
+<rectangle x1="-2.54" y1="-0.889" x2="-1.778" y2="0.889" layer="94"/>
+<wire x1="-3.6576" y1="2.667" x2="-3.6576" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.6576" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="1.905" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0.635" x2="3.175" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="3.175" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="-0.762" x2="3.429" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-0.762" x2="1.651" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-2.159" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.508" x2="-1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.508" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.143" y1="0.254" x2="-0.254" y2="0" width="0.3048" layer="94"/>
+<wire x1="-0.254" y1="0" x2="-1.143" y2="-0.254" width="0.3048" layer="94"/>
+<wire x1="-1.143" y1="-0.254" x2="-1.143" y2="0" width="0.3048" layer="94"/>
+<wire x1="-1.143" y1="0" x2="-0.889" y2="0" width="0.3048" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-2.159" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="NPN">
 <text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
@@ -738,6 +774,19 @@
 <technology name=""/>
 </technologies>
 </device>
+<device name="SOIC-8" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30516121/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="P-CANNEL" prefix="VT">
@@ -779,6 +828,19 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30539843/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOIC-8" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30516121/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
