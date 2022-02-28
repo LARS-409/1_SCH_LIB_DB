@@ -82,7 +82,7 @@
 <wire x1="7" y1="-2" x2="-7" y2="-2" width="0.127" layer="21"/>
 <text x="-2.7" y="0.3" size="1.27" layer="25">SHUNT</text>
 </package>
-<package name="CONSTANTAN_SHUNT_2.5">
+<package name="CONSTANTAN_SHUNT_2.5" urn="urn:adsk.eagle:footprint:34335282/1">
 <pad name="P$1" x="-5" y="0" drill="2.5" diameter="3.81"/>
 <pad name="P$2" x="5" y="0" drill="2.5" diameter="3.81"/>
 <wire x1="-7" y1="-2" x2="-7" y2="2" width="0.127" layer="21"/>
@@ -98,6 +98,11 @@
 &lt;p&gt;Axial Resistor package with 10.00 mm pitch (lead spacing), 0.63 mm lead diameter, 0.01 mm body length and 0.01 mm body diameter&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="CONSTANTAN_SHUNT"/>
+</packageinstances>
+</package3d>
+<package3d name="CONSTANTAN_SHUNT_2.5" urn="urn:adsk.eagle:package:34335284/2" type="model">
+<packageinstances>
+<packageinstance name="CONSTANTAN_SHUNT_2.5"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -136,6 +141,9 @@
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34335284/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
