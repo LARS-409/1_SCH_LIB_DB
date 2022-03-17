@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -328,7 +328,7 @@
 <wire x1="0.3" y1="1.4" x2="0.4" y2="1.4" width="0.127" layer="21"/>
 <wire x1="0.4" y1="1.4" x2="0.4" y2="-1.4" width="0.127" layer="21"/>
 </package>
-<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/2">
+<package name="MINIMELF" urn="urn:adsk.eagle:footprint:30500477/2" locally_modified="yes">
 <description>MELF, 3.50 mm length, 1.65 mm diameter
 &lt;p&gt;MELF Resistor package with 3.50 mm length and 1.65 mm diameter&lt;/p&gt;</description>
 <wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
@@ -336,13 +336,14 @@
 <wire x1="0.5" y1="0.5" x2="-0.5" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.5" y1="0" x2="0.5" y2="-0.5" width="0.2032" layer="21"/>
 <wire x1="0.5" y1="-0.5" x2="0.5" y2="0.5" width="0.2032" layer="21"/>
-<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
-<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.08" layer="1"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.08" layer="1"/>
 <text x="-1.651" y="1.143" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.651" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
 <rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
 <rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+<rectangle x1="-2.6" y1="-0.74" x2="2.6" y2="0.74" layer="39"/>
 </package>
 <package name="DIP" urn="urn:adsk.eagle:footprint:30500605/1" locally_modified="yes">
 <description>Axial Diode, 15.20 mm pitch, 8.60 mm body length, 3.50 mm body diameter
