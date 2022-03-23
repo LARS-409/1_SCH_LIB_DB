@@ -218,6 +218,18 @@
 <text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="0402" urn="urn:adsk.eagle:footprint:34824513/1">
+<wire x1="-0.973" y1="0.383" x2="0.973" y2="0.383" width="0.0508" layer="39"/>
+<wire x1="0.973" y1="0.383" x2="0.973" y2="-0.383" width="0.0508" layer="39"/>
+<wire x1="0.973" y1="-0.383" x2="-0.973" y2="-0.383" width="0.0508" layer="39"/>
+<wire x1="-0.973" y1="-0.383" x2="-0.973" y2="0.383" width="0.0508" layer="39"/>
+<wire x1="-0.4" y1="0.5" x2="0.4" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="-0.4" y1="-0.5" x2="0.4" y2="-0.5" width="0.1524" layer="21"/>
+<smd name="1" x="-0.65" y="0" dx="0.5" dy="0.7" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.5" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:30551165/3" type="model">
@@ -261,6 +273,11 @@
 <description>MKS2, 7.5 x 4.5 mm, grid 5.08 mm</description>
 <packageinstances>
 <packageinstance name="C5B4.5"/>
+</packageinstances>
+</package3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:34824522/2" type="model">
+<packageinstances>
+<packageinstance name="0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -496,6 +513,18 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33235293/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34824522/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
