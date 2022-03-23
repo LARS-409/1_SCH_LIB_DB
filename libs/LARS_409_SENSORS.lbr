@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -305,7 +305,7 @@
 <text x="-2.5" y="3.2" size="1" layer="25">&gt;NAME</text>
 <text x="-3" y="-4.2" size="1" layer="27">&gt;VALUE</text>
 </package>
-<package name="LGA16PIN" urn="urn:adsk.eagle:footprint:34834889/1">
+<package name="LGA16PIN" urn="urn:adsk.eagle:footprint:34834889/1" locally_modified="yes">
 <smd name="P$1" x="-1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1"/>
 <smd name="P$2" x="-1.2625" y="-1" dx="0.675" dy="0.25" layer="1"/>
 <smd name="P$3" x="-1.2625" y="-0.5" dx="0.675" dy="0.25" layer="1"/>
@@ -322,10 +322,10 @@
 <smd name="P$14" x="1.2625" y="-1" dx="0.675" dy="0.25" layer="1" rot="R180"/>
 <smd name="P$15" x="1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1" rot="R180"/>
 <smd name="P$16" x="0" y="-2.0125" dx="0.675" dy="0.25" layer="1" rot="R270"/>
-<wire x1="1.5" y1="-2.5" x2="1.5" y2="2.5" width="0.1524" layer="51"/>
-<wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.1524" layer="51"/>
-<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.1524" layer="51"/>
-<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="-2.25" x2="1.5" y2="2.25" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="2.25" x2="-1.5" y2="2.25" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="2.25" x2="-1.5" y2="-2.25" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-2.25" x2="1.5" y2="-2.25" width="0.1524" layer="51"/>
 <wire x1="-1.9" y1="-2.7" x2="1.9" y2="-2.7" width="0.1524" layer="39"/>
 <wire x1="1.9" y1="-2.7" x2="1.9" y2="2.7" width="0.1524" layer="39"/>
 <wire x1="1.9" y1="2.7" x2="-1.9" y2="2.7" width="0.1524" layer="39"/>
