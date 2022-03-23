@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -305,6 +305,35 @@
 <wire x1="2" y1="-2.9" x2="-2" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-2" y1="-2.9" x2="-2" y2="2.9" width="0.1524" layer="21"/>
 </package>
+<package name="LGA16PIN">
+<smd name="P$1" x="-1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$2" x="-1.2625" y="-1" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$3" x="-1.2625" y="-0.5" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$4" x="-1.2625" y="0" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$5" x="-1.2625" y="0.5" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$6" x="-1.2625" y="1" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$7" x="-1.2625" y="1.5" dx="0.675" dy="0.25" layer="1"/>
+<smd name="P$8" x="0" y="2.0725" dx="0.675" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$9" x="1.2625" y="1.5" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$10" x="1.2625" y="1" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$11" x="1.2625" y="0.5" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$12" x="1.2625" y="0" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$13" x="1.2625" y="-0.5" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$14" x="1.2625" y="-1" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$15" x="1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1" rot="R180"/>
+<smd name="P$16" x="0" y="-2.0125" dx="0.675" dy="0.25" layer="1" rot="R270"/>
+<wire x1="1.5" y1="-2.5" x2="1.5" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.1524" layer="51"/>
+<circle x="-2.2" y="-2.1" radius="0.1" width="0.1524" layer="51"/>
+<text x="-2.4" y="3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.9" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-1.9" y1="-2.7" x2="1.9" y2="-2.7" width="0.1524" layer="39"/>
+<wire x1="1.9" y1="-2.7" x2="1.9" y2="2.7" width="0.1524" layer="39"/>
+<wire x1="1.9" y1="2.7" x2="-1.9" y2="2.7" width="0.1524" layer="39"/>
+<wire x1="-1.9" y1="2.7" x2="-1.9" y2="-2.7" width="0.1524" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="AHT20" urn="urn:adsk.eagle:package:30537799/3" type="model">
@@ -504,6 +533,30 @@
 <wire x1="-25.4" y1="12.7" x2="-25.4" y2="-7.62" width="0.1524" layer="94"/>
 <text x="-25.4" y="15.24" size="1.778" layer="95">&gt;NAME</text>
 <text x="-25.4" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="BMI055">
+<pin name="INT2(1)" x="-17.78" y="5.08" visible="pin" length="short"/>
+<pin name="NC(2)" x="-7.62" y="-25.4" visible="pin" length="short" rot="R90"/>
+<pin name="VDD(3)" x="-17.78" y="10.16" visible="pin" length="short"/>
+<pin name="GND(4)" x="7.62" y="-25.4" visible="pin" length="short" rot="R90"/>
+<pin name="CSB2(5)" x="17.78" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="GNDIO(6)" x="2.54" y="-25.4" visible="pin" length="short" rot="R90"/>
+<pin name="PS(7)" x="-2.54" y="-25.4" visible="pin" length="short" rot="R90"/>
+<pin name="SCK(8)" x="17.78" y="10.16" visible="pin" length="short" rot="R180"/>
+<pin name="SDI(9)" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SDO2(10)" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="VDDIO(11)" x="-17.78" y="15.24" visible="pin" length="short"/>
+<pin name="INT3(12)" x="-17.78" y="0" visible="pin" length="short"/>
+<pin name="INT4(13)" x="-17.78" y="-5.08" visible="pin" length="short"/>
+<pin name="CSB1(14)" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="SDO1(15)" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="INT1(16)" x="-17.78" y="-10.16" visible="pin" length="short"/>
+<wire x1="-15.24" y1="-22.86" x2="-15.24" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="17.78" x2="15.24" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="17.78" x2="15.24" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="94"/>
+<text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -716,6 +769,36 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <connect gate="G$1" pin="SDA" pad="P$6"/>
 <connect gate="G$1" pin="SDO" pad="P$7"/>
 <connect gate="G$1" pin="VDD" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BMI055" prefix="U">
+<gates>
+<gate name="G$1" symbol="BMI055" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA16PIN">
+<connects>
+<connect gate="G$1" pin="CSB1(14)" pad="P$14"/>
+<connect gate="G$1" pin="CSB2(5)" pad="P$5"/>
+<connect gate="G$1" pin="GND(4)" pad="P$4"/>
+<connect gate="G$1" pin="GNDIO(6)" pad="P$6"/>
+<connect gate="G$1" pin="INT1(16)" pad="P$16"/>
+<connect gate="G$1" pin="INT2(1)" pad="P$1"/>
+<connect gate="G$1" pin="INT3(12)" pad="P$12"/>
+<connect gate="G$1" pin="INT4(13)" pad="P$13"/>
+<connect gate="G$1" pin="NC(2)" pad="P$2"/>
+<connect gate="G$1" pin="PS(7)" pad="P$7"/>
+<connect gate="G$1" pin="SCK(8)" pad="P$8"/>
+<connect gate="G$1" pin="SDI(9)" pad="P$9"/>
+<connect gate="G$1" pin="SDO1(15)" pad="P$15"/>
+<connect gate="G$1" pin="SDO2(10)" pad="P$10"/>
+<connect gate="G$1" pin="VDD(3)" pad="P$3"/>
+<connect gate="G$1" pin="VDDIO(11)" pad="P$11"/>
 </connects>
 <technologies>
 <technology name=""/>
