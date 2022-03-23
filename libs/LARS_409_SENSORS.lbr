@@ -281,7 +281,7 @@
 <smd name="10" x="1.255" y="1.2" dx="0.91" dy="0.28" layer="1" roundness="20"/>
 <smd name="11" x="0" y="0" dx="1" dy="2.4" layer="1" cream="no"/>
 </package>
-<package name="QFN5X3">
+<package name="QFN5X3" urn="urn:adsk.eagle:footprint:34834890/1">
 <smd name="P$1" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
 <smd name="P$2" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
 <smd name="P$3" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
@@ -294,8 +294,6 @@
 <wire x1="1.5" y1="-2.5" x2="1.5" y2="2.5" width="0.1524" layer="51"/>
 <wire x1="-1.5" y1="2.5" x2="1.5" y2="2.5" width="0.1524" layer="51"/>
 <wire x1="-1.5" y1="-2.5" x2="-1.5" y2="2.5" width="0.1524" layer="51"/>
-<text x="-2.5" y="3.2" size="1" layer="25">&gt;NAME</text>
-<text x="-3" y="-4.2" size="1" layer="27">&gt;VALUE</text>
 <wire x1="-2" y1="2.9" x2="2" y2="2.9" width="0.1524" layer="39"/>
 <wire x1="2" y1="2.9" x2="2" y2="-2.9" width="0.1524" layer="39"/>
 <wire x1="2" y1="-2.9" x2="-2" y2="-2.9" width="0.1524" layer="39"/>
@@ -304,8 +302,10 @@
 <wire x1="2" y1="2.9" x2="2" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="2" y1="-2.9" x2="-2" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-2" y1="-2.9" x2="-2" y2="2.9" width="0.1524" layer="21"/>
+<text x="-2.5" y="3.2" size="1" layer="25">&gt;NAME</text>
+<text x="-3" y="-4.2" size="1" layer="27">&gt;VALUE</text>
 </package>
-<package name="LGA16PIN">
+<package name="LGA16PIN" urn="urn:adsk.eagle:footprint:34834889/1">
 <smd name="P$1" x="-1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1"/>
 <smd name="P$2" x="-1.2625" y="-1" dx="0.675" dy="0.25" layer="1"/>
 <smd name="P$3" x="-1.2625" y="-0.5" dx="0.675" dy="0.25" layer="1"/>
@@ -326,13 +326,13 @@
 <wire x1="1.5" y1="2.5" x2="-1.5" y2="2.5" width="0.1524" layer="51"/>
 <wire x1="-1.5" y1="2.5" x2="-1.5" y2="-2.5" width="0.1524" layer="51"/>
 <wire x1="-1.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.1524" layer="51"/>
-<circle x="-2.2" y="-2.1" radius="0.1" width="0.1524" layer="51"/>
-<text x="-2.4" y="3" size="1.016" layer="25">&gt;NAME</text>
-<text x="-2.5" y="-3.9" size="1.016" layer="27">&gt;VALUE</text>
 <wire x1="-1.9" y1="-2.7" x2="1.9" y2="-2.7" width="0.1524" layer="39"/>
 <wire x1="1.9" y1="-2.7" x2="1.9" y2="2.7" width="0.1524" layer="39"/>
 <wire x1="1.9" y1="2.7" x2="-1.9" y2="2.7" width="0.1524" layer="39"/>
 <wire x1="-1.9" y1="2.7" x2="-1.9" y2="-2.7" width="0.1524" layer="39"/>
+<circle x="-2.2" y="-2.1" radius="0.1" width="0.1524" layer="51"/>
+<text x="-2.4" y="3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.9" size="1.016" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -378,6 +378,16 @@
 &lt;p&gt;24-pin QFN package with 0.40 mm pitch with body size 3.00 X 3.00 X 1.05 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="QFN40P300X300X105-24N"/>
+</packageinstances>
+</package3d>
+<package3d name="LGA16PIN" urn="urn:adsk.eagle:package:34834907/2" type="model">
+<packageinstances>
+<packageinstance name="LGA16PIN"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN5X3" urn="urn:adsk.eagle:package:34834908/2" type="model">
+<packageinstances>
+<packageinstance name="QFN5X3"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -770,6 +780,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <connect gate="G$1" pin="SDO" pad="P$7"/>
 <connect gate="G$1" pin="VDD" pad="P$4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34834908/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -800,6 +813,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <connect gate="G$1" pin="VDD(3)" pad="P$3"/>
 <connect gate="G$1" pin="VDDIO(11)" pad="P$11"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:34834907/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
