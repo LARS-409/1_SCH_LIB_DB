@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -135,9 +135,14 @@
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="mani" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="157" name="+V" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="158" name="GN" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="159" name="Moduless" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="160" name="O_Dim" color="7" fill="1" visible="no" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
+<layer number="188" name="manip" color="38" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="no" active="no"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="no" active="no"/>
@@ -179,6 +184,9 @@
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="245" name="Out" color="58" fill="15" visible="yes" active="yes"/>
+<layer number="246" name="GND" color="63" fill="1" visible="no" active="no"/>
+<layer number="247" name="Plus_V" color="12" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -1033,22 +1041,30 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <text x="-2.96" y="3.96" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="IRS2301S" urn="urn:adsk.eagle:footprint:34694567/1" locally_modified="yes">
-<smd name="HIN" x="-0.635" y="-2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="VCC" x="-1.905" y="-2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="COM" x="1.905" y="-2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="LIN" x="0.635" y="-2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="HO" x="-0.635" y="2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="VB" x="-1.905" y="2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="LO" x="1.905" y="2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<smd name="VS" x="0.635" y="2.34" dx="1.78" dy="0.72" layer="1" rot="R90"/>
-<wire x1="-2.5" y1="1.4" x2="-2.5" y2="-1.4" width="0.1524" layer="21"/>
-<wire x1="-2.5" y1="-1.4" x2="2.5" y2="-1.4" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-1.4" x2="2.5" y2="1.4" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="1.4" x2="-2.5" y2="1.4" width="0.1524" layer="21"/>
-<rectangle x1="-2.5" y1="-1.45" x2="2.5" y2="1.45" layer="39"/>
-<circle x="-3" y="1" radius="0.113990625" width="0.1524" layer="21"/>
-<text x="-3.81" y="3.81" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.683" y="-5.461" size="1.778" layer="27">&gt;VALUE</text>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.01890625" x2="-1.26890625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.26890625" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="2" y1="1.4" x2="2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.15" x2="2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.15" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.1" x2="-2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.4" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-2.032" y="2.921" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
+<text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -2602,6 +2618,16 @@ RDY</text>
 <text x="5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
+<symbol name="R">
+<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-2.54" y="1.016" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="OPAMPDUAL" prefix="U" uservalue="yes">
@@ -3851,14 +3877,14 @@ RDY</text>
 <devices>
 <device name="" package="IRS2301S">
 <connects>
-<connect gate="G$1" pin="COM" pad="COM"/>
-<connect gate="G$1" pin="HO" pad="HO"/>
-<connect gate="G$1" pin="IN" pad="HIN"/>
-<connect gate="G$1" pin="LO" pad="LO"/>
-<connect gate="G$1" pin="SD" pad="LIN"/>
-<connect gate="G$1" pin="VB" pad="VB"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VS" pad="VS"/>
+<connect gate="G$1" pin="COM" pad="4"/>
+<connect gate="G$1" pin="HO" pad="7"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="LO" pad="5"/>
+<connect gate="G$1" pin="SD" pad="3"/>
+<connect gate="G$1" pin="VB" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VS" pad="6"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34694568/2"/>

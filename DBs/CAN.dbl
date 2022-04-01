@@ -4,7 +4,8 @@
 <designblock>
 <description></description>
 <attributes>
-<attribute name="BOARDSIZE" value="12.9 x 11.1 mm"/>
+<attribute name="AIRWIRES" value="YES"/>
+<attribute name="BOARDSIZE" value="11.3 x 11.1 mm"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -13,7 +14,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -197,92 +198,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="LARS_409_MC">
-<packages>
-<package name="SOIC-8" urn="urn:adsk.eagle:footprint:30516130/1" locally_modified="yes">
-<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
-<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="2.01890625" x2="-1.26890625" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-1.26890625" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2" y1="2.5" x2="2" y2="2.4" width="0.127" layer="21"/>
-<wire x1="2" y1="1.4" x2="2" y2="1.15" width="0.127" layer="21"/>
-<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.15" x2="2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.15" x2="-2" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2" y1="0.1" x2="-2" y2="-0.1" width="0.127" layer="21"/>
-<wire x1="-2" y1="1.4" x2="-2" y2="1.15" width="0.127" layer="21"/>
-<wire x1="2" y1="-2.4" x2="2" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2.4" x2="-2" y2="-2.5" width="0.127" layer="21"/>
-<circle x="-2.032" y="2.921" radius="0.3302" width="0" layer="21"/>
-<smd name="1" x="-2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
-<smd name="2" x="-2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
-<smd name="3" x="-2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
-<smd name="4" x="-2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
-<smd name="5" x="2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
-<smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
-<smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
-<smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
-<text x="-1.905" y="3.175" size="0.889" layer="25" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOIC127P600X150-8N" urn="urn:adsk.eagle:package:30516121/1" type="model">
-<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
-&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="SOIC-8"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="SN65HVD233DR">
-<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="10.16" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
-<pin name="TXD" x="17.78" y="2.54" length="short" rot="R180"/>
-<pin name="GND" x="-15.24" y="-2.54" length="short"/>
-<pin name="VCC" x="-15.24" y="5.08" length="short"/>
-<pin name="RXD" x="17.78" y="5.08" length="short" rot="R180"/>
-<pin name="LBK" x="17.78" y="0" length="short" rot="R180"/>
-<pin name="CANL" x="-15.24" y="2.54" length="short"/>
-<pin name="CANH" x="-15.24" y="0" length="short"/>
-<pin name="RS" x="17.78" y="-2.54" length="short" rot="R180"/>
-<text x="-4.572" y="11.176" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.064" y="-10.414" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SN65HVD233DR" prefix="U">
-<gates>
-<gate name="G$1" symbol="SN65HVD233DR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOIC-8">
-<connects>
-<connect gate="G$1" pin="CANH" pad="7"/>
-<connect gate="G$1" pin="CANL" pad="6"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="LBK" pad="5"/>
-<connect gate="G$1" pin="RS" pad="8"/>
-<connect gate="G$1" pin="RXD" pad="4"/>
-<connect gate="G$1" pin="TXD" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30516121/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="LARS_409_R,C,L">
 <packages>
 <package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
@@ -489,6 +404,92 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="LARS_409_MC">
+<packages>
+<package name="SOIC-8" urn="urn:adsk.eagle:footprint:30516130/1" locally_modified="yes">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
+<wire x1="2" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="2.01890625" x2="-1.26890625" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-1.26890625" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2" y1="2.5" x2="2" y2="2.4" width="0.127" layer="21"/>
+<wire x1="2" y1="1.4" x2="2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.15" x2="2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.15" x2="-2" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="-2" y1="0.1" x2="-2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1.4" x2="-2" y2="1.15" width="0.127" layer="21"/>
+<wire x1="2" y1="-2.4" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2.4" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<circle x="-2.032" y="2.921" radius="0.3302" width="0" layer="21"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="4" x="-2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.4" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
+<text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
+<text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOIC127P600X150-8N" urn="urn:adsk.eagle:package:30516121/1" type="model">
+<description>8-SOIC, 1.27 mm pitch, 6.00 mm span, 4.90 X 4.90 X 1.50 mm body
+&lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOIC-8"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="SN65HVD233DR">
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="10.16" width="0.1524" layer="94"/>
+<pin name="TXD" x="17.78" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="-15.24" y="-2.54" length="short"/>
+<pin name="VCC" x="-15.24" y="5.08" length="short"/>
+<pin name="RXD" x="17.78" y="5.08" length="short" rot="R180"/>
+<pin name="LBK" x="17.78" y="0" length="short" rot="R180"/>
+<pin name="CANL" x="-15.24" y="2.54" length="short"/>
+<pin name="CANH" x="-15.24" y="0" length="short"/>
+<pin name="RS" x="17.78" y="-2.54" length="short" rot="R180"/>
+<text x="-4.572" y="11.176" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.064" y="-10.414" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SN65HVD233DR" prefix="U">
+<gates>
+<gate name="G$1" symbol="SN65HVD233DR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="U" package="SOIC-8">
+<connects>
+<connect gate="G$1" pin="CANH" pad="7"/>
+<connect gate="G$1" pin="CANL" pad="6"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="LBK" pad="5"/>
+<connect gate="G$1" pin="RS" pad="8"/>
+<connect gate="G$1" pin="RXD" pad="4"/>
+<connect gate="G$1" pin="TXD" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30516121/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -499,24 +500,24 @@
 </class>
 </classes>
 <parts>
-<part name="U$8" library="LARS_409_MC" deviceset="SN65HVD233DR" device="" package3d_urn="urn:adsk.eagle:package:30516121/1"/>
 <part name="C2" library="LARS_409_R,C,L" deviceset="C" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF"/>
 <part name="R1" library="LARS_409_R,C,L" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="150"/>
+<part name="U1" library="LARS_409_MC" deviceset="SN65HVD233DR" device="U" package3d_urn="urn:adsk.eagle:package:30516121/1"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$8" gate="G$1" x="22.86" y="15.24" smashed="yes">
-<attribute name="NAME" x="22.86" y="12.6916" size="1.783890625" layer="95"/>
-<attribute name="VALUE" x="22.86" y="25.4228" size="1.782" layer="95"/>
+<instance part="C2" gate="G$1" x="12.7" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.176" y="17.78" size="1.4224" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="C2" gate="G$1" x="-25.4" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="-26.924" y="17.78" size="0.6" layer="95" font="vector" rot="R90"/>
+<instance part="R1" gate="G$1" x="76.2" y="17.78" smashed="yes" rot="MR90">
+<attribute name="NAME" x="77.216" y="16.51" size="1.4224" layer="95" font="vector" rot="MR90"/>
 </instance>
-<instance part="R1" gate="G$1" x="-10.16" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="-11.176" y="16.51" size="0.6" layer="95" font="vector" rot="R90"/>
+<instance part="U1" gate="G$1" x="48.26" y="17.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="52.832" y="28.956" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="52.324" y="7.366" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -524,70 +525,67 @@
 <nets>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="VCC"/>
-<wire x1="7.62" y1="20.32" x2="5.08" y2="22.86" width="0.1524" layer="91"/>
-<label x="5.08" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="-25.4" y1="22.86" x2="-25.4" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="30.48" x2="7.62" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="30.48" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
-<junction x="7.62" y="20.32"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="P$2"/>
+<wire x1="66.04" y1="30.48" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="91"/>
+<junction x="12.7" y="30.48"/>
+<label x="10.16" y="30.48" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="63.5" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="7.62" y1="12.7" x2="5.08" y2="15.24" width="0.1524" layer="91"/>
-<label x="5.08" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="12.7" width="0.1524" layer="91"/>
-<junction x="7.62" y="12.7"/>
-<wire x1="-25.4" y1="17.78" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-<junction x="7.62" y="5.08"/>
-<pinref part="U$8" gate="G$1" pin="RS"/>
-<wire x1="48.26" y1="5.08" x2="48.26" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="15.24" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="P$1"/>
+<wire x1="66.04" y1="5.08" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="5.08" x2="10.16" y2="5.08" width="0.1524" layer="91"/>
+<junction x="12.7" y="5.08"/>
+<label x="10.16" y="5.08" size="1.4224" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="15.24" x2="66.04" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANL" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="CANL"/>
-<wire x1="7.62" y1="17.78" x2="-5.08" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="20.32" x2="-5.08" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="25.4" x2="-10.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="22.86" x2="-10.16" y2="25.4" width="0.1524" layer="91"/>
-<junction x="-10.16" y="25.4"/>
-<label x="-12.7" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="20.32" x2="71.12" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="25.4" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
+<junction x="76.2" y="25.4"/>
+<label x="78.74" y="25.4" size="1.4224" layer="95" rot="MR180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="P$2"/>
+<pinref part="U1" gate="G$1" pin="CANL"/>
+<wire x1="63.5" y1="20.32" x2="71.12" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANH" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="CANH"/>
-<wire x1="7.62" y1="15.24" x2="-5.08" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="17.78" x2="-5.08" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
-<label x="-12.7" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="71.12" y1="17.78" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="12.7" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
+<label x="78.74" y="12.7" size="1.4224" layer="95" rot="MR180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="P$1"/>
-<wire x1="-10.16" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="91"/>
-<junction x="-10.16" y="12.7"/>
+<wire x1="76.2" y1="12.7" x2="78.74" y2="12.7" width="0.1524" layer="91"/>
+<junction x="76.2" y="12.7"/>
+<pinref part="U1" gate="G$1" pin="CANH"/>
+<wire x1="63.5" y1="17.78" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CANRX" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="RXD"/>
-<wire x1="40.64" y1="20.32" x2="48.26" y2="22.86" width="0.1524" layer="91"/>
-<label x="48.26" y="22.86" size="1.778" layer="95" xref="yes"/>
+<wire x1="30.48" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<label x="27.94" y="22.86" size="1.4224" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="RXD"/>
 </segment>
 </net>
 <net name="CANTX" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="TXD"/>
-<wire x1="40.64" y1="17.78" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
-<label x="48.26" y="20.32" size="1.778" layer="95" xref="yes"/>
+<wire x1="30.48" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+<label x="27.94" y="20.32" size="1.4224" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="TXD"/>
 </segment>
 </net>
 </nets>
@@ -786,6 +784,31 @@
 <plain>
 </plain>
 <libraries>
+<library name="LARS_409_R,C,L">
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
+<smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
+<wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
+<wire x1="0.8" y1="-0.5" x2="-0.8" y2="-0.5" width="0.145" layer="21"/>
+<wire x1="1.754" y1="0.6" x2="1.754" y2="-0.6" width="0.05" layer="39"/>
+<wire x1="1.754" y1="-0.6" x2="-1.754" y2="-0.6" width="0.05" layer="39"/>
+<wire x1="-1.754" y1="-0.6" x2="-1.754" y2="0.6" width="0.05" layer="39"/>
+<wire x1="-1.754" y1="0.6" x2="1.754" y2="0.6" width="0.05" layer="39"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="35"/>
+<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="35"/>
+<text x="-1.4" y="0.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.6" y="-1.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 <library name="LARS_409_MC">
 <packages>
 <package name="SOIC-8" urn="urn:adsk.eagle:footprint:30516130/1" locally_modified="yes">
@@ -812,9 +835,9 @@
 <smd name="6" x="2.7" y="-0.635" dx="1.4" dy="0.6" layer="1"/>
 <smd name="7" x="2.7" y="0.635" dx="1.4" dy="0.6" layer="1"/>
 <smd name="8" x="2.7" y="1.905" dx="1.4" dy="0.6" layer="1"/>
-<text x="-1.905" y="3.175" size="0.889" layer="25" ratio="11">&gt;NAME</text>
 <text x="-1.905" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.5" y1="-2" x2="2.5" y2="2" layer="39" rot="R270"/>
+<text x="-2.96" y="2.96" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -823,31 +846,6 @@
 &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 6.00 mm span with body size 4.90 X 4.90 X 1.50 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOIC-8"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="LARS_409_R,C,L">
-<packages>
-<package name="0603" urn="urn:adsk.eagle:footprint:30551158/1">
-<smd name="P$1" x="-0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
-<smd name="P$2" x="0.827" y="0" dx="1.2" dy="0.6" layer="1"/>
-<wire x1="-0.8" y1="0.5" x2="0.8" y2="0.5" width="0.145" layer="21"/>
-<wire x1="0.8" y1="-0.5" x2="-0.8" y2="-0.5" width="0.145" layer="21"/>
-<wire x1="1.754" y1="0.6" x2="1.754" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="1.754" y1="-0.6" x2="-1.754" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="-1.754" y1="-0.6" x2="-1.754" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-1.754" y1="0.6" x2="1.754" y2="0.6" width="0.05" layer="39"/>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.4" y2="0.4" layer="35"/>
-<rectangle x1="0.4" y1="-0.4" x2="0.8" y2="0.4" layer="35"/>
-<text x="-1.4" y="0.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
-<text x="-1.6" y="-1.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="0603" urn="urn:adsk.eagle:package:30551165/2" type="model">
-<packageinstances>
-<packageinstance name="0603"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1045,51 +1043,47 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$8" library="LARS_409_MC" package="SOIC-8" package3d_urn="urn:adsk.eagle:package:30516121/1" value="SN65HVD233DR" x="-6.915" y="-22.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.641140625" y="-26.52156875" size="1.019090625" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="-5.64073125" y="-18.8517" size="1.01941875" layer="27" ratio="12" rot="R180"/>
-</element>
 <element name="C2" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="0.1uF" x="-6.997" y="-27.02" smashed="yes">
 <attribute name="NAME" x="-8.397" y="-26.32" size="0.6" layer="25" font="vector"/>
 </element>
 <element name="R1" library="LARS_409_R,C,L" package="0603" package3d_urn="urn:adsk.eagle:package:30551165/2" value="150" x="-6.947" y="-18.51" smashed="yes">
 <attribute name="NAME" x="-8.347" y="-17.81" size="0.6" layer="25" font="vector"/>
 </element>
+<element name="U1" library="LARS_409_MC" package="SOIC-8" package3d_urn="urn:adsk.eagle:package:30516121/1" value="SN65HVD233DRU" x="-13" y="-25" smashed="yes">
+<attribute name="NAME" x="-15.96" y="-22.04" size="1.27" layer="25"/>
+<attribute name="VALUE" x="-14.905" y="-25.635" size="0.635" layer="27" ratio="10"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="U$8" pad="2"/>
-<contactref element="U$8" pad="8"/>
 <contactref element="C2" pad="P$1"/>
 <wire x1="-7.824" y1="-27.02" x2="-7.55" y2="-26.746" width="0.254" layer="1"/>
-<wire x1="-7.55" y1="-26.746" x2="-7.55" y2="-25.4" width="0.254" layer="1"/>
-<wire x1="-7.55" y1="-25.4" x2="-7.55" y2="-23.89" width="0.254" layer="1"/>
-<wire x1="-8.82" y1="-22.62" x2="-8.82" y2="-20" width="0.254" layer="1"/>
-<wire x1="-7.55" y1="-23.89" x2="-8.82" y2="-22.62" width="0.254" layer="1"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-7.824" y1="-27.02" x2="-15.7" y2="-24.365" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
-<contactref element="U$8" pad="3"/>
 <contactref element="C2" pad="P$2"/>
 <wire x1="-6.17" y1="-27.02" x2="-6.28" y2="-26.91" width="0.254" layer="1"/>
-<wire x1="-6.28" y1="-26.91" x2="-6.28" y2="-25.4" width="0.254" layer="1"/>
+<contactref element="U1" pad="3"/>
+<wire x1="-6.28" y1="-26.91" x2="-15.7" y2="-25.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
-<contactref element="U$8" pad="6"/>
 <contactref element="R1" pad="P$2"/>
-<wire x1="-6.28" y1="-20" x2="-6.28" y2="-18.67" width="0.254" layer="1"/>
 <wire x1="-6.28" y1="-18.67" x2="-6.12" y2="-18.51" width="0.254" layer="1"/>
+<contactref element="U1" pad="6"/>
+<wire x1="-6.28" y1="-18.67" x2="-10.3" y2="-25.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
-<contactref element="U$8" pad="7"/>
 <contactref element="R1" pad="P$1"/>
-<wire x1="-7.55" y1="-20" x2="-7.55" y2="-18.734" width="0.254" layer="1"/>
 <wire x1="-7.55" y1="-18.734" x2="-7.774" y2="-18.51" width="0.254" layer="1"/>
+<contactref element="U1" pad="7"/>
+<wire x1="-7.55" y1="-18.734" x2="-10.3" y2="-24.365" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANRX">
-<contactref element="U$8" pad="4"/>
+<contactref element="U1" pad="4"/>
 </signal>
 <signal name="CANTX">
-<contactref element="U$8" pad="1"/>
+<contactref element="U1" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
