@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -179,7 +179,7 @@
 <text x="-4.62" y="2.58" size="1.778" layer="21">&gt;NAME</text>
 <text x="-5.255" y="-4.278" size="1.778" layer="21">&gt;VALUE</text>
 </package>
-<package name="RESAD896W48L600D230B" urn="urn:adsk.eagle:footprint:33235343/1">
+<package name="RESAD896W48L600D230B" urn="urn:adsk.eagle:footprint:33235343/1" locally_modified="yes">
 <description>Axial Resistor, 8.96 mm pitch, 6.00 mm body length, 2.30 mm body diameter
 &lt;p&gt;Axial Resistor package with 8.96 mm pitch (lead spacing), 0.48 mm lead diameter, 6.00 mm body length and 2.30 mm body diameter&lt;/p&gt;</description>
 <wire x1="-3" y1="1.15" x2="-3" y2="-1.15" width="0.12" layer="21"/>
@@ -192,12 +192,12 @@
 <wire x1="-3" y1="-1.15" x2="-3" y2="1.15" width="0.12" layer="51"/>
 <wire x1="-3" y1="1.15" x2="3" y2="1.15" width="0.12" layer="51"/>
 <wire x1="3" y1="1.15" x2="3" y2="-1.15" width="0.12" layer="51"/>
-<pad name="1" x="-4.48" y="0" drill="0.68" diameter="1.28"/>
-<pad name="2" x="4.48" y="0" drill="0.68" diameter="1.28"/>
+<pad name="1" x="-4.48" y="0" drill="0.68" diameter="1.5"/>
+<pad name="2" x="4.48" y="0" drill="0.68" diameter="1.5"/>
 <text x="0" y="1.785" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.785" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="C5B4.5" urn="urn:adsk.eagle:footprint:5382/1">
+<package name="C5B4.5" urn="urn:adsk.eagle:footprint:5382/1" locally_modified="yes">
 <description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 4.5 mm, grid 5.08 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
 <wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
@@ -213,8 +213,8 @@
 <wire x1="3.429" y1="-2.286" x2="3.683" y2="-2.032" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="-2.032" x2="-3.429" y2="-2.286" width="0.1524" layer="21" curve="90"/>
 <wire x1="-3.683" y1="2.032" x2="-3.429" y2="2.286" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>

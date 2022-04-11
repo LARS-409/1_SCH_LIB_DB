@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -522,18 +522,18 @@ Tyco Electronics</description>
 <pad name="P$2" x="3.2" y="3.9" drill="1.27" diameter="1.6764" rot="R90"/>
 <pad name="P$3" x="-3.2" y="3.9" drill="1.27" diameter="1.6764" rot="R90"/>
 </package>
-<package name="MICRO-USB-DIP-ADAPTER" urn="urn:adsk.eagle:footprint:33247312/1">
+<package name="MICRO-USB-DIP-ADAPTER" urn="urn:adsk.eagle:footprint:33247312/1" locally_modified="yes">
 <wire x1="-7.8" y1="6.65" x2="7.8" y2="6.65" width="0.1524" layer="21"/>
 <wire x1="-7.8" y1="-6.65" x2="7.8" y2="-6.65" width="0.1524" layer="21"/>
 <wire x1="-7.8" y1="6.65" x2="-7.8" y2="-6.65" width="0.1524" layer="21"/>
 <wire x1="7.8" y1="6.65" x2="7.8" y2="-6.65" width="0.1524" layer="21"/>
 <circle x="1.5" y="-4.5" radius="1.5" width="0.1524" layer="21"/>
 <circle x="1.5" y="4.5" radius="1.5" width="0.1524" layer="21"/>
-<pad name="GND" x="6.31" y="-5.08" drill="1"/>
-<pad name="ID" x="6.31" y="-2.54" drill="1"/>
-<pad name="D+" x="6.31" y="0" drill="1"/>
-<pad name="D-" x="6.31" y="2.54" drill="1"/>
-<pad name="VBUS" x="6.31" y="5.08" drill="1" shape="square"/>
+<pad name="GND" x="6.31" y="-5.08" drill="1" diameter="2"/>
+<pad name="ID" x="6.31" y="-2.54" drill="1" diameter="2"/>
+<pad name="D+" x="6.31" y="0" drill="1" diameter="2"/>
+<pad name="D-" x="6.31" y="2.54" drill="1" diameter="2"/>
+<pad name="VBUS" x="6.31" y="5.08" drill="1" diameter="2" shape="square"/>
 </package>
 <package name="USB-B_CUSTOM">
 <wire x1="-6.0894" y1="-13.491" x2="5.9248" y2="-13.491" width="0.127" layer="21"/>
