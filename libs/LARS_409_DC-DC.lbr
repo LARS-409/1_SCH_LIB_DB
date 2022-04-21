@@ -993,6 +993,19 @@
 <text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="LM2703">
+<pin name="GND" x="0" y="-7.62" visible="pin" length="short" rot="R90"/>
+<pin name="SHDN" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VIN" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="FB" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SW" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="94"/>
+<text x="-12.7" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM3481" prefix="U" uservalue="yes">
@@ -1475,6 +1488,28 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:32794783/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2703" prefix="U">
+<gates>
+<gate name="G$1" symbol="LM2703" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SHDN" pad="4"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30500875/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
