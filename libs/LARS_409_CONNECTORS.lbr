@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -857,7 +857,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <text x="-4.532" y="1.365" size="1.27" layer="21" ratio="10">1</text>
 <text x="0.421" y="1.365" size="1.27" layer="21" ratio="10">2</text>
 </package>
-<package name="XT60-M" urn="urn:adsk.eagle:footprint:30554714/1">
+<package name="XT60-M" urn="urn:adsk.eagle:footprint:30554714/1" locally_modified="yes">
 <wire x1="-4.75" y1="4.05" x2="7.75" y2="4.05" width="0.127" layer="51"/>
 <wire x1="7.75" y1="4.05" x2="7.75" y2="-4.05" width="0.127" layer="51"/>
 <wire x1="7.75" y1="-4.05" x2="-4.75" y2="-4.05" width="0.127" layer="51"/>
@@ -879,8 +879,8 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <text x="-8.10561875" y="4.40305" size="1.27088125" layer="25">&gt;NAME</text>
 <text x="-8.105540625" y="-5.60383125" size="1.27086875" layer="27">&gt;VALUE</text>
 <circle x="-8.4" y="-0.1" radius="0.15" width="0.3" layer="21"/>
-<pad name="1" x="-3.6" y="0" drill="4.5" diameter="6.7"/>
-<pad name="2" x="3.6" y="0" drill="4.5" diameter="6.7"/>
+<pad name="1" x="-4.02" y="0" drill="4.5" diameter="6.7" shape="offset" rot="R180"/>
+<pad name="2" x="3.6" y="0" drill="4.5" diameter="6.7" shape="offset"/>
 </package>
 <package name="MOLEX-2X3V" urn="urn:adsk.eagle:footprint:30554715/1">
 <wire x1="-6.9" y1="4.6" x2="6.9" y2="4.6" width="0.254" layer="21"/>
