@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -277,18 +277,12 @@
 <packageinstance name="RESAD896W48L600D230B"/>
 </packageinstances>
 </package3d>
-<package3d name="C5B4.5" urn="urn:adsk.eagle:package:5424/1" locally_modified="yes" type="box">
-<description>MKS2, 7.5 x 4.5 mm, grid 5.08 mm</description>
-<packageinstances>
-<packageinstance name="C5B4.5"/>
-</packageinstances>
-</package3d>
 <package3d name="0402" urn="urn:adsk.eagle:package:34824522/2" type="model">
 <packageinstances>
 <packageinstance name="0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C5B4.5" urn="urn:adsk.eagle:package:35531634/2" type="model">
+<package3d name="C5B4.5" urn="urn:adsk.eagle:package:35531813/2" type="model">
 <description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 4.5 mm, grid 5.08 mm</description>
 <packageinstances>
 <packageinstance name="C5B4.5"/>
@@ -389,20 +383,6 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="VOLTAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="DIP" package="C5B4.5">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5424/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
