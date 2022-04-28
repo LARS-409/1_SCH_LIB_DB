@@ -197,7 +197,7 @@
 <text x="0" y="1.785" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.785" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="C5B4.5" urn="urn:adsk.eagle:footprint:5382/1" locally_modified="yes">
+<package name="C5B4.5" urn="urn:adsk.eagle:footprint:35531624/1">
 <description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 4.5 mm, grid 5.08 mm</description>
 <wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
 <wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
@@ -277,7 +277,7 @@
 <packageinstance name="RESAD896W48L600D230B"/>
 </packageinstances>
 </package3d>
-<package3d name="C5B4.5" urn="urn:adsk.eagle:package:5424/1" type="box">
+<package3d name="C5B4.5" urn="urn:adsk.eagle:package:5424/1" locally_modified="yes" type="box">
 <description>MKS2, 7.5 x 4.5 mm, grid 5.08 mm</description>
 <packageinstances>
 <packageinstance name="C5B4.5"/>
@@ -286,6 +286,12 @@
 <package3d name="0402" urn="urn:adsk.eagle:package:34824522/2" type="model">
 <packageinstances>
 <packageinstance name="0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C5B4.5" urn="urn:adsk.eagle:package:35531634/2" type="model">
+<description>&lt;B&gt;MKS2&lt;/B&gt;, 7.5 x 4.5 mm, grid 5.08 mm</description>
+<packageinstances>
+<packageinstance name="C5B4.5"/>
 </packageinstances>
 </package3d>
 </packages3d>
