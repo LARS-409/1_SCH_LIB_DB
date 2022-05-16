@@ -3163,7 +3163,11 @@ Source: http://www.molex.com</description>
 <smd name="P$2" x="1" y="0" dx="1" dy="1" layer="1"/>
 <text x="-1.36" y="1.44" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.57" y="-1.88" size="0.6" layer="27" font="vector">&gt;VALUE</text>
->>>>>>> e520c30cd6d4f68d2a11fcda1efa155ad59d00b7
+</package>
+<package name="DOWEL_PIN" urn="urn:adsk.eagle:footprint:35814786/1">
+<pad name="P$1" x="0" y="0" drill="0.8" diameter="1.9304"/>
+<circle x="0" y="0" radius="2.5" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="1.25" width="2.5" layer="29"/>
 </package>
 </packages>
 <packages3d>
@@ -3601,7 +3605,11 @@ Source: http://www.molex.com</description>
 <package3d name="JST-PH-SM4-(LF)" urn="urn:adsk.eagle:package:35810023/2" type="model">
 <packageinstances>
 <packageinstance name="JST-PH-SM4-(LF)"/>
->>>>>>> e520c30cd6d4f68d2a11fcda1efa155ad59d00b7
+</packageinstances>
+</package3d>
+<package3d name="DOWEL_PIN" urn="urn:adsk.eagle:package:35814801/2" type="model">
+<packageinstances>
+<packageinstance name="DOWEL_PIN"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3989,6 +3997,17 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501096/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DOWEL_PIN" package="DOWEL_PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35814801/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
