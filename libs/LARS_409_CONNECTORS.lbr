@@ -4194,18 +4194,6 @@ Source: http://www.molex.com</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="H_SMD" package="JST-PH-SM2-(LF)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35810024/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 <deviceset name="1X3" prefix="X">
@@ -5340,7 +5328,7 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X4_JST_PH_2" prefix="X" uservalue="yes">
+<deviceset name="1X4_JST_PH_LF_2" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
 </gates>
@@ -5362,7 +5350,7 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X2_JST_PH_2" prefix="X" uservalue="yes">
+<deviceset name="1X2_JST_PH_LF2" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_02_JST_PH-2" x="0" y="0"/>
 </gates>
@@ -5375,6 +5363,28 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35810024/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X4_JST_PH_2" prefix="X">
+<gates>
+<gate name="G$1" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST-PH-SM4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="P1 P2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35541079/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
