@@ -857,7 +857,7 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <text x="-4.532" y="1.365" size="1.27" layer="21" ratio="10">1</text>
 <text x="0.421" y="1.365" size="1.27" layer="21" ratio="10">2</text>
 </package>
-<package name="XT60-M" urn="urn:adsk.eagle:footprint:30554714/1">
+<package name="XT60-M" urn="urn:adsk.eagle:footprint:30554714/1" locally_modified="yes">
 <wire x1="-4.75" y1="4.05" x2="7.75" y2="4.05" width="0.127" layer="51"/>
 <wire x1="7.75" y1="4.05" x2="7.75" y2="-4.05" width="0.127" layer="51"/>
 <wire x1="7.75" y1="-4.05" x2="-4.75" y2="-4.05" width="0.127" layer="51"/>
@@ -879,19 +879,19 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <text x="-8.10561875" y="4.40305" size="1.27088125" layer="25">&gt;NAME</text>
 <text x="-8.105540625" y="-5.60383125" size="1.27086875" layer="27">&gt;VALUE</text>
 <circle x="-8.4" y="-0.1" radius="0.15" width="0.3" layer="21"/>
-<pad name="1" x="-3.6" y="0" drill="4.5" diameter="6.7"/>
-<pad name="2" x="3.6" y="0" drill="4.5" diameter="6.7"/>
+<pad name="1" x="-4.02" y="0" drill="4.5" diameter="6.7" shape="offset" rot="R180"/>
+<pad name="2" x="3.6" y="0" drill="4.5" diameter="6.7" shape="offset"/>
 </package>
-<package name="MOLEX-2X3V" urn="urn:adsk.eagle:footprint:30554715/1">
+<package name="MOLEX-2X3V" urn="urn:adsk.eagle:footprint:30554715/1" locally_modified="yes">
 <wire x1="-6.9" y1="4.6" x2="6.9" y2="4.6" width="0.254" layer="21"/>
 <wire x1="6.9" y1="4.6" x2="6.9" y2="-2.2" width="0.254" layer="21"/>
 <wire x1="6.9" y1="-3.3" x2="6.9" y2="-5" width="0.254" layer="21"/>
 <wire x1="6.9" y1="-5" x2="-6.9" y2="-5" width="0.254" layer="21"/>
 <wire x1="-6.9" y1="-5" x2="-6.9" y2="4.6" width="0.254" layer="21"/>
 <wire x1="6.9" y1="-2.2" x2="6.9" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="51"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="51"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="51"/>
+<wire x1="-2.1" y1="5.6" x2="2.1" y2="5.6" width="0.254" layer="51"/>
+<wire x1="-2.1" y1="5.6" x2="-2.1" y2="4.6" width="0.254" layer="51"/>
+<wire x1="2.1" y1="5.6" x2="2.1" y2="4.6" width="0.254" layer="51"/>
 <wire x1="-4.2" y1="0.64" x2="-5.21" y2="1.65" width="0" layer="46" curve="-90"/>
 <wire x1="-5.21" y1="1.65" x2="-5.21" y2="2.75" width="0" layer="46"/>
 <wire x1="-5.21" y1="2.75" x2="-4.2" y2="3.76" width="0" layer="46" curve="-90"/>
@@ -918,8 +918,20 @@ Number of pins: &lt;b&gt;10&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <pad name="9" x="4.2" y="1.65" drill="2" diameter="3.3" shape="offset" rot="R90"/>
 <text x="-3.27" y="7.015" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-7.015" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.873" y1="4.546" x2="-6.873" y2="5.546" width="0.1524" layer="21"/>
+<wire x1="-6.873" y1="5.546" x2="-4.573" y2="5.546" width="0.1524" layer="21"/>
+<wire x1="-4.573" y1="5.546" x2="-4.573" y2="4.546" width="0.1524" layer="21"/>
+<wire x1="4.627" y1="4.546" x2="4.627" y2="5.546" width="0.1524" layer="21"/>
+<wire x1="4.627" y1="5.546" x2="6.927" y2="5.546" width="0.1524" layer="21"/>
+<wire x1="6.927" y1="5.546" x2="6.927" y2="4.546" width="0.1524" layer="21"/>
+<wire x1="-6.873" y1="-5.054" x2="-6.873" y2="-6.054" width="0.1524" layer="21"/>
+<wire x1="-6.873" y1="-6.054" x2="6.827" y2="-6.054" width="0.1524" layer="21"/>
+<wire x1="6.827" y1="-6.054" x2="6.827" y2="-5.054" width="0.1524" layer="21"/>
+<wire x1="-1.373" y1="5.546" x2="-1.373" y2="10.546" width="0.1524" layer="21"/>
+<wire x1="-1.373" y1="10.546" x2="1.527" y2="10.546" width="0.1524" layer="21"/>
+<wire x1="1.527" y1="10.546" x2="1.527" y2="5.546" width="0.1524" layer="21"/>
 </package>
-<package name="MOLEX-2X2V" urn="urn:adsk.eagle:footprint:30554716/1">
+<package name="MOLEX-2X2V" urn="urn:adsk.eagle:footprint:30554716/1" locally_modified="yes">
 <description>&lt;b&gt;Mini FIT connector 4 pol&lt;/b&gt;&lt;p&gt;
 Source: http://www.molex.com</description>
 <wire x1="-4.8" y1="4.6" x2="4.8" y2="4.6" width="0.254" layer="21"/>
@@ -928,9 +940,9 @@ Source: http://www.molex.com</description>
 <wire x1="4.8" y1="-5" x2="-4.8" y2="-5" width="0.254" layer="21"/>
 <wire x1="-4.8" y1="-5" x2="-4.8" y2="4.6" width="0.254" layer="21"/>
 <wire x1="4.8" y1="-2.2" x2="4.8" y2="-3.3" width="0.254" layer="21" curve="-180"/>
-<wire x1="-2.1" y1="6.3" x2="2.1" y2="6.3" width="0.254" layer="51"/>
-<wire x1="-2.1" y1="6.3" x2="-2.1" y2="4.6" width="0.254" layer="51"/>
-<wire x1="2.1" y1="6.3" x2="2.1" y2="4.6" width="0.254" layer="51"/>
+<wire x1="-2.1" y1="5.665" x2="2.1" y2="5.665" width="0.254" layer="51"/>
+<wire x1="-2.1" y1="5.665" x2="-2.1" y2="4.6" width="0.254" layer="51"/>
+<wire x1="2.1" y1="5.665" x2="2.1" y2="4.6" width="0.254" layer="51"/>
 <wire x1="-2.1" y1="0.64" x2="-3.11" y2="1.65" width="0" layer="46" curve="-90"/>
 <wire x1="-3.11" y1="1.65" x2="-3.11" y2="2.75" width="0" layer="46"/>
 <wire x1="-3.11" y1="2.75" x2="-2.1" y2="3.76" width="0" layer="46" curve="-90"/>
@@ -949,6 +961,18 @@ Source: http://www.molex.com</description>
 <pad name="3" x="2.1" y="1.65" drill="2" diameter="3.2" shape="offset" rot="R90"/>
 <text x="5.73" y="10.015" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.81" y="9.985" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.8" y1="4.673" x2="-4.8" y2="5.673" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="5.673" x2="-2.5" y2="5.673" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="5.673" x2="-2.5" y2="4.673" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="4.673" x2="2.5" y2="5.673" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="5.673" x2="4.8" y2="5.673" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="5.673" x2="4.8" y2="4.673" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="-4.927" x2="-4.8" y2="-5.927" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="-5.927" x2="4.8" y2="-5.927" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="-5.927" x2="4.8" y2="-4.927" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="5.673" x2="-1.5" y2="10.673" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="10.673" x2="1.4" y2="10.673" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="10.673" x2="1.4" y2="5.673" width="0.1524" layer="21"/>
 </package>
 <package name="W237-103" urn="urn:adsk.eagle:footprint:30554717/1">
 <wire x1="4.093" y1="-0.985" x2="5.897" y2="0.971" width="0.254" layer="51"/>
@@ -2838,19 +2862,34 @@ Source: http://www.molex.com</description>
 </package>
 <package name="MOLEX-2X2U" urn="urn:adsk.eagle:footprint:30828401/1" locally_modified="yes">
 <text x="-3.27" y="6.015" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.81" y="-7.015" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.91" y="-7.315" size="1.27" layer="27">&gt;VALUE</text>
 <wire x1="-4.8" y1="-4.8" x2="-4.8" y2="4.8" width="0.127" layer="21"/>
-<wire x1="-4.8" y1="4.8" x2="4.8" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-4.8" y1="4.8" x2="-2.5" y2="4.8" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="4.8" x2="4.8" y2="4.8" width="0.127" layer="21"/>
 <wire x1="4.8" y1="4.8" x2="4.8" y2="-4.8" width="0.127" layer="21"/>
 <wire x1="4.8" y1="-4.8" x2="-4.8" y2="-4.8" width="0.127" layer="21"/>
 <wire x1="4.8" y1="-2" x2="4.8" y2="-3" width="0.127" layer="21" curve="-180"/>
 <wire x1="-2" y1="4.8" x2="-2" y2="5.8" width="0.127" layer="21"/>
-<wire x1="-2" y1="5.8" x2="2" y2="5.8" width="0.127" layer="21"/>
+<wire x1="-2" y1="5.8" x2="-1.5" y2="5.8" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="5.8" x2="1.4" y2="5.8" width="0.127" layer="21"/>
+<wire x1="1.4" y1="5.8" x2="2" y2="5.8" width="0.127" layer="21"/>
 <wire x1="2" y1="5.8" x2="2" y2="4.8" width="0.127" layer="21"/>
 <pad name="1" x="-2.1" y="-2.1" drill="1.8" diameter="3.2"/>
 <pad name="4" x="2.1" y="2.1" drill="1.8" diameter="3.2"/>
 <pad name="3" x="-2.1" y="2.1" drill="1.8" diameter="3.2"/>
 <pad name="2" x="2.1" y="-2.1" drill="1.8" diameter="3.2"/>
+<wire x1="-4.8" y1="4.8" x2="-4.8" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="5.8" x2="-2.5" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="5.8" x2="-2.5" y2="4.8" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="4.8" x2="2.5" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="5.8" x2="4.8" y2="5.8" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="5.8" x2="4.8" y2="4.8" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="-4.8" x2="-4.8" y2="-5.8" width="0.1524" layer="21"/>
+<wire x1="-4.8" y1="-5.8" x2="4.8" y2="-5.8" width="0.1524" layer="21"/>
+<wire x1="4.8" y1="-5.8" x2="4.8" y2="-4.8" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="5.8" x2="-1.5" y2="10.8" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="10.8" x2="1.4" y2="10.8" width="0.1524" layer="21"/>
+<wire x1="1.4" y1="10.8" x2="1.4" y2="5.8" width="0.1524" layer="21"/>
 </package>
 <package name="HYR-1139-RP">
 <wire x1="5.497" y1="2.264" x2="5.497" y2="3.264" width="0.1016" layer="21"/>
@@ -3050,10 +3089,87 @@ Source: http://www.molex.com</description>
 <pad name="4" x="7.5" y="0" drill="1.3" shape="long" rot="R90"/>
 <pad name="1" x="-7.5" y="0" drill="1.3" shape="long" rot="R90"/>
 </package>
+<<<<<<< HEAD
 <package name="DOWEL_PIN" urn="urn:adsk.eagle:footprint:35814786/1">
 <pad name="P$1" x="0" y="0" drill="0.8" diameter="1.9304"/>
 <circle x="0" y="0" radius="2.5" width="0.15" layer="21"/>
 <circle x="0" y="0" radius="1.25" width="2.5" layer="29"/>
+=======
+<package name="JST-PH-SM4" urn="urn:adsk.eagle:footprint:35540950/1" locally_modified="yes">
+<wire x1="-5.975" y1="-0.25" x2="5.975" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="5.975" y1="-0.25" x2="5.975" y2="4.75" width="0.127" layer="51"/>
+<wire x1="5.975" y1="4.75" x2="-5.975" y2="4.75" width="0.127" layer="21"/>
+<wire x1="-5.975" y1="4.75" x2="-5.975" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="-6.45" y1="4.95" x2="-6.45" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-6.45" y1="-0.75" x2="-3.75" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-3.75" y1="-0.75" x2="-3.75" y2="-3.05" width="0.127" layer="39"/>
+<wire x1="-3.75" y1="-3.05" x2="3.75" y2="-3.05" width="0.127" layer="39"/>
+<wire x1="3.75" y1="-3.05" x2="3.75" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="3.75" y1="-0.75" x2="6.35" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="6.35" y1="-0.75" x2="6.35" y2="4.95" width="0.127" layer="39"/>
+<wire x1="6.35" y1="4.95" x2="-6.45" y2="4.95" width="0.127" layer="39"/>
+<circle x="-3.9" y="-2.6" radius="0.127" width="0" layer="21"/>
+<text x="-6.75488125" y="5.50396875" size="1.27091875" layer="25">&gt;NAME</text>
+<text x="-6.75586875" y="-4.75413125" size="1.271109375" layer="27">&gt;VALUE</text>
+<smd name="2" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="1" x="-3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="P1" x="-5.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="P2" x="5.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+</package>
+<package name="JST-PH-SM4-(LF)" urn="urn:adsk.eagle:footprint:35809894/1">
+<wire x1="6.475" y1="8.15" x2="6.475" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="6.475" y1="-1.45" x2="-6.475" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="-6.475" y1="-1.45" x2="-6.475" y2="8.15" width="0.05" layer="39"/>
+<wire x1="-6.475" y1="8.15" x2="6.475" y2="8.15" width="0.05" layer="39"/>
+<wire x1="5.95" y1="0" x2="5.95" y2="8" width="0.127" layer="21"/>
+<wire x1="5.95" y1="8" x2="-5.95" y2="8" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="8" x2="-5.95" y2="0" width="0.127" layer="21"/>
+<wire x1="5.95" y1="0" x2="4" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.95" y1="0" x2="-4" y2="0" width="0.127" layer="21"/>
+<text x="5" y="-2" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="5" y="10" size="1.016" layer="27" rot="R180">&gt;VALUE</text>
+<circle x="-4.575" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.575" y="-0.5" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-3" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+<smd name="S1" x="5.4" y="6" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="S2" x="-5.4" y="6" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+<smd name="3" x="1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+<smd name="4" x="3" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+</package>
+<package name="JST-PH-SM2-(LF)" urn="urn:adsk.eagle:footprint:35809895/1">
+<wire x1="4.443" y1="8.15" x2="4.443" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="4.443" y1="-1.45" x2="-4.443" y2="-1.45" width="0.05" layer="39"/>
+<wire x1="-4.443" y1="-1.45" x2="-4.443" y2="8.15" width="0.05" layer="39"/>
+<wire x1="-4.443" y1="8.15" x2="4.443" y2="8.15" width="0.05" layer="39"/>
+<wire x1="3.95" y1="0" x2="3.95" y2="8" width="0.127" layer="21"/>
+<wire x1="3.95" y1="8" x2="-3.95" y2="8" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="8" x2="-3.95" y2="0" width="0.127" layer="21"/>
+<wire x1="3.95" y1="0" x2="2" y2="0" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="0" x2="-2" y2="0" width="0.127" layer="21"/>
+<text x="5" y="-2" size="1.016" layer="25" rot="R180">&gt;NAME</text>
+<text x="5" y="10" size="1.016" layer="27" rot="R180">&gt;VALUE</text>
+<circle x="-4.575" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.575" y="-0.5" radius="0.1" width="0.2" layer="51"/>
+<smd name="1" x="-1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+<smd name="S1" x="3.4" y="6" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="S2" x="-3.4" y="6" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
+</package>
+<package name="TEST_PAD">
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.145" layer="21"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.145" layer="21"/>
+<wire x1="-1.748" y1="-0.906" x2="-1.748" y2="0.859" width="0.05" layer="39"/>
+<wire x1="-1.748" y1="0.859" x2="1.728" y2="0.859" width="0.05" layer="39"/>
+<wire x1="1.728" y1="0.859" x2="1.728" y2="-0.906" width="0.05" layer="39"/>
+<wire x1="1.728" y1="-0.906" x2="-1.748" y2="-0.906" width="0.05" layer="39"/>
+<smd name="P$1" x="-1" y="0" dx="1" dy="1" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="1" dy="1" layer="1"/>
+<text x="-1.36" y="1.44" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.57" y="-1.88" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+>>>>>>> e520c30cd6d4f68d2a11fcda1efa155ad59d00b7
 </package>
 </packages>
 <packages3d>
@@ -3478,9 +3594,25 @@ Source: http://www.molex.com</description>
 <packageinstance name="1935187"/>
 </packageinstances>
 </package3d>
+<<<<<<< HEAD
 <package3d name="DOWEL_PIN" urn="urn:adsk.eagle:package:35814801/2" type="model">
 <packageinstances>
 <packageinstance name="DOWEL_PIN"/>
+=======
+<package3d name="JST-PH-SM4" urn="urn:adsk.eagle:package:35541079/2" type="model">
+<packageinstances>
+<packageinstance name="JST-PH-SM4"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-PH-SM2-(LF)" urn="urn:adsk.eagle:package:35810024/2" type="model">
+<packageinstances>
+<packageinstance name="JST-PH-SM2-(LF)"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-PH-SM4-(LF)" urn="urn:adsk.eagle:package:35810023/2" type="model">
+<packageinstances>
+<packageinstance name="JST-PH-SM4-(LF)"/>
+>>>>>>> e520c30cd6d4f68d2a11fcda1efa155ad59d00b7
 </packageinstances>
 </package3d>
 </packages3d>
@@ -3813,6 +3945,48 @@ Source: http://www.molex.com</description>
 <text x="2.54" y="5.588" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="2.54" y="2.794" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
+<symbol name="TEST_PAD">
+<pin name="P$1" x="0" y="0" visible="off" length="short"/>
+<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="3.302" y1="2.54" x2="3.302" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.778" x2="2.54" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.778" x2="3.302" y2="2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="2.54" y1="-1.778" x2="3.302" y2="-2.54" width="0.1524" layer="94" curve="90"/>
+<wire x1="4.318" y1="-2.54" x2="4.318" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.778" x2="5.08" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-1.778" x2="4.318" y2="-2.54" width="0.1524" layer="94" curve="-90"/>
+<wire x1="5.08" y1="1.778" x2="4.318" y2="2.54" width="0.1524" layer="94" curve="90"/>
+<rectangle x1="2.54" y1="-2.032" x2="3.302" y2="2.032" layer="94"/>
+<rectangle x1="4.318" y1="-2.032" x2="5.08" y2="2.032" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="5.08" y="-1.524"/>
+<vertex x="5.08" y="-2.032" curve="-90"/>
+<vertex x="4.572" y="-2.54"/>
+<vertex x="4.318" y="-2.54"/>
+<vertex x="4.318" y="-1.524"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-1.524"/>
+<vertex x="2.54" y="-2.032" curve="90"/>
+<vertex x="3.048" y="-2.54"/>
+<vertex x="3.302" y="-2.54"/>
+<vertex x="3.302" y="-1.524"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="5.08" y="1.524"/>
+<vertex x="5.08" y="2.032" curve="90"/>
+<vertex x="4.572" y="2.54"/>
+<vertex x="4.318" y="2.54"/>
+<vertex x="4.318" y="1.524"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="1.524"/>
+<vertex x="2.54" y="2.032" curve="-90"/>
+<vertex x="3.048" y="2.54"/>
+<vertex x="3.302" y="2.54"/>
+<vertex x="3.302" y="1.524"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="1X1" prefix="X">
@@ -3982,6 +4156,18 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:31841946/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H_SMD" package="JST-PH-SM2-(LF)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35810024/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4220,6 +4406,34 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34049312/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-PH-SM4" package="JST-PH-SM4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35541079/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST_PH_04_LF" package="JST-PH-SM4-(LF)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35810023/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5099,6 +5313,22 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30554780/3"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_PAD" prefix="J" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TEST_PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X1MM" package="TEST_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
