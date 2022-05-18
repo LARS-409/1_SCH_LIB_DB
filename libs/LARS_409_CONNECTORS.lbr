@@ -3153,16 +3153,19 @@ Source: http://www.molex.com</description>
 <smd name="2" x="1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
 </package>
 <package name="TEST_PAD">
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.145" layer="21"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.145" layer="21"/>
-<wire x1="-1.748" y1="-0.906" x2="-1.748" y2="0.859" width="0.05" layer="39"/>
-<wire x1="-1.748" y1="0.859" x2="1.728" y2="0.859" width="0.05" layer="39"/>
-<wire x1="1.728" y1="0.859" x2="1.728" y2="-0.906" width="0.05" layer="39"/>
-<wire x1="1.728" y1="-0.906" x2="-1.748" y2="-0.906" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="0.8" x2="1.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-0.8" x2="-1.8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-1.7" y1="-0.7" x2="-1.7" y2="0.7" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="0.7" x2="1.7" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.7" y1="0.7" x2="1.7" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-0.7" x2="-1.7" y2="-0.7" width="0.05" layer="39"/>
 <smd name="P$1" x="-1" y="0" dx="1" dy="1" layer="1"/>
 <smd name="P$2" x="1" y="0" dx="1" dy="1" layer="1"/>
-<text x="-1.36" y="1.44" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.06" y="1.04" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.57" y="-1.88" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.8" y1="-0.8" x2="-1.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-0.8" x2="1.8" y2="0.8" width="0.127" layer="21"/>
+<smd name="P$3" x="-3" y="0" dx="1" dy="0.5" layer="1" rot="R270"/>
 </package>
 <package name="DOWEL_PIN" urn="urn:adsk.eagle:footprint:35814786/1">
 <pad name="P$1" x="0" y="0" drill="0.8" diameter="1.9304"/>
@@ -5511,28 +5514,6 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X4_JST_PH_LF_2" prefix="X" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST-PH-SM4-(LF)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5 6"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35810023/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1X2_JST_PH_LF2" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_02_JST_PH-2" x="0" y="0"/>
@@ -5553,21 +5534,36 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X4_JST_PH_2" prefix="X">
+<deviceset name="1X4_JST_PH_2" prefix="X" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
+<gate name="&gt;NAME" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="JST-PH-SM4">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="P1 P2"/>
+<connect gate="&gt;NAME" pin="1" pad="1"/>
+<connect gate="&gt;NAME" pin="2" pad="2"/>
+<connect gate="&gt;NAME" pin="3" pad="3"/>
+<connect gate="&gt;NAME" pin="4" pad="4"/>
+<connect gate="&gt;NAME" pin="5" pad="P1 P2"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35541079/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST_PH_SM4_2MM(LF)" package="JST-PH-SM4-(LF)">
+<connects>
+<connect gate="&gt;NAME" pin="1" pad="1"/>
+<connect gate="&gt;NAME" pin="2" pad="2"/>
+<connect gate="&gt;NAME" pin="3" pad="3"/>
+<connect gate="&gt;NAME" pin="4" pad="4"/>
+<connect gate="&gt;NAME" pin="5" pad="5 6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35810023/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
