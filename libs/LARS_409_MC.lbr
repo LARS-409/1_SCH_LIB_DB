@@ -1356,7 +1356,9 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <packageinstance name="SOT-23"/>
 </packageinstances>
 </package3d>
-<package3d name="TSSOP-24" urn="urn:adsk.eagle:package:35844497/2" type="box">
+<package3d name="TSSOP-24" urn="urn:adsk.eagle:package:35844497/3" type="model">
+<description>24-SOP, 0.65 mm pitch, 6.38 mm span, 7.80 X 4.40 X 1.10 mm body
+&lt;p&gt;24-pin SOP package with 0.65 mm pitch, 6.38 mm span with body size 7.80 X 4.40 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="TSSOP-24"/>
 </packageinstances>
@@ -4419,7 +4421,7 @@ RDY</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="TSSOP-24" package="TSSOP-24">
+<device name="DEHXVFH" package="TSSOP-24">
 <connects>
 <connect gate="1" pin="A1" pad="P$18"/>
 <connect gate="1" pin="B1" pad="P$16"/>
@@ -4447,7 +4449,7 @@ RDY</text>
 <connect gate="C" pin="VSS" pad="P$9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:35844497/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35844497/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
