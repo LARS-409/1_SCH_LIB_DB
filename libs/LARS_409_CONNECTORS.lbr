@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -3315,6 +3315,19 @@ Source: http://www.molex.com</description>
 <wire x1="7.1" y1="1.1" x2="7" y2="1" width="0.1524" layer="21"/>
 <wire x1="7" y1="1" x2="6.9" y2="1.1" width="0.1524" layer="21"/>
 </package>
+<package name="1X1_PAD">
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.05" layer="39"/>
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.05" layer="39"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.05" layer="39"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.05" layer="39"/>
+<smd name="P$1" x="0" y="0" dx="1.5" dy="1.5" layer="1"/>
+<text x="-1.06" y="1.14" size="0.6" layer="25" font="vector">&gt;NAME</text>
+<text x="-0.87" y="-1.88" size="0.6" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -5564,6 +5577,21 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35810023/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X1_PAD" prefix="J" uservalue="yes">
+<gates>
+<gate name="&gt;NAME" symbol="CONN_01" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="1X1_PAD" package="1X1_PAD">
+<connects>
+<connect gate="&gt;NAME" pin="1" pad="P$1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

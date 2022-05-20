@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -476,38 +476,8 @@
 <package name="1981584-1" urn="urn:adsk.eagle:footprint:970898/1" locally_modified="yes">
 <description>Micro USB Type-A/B Receptacle&lt;p&gt;
 Tyco Electronics</description>
-<wire x1="-3.9" y1="4.3" x2="3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="4.3" x2="3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.9" y1="-0.7" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.6" y1="-0.7" x2="3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-0.7" x2="3.1" y2="-1.1" width="0.0508" layer="51"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.3" width="0.0508" layer="51" curve="-90"/>
-<wire x1="2.9" y1="-1.3" x2="-2.9" y2="-1.3" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.3" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-90"/>
-<wire x1="-3.1" y1="-1.1" x2="-3.1" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.1" y1="-0.7" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.6" y1="-0.7" x2="-3.9" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-3.9" y1="-0.7" x2="-3.9" y2="4.3" width="0.0508" layer="51"/>
-<wire x1="2.9" y1="-1.2" x2="-2.9" y2="-1.2" width="0.0508" layer="51"/>
-<wire x1="-2.9" y1="-1.2" x2="-3.1" y2="-1.1" width="0.0508" layer="51" curve="-67.380135"/>
-<wire x1="3.1" y1="-1.1" x2="2.9" y2="-1.2" width="0.0508" layer="51" curve="-53.130102"/>
-<wire x1="3.85" y1="0" x2="-3.85" y2="0" width="0" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="-4.05" y1="-1.35" x2="-3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="-3.6574" y1="-0.8702" x2="-3.6" y2="-0.7093" width="0.0508" layer="51" curve="39.301204"/>
-<wire x1="-3.6" y1="-0.7093" x2="-3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="-4.25" y1="-1.2" x2="-3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="-3.9307" y1="-0.7895" x2="-3.9" y2="-0.7" width="0.0508" layer="51" curve="37.895357"/>
-<wire x1="4.25" y1="-1.2" x2="4.05" y2="-1.35" width="0.0508" layer="51"/>
-<wire x1="4.05" y1="-1.35" x2="3.6574" y2="-0.8702" width="0.0508" layer="51"/>
-<wire x1="3.6574" y1="-0.8702" x2="3.6" y2="-0.7093" width="0.0508" layer="51" curve="-39.301204"/>
-<wire x1="3.6" y1="-0.7093" x2="3.6" y2="-0.7" width="0.0508" layer="51"/>
-<wire x1="4.25" y1="-1.2" x2="3.9307" y2="-0.7895" width="0.0508" layer="51"/>
-<wire x1="3.9307" y1="-0.7895" x2="3.9" y2="-0.7" width="0.0508" layer="51" curve="-37.922374"/>
-<wire x1="-4.05" y1="0.1" x2="-4.05" y2="0.55" width="0.2032" layer="27"/>
-<wire x1="-4.05" y1="2.35" x2="-4.05" y2="2.85" width="0.2032" layer="27"/>
-<wire x1="4.05" y1="0.1" x2="4.05" y2="0.55" width="0.2032" layer="27"/>
-<wire x1="4.05" y1="2.35" x2="4.05" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="-3.8" y1="2.35" x2="-3.8" y2="2.85" width="0.2032" layer="27"/>
+<wire x1="3.8" y1="2.35" x2="3.8" y2="2.85" width="0.2032" layer="27"/>
 <wire x1="-1.75" y1="4.45" x2="-2.15" y2="4.45" width="0.2032" layer="27"/>
 <wire x1="1.75" y1="4.45" x2="2.15" y2="4.45" width="0.2032" layer="27"/>
 <smd name="1" x="-1.3" y="4.4" dx="1.6" dy="0.4" layer="1" rot="R90"/>
@@ -517,11 +487,15 @@ Tyco Electronics</description>
 <smd name="5" x="1.3" y="4.4" dx="1.6" dy="0.4" layer="1" rot="R90"/>
 <text x="-4.49" y="2.6" size="1.016" layer="25" font="vector" ratio="18" rot="R90">&gt;NAME</text>
 <text x="5.2" y="2.6" size="0.8128" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
-<pad name="P$7" x="3.9" y="1.45" drill="1" diameter="1.6764" rot="R90"/>
-<pad name="P$1" x="-3.85" y="1.45" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="P$7" x="3.8" y="1.45" drill="1" diameter="1.6764" rot="R90"/>
+<pad name="P$1" x="-3.8" y="1.45" drill="1" diameter="1.6764" rot="R90"/>
 <pad name="P$2" x="3.2" y="3.9" drill="1" diameter="1.6764" rot="R90"/>
 <pad name="P$3" x="-3.2" y="3.9" drill="1" diameter="1.6764" rot="R90"/>
-<smd name="6" x="0" y="1.5" dx="4" dy="2" layer="1"/>
+<smd name="6" x="0" y="1.6" dx="4" dy="2" layer="1"/>
+<wire x1="-3.8" y1="0.4" x2="-3.8" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="-1.3" x2="3.8" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="3.8" y1="-1.3" x2="3.8" y2="0.5" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="0.125" x2="3.7" y2="0.125" width="0.127" layer="21"/>
 </package>
 <package name="MICRO-USB-DIP-ADAPTER" urn="urn:adsk.eagle:footprint:33247312/1" locally_modified="yes">
 <wire x1="-7.8" y1="6.65" x2="7.8" y2="6.65" width="0.1524" layer="21"/>
