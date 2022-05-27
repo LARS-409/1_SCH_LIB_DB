@@ -3212,12 +3212,13 @@ Source: http://www.molex.com</description>
 <text x="-5" y="2" size="0.8" layer="25">&gt;NAME</text>
 <text x="0" y="2" size="0.8" layer="27">&gt;VALUE</text>
 </package>
-<package name="PLS2-6">
+<package name="PLS2-6" urn="urn:adsk.eagle:footprint:35952598/1">
 <pad name="P$1" x="-4" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$2" x="-2" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$3" x="0" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$4" x="2" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$5" x="4" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="P$6" x="6" y="0" drill="0.9" diameter="1.6764"/>
 <wire x1="-4.7" y1="1.1" x2="-3.1" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="-2.9" y1="1.1" x2="-1.1" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="-0.9" y1="1.1" x2="0.9" y2="1.1" width="0.1524" layer="21"/>
@@ -3247,9 +3248,6 @@ Source: http://www.molex.com</description>
 <wire x1="-5.15" y1="0.7" x2="-5.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-4.7" y1="-1.1" x2="-5.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="0.7" x2="-4.7" y2="1.1" width="0.1524" layer="21"/>
-<text x="-5" y="2" size="0.8" layer="25">&gt;NAME</text>
-<text x="0" y="2" size="0.8" layer="27">&gt;VALUE</text>
-<pad name="P$6" x="6" y="0" drill="0.9" diameter="1.6764"/>
 <wire x1="7.15" y1="0.7" x2="7.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="7.15" y1="0.7" x2="6.7" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="6.7" y1="-1.1" x2="7.15" y2="-0.7" width="0.1524" layer="21"/>
@@ -3259,13 +3257,17 @@ Source: http://www.molex.com</description>
 <wire x1="5" y1="-1" x2="5.1" y2="-1.1" width="0.1524" layer="21"/>
 <wire x1="4.9" y1="1.1" x2="5" y2="1" width="0.1524" layer="21"/>
 <wire x1="5" y1="1" x2="5.1" y2="1.1" width="0.1524" layer="21"/>
+<text x="-5" y="2" size="0.8" layer="25">&gt;NAME</text>
+<text x="0" y="2" size="0.8" layer="27">&gt;VALUE</text>
 </package>
-<package name="PLS2-7">
+<package name="PLS2-7" urn="urn:adsk.eagle:footprint:35952599/1">
 <pad name="P$1" x="-4" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$2" x="-2" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$3" x="0" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$4" x="2" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P$5" x="4" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="P$6" x="6" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="P$7" x="8" y="0" drill="0.9" diameter="1.6764"/>
 <wire x1="-4.7" y1="1.1" x2="-3.1" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="-2.9" y1="1.1" x2="-1.1" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="-0.9" y1="1.1" x2="0.9" y2="1.1" width="0.1524" layer="21"/>
@@ -3295,16 +3297,12 @@ Source: http://www.molex.com</description>
 <wire x1="-5.15" y1="0.7" x2="-5.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-4.7" y1="-1.1" x2="-5.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="-5.15" y1="0.7" x2="-4.7" y2="1.1" width="0.1524" layer="21"/>
-<text x="-5" y="2" size="0.8" layer="25">&gt;NAME</text>
-<text x="0" y="2" size="0.8" layer="27">&gt;VALUE</text>
-<pad name="P$6" x="6" y="0" drill="0.9" diameter="1.6764"/>
 <wire x1="5.1" y1="1.1" x2="6.9" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="5.1" y1="-1.1" x2="6.9" y2="-1.1" width="0.1524" layer="21"/>
 <wire x1="4.9" y1="-1.1" x2="5" y2="-1" width="0.1524" layer="21"/>
 <wire x1="5" y1="-1" x2="5.1" y2="-1.1" width="0.1524" layer="21"/>
 <wire x1="4.9" y1="1.1" x2="5" y2="1" width="0.1524" layer="21"/>
 <wire x1="5" y1="1" x2="5.1" y2="1.1" width="0.1524" layer="21"/>
-<pad name="P$7" x="8" y="0" drill="0.9" diameter="1.6764"/>
 <wire x1="9.15" y1="0.7" x2="9.15" y2="-0.7" width="0.1524" layer="21"/>
 <wire x1="9.15" y1="0.7" x2="8.7" y2="1.1" width="0.1524" layer="21"/>
 <wire x1="8.7" y1="-1.1" x2="9.15" y2="-0.7" width="0.1524" layer="21"/>
@@ -3314,6 +3312,8 @@ Source: http://www.molex.com</description>
 <wire x1="7" y1="-1" x2="6.9" y2="-1.1" width="0.1524" layer="21"/>
 <wire x1="7.1" y1="1.1" x2="7" y2="1" width="0.1524" layer="21"/>
 <wire x1="7" y1="1" x2="6.9" y2="1.1" width="0.1524" layer="21"/>
+<text x="-5" y="2" size="0.8" layer="25">&gt;NAME</text>
+<text x="0" y="2" size="0.8" layer="27">&gt;VALUE</text>
 </package>
 <package name="1X1_PAD">
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
@@ -3769,6 +3769,16 @@ Source: http://www.molex.com</description>
 <package3d name="DOWEL_PIN" urn="urn:adsk.eagle:package:35814801/2" type="model">
 <packageinstances>
 <packageinstance name="DOWEL_PIN"/>
+</packageinstances>
+</package3d>
+<package3d name="PLS2-6" urn="urn:adsk.eagle:package:35952623/2" type="model">
+<packageinstances>
+<packageinstance name="PLS2-6"/>
+</packageinstances>
+</package3d>
+<package3d name="PLS2-7" urn="urn:adsk.eagle:package:35952624/2" type="model">
+<packageinstances>
+<packageinstance name="PLS2-7"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4839,6 +4849,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="5" pad="P$5"/>
 <connect gate="G$1" pin="6" pad="P$6"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35952623/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4942,6 +4955,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="6" pad="P$6"/>
 <connect gate="G$1" pin="7" pad="P$7"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35952624/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
