@@ -1310,23 +1310,23 @@
 <pin name="GPIO26" x="35.56" y="2.54" length="short" rot="R180"/>
 <pin name="GPIO27" x="35.56" y="0" length="short" rot="R180"/>
 <pin name="MTMS" x="35.56" y="-2.54" length="short" rot="R180"/>
-<pin name="MTDI" x="2.54" y="-38.1" length="short" rot="R90"/>
+<pin name="MTDI" x="0" y="-38.1" length="short" rot="R90"/>
 <pin name="VDD3P3_RTC" x="-33.02" y="25.4" length="short"/>
 <pin name="MTCK" x="35.56" y="-5.08" length="short" rot="R180"/>
-<pin name="MTDO" x="5.08" y="-38.1" length="short" rot="R90"/>
-<pin name="GPIO2" x="7.62" y="-38.1" length="short" rot="R90"/>
+<pin name="MTDO" x="2.54" y="-38.1" length="short" rot="R90"/>
+<pin name="GPIO2" x="5.08" y="-38.1" length="short" rot="R90"/>
 <pin name="GPIO0" x="12.7" y="-38.1" length="short" rot="R90"/>
 <pin name="GPIO4" x="35.56" y="-7.62" length="short" rot="R180"/>
 <pin name="GPIO16" x="35.56" y="-25.4" length="short" rot="R180"/>
 <pin name="VDD_SDIO" x="-33.02" y="20.32" length="short"/>
 <pin name="GPIO17" x="35.56" y="-27.94" length="short" rot="R180"/>
-<pin name="SD_DATA_2" x="-33.02" y="-5.08" length="short"/>
-<pin name="SD_DATA_3" x="-33.02" y="-2.54" length="short"/>
+<pin name="SD_DATA_2" x="-33.02" y="-2.54" length="short"/>
+<pin name="SD_DATA_3" x="-33.02" y="-5.08" length="short"/>
 <pin name="SD_CMD" x="-33.02" y="2.54" length="short"/>
 <pin name="SD_CLK" x="-33.02" y="0" length="short"/>
-<pin name="SD_DATA_0" x="-33.02" y="-10.16" length="short"/>
-<pin name="SD_DATA_1" x="-33.02" y="-7.62" length="short"/>
-<pin name="GPIO5" x="0" y="-38.1" length="short" rot="R90"/>
+<pin name="SD_DATA_0" x="-33.02" y="-7.62" length="short"/>
+<pin name="SD_DATA_1" x="-33.02" y="-10.16" length="short"/>
+<pin name="GPIO5" x="7.62" y="-38.1" length="short" rot="R90"/>
 <pin name="GPIO18" x="35.56" y="-10.16" length="short" rot="R180"/>
 <pin name="GPIO23" x="35.56" y="-12.7" length="short" rot="R180"/>
 <pin name="VDD3P3_CPU" x="-33.02" y="22.86" length="short"/>
@@ -1341,7 +1341,7 @@
 <pin name="CAP1" x="-33.02" y="7.62" length="short"/>
 <pin name="GND" x="-7.62" y="-38.1" length="short" rot="R90"/>
 <text x="-13.462" y="-4.826" size="1.778" layer="94">FLASH</text>
-<text x="8.128" y="-18.288" size="1.778" layer="94" rot="R180">NC</text>
+<text x="5.08" y="-18.796" size="1.778" layer="94" rot="R180">NC</text>
 <text x="-17.78" y="-27.178" size="1.778" layer="94">OSC32/DIO</text>
 <text x="-18.034" y="14.732" size="1.778" layer="94">ANT</text>
 <text x="-18.542" y="8.128" size="1.778" layer="94">CAP</text>
@@ -1378,11 +1378,13 @@
 <wire x1="-19.558" y1="-26.67" x2="-19.558" y2="-29.464" width="0.1524" layer="94"/>
 <wire x1="-19.558" y1="-29.464" x2="-21.59" y2="-29.464" width="0.1524" layer="94"/>
 <wire x1="-19.558" y1="-26.67" x2="-18.542" y2="-26.67" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-27.94" x2="-2.54" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-22.86" x2="6.35" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-30.48" x2="-2.54" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-22.86" x2="3.302" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-22.86" x2="8.89" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-22.86" x2="12.446" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="12.446" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="94"/>
 <wire x1="15.24" y1="-22.86" x2="15.24" y2="-30.48" width="0.1524" layer="94"/>
-<wire x1="6.35" y1="-22.86" x2="6.35" y2="-21.59" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-22.86" x2="3.302" y2="-21.59" width="0.1524" layer="94"/>
 <wire x1="25.4" y1="-30.48" x2="20.32" y2="-30.48" width="0.1524" layer="94"/>
 <wire x1="20.32" y1="-30.48" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="20.32" y1="-10.16" x2="20.32" y2="7.62" width="0.1524" layer="94"/>
@@ -1400,6 +1402,10 @@
 <wire x1="12.7" y1="16.51" x2="11.43" y2="16.51" width="0.1524" layer="94"/>
 <text x="-22.86" y="38.1" size="1.778" layer="95">&gt;NAME</text>
 <text x="17.78" y="38.1" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="8.89" y1="-22.86" x2="8.89" y2="-30.734" width="0.1524" layer="94"/>
+<wire x1="12.446" y1="-22.86" x2="12.446" y2="-21.336" width="0.1524" layer="94"/>
+<text x="8.89" y="-20.574" size="1.778" layer="94">BOOT
+RESET</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1955,6 +1961,10 @@ driving three-phase BLDC motors using different driving modes.</description>
 </library>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
