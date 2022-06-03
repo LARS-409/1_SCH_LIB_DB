@@ -1294,118 +1294,112 @@
 <pin name="VSSA" x="30.48" y="-33.02" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 <symbol name="ESP32-D0WD">
-<pin name="VDD3P3" x="-33.02" y="27.94" length="short"/>
-<pin name="VDDA" x="-33.02" y="30.48" length="short"/>
-<pin name="LNA_IN" x="-33.02" y="15.24" length="short"/>
-<pin name="SENSOR_VP" x="35.56" y="22.86" length="short" rot="R180"/>
-<pin name="SENSOR_CAPP" x="35.56" y="20.32" length="short" rot="R180"/>
-<pin name="SENSOR_CAPN" x="35.56" y="17.78" length="short" rot="R180"/>
-<pin name="SENSOR_VN" x="35.56" y="15.24" length="short" rot="R180"/>
-<pin name="CHIP_PU" x="10.16" y="-38.1" length="short" rot="R90"/>
-<pin name="VDET_1" x="35.56" y="12.7" length="short" rot="R180"/>
-<pin name="VDET_2" x="35.56" y="10.16" length="short" rot="R180"/>
-<pin name="32K_XP" x="-33.02" y="-25.4" length="short"/>
-<pin name="32K_XN" x="-33.02" y="-27.94" length="short"/>
-<pin name="GPIO25" x="35.56" y="5.08" length="short" rot="R180"/>
-<pin name="GPIO26" x="35.56" y="2.54" length="short" rot="R180"/>
-<pin name="GPIO27" x="35.56" y="0" length="short" rot="R180"/>
-<pin name="MTMS" x="35.56" y="-2.54" length="short" rot="R180"/>
-<pin name="MTDI" x="0" y="-38.1" length="short" rot="R90"/>
-<pin name="VDD3P3_RTC" x="-33.02" y="25.4" length="short"/>
-<pin name="MTCK" x="35.56" y="-5.08" length="short" rot="R180"/>
-<pin name="MTDO" x="2.54" y="-38.1" length="short" rot="R90"/>
-<pin name="GPIO2" x="5.08" y="-38.1" length="short" rot="R90"/>
-<pin name="GPIO0" x="12.7" y="-38.1" length="short" rot="R90"/>
-<pin name="GPIO4" x="35.56" y="-7.62" length="short" rot="R180"/>
-<pin name="GPIO16" x="35.56" y="-25.4" length="short" rot="R180"/>
-<pin name="VDD_SDIO" x="-33.02" y="20.32" length="short"/>
-<pin name="GPIO17" x="35.56" y="-27.94" length="short" rot="R180"/>
-<pin name="SD_DATA_2" x="-33.02" y="-2.54" length="short"/>
-<pin name="SD_DATA_3" x="-33.02" y="-5.08" length="short"/>
-<pin name="SD_CMD" x="-33.02" y="2.54" length="short"/>
-<pin name="SD_CLK" x="-33.02" y="0" length="short"/>
-<pin name="SD_DATA_0" x="-33.02" y="-7.62" length="short"/>
-<pin name="SD_DATA_1" x="-33.02" y="-10.16" length="short"/>
-<pin name="GPIO5" x="7.62" y="-38.1" length="short" rot="R90"/>
-<pin name="GPIO18" x="35.56" y="-10.16" length="short" rot="R180"/>
-<pin name="GPIO23" x="35.56" y="-12.7" length="short" rot="R180"/>
-<pin name="VDD3P3_CPU" x="-33.02" y="22.86" length="short"/>
-<pin name="GPIO19" x="35.56" y="-15.24" length="short" rot="R180"/>
-<pin name="GPIO22" x="35.56" y="-17.78" length="short" rot="R180"/>
-<pin name="U0RXD" x="35.56" y="30.48" length="short" rot="R180"/>
-<pin name="U0TXD" x="35.56" y="27.94" length="short" rot="R180"/>
-<pin name="GPIO21" x="35.56" y="-20.32" length="short" rot="R180"/>
-<pin name="XTAL_N" x="-33.02" y="-17.78" length="short"/>
-<pin name="XTAL_P" x="-33.02" y="-20.32" length="short"/>
+<pin name="VDD3P3" x="22.86" y="40.64" length="short" rot="R180"/>
+<pin name="VDDA" x="-33.02" y="38.1" length="short"/>
+<pin name="LNA_IN" x="-33.02" y="22.86" length="short"/>
+<pin name="SENSOR_VP" x="22.86" y="27.94" length="short" rot="R180"/>
+<pin name="SENSOR_CAPP" x="22.86" y="25.4" length="short" rot="R180"/>
+<pin name="SENSOR_CAPN" x="22.86" y="22.86" length="short" rot="R180"/>
+<pin name="SENSOR_VN" x="22.86" y="20.32" length="short" rot="R180"/>
+<pin name="CHIP_PU" x="-33.02" y="15.24" length="short"/>
+<pin name="VDET_1" x="22.86" y="17.78" length="short" rot="R180"/>
+<pin name="VDET_2" x="22.86" y="15.24" length="short" rot="R180"/>
+<pin name="32K_XP" x="-33.02" y="-33.02" length="short"/>
+<pin name="32K_XN" x="-33.02" y="-35.56" length="short"/>
+<pin name="GPIO25" x="22.86" y="7.62" length="short" rot="R180"/>
+<pin name="GPIO26" x="22.86" y="5.08" length="short" rot="R180"/>
+<pin name="GPIO27" x="22.86" y="2.54" length="short" rot="R180"/>
+<pin name="MTMS" x="22.86" y="0" length="short" rot="R180"/>
+<pin name="MTDI" x="0" y="-45.72" length="short" rot="R90"/>
+<pin name="VDD3P3_RTC" x="-33.02" y="35.56" length="short"/>
+<pin name="MTCK" x="22.86" y="-2.54" length="short" rot="R180"/>
+<pin name="MTDO" x="2.54" y="-45.72" length="short" rot="R90"/>
+<pin name="GPIO2" x="5.08" y="-45.72" length="short" rot="R90"/>
+<pin name="GPIO0" x="-33.02" y="17.78" length="short"/>
+<pin name="GPIO4" x="22.86" y="-5.08" length="short" rot="R180"/>
+<pin name="GPIO16" x="22.86" y="-22.86" length="short" rot="R180"/>
+<pin name="VDD_SDIO" x="-33.02" y="30.48" length="short"/>
+<pin name="GPIO17" x="22.86" y="-25.4" length="short" rot="R180"/>
+<pin name="SD_DATA_2" x="-33.02" y="-10.16" length="short"/>
+<pin name="SD_DATA_3" x="-33.02" y="-12.7" length="short"/>
+<pin name="SD_CMD" x="-33.02" y="-5.08" length="short"/>
+<pin name="SD_CLK" x="-33.02" y="-7.62" length="short"/>
+<pin name="SD_DATA_0" x="-33.02" y="-15.24" length="short"/>
+<pin name="SD_DATA_1" x="-33.02" y="-17.78" length="short"/>
+<pin name="GPIO5" x="7.62" y="-45.72" length="short" rot="R90"/>
+<pin name="GPIO18" x="22.86" y="-7.62" length="short" rot="R180"/>
+<pin name="GPIO23" x="22.86" y="-10.16" length="short" rot="R180"/>
+<pin name="VDD3P3_CPU" x="-33.02" y="33.02" length="short"/>
+<pin name="GPIO19" x="22.86" y="-12.7" length="short" rot="R180"/>
+<pin name="GPIO22" x="22.86" y="-15.24" length="short" rot="R180"/>
+<pin name="U0RXD" x="22.86" y="35.56" length="short" rot="R180"/>
+<pin name="U0TXD" x="22.86" y="33.02" length="short" rot="R180"/>
+<pin name="GPIO21" x="22.86" y="-17.78" length="short" rot="R180"/>
+<pin name="XTAL_N" x="-33.02" y="-25.4" length="short"/>
+<pin name="XTAL_P" x="-33.02" y="-27.94" length="short"/>
 <pin name="CAP2" x="-33.02" y="10.16" length="short"/>
-<pin name="CAP1" x="-33.02" y="7.62" length="short"/>
-<pin name="GND" x="-7.62" y="-38.1" length="short" rot="R90"/>
-<text x="-13.462" y="-4.826" size="1.778" layer="94">FLASH</text>
-<text x="5.08" y="-18.796" size="1.778" layer="94" rot="R180">NC</text>
-<text x="-17.78" y="-27.178" size="1.778" layer="94">OSC32/DIO</text>
-<text x="-18.034" y="14.732" size="1.778" layer="94">ANT</text>
-<text x="-18.542" y="8.128" size="1.778" layer="94">CAP</text>
-<text x="-15.748" y="-19.304" size="1.778" layer="94">OSC</text>
-<text x="13.462" y="28.448" size="1.778" layer="94">UART</text>
-<text x="3.048" y="15.494" size="1.778" layer="94">INPUT</text>
-<text x="12.192" y="-10.16" size="1.778" layer="94">DIO</text>
-<text x="21.59" y="-27.686" size="1.778" layer="94">*</text>
-<wire x1="-30.48" y1="-35.56" x2="33.02" y2="-35.56" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="-35.56" x2="33.02" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="33.02" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="94"/>
-<wire x1="-30.48" y1="35.56" x2="-30.48" y2="-35.56" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="5.08" x2="-15.24" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="5.08" x2="-15.24" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-3.81" x2="-15.24" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-12.7" x2="-17.78" y2="-12.7" width="0.1524" layer="94"/>
+<pin name="CAP1" x="-33.02" y="0" length="short"/>
+<pin name="GND" x="-12.7" y="-45.72" length="short" rot="R90"/>
+<text x="-13.462" y="-12.446" size="1.778" layer="94">FLASH</text>
+<text x="5.08" y="-26.416" size="1.778" layer="94" rot="R180">NC</text>
+<text x="-17.78" y="-34.798" size="1.778" layer="94">OSC32/DIO</text>
+<text x="-18.034" y="22.352" size="1.778" layer="94">ANT</text>
+<text x="-17.78" y="4.826" size="1.778" layer="94">CAP</text>
+<text x="-15.748" y="-26.924" size="1.778" layer="94">OSC</text>
+<text x="0.762" y="33.528" size="1.778" layer="94">UART</text>
+<text x="-9.652" y="20.574" size="1.778" layer="94">INPUT</text>
+<text x="-0.508" y="-7.62" size="1.778" layer="94">DIO</text>
+<text x="8.89" y="-25.146" size="1.778" layer="94">*</text>
+<wire x1="-30.48" y1="-43.18" x2="20.32" y2="-43.18" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-43.18" x2="20.32" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="43.18" x2="-30.48" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="-30.48" y1="43.18" x2="-30.48" y2="-43.18" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-2.54" x2="-15.24" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-15.24" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-11.43" x2="-15.24" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-20.32" x2="-17.78" y2="-20.32" width="0.1524" layer="94"/>
 <wire x1="-22.86" y1="12.7" x2="-20.32" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="12.7" x2="-20.32" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="8.89" x2="-20.32" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="5.08" x2="-22.86" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="8.89" x2="-19.05" y2="8.89" width="0.1524" layer="94"/>
-<wire x1="-15.24" y1="-3.81" x2="-14.224" y2="-3.81" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="15.24" x2="-18.796" y2="15.24" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="16.51" x2="-20.32" y2="13.716" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="13.716" x2="-21.844" y2="13.716" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="16.51" x2="-21.59" y2="16.51" width="0.1524" layer="94"/>
-<wire x1="-20.32" y1="-15.24" x2="-17.78" y2="-15.24" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-15.24" x2="-17.78" y2="-19.05" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-19.05" x2="-17.78" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-19.05" x2="-17.018" y2="-19.05" width="0.1524" layer="94"/>
-<wire x1="-21.59" y1="-24.13" x2="-19.558" y2="-24.13" width="0.1524" layer="94"/>
-<wire x1="-19.558" y1="-24.13" x2="-19.558" y2="-26.67" width="0.1524" layer="94"/>
-<wire x1="-19.558" y1="-26.67" x2="-19.558" y2="-29.464" width="0.1524" layer="94"/>
-<wire x1="-19.558" y1="-29.464" x2="-21.59" y2="-29.464" width="0.1524" layer="94"/>
-<wire x1="-19.558" y1="-26.67" x2="-18.542" y2="-26.67" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-30.48" x2="-2.54" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-22.86" x2="3.302" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="-22.86" x2="8.89" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="-22.86" x2="12.446" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="12.446" y1="-22.86" x2="15.24" y2="-22.86" width="0.1524" layer="94"/>
-<wire x1="15.24" y1="-22.86" x2="15.24" y2="-30.48" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="-22.86" x2="3.302" y2="-21.59" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="-30.48" x2="20.32" y2="-30.48" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-30.48" x2="20.32" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-10.16" x2="20.32" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="7.62" x2="28.194" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-10.16" x2="18.034" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="33.02" x2="22.86" y2="29.21" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="29.21" x2="22.86" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="94"/>
-<wire x1="22.86" y1="29.21" x2="21.082" y2="29.21" width="0.1524" layer="94"/>
-<wire x1="28.194" y1="8.636" x2="12.7" y2="8.636" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="8.636" x2="12.7" y2="16.51" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="16.51" x2="12.7" y2="24.384" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="24.384" x2="27.94" y2="24.384" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="16.51" x2="11.43" y2="16.51" width="0.1524" layer="94"/>
-<text x="-22.86" y="38.1" size="1.778" layer="95">&gt;NAME</text>
-<text x="17.78" y="38.1" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="8.89" y1="-22.86" x2="8.89" y2="-30.734" width="0.1524" layer="94"/>
-<wire x1="12.446" y1="-22.86" x2="12.446" y2="-21.336" width="0.1524" layer="94"/>
-<text x="8.89" y="-20.574" size="1.778" layer="94">BOOT
-RESET</text>
+<wire x1="-20.32" y1="12.7" x2="-20.32" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-1.778" x2="-22.86" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="5.08" x2="-19.05" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-11.43" x2="-14.224" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="22.86" x2="-18.796" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="24.13" x2="-20.32" y2="21.336" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="21.336" x2="-21.844" y2="21.336" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="24.13" x2="-21.59" y2="24.13" width="0.1524" layer="94"/>
+<wire x1="-20.32" y1="-22.86" x2="-17.78" y2="-22.86" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="-26.67" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-26.67" x2="-17.78" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-30.48" x2="-20.32" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="-26.67" x2="-17.018" y2="-26.67" width="0.1524" layer="94"/>
+<wire x1="-21.59" y1="-31.75" x2="-19.558" y2="-31.75" width="0.1524" layer="94"/>
+<wire x1="-19.558" y1="-31.75" x2="-19.558" y2="-34.29" width="0.1524" layer="94"/>
+<wire x1="-19.558" y1="-34.29" x2="-19.558" y2="-37.084" width="0.1524" layer="94"/>
+<wire x1="-19.558" y1="-37.084" x2="-21.59" y2="-37.084" width="0.1524" layer="94"/>
+<wire x1="-19.558" y1="-34.29" x2="-18.542" y2="-34.29" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-38.1" x2="-2.54" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-30.48" x2="3.302" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-30.48" x2="8.89" y2="-30.48" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-30.48" x2="3.302" y2="-29.21" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-27.94" x2="7.62" y2="-27.94" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-27.94" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="15.494" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="5.334" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="38.1" x2="10.16" y2="34.29" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="34.29" x2="10.16" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="30.48" x2="12.7" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="34.29" x2="8.382" y2="34.29" width="0.1524" layer="94"/>
+<wire x1="15.494" y1="13.716" x2="0" y2="13.716" width="0.1524" layer="94"/>
+<wire x1="0" y1="13.716" x2="0" y2="21.59" width="0.1524" layer="94"/>
+<wire x1="0" y1="21.59" x2="0" y2="29.464" width="0.1524" layer="94"/>
+<wire x1="0" y1="29.464" x2="15.24" y2="29.464" width="0.1524" layer="94"/>
+<wire x1="0" y1="21.59" x2="-1.27" y2="21.59" width="0.1524" layer="94"/>
+<text x="-22.86" y="45.72" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="45.72" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="8.89" y1="-30.48" x2="8.89" y2="-38.354" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1961,10 +1955,6 @@ driving three-phase BLDC motors using different driving modes.</description>
 </library>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets

@@ -1186,6 +1186,23 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <circle x="-3.1" y="4.7" radius="0.360553125" width="0.1524" layer="21"/>
 <text x="-1.8" y="4.5" size="0.7" layer="25">&gt;NAME</text>
 </package>
+<package name="WSON8X6-MM">
+<smd name="P$1" x="0" y="0" dx="3.4" dy="4.3" layer="1"/>
+<smd name="P$2" x="-4" y="1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P$3" x="-4" y="0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P$4" x="-4" y="-0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P$5" x="-4" y="-1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P$6" x="4" y="-1.905" dx="1" dy="0.4" layer="1"/>
+<smd name="P$7" x="4" y="-0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P$8" x="4" y="0.635" dx="1" dy="0.4" layer="1"/>
+<smd name="P$9" x="4" y="1.905" dx="1" dy="0.4" layer="1"/>
+<wire x1="-4" y1="-3" x2="4" y2="-3" width="0.1016" layer="21"/>
+<wire x1="4" y1="-3" x2="4" y2="3" width="0.1016" layer="21"/>
+<wire x1="4" y1="3" x2="-4" y2="3" width="0.1016" layer="21"/>
+<wire x1="-4" y1="3" x2="-4" y2="-3" width="0.1016" layer="21"/>
+<text x="-3" y="3.3" size="0.8" layer="25">&gt;NAME</text>
+<circle x="-4.9" y="2.9" radius="0.565684375" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P600X170-9T230X300N" urn="urn:adsk.eagle:package:30501043/1" type="model">
@@ -2710,17 +2727,15 @@ RDY</text>
 <pin name="+V" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
 <pin name="-V" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
-<symbol name="W25Q">
-</symbol>
 <symbol name="WINBOND">
-<pin name="CS" x="-10.16" y="7.62" length="short"/>
-<pin name="DO" x="-10.16" y="2.54" length="short"/>
-<pin name="WP" x="-10.16" y="-2.54" length="short"/>
-<pin name="GND" x="-10.16" y="-7.62" length="short"/>
-<pin name="DIO" x="12.7" y="-7.62" length="short" rot="R180"/>
-<pin name="CLK" x="12.7" y="-2.54" length="short" rot="R180"/>
-<pin name="HOLD" x="12.7" y="2.54" length="short" rot="R180"/>
-<pin name="VCC" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="CS" x="-10.16" y="7.62" visible="pin" length="short"/>
+<pin name="DO" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="WP" x="-10.16" y="-2.54" visible="pin" length="short"/>
+<pin name="GND" x="-10.16" y="-7.62" visible="pin" length="short"/>
+<pin name="DIO" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="CLK" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="HOLD" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
 <wire x1="-7.62" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
@@ -4150,6 +4165,21 @@ RDY</text>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:33262146/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="QFN" package="WSON8X6-MM">
+<connects>
+<connect gate="G$1" pin="CLK" pad="P$7"/>
+<connect gate="G$1" pin="CS" pad="P$2"/>
+<connect gate="G$1" pin="DIO" pad="P$6"/>
+<connect gate="G$1" pin="DO" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$5"/>
+<connect gate="G$1" pin="HOLD" pad="P$8"/>
+<connect gate="G$1" pin="VCC" pad="P$9"/>
+<connect gate="G$1" pin="WP" pad="P$4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

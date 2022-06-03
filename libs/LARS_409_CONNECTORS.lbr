@@ -3366,6 +3366,17 @@ Source: http://www.molex.com</description>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="1X1_PAD_T">
+<wire x1="-0.7" y1="0.7" x2="0.7" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.7" x2="-0.7" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-0.7" x2="-0.7" y2="0.7" width="0.05" layer="39"/>
+<wire x1="-0.7" y1="0.7" x2="0.7" y2="0.7" width="0.05" layer="39"/>
+<wire x1="0.7" y1="0.7" x2="0.7" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="0.7" y1="-0.7" x2="-0.7" y2="-0.7" width="0.05" layer="39"/>
+<smd name="P$1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100"/>
+<wire x1="-0.7" y1="-0.7" x2="-0.7" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.7" x2="0.7" y2="0.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -5664,6 +5675,14 @@ Source: http://www.molex.com</description>
 </gates>
 <devices>
 <device name="1X1_PAD" package="1X1_PAD">
+<connects>
+<connect gate="&gt;NAME" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1X1PAD" package="1X1_PAD_T">
 <connects>
 <connect gate="&gt;NAME" pin="1" pad="P$1"/>
 </connects>
