@@ -3377,6 +3377,33 @@ Source: http://www.molex.com</description>
 <wire x1="-0.7" y1="-0.7" x2="-0.7" y2="0.7" width="0.127" layer="21"/>
 <wire x1="0.7" y1="-0.7" x2="0.7" y2="0.7" width="0.127" layer="21"/>
 </package>
+<package name="BREAK_WIRE">
+<smd name="P$1" x="-0.1" y="0" dx="1.8" dy="0.2" layer="1" rot="R270" stop="no"/>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="-0.9"/>
+<vertex x="0.3" y="-0.6"/>
+<vertex x="0" y="-0.3"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="-0.3"/>
+<vertex x="0.3" y="0"/>
+<vertex x="0" y="0.3"/>
+<vertex x="0.3" y="0.6"/>
+<vertex x="0" y="0.9"/>
+</polygon>
+<smd name="P$2" x="0.6" y="0" dx="1.8" dy="0.2" layer="1" rot="R90" stop="no"/>
+<polygon width="0.01" layer="1">
+<vertex x="0.2" y="-0.9"/>
+<vertex x="0.5" y="-0.6"/>
+<vertex x="0.2" y="-0.3"/>
+<vertex x="0.5" y="0"/>
+<vertex x="0.2" y="0.3"/>
+<vertex x="0.5" y="0.6"/>
+<vertex x="0.2" y="0.9"/>
+<vertex x="0.5" y="0.9"/>
+<vertex x="0.5" y="-0.9"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -4168,48 +4195,48 @@ Source: http://www.molex.com</description>
 <text x="2.54" y="2.794" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="TEST_PAD">
-<pin name="P$1" x="-3.81" y="0" visible="off" length="short"/>
-<pin name="P$2" x="3.81" y="0" visible="off" length="short" rot="R180"/>
-<wire x1="-1.27" y1="1.016" x2="-0.508" y2="1.778" width="0.1524" layer="94" curve="-90"/>
-<wire x1="-1.27" y1="-1.016" x2="-0.508" y2="-1.778" width="0.1524" layer="94" curve="90"/>
+<pin name="P$1" x="0" y="0" visible="off" length="middle"/>
+<pin name="P$2" x="12.7" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="5.08" y1="1.016" x2="5.842" y2="1.778" width="0.1524" layer="94" curve="-90"/>
+<wire x1="5.08" y1="-1.016" x2="5.842" y2="-1.778" width="0.1524" layer="94" curve="90"/>
 <polygon width="0.1524" layer="94">
-<vertex x="-1.27" y="-0.762"/>
-<vertex x="-1.27" y="-1.27" curve="90"/>
-<vertex x="-0.762" y="-1.778"/>
-<vertex x="-0.508" y="-1.778"/>
-<vertex x="-0.508" y="-0.762"/>
+<vertex x="5.08" y="-0.762"/>
+<vertex x="5.08" y="-1.27" curve="90"/>
+<vertex x="5.588" y="-1.778"/>
+<vertex x="5.842" y="-1.778"/>
+<vertex x="5.842" y="-0.762"/>
 </polygon>
 <polygon width="0.1524" layer="94">
-<vertex x="-1.27" y="0.762"/>
-<vertex x="-1.27" y="1.27" curve="-90"/>
-<vertex x="-0.762" y="1.778"/>
-<vertex x="-0.508" y="1.778"/>
-<vertex x="-0.508" y="0.762"/>
+<vertex x="5.08" y="0.762"/>
+<vertex x="5.08" y="1.27" curve="-90"/>
+<vertex x="5.588" y="1.778"/>
+<vertex x="5.842" y="1.778"/>
+<vertex x="5.842" y="0.762"/>
 </polygon>
 <text x="-3.81" y="3.048" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-3.81" y="-4.826" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<wire x1="-1.27" y1="0.762" x2="-1.27" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="0.762" x2="-0.508" y2="-0.762" width="0.1524" layer="94"/>
-<rectangle x1="-1.27" y1="-0.762" x2="-0.508" y2="0.762" layer="94"/>
-<wire x1="1.27" y1="-1.016" x2="0.508" y2="-1.778" width="0.1524" layer="94" curve="-90"/>
-<wire x1="1.27" y1="1.016" x2="0.508" y2="1.778" width="0.1524" layer="94" curve="90"/>
+<wire x1="5.08" y1="0.762" x2="5.08" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="0.762" x2="5.842" y2="-0.762" width="0.1524" layer="94"/>
+<rectangle x1="5.08" y1="-0.762" x2="5.842" y2="0.762" layer="94"/>
+<wire x1="7.62" y1="-1.016" x2="6.858" y2="-1.778" width="0.1524" layer="94" curve="-90"/>
+<wire x1="7.62" y1="1.016" x2="6.858" y2="1.778" width="0.1524" layer="94" curve="90"/>
 <polygon width="0.1524" layer="94">
-<vertex x="1.27" y="0.762"/>
-<vertex x="1.27" y="1.27" curve="90"/>
-<vertex x="0.762" y="1.778"/>
-<vertex x="0.508" y="1.778"/>
-<vertex x="0.508" y="0.762"/>
+<vertex x="7.62" y="0.762"/>
+<vertex x="7.62" y="1.27" curve="90"/>
+<vertex x="7.112" y="1.778"/>
+<vertex x="6.858" y="1.778"/>
+<vertex x="6.858" y="0.762"/>
 </polygon>
 <polygon width="0.1524" layer="94">
-<vertex x="1.27" y="-0.762"/>
-<vertex x="1.27" y="-1.27" curve="-90"/>
-<vertex x="0.762" y="-1.778"/>
-<vertex x="0.508" y="-1.778"/>
-<vertex x="0.508" y="-0.762"/>
+<vertex x="7.62" y="-0.762"/>
+<vertex x="7.62" y="-1.27" curve="-90"/>
+<vertex x="7.112" y="-1.778"/>
+<vertex x="6.858" y="-1.778"/>
+<vertex x="6.858" y="-0.762"/>
 </polygon>
-<wire x1="1.27" y1="-0.762" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-0.762" x2="0.508" y2="0.762" width="0.1524" layer="94"/>
-<rectangle x1="0.508" y1="-0.762" x2="1.27" y2="0.762" layer="94" rot="R180"/>
+<wire x1="7.62" y1="-0.762" x2="7.62" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="6.858" y1="-0.762" x2="6.858" y2="0.762" width="0.1524" layer="94"/>
+<rectangle x1="6.858" y1="-0.762" x2="7.62" y2="0.762" layer="94" rot="R180"/>
 </symbol>
 <symbol name="CONN_04_JST_PH_2">
 <wire x1="-3.81" y1="-12.7" x2="-10.16" y2="-12.7" width="0.4064" layer="94"/>
@@ -5602,6 +5629,15 @@ Source: http://www.molex.com</description>
 </gates>
 <devices>
 <device name="1X1MM" package="TEST_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.8X0.2" package="BREAK_WIRE">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
