@@ -332,15 +332,15 @@
 <deviceset name="4-1393240-5" prefix="K" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="K" x="-10.16" y="0"/>
-<gate name="G$2" symbol="KEY-B" x="10.16" y="0"/>
+<gate name="&gt;NAME" symbol="KEY-B" x="10.16" y="0"/>
 </gates>
 <devices>
 <device name="" package="4-1393240-5_TE">
 <connects>
+<connect gate="&gt;NAME" pin="3.1" pad="11 11.2"/>
+<connect gate="&gt;NAME" pin="4" pad="14 14.2"/>
 <connect gate="G$1" pin="1" pad="A1"/>
 <connect gate="G$1" pin="2" pad="A2"/>
-<connect gate="G$2" pin="3.1" pad="11 11.2"/>
-<connect gate="G$2" pin="4" pad="14 14.2"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30592284/2"/>
