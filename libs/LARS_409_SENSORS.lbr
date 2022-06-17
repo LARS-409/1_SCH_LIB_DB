@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -341,6 +341,28 @@
 <wire x1="1.778" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-1.778" y1="-2.54" x2="-1.778" y2="2.54" width="0.1524" layer="21"/>
 </package>
+<package name="NTC">
+<pad name="P$1" x="-1.25" y="0" drill="0.8" diameter="1.4224"/>
+<pad name="P$2" x="1.25" y="0" drill="0.8" diameter="1.4224"/>
+<wire x1="-2" y1="1.25" x2="-2" y2="0.9" width="0.1524" layer="21"/>
+<wire x1="-2" y1="0.9" x2="-2" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-1.05" x2="-2" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-1.25" x2="-1.8" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="-1.25" x2="1.8" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="1.8" y1="-1.25" x2="2" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="2" y1="-1.25" x2="2" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.1524" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="2" y1="1.25" x2="1.75" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="1.25" x2="-1.65" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-1.65" y1="1.25" x2="-2" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-2" y1="0.9" x2="-1.65" y2="1.25" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2" y1="1" x2="1.75" y2="1.25" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2" y1="-1.05" x2="-1.8" y2="-1.25" width="0.1524" layer="21" curve="90"/>
+<wire x1="2" y1="-1" x2="2" y2="-1.05" width="0.1524" layer="21"/>
+<wire x1="2" y1="-1.05" x2="1.8" y2="-1.25" width="0.1524" layer="21" curve="-90"/>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="AHT20" urn="urn:adsk.eagle:package:30537799/3" type="model">
@@ -574,6 +596,19 @@
 <wire x1="15.24" y1="-22.86" x2="-15.24" y2="-22.86" width="0.1524" layer="94"/>
 <text x="-5.08" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TERM">
+<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="1.524" x2="-1.016" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.524" x2="1.016" y2="-1.524" width="0.1524" layer="94"/>
+<text x="-2.032" y="2.032" size="1.27" layer="94">t°</text>
+<pin name="P$1" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="P$2" x="-5.08" y="0" visible="off" length="short"/>
+<text x="-2.794" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.556" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -823,6 +858,22 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34834907/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTC" prefix="T">
+<gates>
+<gate name="G$1" symbol="TERM" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NTC">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
