@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -3377,7 +3377,7 @@ Source: http://www.molex.com</description>
 <wire x1="-0.7" y1="-0.7" x2="-0.7" y2="0.7" width="0.127" layer="21"/>
 <wire x1="0.7" y1="-0.7" x2="0.7" y2="0.7" width="0.127" layer="21"/>
 </package>
-<package name="W237-103_C">
+<package name="W237-103_C" urn="urn:adsk.eagle:footprint:36258625/1">
 <wire x1="4.093" y1="-0.985" x2="5.897" y2="0.971" width="0.254" layer="51"/>
 <wire x1="-0.911" y1="-1.061" x2="0.994" y2="0.971" width="0.254" layer="51"/>
 <wire x1="-5.991" y1="-1.036" x2="-3.984" y2="0.971" width="0.254" layer="51"/>
@@ -3412,7 +3412,7 @@ Source: http://www.molex.com</description>
 <text x="-5.3048" y="-3.6776" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-5.6858" y="-6.1922" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="W237-102_C">
+<package name="W237-102_C" urn="urn:adsk.eagle:footprint:36258626/1">
 <wire x1="-3.491" y1="-1.556" x2="-1.484" y2="0.451" width="0.254" layer="51"/>
 <wire x1="1.488" y1="-1.531" x2="3.469" y2="0.476" width="0.254" layer="51"/>
 <wire x1="-4.989" y1="-4.731" x2="4.993" y2="-4.731" width="0.1524" layer="21"/>
@@ -3441,9 +3441,9 @@ Source: http://www.molex.com</description>
 <text x="0.421" y="1.365" size="1.27" layer="21" ratio="10">2</text>
 </package>
 <package name="1X1_PAD_DRILL">
-<pad name="P$1" x="0" y="0" drill="2.2" diameter="3.81"/>
+<pad name="P$1" x="0" y="0" drill="2.2" diameter="4.5"/>
 </package>
-<package name="W237-102_C2">
+<package name="W237-102_C2" urn="urn:adsk.eagle:footprint:36258628/1">
 <wire x1="-3.491" y1="-1.556" x2="-1.484" y2="0.451" width="0.254" layer="51"/>
 <wire x1="1.488" y1="-1.531" x2="3.469" y2="0.476" width="0.254" layer="51"/>
 <wire x1="-4.989" y1="-4.731" x2="4.993" y2="-4.731" width="0.1524" layer="21"/>
@@ -3471,7 +3471,7 @@ Source: http://www.molex.com</description>
 <text x="-4.532" y="1.365" size="1.27" layer="21" ratio="10">1</text>
 <text x="0.421" y="1.365" size="1.27" layer="21" ratio="10">2</text>
 </package>
-<package name="W237-103_C2">
+<package name="W237-103_C2" urn="urn:adsk.eagle:footprint:36258629/1">
 <wire x1="4.093" y1="-0.985" x2="5.897" y2="0.971" width="0.254" layer="51"/>
 <wire x1="-0.911" y1="-1.061" x2="0.994" y2="0.971" width="0.254" layer="51"/>
 <wire x1="-5.991" y1="-1.036" x2="-3.984" y2="0.971" width="0.254" layer="51"/>
@@ -4006,6 +4006,26 @@ Source: http://www.molex.com</description>
 &lt;p&gt;Single-row (1X4), 4-pin Pin Header (Male) Straight package with 2.54 mm (0.10 in) col pitch, 0.64 mm lead width, 3.00 mm tail length and 5.84 mm mating length with overall size 10.16 X 2.54 X 8.38 mm, pin pattern - clockwise from top left&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="1X04DUPON_ANGLE"/>
+</packageinstances>
+</package3d>
+<package3d name="W237-102_C" urn="urn:adsk.eagle:package:36258656/2" type="model">
+<packageinstances>
+<packageinstance name="W237-102_C"/>
+</packageinstances>
+</package3d>
+<package3d name="W237-102_C2" urn="urn:adsk.eagle:package:36258658/2" type="model">
+<packageinstances>
+<packageinstance name="W237-102_C2"/>
+</packageinstances>
+</package3d>
+<package3d name="W237-103_C" urn="urn:adsk.eagle:package:36258655/2" type="model">
+<packageinstances>
+<packageinstance name="W237-103_C"/>
+</packageinstances>
+</package3d>
+<package3d name="W237-103_C2" urn="urn:adsk.eagle:package:36258659/2" type="model">
+<packageinstances>
+<packageinstance name="W237-103_C2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4595,6 +4615,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36258656/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4604,6 +4627,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36258658/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4709,6 +4735,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36258655/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4719,6 +4748,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36258659/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
