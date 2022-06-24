@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -297,13 +297,17 @@
 <smd name="P$5" x="0" y="5.08" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="P$6" x="-2.54" y="5.08" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 </package>
-<package name="3X4X2">
+<package name="3X4X2" urn="urn:adsk.eagle:footprint:36288987/1">
 <smd name="P$1" x="-2.2" y="0" dx="1.5" dy="1.2" layer="1" rot="R90"/>
 <smd name="P$2" x="2.2" y="0" dx="1.5" dy="1.2" layer="1" rot="R90"/>
 <wire x1="-1.95" y1="1.45" x2="1.95" y2="1.45" width="0.1524" layer="21"/>
 <wire x1="1.95" y1="1.45" x2="1.95" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="1.95" y1="-1.45" x2="-1.95" y2="-1.45" width="0.1524" layer="21"/>
 <wire x1="-1.95" y1="-1.45" x2="-1.95" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="-3" y1="1.8" x2="3" y2="1.8" width="0.1524" layer="39"/>
+<wire x1="3" y1="1.8" x2="3" y2="-1.8" width="0.1524" layer="39"/>
+<wire x1="3" y1="-1.8" x2="-3" y2="-1.8" width="0.1524" layer="39"/>
+<wire x1="-3" y1="-1.8" x2="-3" y2="1.8" width="0.1524" layer="39"/>
 <text x="-2" y="2.5" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 </packages>
@@ -337,6 +341,11 @@
 <description>&lt;b&gt;DIL/CODE SWITCH&lt;/b&gt;&lt;p&gt;</description>
 <packageinstances>
 <packageinstance name="DIP03YL"/>
+</packageinstances>
+</package3d>
+<package3d name="3X4X2" urn="urn:adsk.eagle:package:36288993/2" type="model">
+<packageinstances>
+<packageinstance name="3X4X2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -508,7 +517,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUTTON">
+<deviceset name="BUTTON" prefix="S">
 <gates>
 <gate name="G$1" symbol="BUTTON" x="0" y="0"/>
 </gates>
@@ -520,6 +529,18 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30539637/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1" package="3X4X2">
+<connects>
+<connect gate="G$1" pin="3" pad="P$1"/>
+<connect gate="G$1" pin="4" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36288993/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
