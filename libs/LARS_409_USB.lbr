@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -496,6 +496,8 @@ Tyco Electronics</description>
 <wire x1="-3.8" y1="-1.3" x2="3.8" y2="-1.3" width="0.2" layer="21"/>
 <wire x1="3.8" y1="-1.3" x2="3.8" y2="0.5" width="0.2" layer="21"/>
 <wire x1="-3.8" y1="0.125" x2="3.7" y2="0.125" width="0.127" layer="21"/>
+<hole x="-2" y="3.67" drill="0.6"/>
+<hole x="1.906" y="3.778" drill="0.6"/>
 </package>
 <package name="MICRO-USB-DIP-ADAPTER" urn="urn:adsk.eagle:footprint:33247312/1" locally_modified="yes">
 <wire x1="-7.8" y1="6.65" x2="7.8" y2="6.65" width="0.1524" layer="21"/>
