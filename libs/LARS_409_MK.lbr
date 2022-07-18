@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -695,7 +695,7 @@
 <smd name="48" x="-2.75" y="3.375" dx="0.3" dy="0.55" layer="1"/>
 <smd name="49" x="0" y="0" dx="5.5" dy="5.5" layer="1"/>
 </package>
-<package name="QFN48(5X5MM)">
+<package name="QFN48(5X5MM)" urn="urn:adsk.eagle:footprint:36564382/1">
 <smd name="PAD" x="0" y="0" dx="2.5" dy="2.5" layer="1" rot="R180"/>
 <smd name="1" x="-2.47" y="2.275" dx="0.12" dy="0.6" layer="1" rot="R90"/>
 <smd name="2" x="-2.47" y="1.925" dx="0.12" dy="0.6" layer="1" rot="R90"/>
@@ -811,6 +811,11 @@
 <package3d name="STM32F072CBU6" urn="urn:adsk.eagle:package:32759931/2" locally_modified="yes" type="model">
 <packageinstances>
 <packageinstance name="STM32F072CBU6"/>
+</packageinstances>
+</package3d>
+<package3d name="QFN48(5X5MM)" urn="urn:adsk.eagle:package:36564395/2" type="box">
+<packageinstances>
+<packageinstance name="QFN48(5X5MM)"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1945,6 +1950,9 @@ driving three-phase BLDC motors using different driving modes.</description>
 <connect gate="G$1" pin="XTAL_N" pad="44"/>
 <connect gate="G$1" pin="XTAL_P" pad="45"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36564395/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
