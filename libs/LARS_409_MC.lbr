@@ -1182,7 +1182,7 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <rectangle x1="-3.048" y1="4.127" x2="-2.984" y2="4.191" layer="21"/>
 <circle x="-3.1" y="4.2" radius="0.1" width="0.1524" layer="21"/>
 </package>
-<package name="WSON8X6-MM">
+<package name="WSON8X6-MM" urn="urn:adsk.eagle:footprint:36572125/1">
 <smd name="P$1" x="0" y="0" dx="3.4" dy="4.3" layer="1"/>
 <smd name="P$2" x="-4" y="1.905" dx="1" dy="0.4" layer="1"/>
 <smd name="P$3" x="-4" y="0.635" dx="1" dy="0.4" layer="1"/>
@@ -1374,6 +1374,13 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 &lt;p&gt;5-pin SOT23 package with 0.95 mm pitch, 2.90 mm span with body size 2.80 X 1.60 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT-23-5"/>
+</packageinstances>
+</package3d>
+<package3d name="WSON8X6-MM" urn="urn:adsk.eagle:package:36572130/2" type="model">
+<description>8-SON (DFN), 1.27 mm pitch, 6.00 X 8.00 X 0.75 mm body, 4.30 X 3.40 mm thermal pad
+&lt;p&gt;8-pin SON (DFN) package with 1.27 mm pitch with body size 6.00 X 8.00 X 0.75 mm and thermal pad size 4.30 X 3.40 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="WSON8X6-MM"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4202,6 +4209,9 @@ RDY</text>
 <connect gate="G$1" pin="VCC" pad="P$9"/>
 <connect gate="G$1" pin="WP" pad="P$4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36572130/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
