@@ -426,7 +426,9 @@
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34824522/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="0603_SMALL" package="0603_SMALL">
