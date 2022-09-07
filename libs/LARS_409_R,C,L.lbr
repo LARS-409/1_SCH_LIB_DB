@@ -252,6 +252,26 @@
 <text x="-1.4" y="0.7" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.6" y="-1.3" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="TRACE">
+<wire x1="-0.5" y1="0" x2="-0.5" y2="0.1" width="0.125" layer="1"/>
+<wire x1="-0.5" y1="0.1" x2="-0.4" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="-0.4" y1="0.2" x2="-0.3" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="-0.3" y1="0.1" x2="-0.3" y2="-0.1" width="0.125" layer="1"/>
+<wire x1="-0.3" y1="-0.1" x2="-0.2" y2="-0.2" width="0.125" layer="1" curve="90"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.1" y2="-0.1" width="0.125" layer="1" curve="90"/>
+<wire x1="-0.1" y1="-0.1" x2="-0.1" y2="0.1" width="0.125" layer="1"/>
+<wire x1="-0.1" y1="0.1" x2="0" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="0" y1="0.2" x2="0.1" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.1" y1="0.1" x2="0.1" y2="-0.1" width="0.125" layer="1"/>
+<wire x1="0.1" y1="-0.1" x2="0.2" y2="-0.2" width="0.125" layer="1" curve="90"/>
+<wire x1="0.2" y1="-0.2" x2="0.3" y2="-0.1" width="0.125" layer="1" curve="90"/>
+<wire x1="0.3" y1="-0.1" x2="0.3" y2="0.1" width="0.125" layer="1"/>
+<wire x1="0.3" y1="0.1" x2="0.4" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.4" y1="0.2" x2="0.5" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.5" y1="0.1" x2="0.5" y2="0" width="0.125" layer="1"/>
+<smd name="P$1" x="-0.6" y="0" dx="0.2" dy="0.125" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0.6" y="0" dx="0.2" dy="0.125" layer="1" stop="no" thermals="no" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:30551165/3" type="model">
@@ -508,6 +528,15 @@
 </technologies>
 </device>
 <device name="0603_SMALL" package="0603_SMALL">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="TRACE">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
