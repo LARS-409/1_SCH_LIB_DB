@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -131,6 +131,26 @@
 <text x="-1.35" y="1.4" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.56" y="-1.92" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="TRACK">
+<wire x1="-0.5" y1="0" x2="-0.5" y2="0.1" width="0.125" layer="1"/>
+<wire x1="-0.5" y1="0.1" x2="-0.4" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="-0.4" y1="0.2" x2="-0.3" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="-0.3" y1="0.1" x2="-0.3" y2="-0.1" width="0.125" layer="1"/>
+<wire x1="-0.3" y1="-0.1" x2="-0.2" y2="-0.2" width="0.125" layer="1" curve="90"/>
+<wire x1="-0.2" y1="-0.2" x2="-0.1" y2="-0.1" width="0.125" layer="1" curve="90"/>
+<wire x1="-0.1" y1="-0.1" x2="-0.1" y2="0.1" width="0.125" layer="1"/>
+<wire x1="-0.1" y1="0.1" x2="0" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="0" y1="0.2" x2="0.1" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.1" y1="0.1" x2="0.1" y2="-0.1" width="0.125" layer="1"/>
+<wire x1="0.1" y1="-0.1" x2="0.2" y2="-0.2" width="0.125" layer="1" curve="90"/>
+<wire x1="0.2" y1="-0.2" x2="0.3" y2="-0.1" width="0.125" layer="1" curve="90"/>
+<wire x1="0.3" y1="-0.1" x2="0.3" y2="0.1" width="0.125" layer="1"/>
+<wire x1="0.3" y1="0.1" x2="0.4" y2="0.2" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.4" y1="0.2" x2="0.5" y2="0.1" width="0.125" layer="1" curve="-90"/>
+<wire x1="0.5" y1="0.1" x2="0.5" y2="0" width="0.125" layer="1"/>
+<smd name="P$1" x="-0.6" y="0" dx="0.2" dy="0.125" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0.6" y="0" dx="0.2" dy="0.125" layer="1" stop="no" thermals="no" cream="no"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CONSTANTAN_SHUNT" urn="urn:adsk.eagle:package:30539490/2" type="model">
@@ -158,18 +178,18 @@
 </packages3d>
 <symbols>
 <symbol name="SHUNT">
-<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.905" x2="5.08" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.905" x2="5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.905" x2="-5.08" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.905" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
 <text x="-3.556" y="-5.334" size="1.778" layer="96">&gt;VALUE</text>
 <text x="-3.556" y="3.048" size="1.778" layer="94">SHUNT</text>
-<pin name="1" x="-7.62" y="0" length="short"/>
-<pin name="2" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONSTANTAN_SHUNT" prefix="RS" uservalue="yes">
+<deviceset name="SHUNT" prefix="RS" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="SHUNT" x="0" y="0"/>
 </gates>
@@ -218,6 +238,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30551164/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="TRACK" package="TRACK">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
