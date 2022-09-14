@@ -233,12 +233,12 @@
 <wire x1="1.47" y1="-2.3" x2="1.47" y2="2.3" width="0.127" layer="51"/>
 <wire x1="-1.13" y1="-2.3" x2="1.47" y2="-2.3" width="0.127" layer="51"/>
 <wire x1="1.47" y1="-2.3" x2="1.47" y2="-0.92" width="0.127" layer="21"/>
-<wire x1="2.375" y1="2.55" x2="-2.375" y2="2.55" width="0.05" layer="39"/>
-<wire x1="-2.375" y1="2.55" x2="-2.375" y2="-2.55" width="0.05" layer="39"/>
-<wire x1="-2.375" y1="-2.55" x2="2.375" y2="-2.55" width="0.05" layer="39"/>
-<wire x1="2.375" y1="-2.55" x2="2.375" y2="2.55" width="0.05" layer="39"/>
-<circle x="-2.575" y="1.5" radius="0.1" width="0.2" layer="51"/>
-<circle x="-2.575" y="1.5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="2.475" y1="2.65" x2="-3.175" y2="2.65" width="0.05" layer="39"/>
+<wire x1="-3.175" y1="2.65" x2="-3.175" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.175" y1="-2.75" x2="2.475" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="2.475" y1="-2.75" x2="2.475" y2="2.65" width="0.05" layer="39"/>
+<circle x="-2.975" y="1.5" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.975" y="1.5" radius="0.1" width="0.2" layer="21"/>
 <text x="-3" y="3" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3" y="-5" size="1.778" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0975" y1="-0.38" x2="1.6225" y2="0.38" layer="31"/>
