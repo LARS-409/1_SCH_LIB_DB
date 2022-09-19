@@ -1517,55 +1517,55 @@
 <text x="-7.62" y="15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="NRF52832">
-<pin name="DEC1" x="-20.32" y="22.86" visible="pin" length="short"/>
-<pin name="P0.00/XL1" x="-20.32" y="7.62" visible="pin" length="short"/>
-<pin name="P0.01/XL2" x="-20.32" y="5.08" visible="pin" length="short"/>
-<pin name="P0.02/AIN0" x="20.32" y="33.02" visible="pin" length="short" rot="R180"/>
-<pin name="P0.03/AIN1" x="20.32" y="30.48" visible="pin" length="short" rot="R180"/>
-<pin name="P0.04/AIN2" x="20.32" y="27.94" visible="pin" length="short" rot="R180"/>
-<pin name="P0.05/AIN3" x="20.32" y="25.4" visible="pin" length="short" rot="R180"/>
-<pin name="P0.06" x="20.32" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="P0.07" x="20.32" y="20.32" visible="pin" length="short" rot="R180"/>
-<pin name="P0.08" x="20.32" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="NFC1/P0.09" x="-20.32" y="-7.62" visible="pin" length="short"/>
-<pin name="NFC2/P0.10" x="-20.32" y="-10.16" visible="pin" length="short"/>
-<pin name="VDD1" x="-20.32" y="33.02" visible="pin" length="short"/>
-<pin name="P0.11" x="20.32" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="P0.12" x="20.32" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="P0.13" x="20.32" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="P0.14/TD3" x="20.32" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="P0.15/TD2" x="20.32" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="P0.16/TD1" x="20.32" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="P0.17" x="20.32" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="P0.18/TD0/SWO" x="20.32" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="P0.19" x="20.32" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="P0.20/TRACECLK" x="20.32" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="P0.21/NRESET" x="20.32" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="SWDCLK" x="-20.32" y="-15.24" visible="pin" length="short"/>
-<pin name="SWDIO" x="-20.32" y="-17.78" visible="pin" length="short"/>
-<pin name="P0.22" x="20.32" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="P0.23" x="20.32" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="P0.24" x="20.32" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="ANT" x="-20.32" y="-22.86" visible="pin" length="short"/>
-<pin name="VSS1" x="-20.32" y="-30.48" visible="pin" length="short"/>
-<pin name="DEC2" x="-20.32" y="20.32" visible="pin" length="short"/>
-<pin name="DEC3" x="-20.32" y="17.78" visible="pin" length="short"/>
-<pin name="XC1" x="-20.32" y="0" visible="pin" length="short"/>
-<pin name="XC2" x="-20.32" y="-2.54" visible="pin" length="short"/>
-<pin name="VDD2" x="-20.32" y="30.48" visible="pin" length="short"/>
-<pin name="P0.25" x="20.32" y="-20.32" visible="pin" length="short" rot="R180"/>
-<pin name="P0.26" x="20.32" y="-22.86" visible="pin" length="short" rot="R180"/>
-<pin name="P0.27" x="20.32" y="-25.4" visible="pin" length="short" rot="R180"/>
-<pin name="P0.28/AIN4" x="20.32" y="-27.94" visible="pin" length="short" rot="R180"/>
-<pin name="P0.29/AIN5" x="20.32" y="-30.48" visible="pin" length="short" rot="R180"/>
-<pin name="P0.30/AIN6" x="20.32" y="-33.02" visible="pin" length="short" rot="R180"/>
-<pin name="P0.31/AIN7" x="20.32" y="-35.56" visible="pin" length="short" rot="R180"/>
-<pin name="NC" x="-20.32" y="-27.94" visible="pin" length="short"/>
-<pin name="VSS2" x="-20.32" y="-33.02" visible="pin" length="short"/>
-<pin name="DEC4" x="-20.32" y="15.24" visible="pin" length="short"/>
-<pin name="DCC" x="-20.32" y="12.7" visible="pin" length="short"/>
-<pin name="VDD3" x="-20.32" y="27.94" visible="pin" length="short"/>
-<pin name="VSS3" x="-20.32" y="-35.56" visible="pin" length="short"/>
+<pin name="DEC1" x="-20.32" y="22.86" length="short"/>
+<pin name="P0.00/XL1" x="-20.32" y="7.62" length="short"/>
+<pin name="P0.01/XL2" x="-20.32" y="5.08" length="short"/>
+<pin name="P0.02/AIN0" x="20.32" y="33.02" length="short" rot="R180"/>
+<pin name="P0.03/AIN1" x="20.32" y="30.48" length="short" rot="R180"/>
+<pin name="P0.04/AIN2" x="20.32" y="27.94" length="short" rot="R180"/>
+<pin name="P0.05/AIN3" x="20.32" y="25.4" length="short" rot="R180"/>
+<pin name="P0.06" x="20.32" y="22.86" length="short" rot="R180"/>
+<pin name="P0.07" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="P0.08" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="NFC1/P0.09" x="-20.32" y="-7.62" length="short"/>
+<pin name="NFC2/P0.10" x="-20.32" y="-10.16" length="short"/>
+<pin name="VDD1" x="-20.32" y="33.02" length="short"/>
+<pin name="P0.11" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="P0.12" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="P0.13" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="P0.14/TD3" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="P0.15/TD2" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="P0.16/TD1" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="P0.17" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="P0.18/TD0/SWO" x="20.32" y="-2.54" length="short" rot="R180"/>
+<pin name="P0.19" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="P0.20/TRACECLK" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="P0.21/NRESET" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="SWDCLK" x="-20.32" y="-15.24" length="short"/>
+<pin name="SWDIO" x="-20.32" y="-17.78" length="short"/>
+<pin name="P0.22" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="P0.23" x="20.32" y="-15.24" length="short" rot="R180"/>
+<pin name="P0.24" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="ANT" x="-20.32" y="-22.86" length="short"/>
+<pin name="VSS1" x="-20.32" y="-30.48" length="short"/>
+<pin name="DEC2" x="-20.32" y="20.32" length="short"/>
+<pin name="DEC3" x="-20.32" y="17.78" length="short"/>
+<pin name="XC1" x="-20.32" y="0" length="short"/>
+<pin name="XC2" x="-20.32" y="-2.54" length="short"/>
+<pin name="VDD2" x="-20.32" y="30.48" length="short"/>
+<pin name="P0.25" x="20.32" y="-20.32" length="short" rot="R180"/>
+<pin name="P0.26" x="20.32" y="-22.86" length="short" rot="R180"/>
+<pin name="P0.27" x="20.32" y="-25.4" length="short" rot="R180"/>
+<pin name="P0.28/AIN4" x="20.32" y="-27.94" length="short" rot="R180"/>
+<pin name="P0.29/AIN5" x="20.32" y="-30.48" length="short" rot="R180"/>
+<pin name="P0.30/AIN6" x="20.32" y="-33.02" length="short" rot="R180"/>
+<pin name="P0.31/AIN7" x="20.32" y="-35.56" length="short" rot="R180"/>
+<pin name="NC" x="-20.32" y="-27.94" length="short"/>
+<pin name="VSS2" x="-20.32" y="-33.02" length="short"/>
+<pin name="DEC4" x="-20.32" y="15.24" length="short"/>
+<pin name="DCC" x="-20.32" y="12.7" length="short"/>
+<pin name="VDD3" x="-20.32" y="27.94" length="short"/>
+<pin name="VSS3" x="-20.32" y="-35.56" length="short"/>
 <wire x1="-17.78" y1="-38.1" x2="17.78" y2="-38.1" width="0.1524" layer="94"/>
 <wire x1="17.78" y1="-38.1" x2="17.78" y2="35.56" width="0.1524" layer="94"/>
 <wire x1="17.78" y1="35.56" x2="-17.78" y2="35.56" width="0.1524" layer="94"/>
