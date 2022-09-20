@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -3599,6 +3599,40 @@ Source: http://www.molex.com</description>
 <wire x1="1" y1="0.5" x2="0.5" y2="1" width="0.127" layer="21"/>
 <wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="21"/>
 </package>
+<package name="JST-PH-06">
+<wire x1="-6.95" y1="-1.7" x2="-3.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="-1.7" x2="3.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.95" y1="-1.7" x2="6.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="2.8" x2="6.95" y2="2.8" width="0.127" layer="21"/>
+<wire x1="6.95" y1="2.8" x2="6.95" y2="0.6" width="0.127" layer="21"/>
+<wire x1="6.95" y1="0.6" x2="6.95" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="6.95" y1="-0.3" x2="6.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="2.8" x2="-6.95" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="0.6" x2="-6.95" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="-0.3" x2="-6.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="2.2" x2="6.35" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="2.2" x2="-6.35" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="0.6" x2="-6.35" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-0.3" x2="-6.35" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-1.1" x2="-3.95" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.2" x2="6.35" y2="0.6" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0.6" x2="6.35" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-0.3" x2="6.35" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="-0.3" x2="-6.35" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-6.95" y1="0.6" x2="-6.35" y2="0.6" width="0.127" layer="21"/>
+<wire x1="6.35" y1="0.6" x2="6.95" y2="0.6" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-0.3" x2="6.95" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-3.95" y1="-1.1" x2="-3.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.95" y1="-1.1" x2="3.95" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="3.95" y1="-1.1" x2="6.35" y2="-1.1" width="0.127" layer="21"/>
+<pad name="5" x="-3" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="-1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="3" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="-5" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="5" y="0" drill="0.8" diameter="1.6764" shape="octagon"/>
+<text x="-7" y="3.5001" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -5197,6 +5231,19 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35952623/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-PH-06" package="JST-PH-06">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
