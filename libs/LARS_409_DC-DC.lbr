@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -200,29 +200,29 @@
 <wire x1="24.2" y1="-49.1" x2="-1.8" y2="-49.1" width="0.1524" layer="21"/>
 <wire x1="-1.8" y1="-49.1" x2="-1.8" y2="1.8" width="0.1524" layer="21"/>
 </package>
-<package name="SOT-89" urn="urn:adsk.eagle:footprint:30547464/1">
+<package name="SOT-89" urn="urn:adsk.eagle:footprint:30547464/1" locally_modified="yes">
 <polygon width="0.01" layer="29">
-<vertex x="-2.225" y="0.38"/>
-<vertex x="-2.225" y="-0.38"/>
+<vertex x="-2.425" y="0.38"/>
+<vertex x="-2.425" y="-0.38"/>
 <vertex x="-0.6" y="-0.38"/>
-<vertex x="-0.28" y="-0.7"/>
-<vertex x="1.805" y="-0.7"/>
-<vertex x="2.225" y="-0.28"/>
-<vertex x="2.225" y="0.28"/>
-<vertex x="1.805" y="0.7"/>
-<vertex x="-0.28" y="0.7"/>
+<vertex x="-0.28" y="-0.9"/>
+<vertex x="1.605" y="-0.9"/>
+<vertex x="2.125" y="-0.28"/>
+<vertex x="2.125" y="0.28"/>
+<vertex x="1.605" y="0.9"/>
+<vertex x="-0.28" y="0.9"/>
 <vertex x="-0.6" y="0.38"/>
 </polygon>
 <polygon width="0.01" layer="1">
-<vertex x="-2.125" y="0.28"/>
-<vertex x="-2.125" y="-0.28"/>
+<vertex x="-2.325" y="0.28"/>
+<vertex x="-2.325" y="-0.28"/>
 <vertex x="-0.6" y="-0.28"/>
-<vertex x="-0.28" y="-0.6"/>
-<vertex x="1.805" y="-0.6"/>
-<vertex x="2.125" y="-0.28"/>
-<vertex x="2.125" y="0.28"/>
-<vertex x="1.805" y="0.6"/>
-<vertex x="-0.28" y="0.6"/>
+<vertex x="-0.28" y="-0.8"/>
+<vertex x="1.605" y="-0.8"/>
+<vertex x="2.025" y="-0.28"/>
+<vertex x="2.025" y="0.28"/>
+<vertex x="1.605" y="0.8"/>
+<vertex x="-0.28" y="0.8"/>
 <vertex x="-0.6" y="0.28"/>
 </polygon>
 <wire x1="1.47" y1="2.3" x2="-1.13" y2="2.3" width="0.127" layer="21"/>
@@ -233,18 +233,18 @@
 <wire x1="1.47" y1="-2.3" x2="1.47" y2="2.3" width="0.127" layer="51"/>
 <wire x1="-1.13" y1="-2.3" x2="1.47" y2="-2.3" width="0.127" layer="51"/>
 <wire x1="1.47" y1="-2.3" x2="1.47" y2="-0.92" width="0.127" layer="21"/>
-<wire x1="2.375" y1="2.55" x2="-2.375" y2="2.55" width="0.05" layer="39"/>
-<wire x1="-2.375" y1="2.55" x2="-2.375" y2="-2.55" width="0.05" layer="39"/>
-<wire x1="-2.375" y1="-2.55" x2="2.375" y2="-2.55" width="0.05" layer="39"/>
-<wire x1="2.375" y1="-2.55" x2="2.375" y2="2.55" width="0.05" layer="39"/>
-<circle x="-2.575" y="1.5" radius="0.1" width="0.2" layer="51"/>
-<circle x="-2.575" y="1.5" radius="0.1" width="0.2" layer="21"/>
+<wire x1="2.475" y1="2.65" x2="-3.175" y2="2.65" width="0.05" layer="39"/>
+<wire x1="-3.175" y1="2.65" x2="-3.175" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="-3.175" y1="-2.75" x2="2.475" y2="-2.75" width="0.05" layer="39"/>
+<wire x1="2.475" y1="-2.75" x2="2.475" y2="2.65" width="0.05" layer="39"/>
+<circle x="-2.975" y="1.5" radius="0.1" width="0.2" layer="51"/>
+<circle x="-2.975" y="1.5" radius="0.1" width="0.2" layer="21"/>
 <text x="-3" y="3" size="1.778" layer="25">&gt;NAME</text>
 <text x="-3" y="-5" size="1.778" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.0975" y1="-0.38" x2="1.6225" y2="0.38" layer="31"/>
-<smd name="1" x="-1.425" y="1.5" dx="0.48" dy="1.4" layer="1" rot="R270"/>
-<smd name="2" x="-1.365" y="0" dx="0.56" dy="1.525" layer="1" rot="R270" stop="no"/>
-<smd name="3" x="-1.425" y="-1.5" dx="0.48" dy="1.4" layer="1" rot="R270"/>
+<smd name="1" x="-1.425" y="1.5" dx="0.58" dy="1.7" layer="1" rot="R270"/>
+<smd name="2" x="-1.365" y="0" dx="0.58" dy="1.7" layer="1" rot="R270" stop="no"/>
+<smd name="3" x="-1.425" y="-1.5" dx="0.58" dy="1.7" layer="1" rot="R270"/>
 </package>
 <package name="SOT233" urn="urn:adsk.eagle:footprint:30500633/1" locally_modified="yes">
 <description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.80 mm body
