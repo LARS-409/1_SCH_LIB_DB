@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -3315,6 +3315,27 @@ Source: http://www.molex.com</description>
 <wire x1="7.1" y1="1.1" x2="7" y2="1" width="0.1524" layer="21"/>
 <wire x1="7" y1="1" x2="6.9" y2="1.1" width="0.1524" layer="21"/>
 </package>
+<package name="JST-XH-03-HORIZONTAL" urn="urn:adsk.eagle:footprint:35921333/1" locally_modified="yes">
+<wire x1="-4.96" y1="4.06" x2="4.9" y2="4.06" width="0.127" layer="21"/>
+<wire x1="4.9" y1="4.06" x2="4.9" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="4.9" y1="-4.06" x2="-4.96" y2="-4.06" width="0.127" layer="21"/>
+<wire x1="-4.96" y1="-4.06" x2="-4.96" y2="4.06" width="0.127" layer="21"/>
+<wire x1="-5.11" y1="4.26" x2="-5.11" y2="-4.24" width="0.05" layer="39"/>
+<wire x1="-5.11" y1="-4.24" x2="5.1" y2="-4.24" width="0.05" layer="39"/>
+<wire x1="5.1" y1="-4.24" x2="5.1" y2="4.26" width="0.05" layer="39"/>
+<wire x1="5.1" y1="4.26" x2="-5.11" y2="4.26" width="0.05" layer="39"/>
+<wire x1="-4.96" y1="4.06" x2="4.9" y2="4.06" width="0.127" layer="51"/>
+<wire x1="4.9" y1="4.06" x2="4.9" y2="-4.06" width="0.127" layer="51"/>
+<wire x1="4.9" y1="-4.06" x2="-4.96" y2="-4.06" width="0.127" layer="51"/>
+<wire x1="-4.96" y1="-4.06" x2="-4.96" y2="4.06" width="0.127" layer="51"/>
+<circle x="-6.29" y="-2.54" radius="0.1" width="0.2" layer="21"/>
+<circle x="-6.29" y="-2.54" radius="0.1" width="0.2" layer="51"/>
+<text x="-4.445740625" y="2.596409375" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.662340625" y="0.736940625" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="1" x="-2.46" y="-2.54" drill="1" diameter="1.5" shape="square"/>
+<pad name="2" x="0.04" y="-2.54" drill="1" diameter="1.5"/>
+<pad name="3" x="2.54" y="-2.54" drill="1" diameter="1.5"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -3756,6 +3777,11 @@ Source: http://www.molex.com</description>
 <package3d name="DOWEL_PIN" urn="urn:adsk.eagle:package:35814801/2" type="model">
 <packageinstances>
 <packageinstance name="DOWEL_PIN"/>
+</packageinstances>
+</package3d>
+<package3d name="JST-XH-03-HORIZONTAL" urn="urn:adsk.eagle:package:35921355/2" type="model">
+<packageinstances>
+<packageinstance name="JST-XH-03-HORIZONTAL"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4443,6 +4469,19 @@ Source: http://www.molex.com</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501245/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="JST-XH-03-HORIZONTAL" package="JST-XH-03-HORIZONTAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35921355/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
