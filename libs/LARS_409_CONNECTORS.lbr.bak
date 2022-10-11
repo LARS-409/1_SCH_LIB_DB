@@ -4925,6 +4925,9 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <package3dinstances>
+<<<<<<< HEAD
+<package3dinstance package3d_urn="urn:adsk.eagle:package:35921355/2"/>
+=======
 <package3dinstance package3d_urn="urn:adsk.eagle:package:36258655/2"/>
 </package3dinstances>
 <technologies>
