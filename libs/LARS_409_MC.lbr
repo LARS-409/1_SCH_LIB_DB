@@ -4717,6 +4717,37 @@ RDY</text>
 </device>
 </devices>
 </deviceset>
+<deviceset name="RS6334" prefix="U">
+<gates>
+<gate name="G1" symbol="OPAMP2" x="-10.16" y="15.24"/>
+<gate name="G2" symbol="OPAMP1" x="-10.16" y="-5.08"/>
+<gate name="G3" symbol="OPAMP1" x="20.32" y="15.24"/>
+<gate name="G4" symbol="OPAMP1" x="20.32" y="-5.08"/>
+</gates>
+<devices>
+<device name="RS6334" package="QFN16(3X3)">
+<connects>
+<connect gate="G1" pin="+IN1" pad="1"/>
+<connect gate="G1" pin="+V" pad="2"/>
+<connect gate="G1" pin="-IN1" pad="16"/>
+<connect gate="G1" pin="GND" pad="11"/>
+<connect gate="G1" pin="OUT1" pad="15"/>
+<connect gate="G2" pin="+IN2" pad="3"/>
+<connect gate="G2" pin="-IN2" pad="4"/>
+<connect gate="G2" pin="OUT2" pad="5"/>
+<connect gate="G3" pin="+IN2" pad="10"/>
+<connect gate="G3" pin="-IN2" pad="9"/>
+<connect gate="G3" pin="OUT2" pad="8"/>
+<connect gate="G4" pin="+IN2" pad="12"/>
+<connect gate="G4" pin="-IN2" pad="13"/>
+<connect gate="G4" pin="OUT2" pad="14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
