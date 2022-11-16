@@ -1,0 +1,18 @@
+Importer Log Report
+Project : LARS_409_CLOCKS.Library.PrjPcb
+
+Section : Analyze Document - C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_CLOCKS.lbr
+    Analyzing data of C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_CLOCKS.lbr
+    Load settings
+    Load layers 145
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 6
+    ERROR: Unhandled typepackages3d
+    Load Symbols 3
+    Load DeviceSets 3
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+EndSection
