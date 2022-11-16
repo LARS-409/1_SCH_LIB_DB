@@ -3773,6 +3773,21 @@ Source: http://www.molex.com</description>
 <smd name="3" x="2" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
 <smd name="2" x="0" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
 </package>
+<package name="FFC-1MM_4">
+<wire x1="-2.15" y1="2.25" x2="2.15" y2="2.25" width="0.05" layer="39"/>
+<wire x1="2.15" y1="2.25" x2="2.15" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="2.15" y1="-2.2" x2="-2.15" y2="-2.2" width="0.05" layer="39"/>
+<wire x1="-2.15" y1="-2.2" x2="-2.15" y2="2.25" width="0.05" layer="39"/>
+<text x="-1.58" y="4.41" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.54" y="4.21" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2" y1="2.2" x2="2" y2="2.2" width="0.127" layer="51"/>
+<wire x1="2" y1="2.2" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2.2" width="0.127" layer="21"/>
+<smd name="4" x="1.5" y="0" dx="0.3" dy="4" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.3" dy="4" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.3" dy="4" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.3" dy="4" layer="1"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -5153,6 +5168,17 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:37825845/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FFC-1" package="FFC-1MM_4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
