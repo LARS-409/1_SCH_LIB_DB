@@ -282,6 +282,52 @@
 <vertex x="7.62" y="3.81"/>
 </polygon>
 </package>
+<package name="2.4GHZB">
+<smd name="ANT" x="4.957" y="-2.006" dx="0.5" dy="0.5" layer="16" rot="R180" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="7.057" y="-2.006" dx="0.9" dy="0.5" layer="16" rot="R180" stop="no" thermals="no" cream="no"/>
+<polygon width="0" layer="16">
+<vertex x="5.207" y="-2.256"/>
+<vertex x="5.207" y="2.644"/>
+<vertex x="6.607" y="2.644"/>
+<vertex x="6.607" y="-2.256"/>
+<vertex x="7.507" y="-2.256"/>
+<vertex x="7.507" y="3.144"/>
+<vertex x="2.507" y="3.144"/>
+<vertex x="2.507" y="0.504"/>
+<vertex x="0.507" y="0.504"/>
+<vertex x="0.507" y="3.144"/>
+<vertex x="-2.193" y="3.144"/>
+<vertex x="-2.193" y="0.504"/>
+<vertex x="-4.193" y="0.504"/>
+<vertex x="-4.193" y="3.144"/>
+<vertex x="-6.893" y="3.144"/>
+<vertex x="-6.893" y="-1.296"/>
+<vertex x="-6.393" y="-1.296"/>
+<vertex x="-6.393" y="2.644"/>
+<vertex x="-4.693" y="2.644"/>
+<vertex x="-4.693" y="0.004"/>
+<vertex x="-1.693" y="0.004"/>
+<vertex x="-1.693" y="2.644"/>
+<vertex x="0.007" y="2.644"/>
+<vertex x="0.007" y="0.004"/>
+<vertex x="3.007" y="0.004"/>
+<vertex x="3.007" y="2.644"/>
+<vertex x="4.707" y="2.644"/>
+<vertex x="4.707" y="-2.256"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-7.62" y="3.81"/>
+<vertex x="-7.62" y="-2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="7.62" y="3.81"/>
+</polygon>
+<polygon width="0.127" layer="42">
+<vertex x="-7.62" y="3.81"/>
+<vertex x="-7.62" y="-2.54"/>
+<vertex x="7.62" y="-2.54"/>
+<vertex x="7.62" y="3.81"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="U.FL" urn="urn:adsk.eagle:package:30592197/2" type="model">
@@ -399,7 +445,7 @@
 <gate name="G$1" symbol="ANTENNA" x="0" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="U.FL">
+<device name="UFL" package="U.FL">
 <connects>
 <connect gate="G$1" pin="ANTENNA" pad="S"/>
 <connect gate="G$1" pin="GND" pad="GND GND1"/>
@@ -412,6 +458,15 @@
 </technologies>
 </device>
 <device name="ESP" package="2.4GHZ">
+<connects>
+<connect gate="G$1" pin="ANTENNA" pad="ANT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ESP_B" package="2.4GHZB">
 <connects>
 <connect gate="G$1" pin="ANTENNA" pad="ANT"/>
 <connect gate="G$1" pin="GND" pad="GND"/>

@@ -3153,18 +3153,18 @@ Source: http://www.molex.com</description>
 <smd name="2" x="1" y="0.5" dx="3.5" dy="1" layer="1" rot="R270"/>
 </package>
 <package name="TEST_PAD">
-<wire x1="-0.7" y1="0.6" x2="0.7" y2="0.6" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-0.6" x2="-0.7" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="-0.6" x2="-0.7" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-0.7" y1="0.6" x2="0.7" y2="0.6" width="0.05" layer="39"/>
-<wire x1="0.7" y1="0.6" x2="0.7" y2="-0.6" width="0.05" layer="39"/>
-<wire x1="0.7" y1="-0.6" x2="-0.7" y2="-0.6" width="0.05" layer="39"/>
-<smd name="P$1" x="-0.3" y="0" dx="0.4" dy="0.8" layer="1"/>
-<smd name="P$2" x="0.3" y="0" dx="0.4" dy="0.8" layer="1"/>
+<wire x1="-0.7" y1="0.5" x2="0.7" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.5" x2="-0.7" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-0.5" x2="-0.7" y2="0.5" width="0.05" layer="39"/>
+<wire x1="-0.7" y1="0.5" x2="0.7" y2="0.5" width="0.05" layer="39"/>
+<wire x1="0.7" y1="0.5" x2="0.7" y2="-0.5" width="0.05" layer="39"/>
+<wire x1="0.7" y1="-0.5" x2="-0.7" y2="-0.5" width="0.05" layer="39"/>
+<smd name="P$1" x="-0.3" y="0" dx="0.4" dy="0.6" layer="1"/>
+<smd name="P$2" x="0.3" y="0" dx="0.4" dy="0.6" layer="1"/>
 <text x="-2.06" y="1.04" size="0.6" layer="25" font="vector">&gt;NAME</text>
 <text x="-1.57" y="-1.88" size="0.6" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-0.7" y1="-0.6" x2="-0.7" y2="0.6" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-0.6" x2="0.7" y2="0.6" width="0.127" layer="21"/>
+<wire x1="-0.7" y1="-0.5" x2="-0.7" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.5" x2="0.7" y2="0.5" width="0.127" layer="21"/>
 </package>
 <package name="DOWEL_PIN" urn="urn:adsk.eagle:footprint:35814786/1">
 <pad name="P$1" x="0" y="0" drill="0.8" diameter="1.9304"/>
@@ -3775,18 +3775,56 @@ Source: http://www.molex.com</description>
 </package>
 <package name="FFC-1MM_4">
 <wire x1="-2.65" y1="2.25" x2="2.65" y2="2.25" width="0.05" layer="39"/>
-<wire x1="2.65" y1="2.25" x2="2.65" y2="-2.2" width="0.05" layer="39"/>
-<wire x1="2.65" y1="-2.2" x2="-2.65" y2="-2.2" width="0.05" layer="39"/>
-<wire x1="-2.65" y1="-2.2" x2="-2.65" y2="2.25" width="0.05" layer="39"/>
+<wire x1="2.65" y1="2.25" x2="2.65" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="2.65" y1="-1.2" x2="-2.65" y2="-1.2" width="0.05" layer="39"/>
+<wire x1="-2.65" y1="-1.2" x2="-2.65" y2="2.25" width="0.05" layer="39"/>
 <text x="-1.58" y="4.41" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-1.54" y="4.21" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-2.5" y1="2.2" x2="2.5" y2="2.2" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.2" x2="2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2" x2="-2.5" y2="2.2" width="0.127" layer="21"/>
-<smd name="4" x="1.5" y="0" dx="0.7" dy="4" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.7" dy="4" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.7" dy="4" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.7" dy="4" layer="1"/>
+<wire x1="2.5" y1="2.2" x2="2.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.1" x2="-2.5" y2="2.2" width="0.127" layer="21"/>
+<smd name="4" x="1.5" y="0.5" dx="0.7" dy="3" layer="1"/>
+<smd name="3" x="0.5" y="0.5" dx="0.7" dy="3" layer="1"/>
+<smd name="2" x="-0.5" y="0.5" dx="0.7" dy="3" layer="1"/>
+<smd name="1" x="-1.5" y="0.5" dx="0.7" dy="3" layer="1"/>
+</package>
+<package name="1X04DUPON_1.27MM">
+<wire x1="-0.67" y1="0.4" x2="-0.67" y2="-0.4" width="0.1016" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.65" diameter="1.016" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="0.65" diameter="1.016" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.6" diameter="1.016" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="0.65" diameter="1.016" rot="R90"/>
+<wire x1="-0.67" y1="0.4" x2="-0.4" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="-0.67" y1="-0.4" x2="-0.4" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="0.4" x2="0.63" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="0.36" y1="-0.67" x2="-0.4" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="-0.4" y1="0.67" x2="0.36" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="0.4" x2="0.36" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="-0.4" x2="0.36" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="0.4" x2="0.63" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="0.4" x2="0.9" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="0.63" y1="-0.4" x2="0.9" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="0.4" x2="1.93" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="1.66" y1="-0.67" x2="0.9" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="0.9" y1="0.67" x2="1.66" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="0.4" x2="1.66" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="-0.4" x2="1.66" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="0.4" x2="1.93" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="0.4" x2="2.2" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="1.93" y1="-0.4" x2="2.2" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="3.23" y1="0.4" x2="3.23" y2="-0.4" width="0.1016" layer="21"/>
+<wire x1="2.96" y1="-0.67" x2="2.2" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="2.2" y1="0.67" x2="2.96" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="3.23" y1="0.4" x2="2.96" y2="0.67" width="0.1016" layer="21"/>
+<wire x1="3.23" y1="-0.4" x2="2.96" y2="-0.67" width="0.1016" layer="21"/>
+<wire x1="3.2" y1="0.39" x2="3.2" y2="-0.41" width="0.1016" layer="21"/>
+<wire x1="3.2" y1="0.39" x2="3.47" y2="0.66" width="0.1016" layer="21"/>
+<wire x1="3.2" y1="-0.41" x2="3.47" y2="-0.68" width="0.1016" layer="21"/>
+<wire x1="4.5" y1="0.39" x2="4.5" y2="-0.41" width="0.1016" layer="21"/>
+<wire x1="4.23" y1="-0.68" x2="3.47" y2="-0.68" width="0.1016" layer="21"/>
+<wire x1="3.47" y1="0.66" x2="4.23" y2="0.66" width="0.1016" layer="21"/>
+<wire x1="4.5" y1="0.39" x2="4.23" y2="0.66" width="0.1016" layer="21"/>
+<wire x1="4.5" y1="-0.41" x2="4.23" y2="-0.68" width="0.1016" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -5173,6 +5211,17 @@ Source: http://www.molex.com</description>
 </technologies>
 </device>
 <device name="FFC-1" package="FFC-1MM_4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DUPON_RARE" package="1X04DUPON_1.27MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
