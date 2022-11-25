@@ -386,6 +386,21 @@
 <text x="0" y="1.635" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="0402">
+<wire x1="-0.848" y1="0.458" x2="0.848" y2="0.458" width="0.0508" layer="39"/>
+<wire x1="0.848" y1="0.458" x2="0.848" y2="-0.458" width="0.0508" layer="39"/>
+<wire x1="0.848" y1="-0.458" x2="-0.848" y2="-0.458" width="0.0508" layer="39"/>
+<wire x1="-0.848" y1="-0.458" x2="-0.848" y2="0.458" width="0.0508" layer="39"/>
+<wire x1="-0.5" y1="0.35" x2="0.5" y2="0.35" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="-0.35" x2="0.5" y2="-0.35" width="0.1524" layer="21"/>
+<smd name="1" x="-0.45" y="0" dx="0.5" dy="0.4" layer="1"/>
+<smd name="2" x="0.45" y="0" dx="0.5" dy="0.4" layer="1"/>
+<text x="-0.935" y="0.512" size="0.7" layer="25">&gt;NAME</text>
+<text x="-0.91" y="-1.282" size="0.7" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.35" y2="0.25" layer="35"/>
+<rectangle x1="0.35" y1="-0.25" x2="0.5" y2="0.25" layer="35"/>
+<wire x1="-0.889" y1="0.508" x2="-0.889" y2="-0.508" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
@@ -629,6 +644,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:36564156/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="0402">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
