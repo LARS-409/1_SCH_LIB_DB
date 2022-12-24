@@ -3859,6 +3859,42 @@ Source: http://www.molex.com</description>
 <wire x1="2.5" y1="2.5" x2="3.1" y2="2.5" width="0.1524" layer="21"/>
 <wire x1="2.5" y1="-2" x2="2.5" y2="-12.5" width="0.1524" layer="21"/>
 </package>
+<package name="SM02B-SRSS-TB">
+<smd name="3" x="-1.8" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="1.8" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-0.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-2" y1="-2.2" x2="2" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-2" y1="-2.2" x2="-2" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-2" y1="2.1" x2="2" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="2" y1="2.1" x2="2" y2="-2.2" width="0.1524" layer="21"/>
+<text x="3.6" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="SM03B-SRSS-TB">
+<smd name="5" x="-2.3" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="2.3" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="0" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-2.5" y1="-2.2" x2="2.5" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-2.5" y1="2.1" x2="2.5" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="2.1" x2="2.5" y2="-2.2" width="0.1524" layer="21"/>
+<text x="4.1" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<smd name="3" x="1" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+</package>
+<package name="SM04B-SRSS-TB">
+<smd name="5" x="-2.8" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="6" x="2.8" y="-1.2" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-3" y1="-2.2" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-2.2" x2="-3" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="-3" y1="2.1" x2="3" y2="2.1" width="0.1524" layer="21"/>
+<wire x1="3" y1="2.1" x2="3" y2="-2.2" width="0.1524" layer="21"/>
+<text x="4.6" y="-1.9" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<smd name="3" x="0.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.5" y="2.4" dx="1.55" dy="0.6" layer="1" rot="R90"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -6276,12 +6312,12 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X2_JST_PH_LF2" prefix="X" uservalue="yes">
+<deviceset name="1X2_GND" prefix="X" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="CONN_02_JST_PH-2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST-PH-SM2-(LF)">
+<device name="PH" package="JST-PH-SM2-(LF)">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6294,14 +6330,24 @@ Source: http://www.molex.com</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="SH" package="SM02B-SRSS-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="1X4_JST_PH_2" prefix="X" uservalue="yes">
+<deviceset name="1X4_GND" prefix="X" uservalue="yes">
 <gates>
 <gate name="&gt;NAME" symbol="CONN_04_JST_PH_2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="JST-PH-SM4">
+<device name="PH_V" package="JST-PH-SM4">
 <connects>
 <connect gate="&gt;NAME" pin="1" pad="1"/>
 <connect gate="&gt;NAME" pin="2" pad="2"/>
@@ -6316,7 +6362,7 @@ Source: http://www.molex.com</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="JST_PH_SM4_2MM(LF)" package="JST-PH-SM4-(LF)">
+<device name="PH_H" package="JST-PH-SM4-(LF)">
 <connects>
 <connect gate="&gt;NAME" pin="1" pad="1"/>
 <connect gate="&gt;NAME" pin="2" pad="2"/>
@@ -6327,6 +6373,18 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:35810023/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SM04B-SRSS-TB">
+<connects>
+<connect gate="&gt;NAME" pin="1" pad="1"/>
+<connect gate="&gt;NAME" pin="2" pad="2"/>
+<connect gate="&gt;NAME" pin="3" pad="3"/>
+<connect gate="&gt;NAME" pin="4" pad="4"/>
+<connect gate="&gt;NAME" pin="5" pad="5 6"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -6364,12 +6422,23 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1X3_JST_PH" prefix="X">
+<deviceset name="1X3_GND" prefix="X">
 <gates>
 <gate name="G$1" symbol="CONN_03_JST_PH-2" x="5.08" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="JST-PH-SM3-(LF)">
+<device name="PH" package="JST-PH-SM3-(LF)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4 5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SH" package="SM03B-SRSS-TB">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
