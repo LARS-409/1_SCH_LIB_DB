@@ -2311,7 +2311,7 @@ driving three-phase BLDC motors using different driving modes.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F103RCT6">
+<deviceset name="STM32F103RCT6" prefix="U">
 <gates>
 <gate name="G$1" symbol="STM32F103RCT6" x="0" y="2.54"/>
 </gates>
