@@ -1,0 +1,22 @@
+Importer Log Report
+Project : LARS_409_SWITCH.Library.PrjPcb
+
+Section : Analyze Document - C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_SWITCH.lbr
+    Analyzing data of C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_SWITCH.lbr
+    Load settings
+    Load layers 143
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 8
+    ERROR: Unhandled typepackages3d
+    Load Symbols 6
+    Load DeviceSets 6
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+EndSection

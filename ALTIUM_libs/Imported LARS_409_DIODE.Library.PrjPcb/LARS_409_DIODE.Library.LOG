@@ -1,0 +1,36 @@
+Importer Log Report
+Project : LARS_409_DIODE.Library.PrjPcb
+
+Section : Analyze Document - C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_DIODE.lbr
+    Analyzing data of C:\Users\Александр\Desktop\Работа\GitHub\1_SCH_LIB_DB\EAGLE_libs\LARS_409_DIODE.lbr
+    Load settings
+    Load layers 179
+    Load library
+    Load Library library
+    Load Library ""
+    Load Packages 11
+    ERROR: Unhandled typepackages3d
+    Load Symbols 5
+    Load DeviceSets 7
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+    ERROR: Unhandled typepackage3dinstances
+EndSection
