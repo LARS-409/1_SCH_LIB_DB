@@ -282,7 +282,7 @@
 <smd name="10" x="1.255" y="1.2" dx="0.91" dy="0.28" layer="1" roundness="20"/>
 <smd name="11" x="0" y="0" dx="1" dy="2.4" layer="1" cream="no"/>
 </package>
-<package name="QFN5X3" urn="urn:adsk.eagle:footprint:34834890/1">
+<package name="QFN5X3" urn="urn:adsk.eagle:footprint:34834890/1" locally_modified="yes">
 <smd name="P$1" x="-1.1" y="-1.875" dx="1.1" dy="0.6" layer="1"/>
 <smd name="P$2" x="-1.1" y="-0.625" dx="1.1" dy="0.6" layer="1"/>
 <smd name="P$3" x="-1.1" y="0.625" dx="1.1" dy="0.6" layer="1"/>
@@ -305,6 +305,7 @@
 <wire x1="-2" y1="-2.9" x2="-2" y2="2.9" width="0.1524" layer="21"/>
 <text x="-2.5" y="3.2" size="1" layer="25">&gt;NAME</text>
 <text x="-3" y="-4.2" size="1" layer="27">&gt;VALUE</text>
+<circle x="-2.413" y="-2.159" radius="0.179603125" width="0.1524" layer="21"/>
 </package>
 <package name="LGA16PIN" urn="urn:adsk.eagle:footprint:34834889/1" locally_modified="yes">
 <smd name="P$1" x="-1.2625" y="-1.5" dx="0.675" dy="0.25" layer="1"/>

@@ -190,7 +190,7 @@
 </layers>
 <library>
 <packages>
-<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2">
+<package name="SOT23" urn="urn:adsk.eagle:footprint:30499536/2" locally_modified="yes">
 <description>3-SOT23, 0.95 mm pitch, 2.40 mm span, 2.90 X 1.30 X 1.10 mm body
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
@@ -207,8 +207,6 @@
 <wire x1="1.509" y1="0.65" x2="0.61" y2="0.65" width="0.127" layer="21"/>
 <text x="-2" y="-2" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
 <text x="2" y="-2" size="0.8128" layer="27" rot="R90" align="top-left">&gt;VALUE</text>
-<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="21"/>
-<circle x="-0.95" y="-2.25" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="2" x="0.95" y="-0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
 <smd name="3" x="0" y="0.98" dx="0.9" dy="0.7" layer="1" roundness="25" rot="R90"/>
