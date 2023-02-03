@@ -320,8 +320,8 @@
 <wire x1="-0.8125" y1="-1.4625" x2="-0.8125" y2="1.4625" width="0.127" layer="51"/>
 <wire x1="0.8125" y1="1.57" x2="-0.8125" y2="1.57" width="0.127" layer="21"/>
 <wire x1="0.8125" y1="-1.57" x2="-0.8125" y2="-1.57" width="0.127" layer="21"/>
-<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.55" y="0.95" radius="0.1" width="0.2" layer="51"/>
+<circle x="-1.661" y="1.839" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.661" y="1.839" radius="0.1" width="0.2" layer="51"/>
 <text x="-2.00048125" y="2.00048125" size="0.609896875" layer="25">&gt;NAME</text>
 <text x="-2.00123125" y="-2.00123125" size="0.61090625" layer="27" align="top-left">&gt;VALUE</text>
 <wire x1="-2.105" y1="-1.5" x2="-1.0625" y2="-1.5" width="0.05" layer="39"/>
