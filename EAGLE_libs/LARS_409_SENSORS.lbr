@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -362,6 +362,32 @@
 <wire x1="2" y1="-1.05" x2="1.8" y2="-1.25" width="0.1524" layer="21" curve="-90"/>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="SCA100T">
+<smd name="SCK" x="-5.48" y="6.35" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="EXTC1" x="-5.48" y="3.81" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="MISO" x="-5.48" y="1.27" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="MOSI" x="-5.48" y="-1.27" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="OUT2" x="-5.48" y="-3.81" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="VSS" x="-5.48" y="-6.35" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="CSB" x="5.48" y="-6.35" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="EXTC2" x="5.48" y="-3.81" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="ST2" x="5.48" y="-1.27" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="ST1" x="5.48" y="1.27" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="OUT1" x="5.48" y="3.81" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<smd name="VDD" x="5.48" y="6.35" dx="1.39" dy="1.81" layer="1" rot="R270"/>
+<wire x1="4.195" y1="7.795" x2="4.195" y2="-7.795" width="0.1524" layer="21"/>
+<wire x1="-4.195" y1="7.795" x2="-4.195" y2="-7.795" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="7.8" x2="-4.2" y2="7.8" width="0.1524" layer="21"/>
+<wire x1="-4.2" y1="-7.8" x2="4.2" y2="-7.8" width="0.1524" layer="21"/>
+<rectangle x1="-7.8" y1="-4.2" x2="7.8" y2="4.2" layer="39" rot="R270"/>
+<wire x1="-6.8" y1="8.127" x2="6.8" y2="8.1" width="0.1524" layer="39"/>
+<wire x1="6.8" y1="8.1" x2="6.8" y2="-8.1" width="0.1524" layer="39"/>
+<wire x1="6.8" y1="-8.1" x2="-6.8" y2="-8.073" width="0.1524" layer="39"/>
+<wire x1="-6.8" y1="-8.073" x2="-6.8" y2="8.127" width="0.1524" layer="39"/>
+<circle x="-2.6" y="6.3" radius="0.538515625" width="0" layer="21"/>
+<circle x="-5.9" y="9.1" radius="0.608275" width="0" layer="21"/>
+<circle x="-7.6" y="6.4" radius="0.632453125" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="AHT20" urn="urn:adsk.eagle:package:30537799/3" type="model">
@@ -608,6 +634,30 @@
 <pin name="P$2" x="-5.08" y="0" visible="off" length="short"/>
 <text x="-2.794" y="3.81" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.556" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SCA100T">
+<pin name="SCK" x="-10.16" y="7.62" visible="off" length="short"/>
+<pin name="MISO" x="-10.16" y="2.54" visible="off" length="short"/>
+<pin name="MOSI" x="-10.16" y="-2.54" visible="off" length="short"/>
+<pin name="NSS" x="-10.16" y="-7.62" visible="off" length="short"/>
+<pin name="GND" x="10.16" y="-7.62" visible="off" length="short" rot="R180"/>
+<pin name="OUT2" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="OUT1" x="10.16" y="2.54" visible="off" length="short" rot="R180"/>
+<pin name="VCC" x="10.16" y="7.62" visible="off" length="short" rot="R180"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
+<text x="-5.08" y="15.24" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.112" y="6.858" size="1.778" layer="97">SCK</text>
+<text x="-7.112" y="1.524" size="1.778" layer="97">MISO</text>
+<text x="-7.366" y="-3.048" size="1.778" layer="97">MOSI</text>
+<text x="-7.366" y="-8.382" size="1.778" layer="97">NSS</text>
+<text x="1.778" y="-8.382" size="1.778" layer="97">GND</text>
+<text x="0.762" y="-3.302" size="1.778" layer="97">OUT2</text>
+<text x="0.762" y="1.524" size="1.778" layer="97">OUT1</text>
+<text x="2.032" y="6.604" size="1.778" layer="97">VCC</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -872,6 +922,28 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 <connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SCA100T-D02" prefix="U">
+<gates>
+<gate name="G$1" symbol="SCA100T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SCA100T">
+<connects>
+<connect gate="G$1" pin="GND" pad="VSS"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="NSS" pad="CSB"/>
+<connect gate="G$1" pin="OUT1" pad="OUT1"/>
+<connect gate="G$1" pin="OUT2" pad="OUT2"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="VCC" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
