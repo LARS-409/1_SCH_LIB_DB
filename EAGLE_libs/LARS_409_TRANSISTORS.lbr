@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -533,6 +533,20 @@
 <smd name="2" x="-1.365" y="0" dx="0.56" dy="1.525" layer="1" rot="R270" stop="no"/>
 <smd name="3" x="-1.425" y="-1.5" dx="0.48" dy="1.4" layer="1" rot="R270"/>
 </package>
+<package name="SOP-4">
+<smd name="ANODE" x="-4.1" y="1.27" dx="2.2" dy="1.7" layer="1"/>
+<smd name="CATHODE" x="-4.1" y="-1.27" dx="2.2" dy="1.7" layer="1"/>
+<smd name="EMITTER" x="4.1" y="-1.27" dx="2.2" dy="1.7" layer="1"/>
+<smd name="COLLECTOR" x="4.1" y="1.27" dx="2.2" dy="1.7" layer="1"/>
+<wire x1="-3.25" y1="-2.3" x2="-3.25" y2="2.3" width="0.1524" layer="21"/>
+<wire x1="3.25" y1="-2.3" x2="3.25" y2="2.3" width="0.1524" layer="21"/>
+<wire x1="-3.25" y1="2.3" x2="3.25" y2="2.3" width="0.1524" layer="21"/>
+<wire x1="-3.25" y1="-2.3" x2="3.25" y2="-2.3" width="0.1524" layer="21"/>
+<circle x="-4.25" y="2.95" radius="0.335409375" width="0" layer="21"/>
+<circle x="-5.75" y="1.55" radius="0.3041375" width="0" layer="21"/>
+<text x="-1.6" y="3.95" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.6" y="2.95" size="0.6096" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK" urn="urn:adsk.eagle:package:30539844/2" type="model">
@@ -741,40 +755,42 @@
 <text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="HMHA281">
-<wire x1="-3.81" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
-<pin name="1" x="-7.62" y="5.08" visible="off" length="middle" direction="pas"/>
-<pin name="2" x="-7.62" y="-5.08" visible="off" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="3" x="7.62" y="-5.08" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="4" x="7.62" y="5.08" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="3.81" y1="2.54" x2="1.778" y2="1.524" width="0.1524" layer="94"/>
-<wire x1="3.048" y1="-1.524" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.048" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="2.81" y1="-2.04" x2="1.578" y2="-1.424" width="0.1524" layer="94"/>
-<wire x1="2.794" y1="-2.413" x2="3.556" y2="-2.413" width="0.254" layer="94"/>
-<wire x1="3.556" y1="-2.413" x2="3.048" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="3.048" y1="-1.778" x2="2.794" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="2.794" y1="-2.286" x2="3.175" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="3.175" y1="-2.286" x2="3.048" y2="-2.032" width="0.254" layer="94"/>
-<rectangle x1="1.016" y1="-2.54" x2="1.778" y2="2.54" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="3.81" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-6.35" x2="5.08" y2="-6.35" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-6.35" x2="5.08" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="6.35" x2="-5.08" y2="6.35" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="6.35" x2="-5.08" y2="-6.35" width="0.1524" layer="94"/>
+<symbol name="OPTOCOUPLER">
+<wire x1="-3.302" y1="1.27" x2="-2.032" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-1.27" x2="-2.032" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.27" x2="-2.032" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-3.302" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-3.302" y2="-1.27" width="0.254" layer="94"/>
+<pin name="ANODE" x="-5.08" y="2.54" visible="off" length="short" direction="pas"/>
+<pin name="CATHODE" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
+<text x="-3.81" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="EMITTER" x="5.08" y="-2.54" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="COLLECTOR" x="5.08" y="2.54" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="3.302" y1="1.524" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.508" x2="3.302" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-1.524" x2="2.032" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-1.524" x2="2.54" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="2.302" y1="-1.024" x2="1.07" y2="-0.408" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.397" x2="3.048" y2="-1.397" width="0.254" layer="94"/>
+<wire x1="3.048" y1="-1.397" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="2.286" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-1.27" x2="2.667" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.667" y1="-1.27" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<rectangle x1="0.508" y1="-2.032" x2="1.27" y2="2.032" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="3.302" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-1.524" x2="3.302" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-1.27" x2="-2.032" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1090,21 +1106,32 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="HMHA281" prefix="VT" uservalue="yes">
+<deviceset name="OPTOCOUPLER" prefix="VT" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="HMHA281" x="0" y="0"/>
+<gate name="G$1" symbol="OPTOCOUPLER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="MFP" package="MFP">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+<connect gate="G$1" pin="COLLECTOR" pad="4"/>
+<connect gate="G$1" pin="EMITTER" pad="3"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30539842/4"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOP-4" package="SOP-4">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="ANODE"/>
+<connect gate="G$1" pin="CATHODE" pad="CATHODE"/>
+<connect gate="G$1" pin="COLLECTOR" pad="COLLECTOR"/>
+<connect gate="G$1" pin="EMITTER" pad="EMITTER"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
