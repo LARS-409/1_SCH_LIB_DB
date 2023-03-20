@@ -409,9 +409,7 @@
 <wire x1="1" y1="-0.65" x2="-1" y2="-0.65" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-0.65" x2="-1" y2="0.65" width="0.1524" layer="21"/>
 <text x="1.35" y="-0.05" size="0.8128" layer="25">&gt;NAME</text>
-<circle x="-0.889" y="-1.778" radius="0.127" width="0.1524" layer="21"/>
-<circle x="-0.889" y="-1.778" radius="0.179603125" width="0.1524" layer="21"/>
-<circle x="-0.889" y="-1.778" radius="0.283978125" width="0.1524" layer="21"/>
+<circle x="-1.27" y="-1.143" radius="0.1016" width="0.1524" layer="21"/>
 </package>
 </packages>
 <packages3d>

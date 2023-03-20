@@ -1401,10 +1401,8 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <wire x1="-3" y1="3" x2="3" y2="3" width="0.1524" layer="21"/>
 <text x="-1.5" y="5" size="0.6096" layer="25" rot="R180" align="bottom-right">&gt;NAME</text>
 <text x="-1.5" y="4" size="0.6096" layer="25" rot="R180" align="bottom-right">&gt;VALUE</text>
-<circle x="-3.683" y="2.159" radius="0.283978125" width="0.1524" layer="21"/>
-<circle x="-3.683" y="2.159" radius="0.127" width="0.1524" layer="21"/>
-<circle x="-3.683" y="2.159" radius="0.359209375" width="0.1524" layer="21"/>
-<circle x="-3.683" y="2.159" radius="0.457903125" width="0.1524" layer="21"/>
+<circle x="-3.429" y="2.413" radius="0.1016" width="0.1524" layer="21"/>
+<rectangle x1="-3.048" y1="2.286" x2="-2.286" y2="2.921" layer="21"/>
 </package>
 </packages>
 <packages3d>
