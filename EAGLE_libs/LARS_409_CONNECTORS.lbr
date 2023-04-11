@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -2886,13 +2886,13 @@ Source: http://www.molex.com</description>
 <wire x1="1.4" y1="10.8" x2="1.4" y2="5.8" width="0.1524" layer="21"/>
 </package>
 <package name="HYR-1139-RP">
-<wire x1="2.264" y1="-5.997" x2="3.264" y2="-5.997" width="0.1016" layer="21"/>
-<wire x1="-3.2" y1="-1" x2="-2.2" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-2.2" y1="-1" x2="-0.456" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="-0.456" y1="-0.997" x2="0.544" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="0.544" y1="-0.997" x2="2.264" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="2.264" y1="-0.997" x2="3.264" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="3.264" y1="-0.997" x2="3.294" y2="-0.997" width="0.1016" layer="21"/>
+<wire x1="2.264" y1="-5.497" x2="3.264" y2="-5.497" width="0.1016" layer="21"/>
+<wire x1="-3.2" y1="-1.5" x2="-2.2" y2="-1.5" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="-1.5" x2="-0.456" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="-0.456" y1="-1.497" x2="0.544" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="0.544" y1="-1.497" x2="2.264" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="2.264" y1="-1.497" x2="3.264" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="3.264" y1="-1.497" x2="3.294" y2="-1.497" width="0.1016" layer="21"/>
 <wire x1="2.294" y1="0.003" x2="2.294" y2="6.003" width="0.1524" layer="35"/>
 <wire x1="-2.256" y1="0.003" x2="-2.256" y2="6.003" width="0.1524" layer="35"/>
 <wire x1="-0.456" y1="6.003" x2="-0.456" y2="0.003" width="0.1524" layer="35"/>
@@ -2900,19 +2900,19 @@ Source: http://www.molex.com</description>
 <wire x1="2.294" y1="6.003" x2="0.544" y2="6.003" width="0.1524" layer="35"/>
 <wire x1="0.544" y1="6.003" x2="-0.456" y2="6.003" width="0.1524" layer="35"/>
 <wire x1="-0.456" y1="6.003" x2="-2.256" y2="6.003" width="0.1524" layer="35"/>
-<wire x1="3.264" y1="-5.997" x2="3.264" y2="-0.997" width="0.1016" layer="21"/>
-<smd name="P$1" x="0.044" y="-3.497" dx="4.8" dy="1" layer="1" rot="R270"/>
-<wire x1="2.264" y1="-5.997" x2="2.264" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="-2.2" y1="-6" x2="-2.2" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-3.2" y1="-6" x2="-3.2" y2="-1" width="0.1016" layer="21"/>
-<wire x1="-3.2" y1="-6" x2="-2.2" y2="-6" width="0.1016" layer="21"/>
-<wire x1="-0.45" y1="-6" x2="-0.456" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="0.55" y1="-6" x2="0.544" y2="-0.997" width="0.1016" layer="21"/>
-<wire x1="-0.45" y1="-6" x2="0.55" y2="-6" width="0.1016" layer="21"/>
-<smd name="P$2" x="2.964" y="-3.497" dx="4.8" dy="3" layer="1" rot="R270"/>
-<smd name="P$3" x="-2.926" y="-3.497" dx="4.8" dy="3" layer="1" rot="R270"/>
-<smd name="P$5" x="2.964" y="-3.497" dx="4.8" dy="3" layer="16" rot="R90"/>
-<smd name="P$6" x="-2.926" y="-3.497" dx="4.8" dy="3" layer="16" rot="R90"/>
+<wire x1="3.264" y1="-5.497" x2="3.264" y2="-1.497" width="0.1016" layer="21"/>
+<smd name="P$1" x="0.044" y="-3.697" dx="4.2" dy="1.5" layer="1" rot="R270"/>
+<wire x1="2.264" y1="-5.497" x2="2.264" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="-5.5" x2="-2.2" y2="-1.5" width="0.1016" layer="21"/>
+<wire x1="-3.2" y1="-5.5" x2="-3.2" y2="-1.5" width="0.1016" layer="21"/>
+<wire x1="-3.2" y1="-5.5" x2="-2.2" y2="-5.5" width="0.1016" layer="21"/>
+<wire x1="-0.45" y1="-5.5" x2="-0.456" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="0.55" y1="-5.5" x2="0.544" y2="-1.497" width="0.1016" layer="21"/>
+<wire x1="-0.45" y1="-5.5" x2="0.55" y2="-5.5" width="0.1016" layer="21"/>
+<smd name="P$2" x="2.964" y="-3.697" dx="4.2" dy="2.5" layer="1" rot="R270"/>
+<smd name="P$3" x="-2.926" y="-3.697" dx="4.2" dy="2.5" layer="1" rot="R270"/>
+<smd name="P$5" x="2.964" y="-3.697" dx="4.2" dy="2.5" layer="16" rot="R90"/>
+<smd name="P$6" x="-2.926" y="-3.697" dx="4.2" dy="2.5" layer="16" rot="R90"/>
 <wire x1="-4.75" y1="11.5" x2="-4.75" y2="24" width="0.1524" layer="35"/>
 <wire x1="-4.75" y1="24" x2="4.75" y2="24" width="0.1524" layer="35"/>
 <wire x1="4.75" y1="24" x2="4.75" y2="11.5" width="0.1524" layer="35"/>
@@ -2930,9 +2930,9 @@ Source: http://www.molex.com</description>
 <wire x1="4.75" y1="3" x2="4.75" y2="4.5" width="0.1524" layer="35"/>
 <wire x1="4.75" y1="11.5" x2="4.75" y2="10" width="0.1524" layer="35"/>
 <wire x1="-4.75" y1="3" x2="4.75" y2="3" width="0.1524" layer="35"/>
-<wire x1="-3.25" y1="-1" x2="-3.25" y2="0" width="0.1524" layer="35"/>
+<wire x1="-3.25" y1="-1.5" x2="-3.25" y2="0" width="0.1524" layer="35"/>
 <wire x1="-3.25" y1="0" x2="3.25" y2="0" width="0.1524" layer="35"/>
-<wire x1="3.25" y1="0" x2="3.25" y2="-1" width="0.1524" layer="35"/>
+<wire x1="3.25" y1="0" x2="3.25" y2="-1.5" width="0.1524" layer="35"/>
 </package>
 <package name="1X11DUPON">
 <wire x1="14.605" y1="1.27" x2="15.875" y2="1.27" width="0.2032" layer="21"/>
