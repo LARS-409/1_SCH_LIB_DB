@@ -746,7 +746,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMRS-1">
+<deviceset name="SMRS-1" prefix="S">
 <gates>
 <gate name="G$1" symbol="SWITCH" x="0" y="0"/>
 </gates>
