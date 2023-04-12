@@ -889,6 +889,8 @@
 <smd name="9" x="12.5" y="15" dx="3" dy="1.5" layer="1"/>
 <text x="-2" y="20" size="0.7" layer="25">&gt;NAME</text>
 <text x="-2" y="19" size="0.7" layer="27">&gt;VALUE</text>
+<smd name="P$1" x="3" y="-8" dx="4" dy="10" layer="1" rot="R180"/>
+<smd name="P$2" x="2.75" y="9" dx="6" dy="7" layer="1"/>
 </package>
 </packages>
 <packages3d>
@@ -1550,7 +1552,7 @@
 <connect gate="G$1" pin="DIO3" pad="4"/>
 <connect gate="G$1" pin="DIO4" pad="3"/>
 <connect gate="G$1" pin="DIO5" pad="2"/>
-<connect gate="G$1" pin="GND" pad="1 9 10 18 20 21 22"/>
+<connect gate="G$1" pin="GND" pad="1 9 10 18 20 21 22 P$1 P$2"/>
 <connect gate="G$1" pin="MISO" pad="13"/>
 <connect gate="G$1" pin="MOSI" pad="14"/>
 <connect gate="G$1" pin="NSS" pad="15"/>
