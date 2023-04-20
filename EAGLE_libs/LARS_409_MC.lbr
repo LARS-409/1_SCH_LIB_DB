@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -1403,6 +1403,17 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <text x="-1.5" y="4" size="0.6096" layer="25" rot="R180" align="bottom-right">&gt;VALUE</text>
 <circle x="-3.429" y="2.413" radius="0.1016" width="0.1524" layer="21"/>
 <rectangle x1="-3.048" y1="2.286" x2="-2.286" y2="2.921" layer="21"/>
+</package>
+<package name="HALL">
+<pad name="2" x="0" y="0" drill="0.6" diameter="1.016"/>
+<pad name="1" x="-1.27" y="0" drill="0.6" diameter="1.016"/>
+<pad name="3" x="1.27" y="0" drill="0.6" diameter="1.016"/>
+<wire x1="2" y1="0.76" x2="-2" y2="0.76" width="0.1524" layer="21"/>
+<wire x1="-2" y1="0.76" x2="-2" y2="0" width="0.1524" layer="21"/>
+<wire x1="2" y1="0.76" x2="2" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2" y1="0" x2="-1.2" y2="-0.76" width="0.1524" layer="21"/>
+<wire x1="-1.2" y1="-0.76" x2="1.2" y2="-0.76" width="0.1524" layer="21"/>
+<wire x1="2" y1="0" x2="1.2" y2="-0.76" width="0.1524" layer="21"/>
 </package>
 </packages>
 <packages3d>
@@ -2868,12 +2879,12 @@ TDA 6060 XS cross-ref_pFET-60v_p_chan.pdf</description>
 <pin name="ADDR" x="-12.7" y="5.08" length="middle"/>
 <pin name="ALERT/RDY" x="-12.7" y="0" visible="off" length="middle"/>
 <pin name="GND" x="-12.7" y="-5.08" length="middle"/>
-<pin name="AIN0" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="AIN0" x="12.7" y="2.54" length="middle" rot="R180"/>
 <pin name="SCL" x="12.7" y="7.62" length="middle" rot="R180"/>
 <pin name="SDA" x="12.7" y="5.08" length="middle" rot="R180"/>
-<pin name="AIN1" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="AIN2" x="12.7" y="0" length="middle" rot="R180"/>
-<pin name="AIN3" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="AIN1" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="AIN2" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="AIN3" x="12.7" y="-5.08" length="middle" rot="R180"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
 <text x="-5.08" y="-1.524" size="1.4224" layer="97">ALRT
@@ -3326,6 +3337,20 @@ RDY</text>
 <wire x1="-12.7" y1="20.32" x2="-12.7" y2="-20.32" width="0.1524" layer="94"/>
 <text x="-5.08" y="25.4" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SS49E">
+<pin name="AN" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="GND" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="VCC" x="-5.08" y="2.54" visible="off" length="short"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<text x="-1.778" y="2.032" size="1.27" layer="94">VCC</text>
+<text x="-2.032" y="-3.048" size="1.27" layer="94">GND</text>
+<text x="-2.032" y="-0.508" size="1.27" layer="94">AN</text>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5105,6 +5130,23 @@ RDY</text>
 <connect gate="G$1" pin="V3P3" pad="P$25"/>
 <connect gate="G$1" pin="VCP" pad="P$7"/>
 <connect gate="G$1" pin="VM" pad="P$9 P$19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS49E" prefix="U">
+<gates>
+<gate name="G$1" symbol="SS49E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HALL">
+<connects>
+<connect gate="G$1" pin="AN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
