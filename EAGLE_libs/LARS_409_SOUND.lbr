@@ -96,6 +96,13 @@
 <text x="2.6" y="1.9" size="1.778" layer="21">+</text>
 <text x="-2" y="7" size="0.8128" layer="25">&gt;NAME</text>
 </package>
+<package name="VSX095505F27">
+<circle x="0" y="0" radius="4.5" width="0.1524" layer="21"/>
+<pad name="P$1" x="-2.5" y="0" drill="1.2" diameter="2.54"/>
+<pad name="P$2" x="2.5" y="0" drill="1.2" diameter="2.54"/>
+<text x="0.6" y="1.9" size="1.778" layer="21">+</text>
+<text x="-2" y="5" size="0.8128" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="HPA17A" urn="urn:adsk.eagle:package:30539523/2" type="model">
@@ -181,6 +188,15 @@
 </technologies>
 </device>
 <device name="HCM1205X" package="HCM1205X">
+<connects>
+<connect gate="G$1" pin="+" pad="P$2"/>
+<connect gate="G$1" pin="-" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="VSX095505F27">
 <connects>
 <connect gate="G$1" pin="+" pad="P$2"/>
 <connect gate="G$1" pin="-" pad="P$1"/>
