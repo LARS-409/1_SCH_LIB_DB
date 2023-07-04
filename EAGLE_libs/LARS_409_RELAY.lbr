@@ -213,6 +213,31 @@
 <wire x1="26.7" y1="-6.3" x2="26.7" y2="-1.2" width="0.127" layer="21"/>
 <text x="-1.8" y="3.7" size="1.27" layer="25">&gt;NAME</text>
 </package>
+<package name="SRD-12VDC-SL-C">
+<wire x1="-9.6" y1="-7.8" x2="9.6" y2="-7.8" width="0.1524" layer="21"/>
+<wire x1="9.6" y1="-7.8" x2="9.6" y2="7.8" width="0.1524" layer="21"/>
+<wire x1="9.6" y1="7.8" x2="-9.6" y2="7.8" width="0.1524" layer="21"/>
+<wire x1="-9.6" y1="7.8" x2="-9.6" y2="-7.8" width="0.1524" layer="21"/>
+<pad name="OP" x="-6.2" y="-6" drill="1.5" diameter="3"/>
+<pad name="CL" x="-6.2" y="6" drill="1.5" diameter="3"/>
+<pad name="COIL2" x="6" y="-6" drill="1.5" diameter="3"/>
+<pad name="COIL1" x="6" y="6" drill="1.5" diameter="3"/>
+<pad name="COMMON" x="8" y="0" drill="1.5" diameter="3"/>
+<wire x1="8" y1="0" x2="-3.7" y2="0" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="2.5" x2="-6.2" y2="5.9" width="0.1524" layer="21"/>
+<wire x1="-6.2" y1="-2.5" x2="-6.2" y2="-6.1" width="0.1524" layer="21"/>
+<wire x1="6" y1="6" x2="6" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="6" y1="3.2" x2="3.4" y2="3.2" width="0.1524" layer="21"/>
+<wire x1="6" y1="-6" x2="6" y2="-2.8" width="0.1524" layer="21"/>
+<wire x1="6" y1="-2.8" x2="3.4" y2="-2.8" width="0.1524" layer="21"/>
+<wire x1="3.4" y1="3.2" x2="2.4" y2="2.2" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.4" y1="-2.8" x2="2.4" y2="-1.8" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.4" y1="-1.8" x2="3.4" y2="-0.8" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.4" y1="-0.8" x2="2.4" y2="0.2" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.4" y1="0.2" x2="3.4" y2="1.2" width="0.1524" layer="21" curve="-90"/>
+<wire x1="3.4" y1="1.2" x2="2.4" y2="2.2" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.7" y1="0" x2="-6.2" y2="-2.5" width="0.1524" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="EDR101A1200" urn="urn:adsk.eagle:package:30592283/2" type="model">
@@ -473,6 +498,26 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30592280/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SRD-12VDC-SL-C" prefix="K">
+<gates>
+<gate name="G$1" symbol="K" x="-10.16" y="0"/>
+<gate name="G$2" symbol="KEY-C" x="7.62" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SRD-12VDC-SL-C">
+<connects>
+<connect gate="G$1" pin="1" pad="COIL1"/>
+<connect gate="G$1" pin="2" pad="COIL2"/>
+<connect gate="G$2" pin="O" pad="COMMON"/>
+<connect gate="G$2" pin="P" pad="OP"/>
+<connect gate="G$2" pin="S" pad="CL"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
