@@ -660,6 +660,36 @@
 <text x="-1.6" y="2.55" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.6" y="1.75" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
+<package name="QFN3X3">
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="21"/>
+<smd name="3" x="-1.5" y="0" dx="0.5" dy="0.2" layer="1"/>
+<smd name="2" x="-1.5" y="0.45" dx="0.5" dy="0.2" layer="1"/>
+<smd name="1" x="-1.5" y="0.9" dx="0.5" dy="0.2" layer="1"/>
+<smd name="4" x="-1.5" y="-0.45" dx="0.5" dy="0.2" layer="1"/>
+<smd name="5" x="-1.5" y="-0.9" dx="0.5" dy="0.2" layer="1"/>
+<smd name="8" x="0" y="-1.5" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="7" x="-0.45" y="-1.5" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="6" x="-0.9" y="-1.5" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="0.45" y="-1.5" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.9" y="-1.5" dx="0.5" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="1.5" y="0" dx="0.5" dy="0.2" layer="1" rot="R180"/>
+<smd name="12" x="1.5" y="-0.45" dx="0.5" dy="0.2" layer="1" rot="R180"/>
+<smd name="11" x="1.5" y="-0.9" dx="0.5" dy="0.2" layer="1" rot="R180"/>
+<smd name="14" x="1.5" y="0.45" dx="0.5" dy="0.2" layer="1" rot="R180"/>
+<smd name="15" x="1.5" y="0.9" dx="0.5" dy="0.2" layer="1" rot="R180"/>
+<smd name="18" x="0" y="1.5" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="17" x="0.45" y="1.5" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="16" x="0.9" y="1.5" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="19" x="-0.45" y="1.5" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="20" x="-0.9" y="1.5" dx="0.5" dy="0.2" layer="1" rot="R270"/>
+<smd name="PAD" x="0" y="0" dx="1" dy="0.9" layer="1" rot="R90"/>
+<circle x="-1.85" y="1.8" radius="0.1581125" width="0" layer="21"/>
+<text x="-2" y="3" size="0.8" layer="25">&gt;NAME</text>
+<text x="-2" y="2" size="0.8" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT230P700X180-4N" urn="urn:adsk.eagle:package:30500627/1" type="model">
@@ -1078,6 +1108,24 @@
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
 <text x="-5.08" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="JW5068">
+<pin name="VIN" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="EN" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="ILMT" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="short" rot="R90"/>
+<pin name="PG" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="BYP" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="FB" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SW" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="BST" x="0" y="12.7" visible="pin" length="short" rot="R270"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.2" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.2" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.2" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.2" layer="94"/>
+<text x="2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1673,6 +1721,30 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501084/3"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JW5068" prefix="U">
+<gates>
+<gate name="G$1" symbol="JW5068" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN3X3">
+<connects>
+<connect gate="G$1" pin="BST" pad="1"/>
+<connect gate="G$1" pin="BYP" pad="15"/>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="GND" pad="7 8 18 PAD"/>
+<connect gate="G$1" pin="ILMT" pad="13"/>
+<connect gate="G$1" pin="PG" pad="9"/>
+<connect gate="G$1" pin="SW" pad="6 19 20"/>
+<connect gate="G$1" pin="VCC" pad="17"/>
+<connect gate="G$1" pin="VIN" pad="2 3 4 5"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
