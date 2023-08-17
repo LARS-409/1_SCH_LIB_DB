@@ -1127,6 +1127,24 @@
 <text x="2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="TPS51396">
+<pin name="VIN" x="-12.7" y="7.62" visible="pin" length="short"/>
+<pin name="EN" x="-12.7" y="2.54" visible="pin" length="short"/>
+<pin name="MODE" x="-12.7" y="-2.54" visible="pin" length="short"/>
+<pin name="VCC" x="-12.7" y="-7.62" visible="pin" length="short"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="short" rot="R90"/>
+<pin name="PG" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SS" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="FB" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="SW" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="BST" x="0" y="12.7" visible="pin" length="short" rot="R270"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.2" layer="94"/>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.2" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.2" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.2" layer="94"/>
+<text x="2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM3481" prefix="U" uservalue="yes">
@@ -1741,6 +1759,30 @@
 <connect gate="G$1" pin="GND" pad="7 8 18 PAD"/>
 <connect gate="G$1" pin="ILMT" pad="13"/>
 <connect gate="G$1" pin="PG" pad="9"/>
+<connect gate="G$1" pin="SW" pad="6 19 20"/>
+<connect gate="G$1" pin="VCC" pad="17"/>
+<connect gate="G$1" pin="VIN" pad="2 3 4 5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS51396" prefix="U">
+<gates>
+<gate name="G$1" symbol="TPS51396" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN3X3">
+<connects>
+<connect gate="G$1" pin="BST" pad="1"/>
+<connect gate="G$1" pin="EN" pad="12"/>
+<connect gate="G$1" pin="FB" pad="14"/>
+<connect gate="G$1" pin="GND" pad="7 8 13 18 PAD"/>
+<connect gate="G$1" pin="MODE" pad="15"/>
+<connect gate="G$1" pin="PG" pad="9"/>
+<connect gate="G$1" pin="SS" pad="11"/>
 <connect gate="G$1" pin="SW" pad="6 19 20"/>
 <connect gate="G$1" pin="VCC" pad="17"/>
 <connect gate="G$1" pin="VIN" pad="2 3 4 5"/>
