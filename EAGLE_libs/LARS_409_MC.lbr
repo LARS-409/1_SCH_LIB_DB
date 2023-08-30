@@ -3492,10 +3492,10 @@ RDY</text>
 <text x="-5.08" y="27.94" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TB67S109A">
-<pin name="OUTA-" x="15.24" y="-15.24" length="short" rot="R180"/>
-<pin name="OUTA+" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="OUTA-" x="15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="OUTA+" x="15.24" y="-7.62" length="short" rot="R180"/>
 <pin name="OUTB+" x="15.24" y="-10.16" length="short" rot="R180"/>
-<pin name="OUTB-" x="15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="OUTB-" x="15.24" y="-15.24" length="short" rot="R180"/>
 <pin name="CW/CCW" x="-15.24" y="27.94" length="short"/>
 <pin name="CLK" x="-15.24" y="25.4" length="short"/>
 <pin name="RESET" x="-15.24" y="22.86" length="short"/>
