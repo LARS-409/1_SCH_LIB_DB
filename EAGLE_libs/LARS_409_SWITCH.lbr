@@ -408,6 +408,59 @@
 <text x="-2" y="6" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2" y="5" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="SS12D07VG...">
+<pad name="2" x="0" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="1" x="-2" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="3" x="2" y="0" drill="0.7" diameter="1.4224"/>
+<pad name="S1" x="-4.15" y="0" drill="0.7" shape="long" rot="R90"/>
+<pad name="S2" x="4.15" y="0" drill="0.7" shape="long" rot="R90"/>
+<wire x1="-4.5" y1="0.6" x2="-4.5" y2="-0.6" width="0" layer="46"/>
+<wire x1="-3.8" y1="0.6" x2="-3.8" y2="-0.6" width="0" layer="46"/>
+<wire x1="-4.5" y1="-0.6" x2="-4.15" y2="-0.95" width="0" layer="46" curve="90"/>
+<wire x1="-4.15" y1="-0.95" x2="-3.8" y2="-0.6" width="0" layer="46" curve="90"/>
+<wire x1="-4.5" y1="0.6" x2="-4.15" y2="0.95" width="0" layer="46" curve="-90"/>
+<wire x1="-4.15" y1="0.95" x2="-3.8" y2="0.6" width="0" layer="46" curve="-90"/>
+<wire x1="3.8" y1="0.6" x2="3.8" y2="-0.6" width="0" layer="46"/>
+<wire x1="4.5" y1="0.6" x2="4.5" y2="-0.6" width="0" layer="46"/>
+<wire x1="3.8" y1="-0.6" x2="4.15" y2="-0.95" width="0" layer="46" curve="90"/>
+<wire x1="4.15" y1="-0.95" x2="4.5" y2="-0.6" width="0" layer="46" curve="90"/>
+<wire x1="3.8" y1="0.6" x2="4.15" y2="0.95" width="0" layer="46" curve="-90"/>
+<wire x1="4.15" y1="0.95" x2="4.5" y2="0.6" width="0" layer="46" curve="-90"/>
+<wire x1="4.35" y1="-2.2" x2="4.35" y2="2.2" width="0.127" layer="21"/>
+<wire x1="4.35" y1="2.2" x2="-4.35" y2="2.2" width="0.127" layer="21"/>
+<wire x1="-4.35" y1="2.2" x2="-4.35" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-4.35" y1="-2.2" x2="4.35" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1" x2="-2" y2="1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1" x2="-1.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1" x2="-1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-0.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1" x2="0" y2="1" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="-1" x2="-0.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="-1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-2" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="1" x2="0.2" y2="1" width="0.127" layer="21"/>
+<wire x1="0.4" y1="1" x2="0.6" y2="1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1" x2="1.4" y2="1" width="0.127" layer="21"/>
+<wire x1="1.6" y1="1" x2="1.8" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="0.8" width="0.127" layer="21"/>
+<wire x1="2" y1="0.6" x2="2" y2="0.4" width="0.127" layer="21"/>
+<wire x1="2" y1="0.1" x2="2" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.4" x2="2" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="2" y1="-0.8" x2="2" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.4" y1="-1" x2="0.6" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1" x2="1" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-1" x2="1.4" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-1" x2="1.8" y2="-1" width="0.127" layer="21"/>
+<wire x1="0" y1="-1" x2="0.2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1" x2="-0.5" y2="-1" width="0.127" layer="21"/>
+<text x="-2" y="4" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="3" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DTS-6" urn="urn:adsk.eagle:package:30539638/2" type="model">
@@ -622,6 +675,33 @@
 <wire x1="1.905" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="SWITCH_G">
+<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="6.985" x2="1.905" y2="5.715" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="6.985" x2="-1.905" y2="5.715" width="0.254" layer="94"/>
+<wire x1="1.905" y1="6.985" x2="0" y2="6.985" width="0.254" layer="94"/>
+<wire x1="0" y1="6.985" x2="-1.905" y2="6.985" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="4.445" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.81" x2="0" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="0" y1="6.985" x2="0" y2="5.715" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="1.905" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<circle x="2.54" y="0" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.413" y="8.636" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
+<pin name="3" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="5.08" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<circle x="2.54" y="2.54" radius="0.127" width="0.4064" layer="94"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<pin name="P$1" x="0" y="-2.54" visible="off" length="point"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="-1.524" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.778" x2="0.254" y2="-1.778" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DTS-6" prefix="S">
@@ -796,6 +876,24 @@
 <connect gate="G$1" pin="1" pad="P$1 P$4"/>
 <connect gate="G$1" pin="2" pad="P$2 P$5"/>
 <connect gate="G$1" pin="3" pad="P$3 P$6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SS12D07VG" prefix="S">
+<gates>
+<gate name="G$1" symbol="SWITCH_G" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS12D07VG...">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="P$1" pad="S1 S2"/>
 </connects>
 <technologies>
 <technology name=""/>
