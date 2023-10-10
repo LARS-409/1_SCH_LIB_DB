@@ -726,6 +726,28 @@
 <wire x1="12" y1="13.5" x2="-12" y2="13.5" width="0.2032" layer="21"/>
 <wire x1="-12" y1="0.5" x2="-12" y2="13.5" width="0.2032" layer="21"/>
 </package>
+<package name="125CDMC">
+<smd name="P$1" x="-5.625" y="0" dx="5" dy="3.25" layer="1" rot="R90"/>
+<smd name="P$2" x="5.625" y="0" dx="5" dy="3.25" layer="1" rot="R90"/>
+<wire x1="-6.725" y1="-6.3" x2="6.725" y2="-6.3" width="0.1524" layer="21"/>
+<wire x1="6.725" y1="-6.3" x2="6.725" y2="6.3" width="0.1524" layer="21"/>
+<wire x1="6.725" y1="6.3" x2="-6.725" y2="6.3" width="0.1524" layer="21"/>
+<wire x1="-6.725" y1="6.3" x2="-6.725" y2="-6.3" width="0.1524" layer="21"/>
+<wire x1="-6.95" y1="-6.525" x2="6.95" y2="-6.525" width="0.1524" layer="39"/>
+<wire x1="6.95" y1="-6.525" x2="6.95" y2="-2.75" width="0.1524" layer="39"/>
+<wire x1="6.95" y1="-2.75" x2="7.5" y2="-2.75" width="0.1524" layer="39"/>
+<wire x1="7.5" y1="-2.75" x2="7.5" y2="2.75" width="0.1524" layer="39"/>
+<wire x1="7.5" y1="2.75" x2="6.95" y2="2.75" width="0.1524" layer="39"/>
+<wire x1="6.95" y1="2.75" x2="6.95" y2="6.525" width="0.1524" layer="39"/>
+<wire x1="6.95" y1="6.525" x2="-6.95" y2="6.525" width="0.1524" layer="39"/>
+<wire x1="-6.95" y1="6.525" x2="-6.95" y2="2.75" width="0.1524" layer="39"/>
+<wire x1="-6.95" y1="2.75" x2="-7.5" y2="2.75" width="0.1524" layer="39"/>
+<wire x1="-7.5" y1="2.75" x2="-7.5" y2="-2.75" width="0.1524" layer="39"/>
+<wire x1="-7.5" y1="-2.75" x2="-6.95" y2="-2.75" width="0.1524" layer="39"/>
+<wire x1="-6.95" y1="-2.75" x2="-6.95" y2="-6.525" width="0.1524" layer="39"/>
+<text x="-5" y="8" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-5" y="7" size="0.8128" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CUSTOM" urn="urn:adsk.eagle:package:30548070/3" type="model">
@@ -900,6 +922,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:34403437/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="125" package="125CDMC">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
