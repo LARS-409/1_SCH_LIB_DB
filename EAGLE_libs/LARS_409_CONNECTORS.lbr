@@ -4056,17 +4056,17 @@ Source: http://www.molex.com</description>
 <wire x1="5.525" y1="-1.35" x2="5.525" y2="-5.625" width="0.15" layer="21"/>
 </package>
 <package name="&quot;JST-PH&quot;-SMD-3-1.25">
-<smd name="2" x="0" y="0" dx="1.6" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="1.25" y="0" dx="1.6" dy="0.5" layer="1" rot="R90"/>
-<smd name="1" x="-1.25" y="0" dx="1.6" dy="0.5" layer="1" rot="R90"/>
-<smd name="S1" x="-3.8" y="2.9" dx="3" dy="2.1" layer="1" rot="R90"/>
-<smd name="S2" x="3.8" y="2.9" dx="3" dy="2.1" layer="1" rot="R90"/>
-<wire x1="-2.75" y1="0.9" x2="2.75" y2="0.9" width="0.1524" layer="21"/>
-<wire x1="-2.75" y1="0.9" x2="-2.75" y2="5.3" width="0.1524" layer="21"/>
-<wire x1="-2.75" y1="5.3" x2="2.75" y2="5.3" width="0.1524" layer="21"/>
-<wire x1="2.75" y1="5.3" x2="2.75" y2="0.9" width="0.1524" layer="21"/>
-<text x="-2" y="7" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="6" size="0.8128" layer="27">&gt;VALUE</text>
+<smd name="2" x="0" y="-3.1" dx="1.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="-3.1" dx="1.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="1" x="-1.25" y="-3.1" dx="1.6" dy="0.5" layer="1" rot="R90"/>
+<smd name="S1" x="-3.8" y="-0.2" dx="3" dy="2.1" layer="1" rot="R90"/>
+<smd name="S2" x="3.8" y="-0.2" dx="3" dy="2.1" layer="1" rot="R90"/>
+<wire x1="-2.75" y1="-2.2" x2="2.75" y2="-2.2" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="-2.2" x2="-2.75" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="-2.75" y1="2.2" x2="2.75" y2="2.2" width="0.1524" layer="21"/>
+<wire x1="2.75" y1="2.2" x2="2.75" y2="-2.2" width="0.1524" layer="21"/>
+<text x="-2" y="4.46" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2" y="3.46" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
