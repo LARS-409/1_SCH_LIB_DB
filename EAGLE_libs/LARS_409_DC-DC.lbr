@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
@@ -699,14 +699,14 @@
 <text x="-2" y="2" size="0.8" layer="27">&gt;VALUE</text>
 </package>
 <package name="DC-DC_CC-CV">
-<wire x1="-18.94" y1="-13.97" x2="-18.94" y2="14.03" width="0.127" layer="21"/>
-<wire x1="-18.94" y1="14.03" x2="19.06" y2="14.03" width="0.127" layer="21"/>
-<wire x1="19.06" y1="14.03" x2="19.06" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="19.06" y1="-13.97" x2="-18.94" y2="-13.97" width="0.127" layer="21"/>
-<smd name="-I" x="-18.44" y="-10.7" dx="5" dy="5" layer="1"/>
-<smd name="+I" x="-18.44" y="10.76" dx="5" dy="5" layer="1"/>
-<smd name="+O" x="18.56" y="10.76" dx="5" dy="5" layer="1"/>
-<smd name="-O" x="18.56" y="-10.7" dx="5" dy="5" layer="1"/>
+<wire x1="-21.94" y1="-13.97" x2="-21.94" y2="14.03" width="0.127" layer="21"/>
+<wire x1="-21.94" y1="14.03" x2="22.06" y2="14.03" width="0.127" layer="21"/>
+<wire x1="22.06" y1="14.03" x2="22.06" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="22.06" y1="-13.97" x2="-21.94" y2="-13.97" width="0.127" layer="21"/>
+<smd name="-I" x="-21.45" y="-10.7" dx="5" dy="5" layer="1"/>
+<smd name="+I" x="-21.45" y="10.7" dx="5" dy="5" layer="1"/>
+<smd name="+O" x="21.56" y="10.76" dx="5" dy="5" layer="1"/>
+<smd name="-O" x="21.56" y="-10.7" dx="5" dy="5" layer="1"/>
 <polygon width="0.127" layer="39">
 <vertex x="-19.44" y="14.53"/>
 <vertex x="19.56" y="14.53"/>
@@ -721,7 +721,9 @@
 <vertex x="-21.44" y="14.03"/>
 <vertex x="-19.44" y="14.03"/>
 </polygon>
-<smd name="EN" x="18.56" y="0" dx="5" dy="2" layer="1" rot="R180"/>
+<smd name="EN" x="-21.45" y="0" dx="5" dy="2" layer="1" rot="R180"/>
+<rectangle x1="19.06" y1="8.26" x2="24.06" y2="13.26" layer="21"/>
+<rectangle x1="19.06" y1="-13.2" x2="24.06" y2="-8.2" layer="21"/>
 </package>
 <package name="TSSOP-16">
 <smd name="5" x="-2.9" y="-0.325" dx="1.5" dy="0.45" layer="1"/>

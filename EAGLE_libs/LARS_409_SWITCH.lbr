@@ -832,7 +832,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="BG" prefix="U">
+<deviceset name="BG" prefix="S">
 <gates>
 <gate name="G$1" symbol="BUTTONGND" x="0" y="0"/>
 </gates>
