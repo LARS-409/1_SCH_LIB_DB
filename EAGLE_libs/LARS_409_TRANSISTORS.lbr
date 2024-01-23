@@ -92,7 +92,7 @@
 <layer number="110" name="110" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="114" name="FRNTMAAT1" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
@@ -547,6 +547,31 @@
 <text x="-1.6" y="3.95" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.6" y="2.95" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT-883">
+<smd name="B" x="-0.35" y="0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
+<smd name="E" x="-0.35" y="-0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
+<smd name="C" x="0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90" stop="no"/>
+<rectangle x1="-0.6" y1="0.05" x2="-0.1" y2="0.4" layer="29"/>
+<rectangle x1="-0.6" y1="-0.4" x2="-0.1" y2="-0.05" layer="29"/>
+<rectangle x1="-0.05" y1="-0.25" x2="0.75" y2="0.25" layer="29" rot="R270"/>
+<text x="-3" y="0.85" size="1.27" layer="125">&gt;NAME</text>
+<text x="-3.24" y="-2.19" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.6" y1="0.53" x2="-0.59" y2="0.53" width="0.1524" layer="21"/>
+<wire x1="-0.59" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="21"/>
+<wire x1="0.73" y1="0.53" x2="0.73" y2="0.34" width="0.1524" layer="21"/>
+<wire x1="0.73" y1="0.33" x2="0.73" y2="-0.53" width="0.1524" layer="21"/>
+<wire x1="0.73" y1="-0.53" x2="-0.73" y2="-0.53" width="0.1524" layer="21"/>
+<wire x1="-0.73" y1="-0.53" x2="-0.73" y2="0.53" width="0.1524" layer="21"/>
+<wire x1="-0.73" y1="0.53" x2="-0.6" y2="0.53" width="0.1524" layer="21"/>
+<wire x1="-0.61" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="39"/>
+<wire x1="0.73" y1="0.53" x2="0.73" y2="-0.53" width="0.1524" layer="39"/>
+<wire x1="0.73" y1="-0.53" x2="-0.73" y2="-0.53" width="0.1524" layer="39"/>
+<wire x1="-0.73" y1="-0.53" x2="-0.73" y2="0.53" width="0.1524" layer="39"/>
+<wire x1="-0.73" y1="0.53" x2="-0.61" y2="0.53" width="0.1524" layer="39"/>
+<rectangle x1="-0.65" y1="-0.45" x2="0.65" y2="0.45" layer="43"/>
+<rectangle x1="-0.1" y1="-0.23" x2="0.1" y2="0.23" layer="41"/>
+<rectangle x1="-0.5" y1="-0.05" x2="-0.1" y2="0.05" layer="41"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="D-PAK" urn="urn:adsk.eagle:package:30539844/2" type="model">
@@ -979,7 +1004,7 @@
 </deviceset>
 <deviceset name="NPN" prefix="VT">
 <gates>
-<gate name="G$1" symbol="NPN" x="0" y="0"/>
+<gate name="G$1" symbol="NPN" x="2.54" y="2.54"/>
 </gates>
 <devices>
 <device name="D-PAK" package="D-PAK">
@@ -1030,6 +1055,16 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28523/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT-883" package="SOT-883">
+<connects>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="E" pad="E"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
