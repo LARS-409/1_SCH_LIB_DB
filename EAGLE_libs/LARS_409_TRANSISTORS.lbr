@@ -554,20 +554,17 @@
 <rectangle x1="-0.6" y1="0.05" x2="-0.1" y2="0.4" layer="29"/>
 <rectangle x1="-0.6" y1="-0.4" x2="-0.1" y2="-0.05" layer="29"/>
 <rectangle x1="-0.05" y1="-0.25" x2="0.75" y2="0.25" layer="29" rot="R270"/>
-<text x="-3" y="0.85" size="0.8128" layer="125">&gt;NAME</text>
-<text x="-3.24" y="-2.19" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="-0.6" y1="0.53" x2="-0.59" y2="0.53" width="0.1524" layer="21"/>
-<wire x1="-0.59" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="21"/>
+<text x="-1.6" y="0.65" size="0.7" layer="125">&gt;NAME</text>
+<text x="-1.84" y="-1.39" size="0.7" layer="27">&gt;VALUE</text>
+<wire x1="-0.73" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="21"/>
 <wire x1="0.73" y1="0.53" x2="0.73" y2="0.34" width="0.1524" layer="21"/>
 <wire x1="0.73" y1="0.33" x2="0.73" y2="-0.53" width="0.1524" layer="21"/>
 <wire x1="0.73" y1="-0.53" x2="-0.73" y2="-0.53" width="0.1524" layer="21"/>
 <wire x1="-0.73" y1="-0.53" x2="-0.73" y2="0.53" width="0.1524" layer="21"/>
-<wire x1="-0.73" y1="0.53" x2="-0.6" y2="0.53" width="0.1524" layer="21"/>
-<wire x1="-0.61" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="39"/>
+<wire x1="-0.73" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="39"/>
 <wire x1="0.73" y1="0.53" x2="0.73" y2="-0.53" width="0.1524" layer="39"/>
 <wire x1="0.73" y1="-0.53" x2="-0.73" y2="-0.53" width="0.1524" layer="39"/>
 <wire x1="-0.73" y1="-0.53" x2="-0.73" y2="0.53" width="0.1524" layer="39"/>
-<wire x1="-0.73" y1="0.53" x2="-0.61" y2="0.53" width="0.1524" layer="39"/>
 <rectangle x1="-0.65" y1="-0.45" x2="0.65" y2="0.45" layer="43"/>
 <rectangle x1="-0.1" y1="-0.23" x2="0.1" y2="0.23" layer="41"/>
 <rectangle x1="-0.5" y1="-0.05" x2="-0.1" y2="0.05" layer="41"/>
@@ -588,8 +585,8 @@
 <wire x1="1.08" y1="1.22" x2="1.08" y2="-1.21" width="0.1524" layer="41"/>
 <wire x1="1.08" y1="-1.21" x2="-1.08" y2="-1.21" width="0.1524" layer="41"/>
 <wire x1="-1.08" y1="-1.21" x2="-1.08" y2="1.22" width="0.1524" layer="41"/>
-<text x="-4.93" y="-3.13" size="1.778" layer="27">&gt;VALUE</text>
-<text x="-4.42" y="1.42" size="1.778" layer="125">&gt;NAME</text>
+<text x="-1.8058" y="-2.241" size="0.7" layer="27">&gt;VALUE</text>
+<text x="-1.626" y="1.5216" size="0.7" layer="125">&gt;NAME</text>
 <smd name="D" x="0.28" y="0.01" dx="1" dy="1.2" layer="1"/>
 </package>
 </packages>
