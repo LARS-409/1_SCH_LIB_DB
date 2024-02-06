@@ -637,14 +637,14 @@
 <wire x1="-4.38" y1="-1.14" x2="-3.88" y2="-2.14" width="0.1524" layer="94"/>
 <wire x1="-4.88" y1="-1.14" x2="-3.88" y2="-1.14" width="0.1524" layer="94"/>
 <wire x1="-4.38" y1="2.36" x2="-4.38" y2="3.46" width="0.1524" layer="94"/>
-<wire x1="0.02" y1="-0.34" x2="0.02" y2="-3.49" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.33" x2="0" y2="-3.48" width="0.1524" layer="94"/>
 <wire x1="-0.48" y1="-0.34" x2="0.52" y2="-0.34" width="0.1524" layer="94"/>
 <wire x1="0.02" y1="0.66" x2="-0.48" y2="-0.34" width="0.1524" layer="94"/>
 <wire x1="0.02" y1="0.66" x2="0.52" y2="-0.34" width="0.1524" layer="94"/>
 <wire x1="-0.48" y1="0.66" x2="0.52" y2="0.66" width="0.1524" layer="94"/>
 <wire x1="0.52" y1="0.66" x2="0.77" y2="0.91" width="0.1524" layer="94"/>
 <wire x1="-0.48" y1="0.66" x2="-0.73" y2="0.41" width="0.1524" layer="94"/>
-<wire x1="0.02" y1="3.46" x2="0.02" y2="0.61" width="0.1524" layer="94"/>
+<wire x1="0" y1="3.47" x2="0" y2="0.62" width="0.1524" layer="94"/>
 <wire x1="8.23" y1="1.36" x2="7.23" y2="1.36" width="0.1524" layer="94"/>
 <wire x1="7.73" y1="2.36" x2="8.23" y2="1.36" width="0.1524" layer="94"/>
 <wire x1="7.73" y1="2.36" x2="7.23" y2="1.36" width="0.1524" layer="94"/>
@@ -679,12 +679,6 @@
 <wire x1="4.12" y1="3.46" x2="7.73" y2="3.46" width="0.1524" layer="94"/>
 <wire x1="-4.35" y1="0.05" x2="-2.54" y2="0.05" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0.05" x2="-2.54" y2="3.55" width="0.1524" layer="94"/>
-<wire x1="-5.09" y1="-3.58" x2="-5.09" y2="0.05" width="0.1524" layer="94"/>
-<wire x1="-5.09" y1="0.05" x2="-7.96" y2="0.05" width="0.1524" layer="94"/>
-<wire x1="2.52" y1="-3.49" x2="2.52" y2="0.06" width="0.1524" layer="94"/>
-<wire x1="2.52" y1="0.06" x2="4.1" y2="0.05" width="0.1524" layer="94"/>
-<wire x1="5.09" y1="3.5" x2="5.1" y2="0.05" width="0.1524" layer="94"/>
-<wire x1="5.1" y1="0.05" x2="7.71" y2="0.05" width="0.1524" layer="94"/>
 <circle x="-4.38" y="0.06" radius="0.15033125" width="0.1524" layer="94"/>
 <circle x="-7.99" y="0.04" radius="0.15033125" width="0.1524" layer="94"/>
 <circle x="-4.39" y="3.44" radius="0.15033125" width="0.1524" layer="94"/>
@@ -695,14 +689,20 @@
 <circle x="4.1" y="-3.49" radius="0.15033125" width="0.1524" layer="94"/>
 <circle x="0.02" y="-3.49" radius="0.15033125" width="0.1524" layer="94"/>
 <circle x="-4.4" y="-3.49" radius="0.15033125" width="0.1524" layer="94"/>
-<pin name="I/O1" x="-5.09" y="-6.02" visible="off" length="short" rot="R90"/>
-<pin name="I/O2" x="-2.54" y="5.98" visible="off" length="short" rot="R270"/>
-<pin name="VCC" x="0.01" y="6.05" visible="off" length="short" rot="R270"/>
-<pin name="I/O4" x="5.08" y="5.96" visible="off" length="short" rot="R270"/>
-<pin name="I/O3" x="2.53" y="-5.96" visible="off" length="short" rot="R90"/>
-<pin name="GND" x="0.02" y="-6" visible="off" length="short" rot="R90"/>
 <text x="10.16" y="0" size="1.778" layer="95">&gt;NAME</text>
 <text x="10.16" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="I/O2" x="-2.54" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="VCC" x="0" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="I/O4" x="5.08" y="7.62" visible="off" length="middle" rot="R270"/>
+<pin name="I/O1" x="-5.08" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="GND" x="0" y="-7.62" visible="off" length="middle" rot="R90"/>
+<pin name="I/O3" x="2.54" y="-7.62" visible="off" length="middle" rot="R90"/>
+<wire x1="-7.874" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="4.064" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>

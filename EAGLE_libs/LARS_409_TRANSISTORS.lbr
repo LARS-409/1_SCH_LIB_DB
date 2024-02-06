@@ -548,9 +548,9 @@
 <text x="-1.6" y="2.95" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="SOT-883">
-<smd name="B" x="-0.35" y="0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
-<smd name="E" x="-0.35" y="-0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
-<smd name="C" x="0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90" stop="no"/>
+<smd name="1_B_G" x="-0.35" y="0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
+<smd name="2_E_S" x="-0.35" y="-0.225" dx="0.4" dy="0.25" layer="1" roundness="40" stop="no"/>
+<smd name="3_C_D" x="0.35" y="0" dx="0.7" dy="0.4" layer="1" rot="R90" stop="no"/>
 <rectangle x1="-0.6" y1="0.05" x2="-0.1" y2="0.4" layer="29"/>
 <rectangle x1="-0.6" y1="-0.4" x2="-0.1" y2="-0.05" layer="29"/>
 <rectangle x1="-0.05" y1="-0.25" x2="0.75" y2="0.25" layer="29" rot="R270"/>
@@ -575,12 +575,12 @@
 <wire x1="-1.08" y1="-1.21" x2="-1.08" y2="1.22" width="0.1524" layer="21"/>
 <wire x1="-1.08" y1="1.22" x2="1.08" y2="1.22" width="0.1524" layer="21"/>
 <smd name="S" x="-0.72" y="-0.01" dx="0.23" dy="0.785" layer="1"/>
-<smd name="3" x="-0.655" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
-<smd name="4" x="-0.655" y="0.955" dx="0.3" dy="0.37" layer="1"/>
-<smd name="6" x="0.655" y="0.955" dx="0.3" dy="0.37" layer="1"/>
-<smd name="1" x="0.665" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
-<smd name="2" x="0.015" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
-<smd name="5" x="0.005" y="0.955" dx="0.3" dy="0.37" layer="1"/>
+<smd name="3_G" x="-0.655" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
+<smd name="4_S" x="-0.655" y="0.955" dx="0.3" dy="0.37" layer="1"/>
+<smd name="6_D" x="0.655" y="0.955" dx="0.3" dy="0.37" layer="1"/>
+<smd name="1_D" x="0.665" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
+<smd name="2_D" x="0.015" y="-0.945" dx="0.3" dy="0.37" layer="1"/>
+<smd name="5_D" x="0.005" y="0.955" dx="0.3" dy="0.37" layer="1"/>
 <wire x1="-1.08" y1="1.22" x2="1.08" y2="1.22" width="0.1524" layer="41"/>
 <wire x1="1.08" y1="1.22" x2="1.08" y2="-1.21" width="0.1524" layer="41"/>
 <wire x1="1.08" y1="-1.21" x2="-1.08" y2="-1.21" width="0.1524" layer="41"/>
@@ -1078,9 +1078,9 @@
 </device>
 <device name="SOT-883" package="SOT-883">
 <connects>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="B" pad="1_B_G"/>
+<connect gate="G$1" pin="C" pad="3_C_D"/>
+<connect gate="G$1" pin="E" pad="2_E_S"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1221,74 +1221,6 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30539847/3"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="P-CANNEL_FNWB2×2-6L">
-<gates>
-<gate name="G$1" symbol="P-CANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DFN-6L(2X2)">
-<connects>
-<connect gate="G$1" pin="D" pad="1 2 5 6 D"/>
-<connect gate="G$1" pin="G" pad="3"/>
-<connect gate="G$1" pin="S" pad="4 S"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="P-CAN_SSM3J56">
-<gates>
-<gate name="G$1" symbol="P-CANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-883">
-<connects>
-<connect gate="G$1" pin="D" pad="C"/>
-<connect gate="G$1" pin="G" pad="B"/>
-<connect gate="G$1" pin="S" pad="E"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="PNP-2PA1774">
-<gates>
-<gate name="G$1" symbol="PNP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-883">
-<connects>
-<connect gate="G$1" pin="B" pad="E"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="E" pad="B"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="N-CAN_PMZ390UN">
-<gates>
-<gate name="G$1" symbol="N-CANNEL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT-883">
-<connects>
-<connect gate="G$1" pin="D" pad="C"/>
-<connect gate="G$1" pin="G" pad="B"/>
-<connect gate="G$1" pin="S" pad="E"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
