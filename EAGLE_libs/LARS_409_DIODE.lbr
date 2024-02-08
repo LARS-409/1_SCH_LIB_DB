@@ -444,6 +444,21 @@
 <text x="1" y="1" size="0.8128" layer="21">&gt;VALUE</text>
 <circle x="-0.85" y="-1.05" radius="0.070709375" width="0.1524" layer="21"/>
 </package>
+<package name="SOD-523">
+<smd name="С" x="0.85" y="0" dx="0.6" dy="0.8" layer="1"/>
+<smd name="А" x="-0.85" y="0" dx="0.6" dy="0.8" layer="1"/>
+<wire x1="-0.7" y1="0.48" x2="0.7" y2="0.48" width="0.1524" layer="21"/>
+<wire x1="-0.7" y1="-0.48" x2="0.7" y2="-0.48" width="0.1524" layer="21"/>
+<wire x1="-0.47" y1="0.4" x2="-0.47" y2="-0.41" width="0.1524" layer="21"/>
+<wire x1="0.47" y1="0.4" x2="0.47" y2="-0.4" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="0.63" x2="1.25" y2="-0.63" width="0.1524" layer="39"/>
+<wire x1="1.25" y1="-0.63" x2="-1.25" y2="-0.63" width="0.1524" layer="39"/>
+<wire x1="1.25" y1="0.63" x2="-1.25" y2="0.63" width="0.1524" layer="39"/>
+<wire x1="-1.25" y1="0.63" x2="-1.25" y2="-0.63" width="0.1524" layer="39"/>
+<wire x1="1.32" y1="0.5" x2="1.32" y2="-0.48" width="0.1524" layer="21"/>
+<text x="-1.4938" y="0.8168" size="0.7" layer="25">&gt;NAME</text>
+<text x="-1.8244" y="-1.4344" size="0.7" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOT95P240X110-3N" urn="urn:adsk.eagle:package:30499443/3" type="model">
@@ -891,6 +906,15 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30499564/3"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="А"/>
+<connect gate="G$1" pin="C" pad="С"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
