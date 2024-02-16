@@ -441,7 +441,7 @@
 <wire x1="-0.85" y1="-0.65" x2="-0.85" y2="0.65" width="0.1524" layer="21"/>
 <wire x1="-0.85" y1="0.65" x2="0.85" y2="0.65" width="0.1524" layer="21"/>
 <text x="1" y="2" size="0.8128" layer="21">&gt;NAME</text>
-<text x="1" y="1" size="0.8128" layer="21">&gt;VALUE</text>
+<text x="1" y="1" size="0.8128" layer="27">&gt;VALUE</text>
 <circle x="-0.85" y="-1.05" radius="0.070709375" width="0.1524" layer="21"/>
 </package>
 <package name="SOD-523">
@@ -802,6 +802,15 @@
 <connects>
 <connect gate="G$1" pin="A" pad="2"/>
 <connect gate="G$1" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SOD-523">
+<connects>
+<connect gate="G$1" pin="A" pad="А"/>
+<connect gate="G$1" pin="C" pad="С"/>
 </connects>
 <technologies>
 <technology name=""/>
