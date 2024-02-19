@@ -293,7 +293,7 @@
 <vertex x="2.5654" y="2.667"/>
 </polygon>
 </package>
-<package name="SOT-23" urn="urn:adsk.eagle:footprint:30539828/1">
+<package name="SOT-23" urn="urn:adsk.eagle:footprint:30539828/1" locally_modified="yes">
 <wire x1="-1.45" y1="0.65" x2="1.45" y2="0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="0.65" x2="1.45" y2="-0.65" width="0.127" layer="51"/>
 <wire x1="1.45" y1="-0.65" x2="-1.45" y2="-0.65" width="0.127" layer="51"/>
@@ -554,7 +554,6 @@
 <rectangle x1="-0.6" y1="0.05" x2="-0.1" y2="0.4" layer="29"/>
 <rectangle x1="-0.6" y1="-0.4" x2="-0.1" y2="-0.05" layer="29"/>
 <rectangle x1="-0.05" y1="-0.25" x2="0.75" y2="0.25" layer="29" rot="R270"/>
-<text x="-1.6" y="0.65" size="0.7" layer="125">&gt;NAME</text>
 <text x="-1.84" y="-1.39" size="0.7" layer="27">&gt;VALUE</text>
 <wire x1="-0.73" y1="0.53" x2="0.73" y2="0.53" width="0.1524" layer="21"/>
 <wire x1="0.73" y1="0.53" x2="0.73" y2="0.34" width="0.1524" layer="21"/>
@@ -568,6 +567,7 @@
 <rectangle x1="-0.65" y1="-0.45" x2="0.65" y2="0.45" layer="43"/>
 <rectangle x1="-0.1" y1="-0.23" x2="0.1" y2="0.23" layer="41"/>
 <rectangle x1="-0.5" y1="-0.05" x2="-0.1" y2="0.05" layer="41"/>
+<text x="-1.7206" y="0.6792" size="0.7" layer="25">&gt;NAME</text>
 </package>
 <package name="DFN-6L(2X2)">
 <wire x1="1.08" y1="1.22" x2="1.08" y2="-1.21" width="0.1524" layer="21"/>
@@ -1212,6 +1212,16 @@
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:28523/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SOT-883">
+<connects>
+<connect gate="G$1" pin="B" pad="1_B_G"/>
+<connect gate="G$1" pin="C" pad="3_C_D"/>
+<connect gate="G$1" pin="E" pad="2_E_S"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
