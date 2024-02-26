@@ -4275,6 +4275,36 @@ Source: http://www.molex.com</description>
 <wire x1="4.8" y1="5.3" x2="5.2" y2="5.7" width="0" layer="46" curve="-90"/>
 <wire x1="5.2" y1="5.7" x2="7.2" y2="5.7" width="0" layer="46"/>
 </package>
+<package name="FFC-HOLDER-1MM-2P">
+<smd name="1" x="0.5" y="0" dx="1.8" dy="0.6" layer="1" rot="R270"/>
+<smd name="P$1" x="3.35" y="-2.17" dx="3" dy="3" layer="1" rot="R180"/>
+<smd name="P$2" x="-3.35" y="-2.17" dx="3" dy="3" layer="1" rot="R180"/>
+<wire x1="3.525" y1="-1.35" x2="-3.525" y2="-1.35" width="0.1524" layer="21"/>
+<wire x1="-3.525" y1="-6.65" x2="3.525" y2="-6.65" width="0.1524" layer="21"/>
+<wire x1="5.1" y1="1.15" x2="-5.1" y2="1.15" width="0.1524" layer="39"/>
+<wire x1="-5.1" y1="1.15" x2="-5.1" y2="-8.525" width="0.1524" layer="39"/>
+<wire x1="-5.1" y1="-8.525" x2="5.1" y2="-8.525" width="0.1524" layer="39"/>
+<wire x1="5.1" y1="-8.525" x2="5.1" y2="1.15" width="0.1524" layer="39"/>
+<text x="5" y="-10" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
+<text x="7" y="-9" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
+<smd name="2" x="-0.5" y="0" dx="1.8" dy="0.6" layer="1" rot="R270"/>
+<wire x1="-4.5" y1="-6.65" x2="4.5" y2="-6.65" width="0.1524" layer="21"/>
+<wire x1="-4.5" y1="-6.65" x2="-4.5" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-5.65" x2="-4.075" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="-4.075" y1="-5.65" x2="-3.525" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="-3.525" y1="-5.65" x2="4.075" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="4.075" y1="-5.65" x2="4.5" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="4.5" y1="-5.65" x2="4.5" y2="-6.65" width="0.15" layer="21"/>
+<wire x1="-4.075" y1="-5.65" x2="-3.525" y2="-1.35" width="0.15" layer="21"/>
+<wire x1="4.075" y1="-5.65" x2="3.525" y2="-1.35" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-8.3" x2="4.5" y2="-8.3" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-4.5" y1="-8.3" x2="-4.5" y2="-7.725" width="0.15" layer="21"/>
+<wire x1="-4.5" y1="-6.65" x2="-4.5" y2="-7.2" width="0.15" layer="21"/>
+<wire x1="4.5" y1="-8.3" x2="4.5" y2="-7.725" width="0.15" layer="21"/>
+<wire x1="4.5" y1="-6.65" x2="4.5" y2="-7.2" width="0.15" layer="21"/>
+<wire x1="-3.525" y1="-1.35" x2="-3.525" y2="-5.65" width="0.15" layer="21"/>
+<wire x1="3.525" y1="-1.35" x2="3.525" y2="-5.625" width="0.15" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -6883,6 +6913,16 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3 4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="FFC-HOLDER-1MM-2P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="P$1 P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
