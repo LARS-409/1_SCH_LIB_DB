@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -108,26 +108,27 @@
 </packages>
 <symbols>
 <symbol name="SL2.1A">
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="-40.64" width="0.1524" layer="94"/>
-<wire x1="20.32" y1="-40.64" x2="0" y2="-40.64" width="0.1524" layer="94"/>
-<wire x1="0" y1="-40.64" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="DM4" x="-5.08" y="-2.54" length="middle"/>
-<pin name="DP4" x="-5.08" y="-7.62" length="middle"/>
-<pin name="DM3" x="-5.08" y="-12.7" length="middle"/>
-<pin name="DP3" x="-5.08" y="-17.78" length="middle"/>
-<pin name="DM2" x="-5.08" y="-22.86" length="middle"/>
-<pin name="DP2" x="-5.08" y="-27.94" length="middle"/>
-<pin name="DM1" x="-5.08" y="-33.02" length="middle"/>
-<pin name="DP1" x="-5.08" y="-38.1" length="middle"/>
-<pin name="UDM" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="UDP" x="25.4" y="-33.02" length="middle" rot="R180"/>
-<pin name="VCC5V" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="GND" x="25.4" y="-22.86" length="middle" rot="R180"/>
-<pin name="VDD3" x="25.4" y="-17.78" length="middle" rot="R180"/>
-<pin name="VDD18" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="XOUT" x="25.4" y="-7.62" length="middle" rot="R180"/>
-<pin name="XIN" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.1524" layer="94"/>
+<pin name="DM4" x="-15.24" y="17.78" length="middle"/>
+<pin name="DP4" x="-15.24" y="12.7" length="middle"/>
+<pin name="DM3" x="-15.24" y="7.62" length="middle"/>
+<pin name="DP3" x="-15.24" y="2.54" length="middle"/>
+<pin name="DM2" x="-15.24" y="-2.54" length="middle"/>
+<pin name="DP2" x="-15.24" y="-7.62" length="middle"/>
+<pin name="DM1" x="-15.24" y="-12.7" length="middle"/>
+<pin name="DP1" x="-15.24" y="-17.78" length="middle"/>
+<pin name="UDM" x="15.24" y="-17.78" length="middle" rot="R180"/>
+<pin name="UDP" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="VCC5V" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="VDD33" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="VDD18" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="XOUT" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="XIN" x="15.24" y="17.78" length="middle" rot="R180"/>
+<text x="-10.16" y="22.86" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -151,7 +152,7 @@
 <connect gate="G$1" pin="UDP" pad="10"/>
 <connect gate="G$1" pin="VCC5V" pad="11"/>
 <connect gate="G$1" pin="VDD18" pad="14"/>
-<connect gate="G$1" pin="VDD3" pad="13"/>
+<connect gate="G$1" pin="VDD33" pad="13"/>
 <connect gate="G$1" pin="XIN" pad="16"/>
 <connect gate="G$1" pin="XOUT" pad="15"/>
 </connects>
