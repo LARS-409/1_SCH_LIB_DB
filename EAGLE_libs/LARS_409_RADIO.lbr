@@ -375,13 +375,13 @@
 <text x="-1.2" y="1" size="0.6096" layer="27">&gt;VALUE</text>
 </package>
 <package name="QFN-6-EP(1.5X1.5)">
-<smd name="P$1" x="-0.7625" y="0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$2" x="-0.7625" y="0" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$3" x="-0.7625" y="-0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$4" x="0.7625" y="-0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$5" x="0.7625" y="0" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$6" x="0.7625" y="0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
-<smd name="P$7" x="0" y="0" dx="1.4" dy="0.55" layer="1" rot="R90"/>
+<smd name="1" x="-0.7625" y="0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="2" x="-0.7625" y="0" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="3" x="-0.7625" y="-0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="4" x="0.7625" y="-0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="5" x="0.7625" y="0" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="6" x="0.7625" y="0.5" dx="0.35" dy="0.475" layer="1" rot="R90"/>
+<smd name="7" x="0" y="0" dx="1.4" dy="0.55" layer="1" rot="R90"/>
 <wire x1="0.75" y1="0.75" x2="-0.75" y2="0.75" width="0.1016" layer="21"/>
 <wire x1="-0.75" y1="0.75" x2="-0.75" y2="-0.75" width="0.1016" layer="21"/>
 <wire x1="-0.75" y1="-0.75" x2="0.75" y2="-0.75" width="0.1016" layer="21"/>
@@ -526,10 +526,10 @@
 <pin name="VCC" x="7.62" y="2.54" visible="pad" length="short" rot="R180"/>
 <pin name="RF_OUT" x="7.62" y="-2.54" visible="pad" length="short" rot="R180"/>
 <pin name="GND" x="0" y="-7.62" visible="pad" length="short" rot="R90"/>
-<text x="-7.62" y="-1.016" size="1.27" layer="97">IN</text>
-<text x="5.334" y="-1.016" size="1.27" layer="97">OUT</text>
-<text x="-7.62" y="4.572" size="1.27" layer="97">EN</text>
-<text x="5.08" y="4.318" size="1.27" layer="97">VCC</text>
+<text x="-7.62" y="-0.508" size="1.27" layer="97">IN</text>
+<text x="5.334" y="-0.762" size="1.27" layer="97">OUT</text>
+<text x="-7.62" y="4.826" size="1.27" layer="97">EN</text>
+<text x="5.334" y="4.572" size="1.27" layer="97">VCC</text>
 <text x="1.778" y="-7.874" size="1.27" layer="97">GND</text>
 <wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
@@ -708,6 +708,25 @@
 <connect gate="G$1" pin="GND" pad="1 3"/>
 <connect gate="G$1" pin="IN" pad="4"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SKY65971-11" prefix="U">
+<gates>
+<gate name="G$1" symbol="SKY65971-11" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-6-EP(1.5X1.5)">
+<connects>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="3 4 7"/>
+<connect gate="G$1" pin="RF_IN" pad="2"/>
+<connect gate="G$1" pin="RF_OUT" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
