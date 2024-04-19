@@ -4097,11 +4097,11 @@ Source: http://www.molex.com</description>
 <pad name="PIN_1" x="-3.9996" y="-0.0004" drill="0.5" diameter="0.8128" shape="square" stop="no"/>
 <pad name="PIN_4" x="2.0004" y="-0.0004" drill="0.5" diameter="0.8128" shape="square" stop="no"/>
 <pad name="PIN_5" x="4.0004" y="-0.0004" drill="0.5" diameter="0.8128" shape="square" stop="no"/>
-<rectangle x1="-4.5996" y1="-1.8504" x2="-3.3996" y2="1.5496" layer="29"/>
-<rectangle x1="-2.5996" y1="-1.8504" x2="-1.3996" y2="1.5496" layer="29"/>
-<rectangle x1="-0.5996" y1="-1.8504" x2="0.6004" y2="1.5496" layer="29"/>
-<rectangle x1="1.4004" y1="-1.8504" x2="2.6004" y2="1.5496" layer="29"/>
-<rectangle x1="3.4004" y1="-1.8504" x2="4.6004" y2="1.5496" layer="29"/>
+<rectangle x1="-4.5996" y1="-0.5804" x2="-3.3996" y2="2.8196" layer="29"/>
+<rectangle x1="-2.5996" y1="-0.5804" x2="-1.3996" y2="2.8196" layer="29"/>
+<rectangle x1="-0.5996" y1="-0.5804" x2="0.6004" y2="2.8196" layer="29"/>
+<rectangle x1="1.4004" y1="-0.5804" x2="2.6004" y2="2.8196" layer="29"/>
+<rectangle x1="3.4004" y1="-0.5804" x2="4.6004" y2="2.8196" layer="29"/>
 <polygon width="0.1" layer="1">
 <vertex x="-4.4496" y="1.3996" curve="90"/>
 <vertex x="-4.0496" y="0.9996"/>
