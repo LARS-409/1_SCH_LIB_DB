@@ -4102,8 +4102,6 @@ Source: http://www.molex.com</description>
 <rectangle x1="-0.5996" y1="-1.8504" x2="0.6004" y2="1.5496" layer="29"/>
 <rectangle x1="1.4004" y1="-1.8504" x2="2.6004" y2="1.5496" layer="29"/>
 <rectangle x1="3.4004" y1="-1.8504" x2="4.6004" y2="1.5496" layer="29"/>
-<rectangle x1="-4.8496" y1="1.5496" x2="-4.5996" y2="1.7996" layer="43"/>
-<rectangle x1="-4.8496" y1="-1.8504" x2="4.8504" y2="1.7996" layer="43"/>
 <polygon width="0.1" layer="1">
 <vertex x="-4.4496" y="1.3996" curve="90"/>
 <vertex x="-4.0496" y="0.9996"/>
