@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4407,10 +4407,12 @@ Source: http://www.molex.com</description>
 <wire x1="7.65" y1="-5.45" x2="7.65" y2="3.95" width="0.1524" layer="21"/>
 <smd name="1" x="-3.75" y="3.8" dx="3.5" dy="1.5" layer="1" rot="R90"/>
 <smd name="4" x="3.75" y="3.8" dx="3.5" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-7.8" y1="-5.6" x2="7.8" y2="-5.6" width="0.1524" layer="41"/>
-<wire x1="7.8" y1="-5.6" x2="7.8" y2="5.8" width="0.1524" layer="41"/>
-<wire x1="7.8" y1="5.8" x2="-7.8" y2="5.8" width="0.1524" layer="41"/>
-<wire x1="-7.8" y1="5.8" x2="-7.8" y2="-5.6" width="0.1524" layer="41"/>
+<wire x1="-7.8" y1="-5.6" x2="7.8" y2="-5.6" width="0.1524" layer="39"/>
+<wire x1="7.8" y1="-5.6" x2="7.8" y2="5.8" width="0.1524" layer="39"/>
+<wire x1="7.8" y1="5.8" x2="-7.8" y2="5.8" width="0.1524" layer="39"/>
+<wire x1="-7.8" y1="5.8" x2="-7.8" y2="-5.6" width="0.1524" layer="39"/>
+<text x="-3.16" y="7.305" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
+<text x="-3.16" y="8.305" size="0.8128" layer="27" rot="R180">&gt;VALUE</text>
 </package>
 <package name="HDGC1.0K-GL-6PB">
 <smd name="2" x="-1.5" y="1.65" dx="1.5" dy="0.5" layer="1" rot="R270"/>
