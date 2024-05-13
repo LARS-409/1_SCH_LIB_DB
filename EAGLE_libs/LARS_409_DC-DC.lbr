@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -437,12 +437,12 @@
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
-<smd name="BOOST/1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="GND/2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="FB/3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="EN/4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="IN/5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
-<smd name="SW/6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="1" x="-0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="2" x="0" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="3" x="0.95" y="-1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="4" x="0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="5" x="0" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
+<smd name="6" x="-0.95" y="1.3751" dx="0.55" dy="1.35" layer="1"/>
 <text x="2.24" y="0" size="0.6" layer="25" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="SPU03L-05">
@@ -1067,6 +1067,19 @@
 <text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="10.922" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SX1308">
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
+<pin name="SW" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="FB" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="EN" x="-10.16" y="0" length="short"/>
+<pin name="VIN" x="-10.16" y="5.08" length="short"/>
+<text x="-2.54" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="10.16" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM3481" prefix="U" uservalue="yes">
@@ -1103,12 +1116,12 @@
 <devices>
 <device name="" package="SOT-23-6">
 <connects>
-<connect gate="G$1" pin="BOOST" pad="BOOST/1"/>
-<connect gate="G$1" pin="EN" pad="EN/4"/>
-<connect gate="G$1" pin="FB" pad="FB/3"/>
-<connect gate="G$1" pin="GND" pad="GND/2"/>
-<connect gate="G$1" pin="SW" pad="SW/6"/>
-<connect gate="G$1" pin="VIN" pad="IN/5"/>
+<connect gate="G$1" pin="BOOST" pad="1"/>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="6"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30501084/3"/>
@@ -1658,6 +1671,28 @@
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30500979/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX1308" prefix="U">
+<gates>
+<gate name="G$1" symbol="SX1308" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="EN" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30501084/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
