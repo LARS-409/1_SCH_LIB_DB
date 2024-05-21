@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -4490,6 +4490,49 @@ Source: http://www.molex.com</description>
 <text x="-2.54" y="6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="-2.54" y="3.81" size="1.778" layer="27">&gt;VALUES</text>
 </package>
+<package name="PLS2-2">
+<pad name="P$1" x="-1" y="0" drill="0.9" diameter="1.6764"/>
+<pad name="P$2" x="1" y="0" drill="0.9" diameter="1.6764"/>
+<wire x1="-1.7" y1="1.1" x2="-0.1" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="1.1" x2="1.7" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="-1.7" y1="-1.1" x2="-0.1" y2="-1.1" width="0.1524" layer="21"/>
+<wire x1="0.1" y1="-1.1" x2="1.7" y2="-1.1" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="-1.1" x2="0" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1" x2="0.1" y2="-1.1" width="0.1524" layer="21"/>
+<wire x1="-0.1" y1="1.1" x2="0" y2="1" width="0.1524" layer="21"/>
+<wire x1="0" y1="1" x2="0.1" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="-2.15" y1="0.7" x2="-2.15" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="2.17" y1="0.7" x2="2.17" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="2.17" y1="0.7" x2="1.72" y2="1.1" width="0.1524" layer="21"/>
+<wire x1="1.72" y1="-1.1" x2="2.17" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="-1.7" y1="-1.1" x2="-2.15" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="-2.15" y1="0.7" x2="-1.7" y2="1.1" width="0.1524" layer="21"/>
+<text x="-1.83" y="1.5" size="0.8" layer="25">&gt;NAME</text>
+<text x="-1.97" y="-2.18" size="0.8" layer="27">&gt;VALUE</text>
+</package>
+<package name="JST-PH-5-SMD">
+<wire x1="-6.995" y1="0.99" x2="-6.995" y2="-4.01" width="0.127" layer="51"/>
+<wire x1="-4.77" y1="3.79" x2="-4.77" y2="1.49" width="0.127" layer="39"/>
+<wire x1="-4.77" y1="1.49" x2="-7.37" y2="1.49" width="0.127" layer="39"/>
+<wire x1="-7.37" y1="1.49" x2="-7.37" y2="-4.21" width="0.127" layer="39"/>
+<wire x1="-7.37" y1="-4.21" x2="7.43" y2="-4.22" width="0.127" layer="39"/>
+<text x="5.73488125" y="-4.76396875" size="1.27091875" layer="25" rot="R180">&gt;NAME</text>
+<text x="5.73586875" y="5.49413125" size="1.271109375" layer="27" rot="R180">&gt;VALUE</text>
+<smd name="2" x="-0.02" y="0.74" dx="1" dy="5.5" layer="1" rot="R180"/>
+<smd name="3" x="-2.02" y="0.74" dx="1" dy="5.5" layer="1" rot="R180"/>
+<smd name="1" x="1.98" y="0.74" dx="1" dy="5.5" layer="1" rot="R180"/>
+<smd name="4" x="-4.02" y="0.74" dx="1" dy="5.5" layer="1" rot="R180"/>
+<smd name="P2" x="-6.42" y="-1.51" dx="1.6" dy="3" layer="1" rot="R180"/>
+<wire x1="6.955" y1="0.98" x2="-6.995" y2="0.99" width="0.127" layer="51"/>
+<wire x1="-6.995" y1="-4.01" x2="6.955" y2="-4.02" width="0.127" layer="21"/>
+<wire x1="6.955" y1="-4.02" x2="6.955" y2="0.98" width="0.127" layer="51"/>
+<wire x1="7.43" y1="-4.22" x2="7.43" y2="1.48" width="0.127" layer="39"/>
+<wire x1="7.43" y1="1.48" x2="4.73" y2="1.48" width="0.127" layer="39"/>
+<wire x1="4.73" y1="1.48" x2="4.73" y2="3.78" width="0.127" layer="39"/>
+<wire x1="4.73" y1="3.78" x2="-4.77" y2="3.79" width="0.127" layer="39"/>
+<smd name="7" x="3.98" y="0.73" dx="1" dy="5.5" layer="1" rot="R180"/>
+<smd name="P3" x="6.38" y="-1.52" dx="1.6" dy="3" layer="1" rot="R180"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -5676,6 +5719,15 @@ Source: http://www.molex.com</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:37825843/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PLS2-2" package="PLS2-2">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
