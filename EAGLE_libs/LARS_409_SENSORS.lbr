@@ -813,8 +813,8 @@
 <pin name="GND" x="10.16" y="-7.62" visible="pad" length="short" rot="R180"/>
 <pin name="VDD" x="10.16" y="7.62" visible="off" length="short" rot="R180"/>
 <pin name="SCL" x="-10.16" y="-7.62" visible="pad" length="short"/>
-<pin name="XSHUT" x="-10.16" y="7.62" visible="off" length="short"/>
-<pin name="GPIO1" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="XSHUT" x="-10.16" y="2.54" visible="pad" length="short"/>
+<pin name="GPIO1" x="-10.16" y="7.62" visible="pad" length="short"/>
 <pin name="SDA" x="-10.16" y="-2.54" visible="pad" length="short"/>
 <wire x1="-7.62" y1="-10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
 <wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
@@ -822,8 +822,8 @@
 <wire x1="7.62" y1="-10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
 <text x="3.302" y="6.858" size="1.27" layer="97">VDD</text>
 <text x="3.048" y="-8.128" size="1.27" layer="97">GND</text>
-<text x="-6.35" y="6.858" size="1.27" layer="97">XSHUT</text>
-<text x="-6.096" y="2.032" size="1.27" layer="97">GPIO1</text>
+<text x="-6.35" y="1.778" size="1.27" layer="97">XSHUT</text>
+<text x="-6.096" y="7.112" size="1.27" layer="97">GPIO1</text>
 <text x="-6.096" y="-8.128" size="1.27" layer="97">SCL</text>
 <text x="-6.096" y="-3.302" size="1.27" layer="97">SDA</text>
 <text x="-2.54" y="15.24" size="1.27" layer="95">&gt;NAME</text>
