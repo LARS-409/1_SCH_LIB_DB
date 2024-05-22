@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -539,6 +539,32 @@
 <wire x1="3.3" y1="3.4" x2="-3.3" y2="3.4" width="0.127" layer="39"/>
 <text x="-3.56305" y="3.812940625" size="1.1283" layer="25">&gt;NAME</text>
 </package>
+<package name="1TS002G-1800-3500">
+<smd name="G2" x="-3.4" y="-0.9" dx="1.4" dy="1" layer="1" rot="R180"/>
+<smd name="G1" x="3.4" y="-0.9" dx="1.4" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-2.1" y="1.2" dx="1" dy="0.9" layer="1" rot="R180"/>
+<smd name="2" x="2.1" y="1.2" dx="1" dy="0.9" layer="1" rot="R180"/>
+<hole x="-1.15" y="0" drill="0.8"/>
+<hole x="1.15" y="0" drill="0.8"/>
+<wire x1="4.2" y1="-1.5" x2="-4.2" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="0" width="0.1524" layer="21"/>
+<wire x1="-4.2" y1="0" x2="-3" y2="0" width="0.1524" layer="21"/>
+<wire x1="-3" y1="0" x2="-3" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="-3" y1="1.8" x2="3" y2="1.8" width="0.1524" layer="21"/>
+<wire x1="3" y1="1.8" x2="3" y2="0" width="0.1524" layer="21"/>
+<wire x1="3" y1="0" x2="4.2" y2="0" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="0" x2="4.2" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="4.2" y1="-1.5" x2="-4.2" y2="-1.5" width="0.1524" layer="39"/>
+<wire x1="-4.2" y1="-1.5" x2="-4.2" y2="0" width="0.1524" layer="39"/>
+<wire x1="-4.2" y1="0" x2="-3" y2="0" width="0.1524" layer="39"/>
+<wire x1="-3" y1="0" x2="-3" y2="1.8" width="0.1524" layer="39"/>
+<wire x1="-3" y1="1.8" x2="3" y2="1.8" width="0.1524" layer="39"/>
+<wire x1="3" y1="1.8" x2="3" y2="0" width="0.1524" layer="39"/>
+<wire x1="3" y1="0" x2="4.2" y2="0" width="0.1524" layer="39"/>
+<wire x1="4.2" y1="0" x2="4.2" y2="-1.5" width="0.1524" layer="39"/>
+<text x="1.7" y="2.8" size="0.8" layer="25" rot="R180">&gt;NAME</text>
+<text x="1.9" y="3.7" size="0.8" layer="27" rot="R180">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="DTS-6" urn="urn:adsk.eagle:package:30539638/2" type="model">
@@ -996,6 +1022,16 @@
 <connect gate="G$1" pin="3" pad="P$1"/>
 <connect gate="G$1" pin="4" pad="P$2"/>
 <connect gate="G$1" pin="P$1" pad="P$3 P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1TS002G-1800-3500" package="1TS002G-1800-3500">
+<connects>
+<connect gate="G$1" pin="3" pad="1"/>
+<connect gate="G$1" pin="4" pad="2"/>
+<connect gate="G$1" pin="P$1" pad="G1 G2"/>
 </connects>
 <technologies>
 <technology name=""/>
