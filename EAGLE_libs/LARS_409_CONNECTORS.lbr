@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -4917,7 +4917,6 @@ Source: http://www.molex.com</description>
 <vertex x="3.5052" y="-2.286"/>
 <vertex x="2.54" y="-2.286"/>
 </polygon>
-<text x="-3.81" y="2.54" size="0.6" layer="25">NAME</text>
 <polygon width="0.1524" layer="29">
 <vertex x="-3.5" y="0.4"/>
 <vertex x="-2.5" y="0.4"/>
@@ -5015,6 +5014,7 @@ Source: http://www.molex.com</description>
 <vertex x="0.5" y="-0.1"/>
 <vertex x="1.4" y="-0.1"/>
 </polygon>
+<text x="-0.62" y="-2.855" size="0.8128" layer="25" rot="R180">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
