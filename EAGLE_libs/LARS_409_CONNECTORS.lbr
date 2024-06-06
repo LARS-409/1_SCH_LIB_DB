@@ -26,7 +26,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -4804,6 +4804,120 @@ Source: http://www.molex.com</description>
 <vertex x="6.1976" y="2.54"/>
 </polygon>
 </package>
+<package name="BOARD_USB_ANSVER">
+<polygon width="0.1" layer="1">
+<vertex x="3.4925" y="2.31775"/>
+<vertex x="3.4925" y="0.381"/>
+<vertex x="2.54" y="0.381"/>
+<vertex x="2.54" y="2.31775"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="1.42875" y="2.31775"/>
+<vertex x="1.42875" y="0.381"/>
+<vertex x="0.47625" y="0.381"/>
+<vertex x="0.47625" y="2.31775"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-3.4925" y="2.31775"/>
+<vertex x="-3.4925" y="0.381"/>
+<vertex x="-2.54" y="0.381"/>
+<vertex x="-2.54" y="2.31775"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-1.42875" y="2.31775"/>
+<vertex x="-1.42875" y="0.381"/>
+<vertex x="-0.47625" y="0.381"/>
+<vertex x="-0.47625" y="2.31775"/>
+</polygon>
+<pad name="4_GND" x="3.048" y="0.889" drill="0.6" shape="square" rot="R270"/>
+<pad name="3_D+" x="0.9398" y="0.889" drill="0.6" shape="square" rot="R270"/>
+<pad name="2_D-" x="-0.9652" y="0.889" drill="0.6" shape="square" rot="R270"/>
+<pad name="1_5V" x="-2.9972" y="0.889" drill="0.6" shape="square" rot="R270"/>
+<polygon width="0.1" layer="16">
+<vertex x="3.5052" y="2.3114"/>
+<vertex x="3.5052" y="0.381"/>
+<vertex x="2.54" y="0.381"/>
+<vertex x="2.54" y="2.3114"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="1.4224" y="2.3114"/>
+<vertex x="1.4224" y="0.381"/>
+<vertex x="0.4318" y="0.381"/>
+<vertex x="0.4318" y="2.3114"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="-0.4826" y="2.3368"/>
+<vertex x="-0.4826" y="0.381"/>
+<vertex x="-1.4224" y="0.381"/>
+<vertex x="-1.4224" y="2.3114"/>
+<vertex x="-0.508" y="2.3114" curve="90"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="-2.54" y="2.3368"/>
+<vertex x="-2.54" y="0.381"/>
+<vertex x="-3.5052" y="0.381"/>
+<vertex x="-3.5052" y="2.3114"/>
+<vertex x="-2.54" y="2.3114"/>
+</polygon>
+<wire x1="-3.75" y1="-0.8326" x2="3.75" y2="-0.8326" width="0.001" layer="20"/>
+<wire x1="3.75" y1="-0.8326" x2="3.75" y2="0.8674" width="0.001" layer="20" curve="180"/>
+<wire x1="3.75" y1="0.8674" x2="-3.75" y2="0.8674" width="0.001" layer="20"/>
+<wire x1="-3.75" y1="0.8674" x2="-3.75" y2="-0.8326" width="0.001" layer="20" curve="180"/>
+<polygon width="0.1" layer="1">
+<vertex x="-3.4925" y="-2.29235"/>
+<vertex x="-3.4925" y="-0.3556"/>
+<vertex x="-2.54" y="-0.3556"/>
+<vertex x="-2.54" y="-2.29235"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-1.42875" y="-2.29235"/>
+<vertex x="-1.42875" y="-0.3556"/>
+<vertex x="-0.47625" y="-0.3556"/>
+<vertex x="-0.47625" y="-2.29235"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="3.4925" y="-2.29235"/>
+<vertex x="3.4925" y="-0.3556"/>
+<vertex x="2.54" y="-0.3556"/>
+<vertex x="2.54" y="-2.29235"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="1.42875" y="-2.29235"/>
+<vertex x="1.42875" y="-0.1016"/>
+<vertex x="0.47625" y="-0.1016"/>
+<vertex x="0.47625" y="-2.29235"/>
+</polygon>
+<pad name="1_5V_2" x="-3.048" y="-0.8636" drill="0.6" shape="square" rot="R90"/>
+<pad name="2_D-_2" x="-0.9398" y="-0.8636" drill="0.6" shape="square" rot="R90"/>
+<pad name="3_D+_2" x="0.9652" y="-0.8636" drill="0.6" shape="square" rot="R90"/>
+<pad name="4_GND_2" x="2.9972" y="-0.8636" drill="0.6" shape="square" rot="R90"/>
+<polygon width="0.1" layer="16">
+<vertex x="-3.5052" y="-2.286"/>
+<vertex x="-3.5052" y="-0.3556"/>
+<vertex x="-2.54" y="-0.3556"/>
+<vertex x="-2.54" y="-2.286"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="-1.4224" y="-2.286"/>
+<vertex x="-1.4224" y="-0.3556"/>
+<vertex x="-0.4318" y="-0.3556"/>
+<vertex x="-0.4318" y="-2.286"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="0.4826" y="-2.3114"/>
+<vertex x="0.4826" y="-0.1016"/>
+<vertex x="1.4224" y="-0.1016"/>
+<vertex x="1.4224" y="-2.286"/>
+<vertex x="0.508" y="-2.286" curve="90"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="2.54" y="-2.3114"/>
+<vertex x="2.54" y="-0.3556"/>
+<vertex x="3.5052" y="-0.3556"/>
+<vertex x="3.5052" y="-2.286"/>
+<vertex x="2.54" y="-2.286"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="HDRV1W64P0_1X1_250X250X838B" urn="urn:adsk.eagle:package:30501096/1" type="model">
@@ -7857,7 +7971,7 @@ Source: http://www.molex.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOL_CON_USB_TO_BOARD" prefix="X">
+<deviceset name="SOL_CON_USB_TO_BOARD" prefix="USB">
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
 </gates>
@@ -7868,6 +7982,17 @@ Source: http://www.molex.com</description>
 <connect gate="G$1" pin="2_D-" pad="2_D-"/>
 <connect gate="G$1" pin="3_D+" pad="3_D+"/>
 <connect gate="G$1" pin="4_GND" pad="4_GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOL_CON_USB_TO_BOARD" package="BOARD_USB_ANSVER">
+<connects>
+<connect gate="G$1" pin="1_5V" pad="1_5V 1_5V_2"/>
+<connect gate="G$1" pin="2_D-" pad="2_D- 2_D-_2"/>
+<connect gate="G$1" pin="3_D+" pad="3_D+ 3_D+_2"/>
+<connect gate="G$1" pin="4_GND" pad="4_GND 4_GND_2"/>
 </connects>
 <technologies>
 <technology name=""/>
