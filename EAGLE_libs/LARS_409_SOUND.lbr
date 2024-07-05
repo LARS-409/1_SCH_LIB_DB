@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -148,32 +148,31 @@
 <wire x1="-1.6318" y1="-3.911" x2="-1.6418" y2="-3.911" width="0.1524" layer="22"/>
 </package>
 <package name="SMD_MLT-5020">
-<smd name="NON" x="-1.87" y="-1.75" dx="1.94" dy="0.9" layer="1"/>
-<smd name="+POLAR" x="1.87" y="-1.75" dx="1.94" dy="0.9" layer="1"/>
-<smd name="-POLAR" x="1.87" y="1.75" dx="1.94" dy="0.9" layer="1"/>
-<wire x1="2.25" y1="-2.5" x2="-2.25" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="2.75" y1="1.25" x2="2.75" y2="-1" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-1.23" x2="2.5" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.1524" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.23" width="0.1524" layer="21"/>
-<wire x1="-2.75" y1="-1" x2="-2.75" y2="1.47" width="0.1524" layer="21"/>
-<wire x1="-1.35" y1="2.76" x2="-2.07" y2="2.11" width="0.1524" layer="21"/>
-<wire x1="-2.07" y1="2.11" x2="-2.75" y2="1.47" width="0.1524" layer="21"/>
-<wire x1="-1.36" y1="2.77" x2="2.51" y2="2.77" width="0.1524" layer="21"/>
-<wire x1="2.75" y1="1.26" x2="2.5" y2="1.51" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="1.51" x2="2.5" y2="1.5" width="0.1524" layer="21"/>
-<wire x1="2.51" y1="1.52" x2="2.51" y2="2.77" width="0.1524" layer="21"/>
-<wire x1="2.74" y1="-1.01" x2="2.5" y2="-1.23" width="0.1524" layer="21"/>
-<wire x1="-2.75" y1="-1" x2="-2.61" y2="-1.12" width="0.1524" layer="21"/>
-<wire x1="-2.61" y1="-1.12" x2="-2.5" y2="-1.23" width="0.1524" layer="21"/>
-<circle x="1.96" y="-0.77" radius="0.23409375" width="0.1524" layer="21"/>
-<circle x="1.96" y="-0.77" radius="0.086021875" width="0.1524" layer="21"/>
-<circle x="1.96" y="-0.77" radius="0.014140625" width="0.1524" layer="21"/>
-<text x="2.78" y="2.8" size="0.8128" layer="25">&gt;NAME</text>
-<text x="2.78" y="1.8" size="0.8128" layer="27">&gt;VALUE</text>
-<wire x1="1.1018" y1="-3.381" x2="2.1618" y2="-3.381" width="0.1524" layer="21"/>
-<wire x1="1.6318" y1="-2.851" x2="1.6318" y2="-3.911" width="0.1524" layer="21"/>
-<wire x1="1.6318" y1="-3.911" x2="1.6418" y2="-3.911" width="0.1524" layer="21"/>
+<smd name="-POLAR" x="1.87" y="-1.75" dx="1.94" dy="0.9" layer="1"/>
+<smd name="+POLAR" x="-1.87" y="-1.75" dx="1.94" dy="0.9" layer="1"/>
+<smd name="NON" x="-1.87" y="1.75" dx="1.94" dy="0.9" layer="1"/>
+<wire x1="-2.25" y1="-2.5" x2="2.25" y2="-2.5" width="0.1524" layer="22"/>
+<wire x1="-2.75" y1="1.25" x2="-2.75" y2="-1" width="0.1524" layer="22"/>
+<wire x1="-2.5" y1="-1.23" x2="-2.5" y2="-2.5" width="0.1524" layer="22"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.1524" layer="22"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.23" width="0.1524" layer="22"/>
+<wire x1="2.75" y1="-1" x2="2.75" y2="1.47" width="0.1524" layer="22"/>
+<wire x1="1.35" y1="2.76" x2="2.07" y2="2.11" width="0.1524" layer="22"/>
+<wire x1="2.07" y1="2.11" x2="2.75" y2="1.47" width="0.1524" layer="22"/>
+<wire x1="1.36" y1="2.77" x2="-2.51" y2="2.77" width="0.1524" layer="22"/>
+<wire x1="-2.75" y1="1.26" x2="-2.5" y2="1.51" width="0.1524" layer="22"/>
+<wire x1="-2.5" y1="1.51" x2="-2.5" y2="1.5" width="0.1524" layer="22"/>
+<wire x1="-2.51" y1="1.52" x2="-2.51" y2="2.77" width="0.1524" layer="22"/>
+<wire x1="-2.74" y1="-1.01" x2="-2.5" y2="-1.23" width="0.1524" layer="22"/>
+<wire x1="2.75" y1="-1" x2="2.61" y2="-1.12" width="0.1524" layer="22"/>
+<wire x1="2.61" y1="-1.12" x2="2.5" y2="-1.23" width="0.1524" layer="22"/>
+<circle x="-3.23" y="-0.77" radius="0.23409375" width="0.1524" layer="22"/>
+<circle x="-3.23" y="-0.77" radius="0.086021875" width="0.1524" layer="22"/>
+<circle x="-3.23" y="-0.77" radius="0.014140625" width="0.1524" layer="22"/>
+<text x="-2.78" y="4.07" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.78" y="3.07" size="0.8128" layer="27">&gt;VALUE</text>
+<circle x="-1.96" y="-0.77" radius="0.23409375" width="0.1524" layer="22"/>
+<circle x="-1.96" y="-0.77" radius="0.086021875" width="0.1524" layer="22"/>
 </package>
 </packages>
 <packages3d>
@@ -298,7 +297,7 @@
 <device name="SMD_MLT-5020" package="SMD_MLT-5020">
 <connects>
 <connect gate="G$1" pin="+" pad="+POLAR"/>
-<connect gate="G$1" pin="-" pad="-POLAR"/>
+<connect gate="G$1" pin="-" pad="NON"/>
 </connects>
 <technologies>
 <technology name=""/>
