@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -373,6 +373,18 @@
 <circle x="-6.3" y="-3.8" radius="0.00126875" width="0.508" layer="21"/>
 <text x="-3.81" y="5.08" size="0.6096" layer="25">&gt;NAME</text>
 </package>
+<package name="SMD,11.6X10.1MM">
+<wire x1="-5.7" y1="5" x2="5.7" y2="5" width="0.12" layer="21"/>
+<wire x1="-5.7" y1="-5" x2="5.7" y2="-5" width="0.12" layer="21"/>
+<wire x1="5.8" y1="-5.1" x2="-5.8" y2="-5.1" width="0.12" layer="51"/>
+<wire x1="-5.8" y1="-5.1" x2="-5.8" y2="5.1" width="0.12" layer="51"/>
+<wire x1="-5.8" y1="5.1" x2="5.8" y2="5.1" width="0.12" layer="51"/>
+<wire x1="5.8" y1="5.1" x2="5.8" y2="-5.1" width="0.12" layer="51"/>
+<smd name="1" x="-4.8644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<smd name="2" x="4.8644" y="0" dx="2.8702" dy="4.826" layer="1"/>
+<text x="0" y="5.735" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-5.735" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="INDDFN1250X1250X435-2N" urn="urn:adsk.eagle:package:30515439/3" type="model">
@@ -610,6 +622,15 @@
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD,11.6X10.1MM" package="SMD,11.6X10.1MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
