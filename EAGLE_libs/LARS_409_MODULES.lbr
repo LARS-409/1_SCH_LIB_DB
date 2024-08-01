@@ -1155,6 +1155,71 @@
 <text x="-4" y="34" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-4" y="33" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="ESP32-S3-DEVKITC-1">
+<pad name="23" x="12.7" y="-26.66" drill="1.1" diameter="1.9304"/>
+<pad name="24" x="12.7" y="-24.12" drill="1.1" diameter="1.9304"/>
+<pad name="25" x="12.7" y="-21.58" drill="1.1" diameter="1.9304"/>
+<pad name="26" x="12.7" y="-19.04" drill="1.1" diameter="1.9304"/>
+<pad name="27" x="12.7" y="-16.5" drill="1.1" diameter="1.9304"/>
+<pad name="28" x="12.7" y="-13.96" drill="1.1" diameter="1.9304"/>
+<pad name="29" x="12.7" y="-11.42" drill="1.1" diameter="1.9304"/>
+<pad name="30" x="12.7" y="-8.88" drill="1.1" diameter="1.9304"/>
+<pad name="31" x="12.7" y="-6.34" drill="1.1" diameter="1.9304"/>
+<pad name="32" x="12.7" y="-3.8" drill="1.1" diameter="1.9304"/>
+<pad name="33" x="12.7" y="-1.26" drill="1.1" diameter="1.9304"/>
+<pad name="34" x="12.7" y="1.28" drill="1.1" diameter="1.9304"/>
+<pad name="35" x="12.7" y="3.82" drill="1.1" diameter="1.9304"/>
+<pad name="36" x="12.7" y="6.36" drill="1.1" diameter="1.9304"/>
+<pad name="37" x="12.7" y="8.9" drill="1.1" diameter="1.9304"/>
+<pad name="38" x="12.7" y="11.44" drill="1.1" diameter="1.9304"/>
+<pad name="39" x="12.7" y="13.98" drill="1.1" diameter="1.9304"/>
+<pad name="40" x="12.7" y="16.52" drill="1.1" diameter="1.9304"/>
+<pad name="41" x="12.7" y="19.06" drill="1.1" diameter="1.9304"/>
+<pad name="42" x="12.7" y="21.6" drill="1.1" diameter="1.9304"/>
+<pad name="43" x="12.7" y="24.14" drill="1.1" diameter="1.9304"/>
+<pad name="44" x="12.7" y="26.68" drill="1.1" diameter="1.9304"/>
+<pad name="22" x="-12.7" y="-26.665" drill="1.1" diameter="1.9304"/>
+<pad name="21" x="-12.7" y="-24.125" drill="1.1" diameter="1.9304"/>
+<pad name="20" x="-12.7" y="-21.585" drill="1.1" diameter="1.9304"/>
+<pad name="19" x="-12.7" y="-19.045" drill="1.1" diameter="1.9304"/>
+<pad name="18" x="-12.7" y="-16.505" drill="1.1" diameter="1.9304"/>
+<pad name="17" x="-12.7" y="-13.965" drill="1.1" diameter="1.9304"/>
+<pad name="16" x="-12.7" y="-11.425" drill="1.1" diameter="1.9304"/>
+<pad name="15" x="-12.7" y="-8.885" drill="1.1" diameter="1.9304"/>
+<pad name="14" x="-12.7" y="-6.345" drill="1.1" diameter="1.9304"/>
+<pad name="13" x="-12.7" y="-3.805" drill="1.1" diameter="1.9304"/>
+<pad name="12" x="-12.7" y="-1.265" drill="1.1" diameter="1.9304"/>
+<pad name="11" x="-12.7" y="1.275" drill="1.1" diameter="1.9304"/>
+<pad name="10" x="-12.7" y="3.815" drill="1.1" diameter="1.9304"/>
+<pad name="9" x="-12.7" y="6.445" drill="1.1" diameter="1.9304"/>
+<pad name="8" x="-12.7" y="8.895" drill="1.1" diameter="1.9304"/>
+<pad name="7" x="-12.7" y="11.435" drill="1.1" diameter="1.9304"/>
+<pad name="6" x="-12.7" y="13.975" drill="1.1" diameter="1.9304"/>
+<pad name="5" x="-12.7" y="16.515" drill="1.1" diameter="1.9304"/>
+<pad name="4" x="-12.7" y="19.055" drill="1.1" diameter="1.9304"/>
+<pad name="3" x="-12.7" y="21.595" drill="1.1" diameter="1.9304"/>
+<pad name="2" x="-12.7" y="24.135" drill="1.1" diameter="1.9304"/>
+<pad name="1" x="-12.7" y="26.675" drill="1.1" diameter="1.9304"/>
+<text x="-4" y="37" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-4" y="36" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-13.9192" y1="-28.5758" x2="14.0208" y2="-28.5758" width="0.1524" layer="21"/>
+<wire x1="-13.8938" y1="28.6012" x2="-13.9192" y2="-28.5758" width="0.1524" layer="21"/>
+<wire x1="14.0462" y1="28.6012" x2="14.0208" y2="-28.5758" width="0.1524" layer="21"/>
+<wire x1="14.0462" y1="28.6012" x2="-13.8938" y2="28.6012" width="0.1524" layer="21"/>
+<wire x1="-8" y1="34.8142" x2="8" y2="34.8142" width="0.1524" layer="21"/>
+<wire x1="-8.007" y1="34.821" x2="-8.007" y2="28.594" width="0.1524" layer="21"/>
+<wire x1="-8.007" y1="28.594" x2="-7.812" y2="28.594" width="0.1524" layer="21"/>
+<wire x1="8.007" y1="34.818" x2="8.007" y2="28.598" width="0.1524" layer="21"/>
+<wire x1="8.007" y1="28.598" x2="7.783" y2="28.598" width="0.1524" layer="21"/>
+<wire x1="-8.3" y1="28.9" x2="-8.3" y2="35.1" width="0.1524" layer="39"/>
+<wire x1="-8.3" y1="35.1" x2="8.3" y2="35.1" width="0.1524" layer="39"/>
+<wire x1="8.3" y1="35.1" x2="8.3" y2="28.9" width="0.1524" layer="39"/>
+<wire x1="8.3" y1="28.9" x2="14.3" y2="28.9" width="0.1524" layer="39"/>
+<wire x1="14.3" y1="28.9" x2="14.3" y2="-28.8" width="0.1524" layer="39"/>
+<wire x1="14.3" y1="-28.8" x2="-14.2" y2="-28.8" width="0.1524" layer="39"/>
+<wire x1="-14.2" y1="-28.8" x2="-14.2" y2="28.9" width="0.1524" layer="39"/>
+<wire x1="-14.2" y1="28.9" x2="-8.3" y2="28.9" width="0.1524" layer="39"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="12864B" urn="urn:adsk.eagle:package:30592157/2" type="model">
@@ -2061,6 +2126,57 @@
 </gates>
 <devices>
 <device name="" package="ESP32">
+<connects>
+<connect gate="G$1" pin="0" pad="31"/>
+<connect gate="G$1" pin="1" pad="41"/>
+<connect gate="G$1" pin="10" pad="16"/>
+<connect gate="G$1" pin="11" pad="17"/>
+<connect gate="G$1" pin="12" pad="18"/>
+<connect gate="G$1" pin="13" pad="19"/>
+<connect gate="G$1" pin="14" pad="20"/>
+<connect gate="G$1" pin="15" pad="8"/>
+<connect gate="G$1" pin="16" pad="9"/>
+<connect gate="G$1" pin="17" pad="10"/>
+<connect gate="G$1" pin="18" pad="11"/>
+<connect gate="G$1" pin="19" pad="25"/>
+<connect gate="G$1" pin="2" pad="40"/>
+<connect gate="G$1" pin="20" pad="26"/>
+<connect gate="G$1" pin="21" pad="27"/>
+<connect gate="G$1" pin="3" pad="13"/>
+<connect gate="G$1" pin="35" pad="32"/>
+<connect gate="G$1" pin="36" pad="33"/>
+<connect gate="G$1" pin="37" pad="34"/>
+<connect gate="G$1" pin="38" pad="35"/>
+<connect gate="G$1" pin="39" pad="36"/>
+<connect gate="G$1" pin="3V31" pad="1"/>
+<connect gate="G$1" pin="3V32" pad="2"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="40" pad="37"/>
+<connect gate="G$1" pin="41" pad="38"/>
+<connect gate="G$1" pin="42" pad="39"/>
+<connect gate="G$1" pin="45" pad="30"/>
+<connect gate="G$1" pin="46" pad="14"/>
+<connect gate="G$1" pin="47" pad="28"/>
+<connect gate="G$1" pin="48" pad="29"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="5V" pad="21"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="12"/>
+<connect gate="G$1" pin="9" pad="15"/>
+<connect gate="G$1" pin="G1" pad="22"/>
+<connect gate="G$1" pin="G2" pad="23"/>
+<connect gate="G$1" pin="G3" pad="24"/>
+<connect gate="G$1" pin="G4" pad="44"/>
+<connect gate="G$1" pin="RST" pad="3"/>
+<connect gate="G$1" pin="RX" pad="42"/>
+<connect gate="G$1" pin="TX" pad="43"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ESP32-S3-DEVKITC-1" package="ESP32-S3-DEVKITC-1">
 <connects>
 <connect gate="G$1" pin="0" pad="31"/>
 <connect gate="G$1" pin="1" pad="41"/>

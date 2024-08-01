@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -564,6 +564,22 @@
 <wire x1="4.2" y1="0" x2="4.2" y2="-1.5" width="0.1524" layer="39"/>
 <text x="1.7" y="2.8" size="0.8" layer="25" rot="R180">&gt;NAME</text>
 <text x="1.9" y="3.7" size="0.8" layer="27" rot="R180">&gt;VALUE</text>
+</package>
+<package name="IT-1102WA8-160G-G">
+<smd name="P$1" x="-3.425" y="2.25" dx="3.25" dy="1.4" layer="1"/>
+<smd name="P$2" x="3.325" y="2.25" dx="3.25" dy="1.4" layer="1"/>
+<smd name="P$4" x="3.325" y="-2.25" dx="3.25" dy="1.4" layer="1"/>
+<smd name="P$3" x="-3.325" y="-2.25" dx="3.25" dy="1.4" layer="1"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.127" layer="21"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.127" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.127" layer="21"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.65" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="3.2" x2="-3.2" y2="-3.2" width="0.127" layer="39"/>
+<wire x1="-3.2" y1="-3.2" x2="3.2" y2="-3.2" width="0.127" layer="39"/>
+<wire x1="3.2" y1="-3.2" x2="3.2" y2="3.2" width="0.127" layer="39"/>
+<wire x1="3.2" y1="3.2" x2="-3.2" y2="3.2" width="0.127" layer="39"/>
+<text x="-3.56305" y="3.812940625" size="1.1283" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -1158,6 +1174,17 @@
 </gates>
 <devices>
 <device name="" package="DTS_L-6_SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="4" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="IT-1102WA8-160G-G" package="IT-1102WA8-160G-G">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
